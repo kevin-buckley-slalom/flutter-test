@@ -190,7 +190,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                           ),
                         ),
                       );
-                  }).toList(),
+                  }),
                 ],
               ),
             ),
