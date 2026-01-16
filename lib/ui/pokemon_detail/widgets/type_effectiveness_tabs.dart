@@ -60,6 +60,7 @@ class _TypeEffectivenessTabsState extends State<TypeEffectivenessTabs>
             labelColor: theme.colorScheme.primary,
             unselectedLabelColor:
                 theme.colorScheme.onSurface.withOpacity(0.6),
+            labelPadding: const EdgeInsets.symmetric(horizontal: 8),
             indicatorSize: TabBarIndicatorSize.tab,
             indicator: BoxDecoration(
               borderRadius: BorderRadius.circular(12),
@@ -67,25 +68,39 @@ class _TypeEffectivenessTabsState extends State<TypeEffectivenessTabs>
             ),
             dividerColor: Colors.transparent,
             tabs: [
-              const Tab(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.shield, size: 18),
-                    SizedBox(width: 6),
-                    Text('Defense'),
-                  ],
+              Tab(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(minWidth: 80),
+                  child: const FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.center,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.shield, size: 18),
+                        SizedBox(width: 6),
+                        Text('Defense'),
+                      ],
+                    ),
+                  ),
                 ),
               ),
               ...widget.pokemon.types.map((type) {
                 return Tab(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      const Icon(Icons.offline_bolt, size: 18),
-                      const SizedBox(width: 6),
-                      Text(type),
-                    ],
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(minWidth: 80),
+                    child: FittedBox(
+                      fit: BoxFit.scaleDown,
+                      alignment: Alignment.center,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(Icons.offline_bolt, size: 18),
+                          const SizedBox(width: 6),
+                          Text(type),
+                        ],
+                      ),
+                    ),
                   ),
                 );
               }),
