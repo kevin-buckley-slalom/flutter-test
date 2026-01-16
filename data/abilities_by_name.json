@@ -1,0 +1,6392 @@
+{
+  "adaptability": {
+    "name": "Adaptability",
+    "slug": "adaptability",
+    "url": "https://pokemondb.net/ability/adaptability",
+    "effect": "Adaptability increases the effectiveness of STAB moves from the usual 1.5\u00d7 to 2\u00d7.",
+    "pokemon": {
+      "regular": [
+        "Mega Beedrill",
+        "Eevee",
+        "Mega Lucario",
+        "Mega Lucario Z",
+        "Porygon-Z",
+        "Basculin Red-Striped Form",
+        "Basculin Blue-Striped Form",
+        "Basculin White-Striped Form",
+        "Basculegion Male",
+        "Basculegion Female"
+      ],
+      "hidden": [
+        "Corphish",
+        "Crawdaunt",
+        "Feebas",
+        "Skrelp",
+        "Dragalge",
+        "Yungoos",
+        "Gumshoos"
+      ]
+    }
+  },
+  "aerilate": {
+    "name": "Aerilate",
+    "slug": "aerilate",
+    "url": "https://pokemondb.net/ability/aerilate",
+    "effect": "Aerilate causes all Normal -type attacking moves used by the Pok\u00e9mon to become Flying -type, and increase in power by 20%.",
+    "pokemon": {
+      "regular": [
+        "Mega Pinsir",
+        "Mega Salamence"
+      ],
+      "hidden": []
+    }
+  },
+  "aftermath": {
+    "name": "Aftermath",
+    "slug": "aftermath",
+    "url": "https://pokemondb.net/ability/aftermath",
+    "effect": "If an attacker faints a Pok\u00e9mon with Aftermath using a contact move, the attacker will lose 1 \u2044 4 of their maximum HP.",
+    "pokemon": {
+      "regular": [
+        "Drifloon",
+        "Drifblim",
+        "Stunky",
+        "Skuntank"
+      ],
+      "hidden": [
+        "Voltorb",
+        "Hisuian Voltorb",
+        "Electrode",
+        "Hisuian Electrode",
+        "Trubbish",
+        "Garbodor"
+      ]
+    }
+  },
+  "air lock": {
+    "name": "Air Lock",
+    "slug": "air-lock",
+    "url": "https://pokemondb.net/ability/air-lock",
+    "effect": "Air Lock suppresses all effects brought on by weather, including move power increases, end-of-turn damage, accuracy changes, relevant abilities and so on.",
+    "pokemon": {
+      "regular": [
+        "Rayquaza"
+      ],
+      "hidden": []
+    }
+  },
+  "analytic": {
+    "name": "Analytic",
+    "slug": "analytic",
+    "url": "https://pokemondb.net/ability/analytic",
+    "effect": "Boosts move power when the Pok\u00e9mon moves last.",
+    "pokemon": {
+      "regular": [
+        "Magnemite",
+        "Magneton",
+        "Staryu",
+        "Starmie",
+        "Porygon",
+        "Porygon2",
+        "Magnezone",
+        "Porygon-Z",
+        "Patrat",
+        "Watchog",
+        "Elgyem",
+        "Beheeyem"
+      ],
+      "hidden": [
+        "Magnemite",
+        "Magneton",
+        "Staryu",
+        "Starmie",
+        "Porygon",
+        "Porygon2",
+        "Magnezone",
+        "Porygon-Z",
+        "Patrat",
+        "Watchog",
+        "Elgyem",
+        "Beheeyem"
+      ]
+    }
+  },
+  "anger point": {
+    "name": "Anger Point",
+    "slug": "anger-point",
+    "url": "https://pokemondb.net/ability/anger-point",
+    "effect": "Anger Point raises the ability-bearer's Attack to its maximum level - +6 stages or 4\u00d7 usual power - when a move targeting it receives a critical hit.",
+    "pokemon": {
+      "regular": [
+        "Mankey",
+        "Primeape",
+        "Tauros",
+        "Tauros Combat Breed",
+        "Tauros Blaze Breed",
+        "Tauros Aqua Breed"
+      ],
+      "hidden": [
+        "Camerupt",
+        "Sandile",
+        "Krokorok",
+        "Krookodile",
+        "Crabrawler",
+        "Crabominable",
+        "Mega Crabominable"
+      ]
+    }
+  },
+  "anger shell": {
+    "name": "Anger Shell",
+    "slug": "anger-shell",
+    "url": "https://pokemondb.net/ability/anger-shell",
+    "effect": "When the Pok\u00e9mon's HP drops below half, Anger Shell lowers its Defense and Special Defense but its Attack, Special Attack and Speed are raised.",
+    "pokemon": {
+      "regular": [
+        "Klawf"
+      ],
+      "hidden": []
+    }
+  },
+  "anticipation": {
+    "name": "Anticipation",
+    "slug": "anticipation",
+    "url": "https://pokemondb.net/ability/anticipation",
+    "effect": "A Pok\u00e9mon with Anticipation will shudder upon entering battle, if an opponent has a move that is super-effective against it, or a One-Hit-KO move ( Fissure , Horn Drill , Guillotine or Sheer Cold ). It only activates when the ability-bearer switches in, not when an opponent switches in.",
+    "pokemon": {
+      "regular": [
+        "Barboach",
+        "Whiscash",
+        "Wormadam Plant Cloak",
+        "Wormadam Sandy Cloak",
+        "Trash Cloak Wormadam",
+        "Croagunk",
+        "Toxicroak",
+        "Hatenna",
+        "Hattrem",
+        "Hatterene",
+        "Flittle"
+      ],
+      "hidden": [
+        "Galarian Ponyta",
+        "Galarian Rapidash",
+        "Eevee",
+        "Ferrothorn"
+      ]
+    }
+  },
+  "arena trap": {
+    "name": "Arena Trap",
+    "slug": "arena-trap",
+    "url": "https://pokemondb.net/ability/arena-trap",
+    "effect": "Arena Trap prevents opponents from fleeing or switching out. Raised Pok\u00e9mon are not affected.",
+    "pokemon": {
+      "regular": [
+        "Diglett",
+        "Dugtrio",
+        "Trapinch"
+      ],
+      "hidden": []
+    }
+  },
+  "armor tail": {
+    "name": "Armor Tail",
+    "slug": "armor-tail",
+    "url": "https://pokemondb.net/ability/armor-tail",
+    "effect": "Armor Tail prevents the opponent from using any moves that have priority, such as Quick Attack .",
+    "pokemon": {
+      "regular": [
+        "Farigiraf"
+      ],
+      "hidden": []
+    }
+  },
+  "aroma veil": {
+    "name": "Aroma Veil",
+    "slug": "aroma-veil",
+    "url": "https://pokemondb.net/ability/aroma-veil",
+    "effect": "Protects allies from attacks that limit their move choices.",
+    "pokemon": {
+      "regular": [
+        "Lechonk",
+        "Oinkologne Female"
+      ],
+      "hidden": [
+        "Spritzee",
+        "Aromatisse",
+        "Milcery",
+        "Alcremie",
+        "Dachsbun"
+      ]
+    }
+  },
+  "as one": {
+    "name": "As One",
+    "slug": "as-one",
+    "url": "https://pokemondb.net/ability/as-one",
+    "effect": "Combines Unnerve and Chilling Neigh/Grim Neigh",
+    "pokemon": {
+      "regular": [
+        "Calyrex Ice Rider",
+        "Calyrex Shadow Rider"
+      ],
+      "hidden": []
+    }
+  },
+  "aura break": {
+    "name": "Aura Break",
+    "slug": "aura-break",
+    "url": "https://pokemondb.net/ability/aura-break",
+    "effect": "Aura Break cancels the effects of the abilities Fairy Aura and Dark Aura and instead reduces the power of Dark-type and Fairy-type moves by 25%, for all Pok\u00e9mon on the field.",
+    "pokemon": {
+      "regular": [
+        "Zygarde 50% Forme",
+        "Zygarde 10% Forme"
+      ],
+      "hidden": []
+    }
+  },
+  "bad dreams": {
+    "name": "Bad Dreams",
+    "slug": "bad-dreams",
+    "url": "https://pokemondb.net/ability/bad-dreams",
+    "effect": "Bad Dreams causes all sleeping opponents to lose 1 \u2044 8 of their maximum HP at the end of each turn.",
+    "pokemon": {
+      "regular": [
+        "Darkrai",
+        "Mega Darkrai"
+      ],
+      "hidden": []
+    }
+  },
+  "ball fetch": {
+    "name": "Ball Fetch",
+    "slug": "ball-fetch",
+    "url": "https://pokemondb.net/ability/ball-fetch",
+    "effect": "If the Pok\u00e9mon is not holding an item, it will fetch the Pok\u00e9 Ball from the first failed throw of the battle.",
+    "pokemon": {
+      "regular": [
+        "Yamper"
+      ],
+      "hidden": []
+    }
+  },
+  "battery": {
+    "name": "Battery",
+    "slug": "battery",
+    "url": "https://pokemondb.net/ability/battery",
+    "effect": "Battery allows the Pok\u00e9mon to raise the power of teammates' special moves.",
+    "pokemon": {
+      "regular": [
+        "Charjabug"
+      ],
+      "hidden": []
+    }
+  },
+  "battle armor": {
+    "name": "Battle Armor",
+    "slug": "battle-armor",
+    "url": "https://pokemondb.net/ability/battle-armor",
+    "effect": "Battle Armor prevents the Pok\u00e9mon from receiving a critical hit.",
+    "pokemon": {
+      "regular": [
+        "Kabuto",
+        "Kabutops",
+        "Anorith",
+        "Armaldo",
+        "Skorupi",
+        "Drapion",
+        "Type: Null",
+        "Perrserker",
+        "Falinks"
+      ],
+      "hidden": [
+        "Cubone",
+        "Marowak"
+      ]
+    }
+  },
+  "battle bond": {
+    "name": "Battle Bond",
+    "slug": "battle-bond",
+    "url": "https://pokemondb.net/ability/battle-bond",
+    "effect": "Battle Bond causes Greninja to transform into Ash-Greninja when it KOs an opponent.",
+    "pokemon": {
+      "regular": [
+        "Ash-Greninja"
+      ],
+      "hidden": []
+    }
+  },
+  "beads of ruin": {
+    "name": "Beads of Ruin",
+    "slug": "beads-of-ruin",
+    "url": "https://pokemondb.net/ability/beads-of-ruin",
+    "effect": "Lowers Special Defense of all Pok\u00e9mon except itself.",
+    "pokemon": {
+      "regular": [
+        "Chi-Yu"
+      ],
+      "hidden": []
+    }
+  },
+  "beast boost": {
+    "name": "Beast Boost",
+    "slug": "beast-boost",
+    "url": "https://pokemondb.net/ability/beast-boost",
+    "effect": "The Pok\u00e9mon boosts its most proficient stat each time it knocks out a Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Nihilego",
+        "Buzzwole",
+        "Pheromosa",
+        "Xurkitree",
+        "Celesteela",
+        "Kartana",
+        "Guzzlord",
+        "Poipole",
+        "Naganadel",
+        "Stakataka",
+        "Blacephalon"
+      ],
+      "hidden": []
+    }
+  },
+  "berserk": {
+    "name": "Berserk",
+    "slug": "berserk",
+    "url": "https://pokemondb.net/ability/berserk",
+    "effect": "Berserk raises the Pok\u00e9mon's Special Attack by one stage when its HP falls below 50%.",
+    "pokemon": {
+      "regular": [
+        "Galarian Moltres",
+        "Drampa"
+      ],
+      "hidden": []
+    }
+  },
+  "big pecks": {
+    "name": "Big Pecks",
+    "slug": "big-pecks",
+    "url": "https://pokemondb.net/ability/big-pecks",
+    "effect": "Big Pecks prevents the ability-bearer's Defense stat from being lowered, for example via Tail Whip .",
+    "pokemon": {
+      "regular": [
+        "Pidove",
+        "Tranquill",
+        "Unfezant",
+        "Ducklett",
+        "Swanna",
+        "Vullaby",
+        "Mandibuzz",
+        "Fletchling",
+        "Bombirdier"
+      ],
+      "hidden": [
+        "Pidgey",
+        "Pidgeotto",
+        "Pidgeot",
+        "Chatot",
+        "Rookidee",
+        "Corvisquire"
+      ]
+    }
+  },
+  "blaze": {
+    "name": "Blaze",
+    "slug": "blaze",
+    "url": "https://pokemondb.net/ability/blaze",
+    "effect": "Blaze increases the power of Fire -type moves by 50% (1.5\u00d7) when the ability-bearer's HP falls below a third of its maximum (known in-game as in a pinch ).",
+    "pokemon": {
+      "regular": [
+        "Charmander",
+        "Charmeleon",
+        "Charizard",
+        "Cyndaquil",
+        "Quilava",
+        "Typhlosion",
+        "Hisuian Typhlosion",
+        "Torchic",
+        "Combusken",
+        "Blaziken",
+        "Chimchar",
+        "Monferno",
+        "Infernape",
+        "Tepig",
+        "Pignite",
+        "Emboar",
+        "Fennekin",
+        "Braixen",
+        "Delphox",
+        "Litten",
+        "Torracat",
+        "Incineroar",
+        "Scorbunny",
+        "Raboot",
+        "Cinderace",
+        "Fuecoco",
+        "Crocalor",
+        "Skeledirge"
+      ],
+      "hidden": [
+        "Pansear",
+        "Simisear"
+      ]
+    }
+  },
+  "bulletproof": {
+    "name": "Bulletproof",
+    "slug": "bulletproof",
+    "url": "https://pokemondb.net/ability/bulletproof",
+    "effect": "Bulletproof makes the Pok\u00e9mon immune to ball and bomb moves.",
+    "pokemon": {
+      "regular": [
+        "Jangmo-o",
+        "Hakamo-o",
+        "Kommo-o",
+        "Ursaluna"
+      ],
+      "hidden": [
+        "Chespin",
+        "Quilladin",
+        "Chesnaught",
+        "Wooloo",
+        "Dubwool",
+        "Applin"
+      ]
+    }
+  },
+  "cheek pouch": {
+    "name": "Cheek Pouch",
+    "slug": "cheek-pouch",
+    "url": "https://pokemondb.net/ability/cheek-pouch",
+    "effect": "Cheek Pouch restores the bearer's HP when a Berry is consumed, on top of the berry's usual effects.",
+    "pokemon": {
+      "regular": [
+        "Bunnelby",
+        "Diggersby",
+        "Dedenne",
+        "Skwovet",
+        "Greedent",
+        "Maushold Family of Four",
+        "Maushold Family of Three"
+      ],
+      "hidden": []
+    }
+  },
+  "chilling neigh": {
+    "name": "Chilling Neigh",
+    "slug": "chilling-neigh",
+    "url": "https://pokemondb.net/ability/chilling-neigh",
+    "effect": "Boosts Attack after knocking out a Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Glastrier"
+      ],
+      "hidden": []
+    }
+  },
+  "chlorophyll": {
+    "name": "Chlorophyll",
+    "slug": "chlorophyll",
+    "url": "https://pokemondb.net/ability/chlorophyll",
+    "effect": "Chlorophyll doubles the ability-bearer's Speed during bright sunshine .",
+    "pokemon": {
+      "regular": [
+        "Oddish",
+        "Gloom",
+        "Vileplume",
+        "Bellsprout",
+        "Weepinbell",
+        "Victreebel",
+        "Exeggcute",
+        "Exeggutor",
+        "Tangela",
+        "Bellossom",
+        "Hoppip",
+        "Skiploom",
+        "Jumpluff",
+        "Sunkern",
+        "Sunflora",
+        "Seedot",
+        "Nuzleaf",
+        "Shiftry",
+        "Tropius",
+        "Cherubi",
+        "Tangrowth",
+        "Sewaddle",
+        "Swadloon",
+        "Leavanny",
+        "Petilil",
+        "Lilligant",
+        "Hisuian Lilligant",
+        "Maractus",
+        "Deerling",
+        "Sawsbuck",
+        "Capsakid",
+        "Scovillain",
+        "Mega Scovillain"
+      ],
+      "hidden": [
+        "Bulbasaur",
+        "Ivysaur",
+        "Venusaur",
+        "Leafeon",
+        "Cottonee",
+        "Whimsicott"
+      ]
+    }
+  },
+  "clear body": {
+    "name": "Clear Body",
+    "slug": "clear-body",
+    "url": "https://pokemondb.net/ability/clear-body",
+    "effect": "Prevents other Pok\u00e9mon from lowering its stats.",
+    "pokemon": {
+      "regular": [
+        "Tentacool",
+        "Tentacruel",
+        "Beldum",
+        "Metang",
+        "Metagross",
+        "Regirock",
+        "Regice",
+        "Registeel",
+        "Carbink",
+        "Diancie",
+        "Dreepy",
+        "Drakloak",
+        "Dragapult"
+      ],
+      "hidden": [
+        "Klink",
+        "Klang",
+        "Klinklang",
+        "Nacli",
+        "Naclstack",
+        "Garganacl"
+      ]
+    }
+  },
+  "cloud nine": {
+    "name": "Cloud Nine",
+    "slug": "cloud-nine",
+    "url": "https://pokemondb.net/ability/cloud-nine",
+    "effect": "Cloud Nine suppresses all effects brought on by weather, including move power increases, end-of-turn damage, accuracy changes, relevant abilities and so on.",
+    "pokemon": {
+      "regular": [
+        "Psyduck",
+        "Golduck"
+      ],
+      "hidden": [
+        "Lickitung",
+        "Swablu",
+        "Altaria",
+        "Lickilicky",
+        "Drampa"
+      ]
+    }
+  },
+  "color change": {
+    "name": "Color Change",
+    "slug": "color-change",
+    "url": "https://pokemondb.net/ability/color-change",
+    "effect": "Color Change changes the ability-bearer's type, when hit by a damage dealing move, to the type of that move. For example being hit by X Scissor will change the Pok\u00e9mon to Bug -type. Dual-type Pok\u00e9mon change to single-types.",
+    "pokemon": {
+      "regular": [
+        "Kecleon"
+      ],
+      "hidden": []
+    }
+  },
+  "comatose": {
+    "name": "Comatose",
+    "slug": "comatose",
+    "url": "https://pokemondb.net/ability/comatose",
+    "effect": "Comatose causes the Pok\u00e9mon to behave as if it were asleep, though it doesn't officially have the Sleep status condition. It can still use its regular moves, but cannot be inflicted with any major status condition (sleep, poison, paralysis, burn, or freeze).",
+    "pokemon": {
+      "regular": [
+        "Komala"
+      ],
+      "hidden": []
+    }
+  },
+  "commander": {
+    "name": "Commander",
+    "slug": "commander",
+    "url": "https://pokemondb.net/ability/commander",
+    "effect": "Goes inside the mouth of an ally Dondozo if one is on the field.",
+    "pokemon": {
+      "regular": [
+        "Tatsugiri Curly Form",
+        "Mega Tatsugiri"
+      ],
+      "hidden": []
+    }
+  },
+  "competitive": {
+    "name": "Competitive",
+    "slug": "competitive",
+    "url": "https://pokemondb.net/ability/competitive",
+    "effect": "Competitive raises the ability-bearer's Special Attack by two stages when hit by a stat-lowering move.",
+    "pokemon": {
+      "regular": [
+        "Jigglypuff",
+        "Wigglytuff",
+        "Galarian Articuno",
+        "Igglybuff",
+        "Milotic",
+        "Gothita",
+        "Gothorita",
+        "Gothitelle"
+      ],
+      "hidden": [
+        "Piplup",
+        "Prinplup",
+        "Empoleon",
+        "Meowstic Female",
+        "Mega Meowstic (Male)",
+        "Mega Meowstic (Female)",
+        "Boltund",
+        "Wattrel",
+        "Kilowattrel"
+      ]
+    }
+  },
+  "compound eyes": {
+    "name": "Compound Eyes",
+    "slug": "compound-eyes",
+    "url": "https://pokemondb.net/ability/compound-eyes",
+    "effect": "Compound Eyes raises the ability-bearer's accuracy by 30%.",
+    "pokemon": {
+      "regular": [
+        "Butterfree",
+        "Venonat",
+        "Yanma",
+        "Nincada",
+        "Joltik",
+        "Galvantula",
+        "Scatterbug",
+        "Vivillon",
+        "Blipbug",
+        "Dottler",
+        "Rellor"
+      ],
+      "hidden": [
+        "Dustox"
+      ]
+    }
+  },
+  "contrary": {
+    "name": "Contrary",
+    "slug": "contrary",
+    "url": "https://pokemondb.net/ability/contrary",
+    "effect": "Makes stat changes have an opposite effect.",
+    "pokemon": {
+      "regular": [
+        "Inkay",
+        "Malamar"
+      ],
+      "hidden": [
+        "Shuckle",
+        "Spinda",
+        "Snivy",
+        "Servine",
+        "Serperior",
+        "Fomantis",
+        "Lurantis",
+        "Enamorus Incarnate Forme"
+      ]
+    }
+  },
+  "corrosion": {
+    "name": "Corrosion",
+    "slug": "corrosion",
+    "url": "https://pokemondb.net/ability/corrosion",
+    "effect": "Corrosion allows the bearer to poison any Pok\u00e9mon, including Steel and Poison types.",
+    "pokemon": {
+      "regular": [
+        "Salandit",
+        "Salazzle"
+      ],
+      "hidden": [
+        "Glimmet",
+        "Glimmora",
+        "Mega Glimmora"
+      ]
+    }
+  },
+  "costar": {
+    "name": "Costar",
+    "slug": "costar",
+    "url": "https://pokemondb.net/ability/costar",
+    "effect": "Copies ally's stat changes on entering battle.",
+    "pokemon": {
+      "regular": [
+        "Flamigo"
+      ],
+      "hidden": [
+        "Flamigo"
+      ]
+    }
+  },
+  "cotton down": {
+    "name": "Cotton Down",
+    "slug": "cotton-down",
+    "url": "https://pokemondb.net/ability/cotton-down",
+    "effect": "When a Pok\u00e9mon with Cotton Down is hit by an attack, it lowers the attacker's Speed.",
+    "pokemon": {
+      "regular": [
+        "Gossifleur",
+        "Eldegoss"
+      ],
+      "hidden": []
+    }
+  },
+  "cud chew": {
+    "name": "Cud Chew",
+    "slug": "cud-chew",
+    "url": "https://pokemondb.net/ability/cud-chew",
+    "effect": "Cud Chew causes the Pok\u00e9mon to reuse an already consumed Berry at the end of the next turn.",
+    "pokemon": {
+      "regular": [
+        "Farigiraf"
+      ],
+      "hidden": [
+        "Tauros Combat Breed",
+        "Tauros Blaze Breed",
+        "Tauros Aqua Breed"
+      ]
+    }
+  },
+  "curious medicine": {
+    "name": "Curious Medicine",
+    "slug": "curious-medicine",
+    "url": "https://pokemondb.net/ability/curious-medicine",
+    "effect": "Resets all stat changes upon entering battlefield.",
+    "pokemon": {
+      "regular": [
+        "Galarian Slowking"
+      ],
+      "hidden": []
+    }
+  },
+  "cursed body": {
+    "name": "Cursed Body",
+    "slug": "cursed-body",
+    "url": "https://pokemondb.net/ability/cursed-body",
+    "effect": "May disable a move used on the Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Gengar",
+        "Alolan Marowak",
+        "Frillish",
+        "Jellicent"
+      ],
+      "hidden": [
+        "Galarian Corsola",
+        "Shuppet",
+        "Banette",
+        "Froslass",
+        "Sinistea",
+        "Polteageist",
+        "Dreepy",
+        "Drakloak",
+        "Dragapult"
+      ]
+    }
+  },
+  "cute charm": {
+    "name": "Cute Charm",
+    "slug": "cute-charm",
+    "url": "https://pokemondb.net/ability/cute-charm",
+    "effect": "If a Pok\u00e9mon with Cute Charm is hit by a move that makes contact, there is a 30% chance the attacker will become infatuated. It will not infatuate Pok\u00e9mon of the same gender, genderless Pok\u00e9mon, nor those with the ability Oblivious .",
+    "pokemon": {
+      "regular": [
+        "Clefairy",
+        "Clefable",
+        "Jigglypuff",
+        "Wigglytuff",
+        "Cleffa",
+        "Igglybuff",
+        "Skitty",
+        "Delcatty",
+        "Lopunny",
+        "Minccino",
+        "Cinccino",
+        "Sylveon",
+        "Enamorus Incarnate Forme"
+      ],
+      "hidden": [
+        "Milotic",
+        "Stufful"
+      ]
+    }
+  },
+  "damp": {
+    "name": "Damp",
+    "slug": "damp",
+    "url": "https://pokemondb.net/ability/damp",
+    "effect": "Damp prevents all Pok\u00e9mon on the field from using the moves Selfdestruct and Explosion . It also prevents damage (to the Damp Pok\u00e9mon only) from the ability Aftermath .",
+    "pokemon": {
+      "regular": [
+        "Psyduck",
+        "Golduck",
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath",
+        "Politoed",
+        "Wooper",
+        "Quagsire"
+      ],
+      "hidden": [
+        "Paras",
+        "Parasect",
+        "Horsea",
+        "Seadra",
+        "Kingdra",
+        "Mudkip",
+        "Marshtomp",
+        "Swampert",
+        "Frillish",
+        "Jellicent",
+        "Tadbulb",
+        "Bellibolt"
+      ]
+    }
+  },
+  "dancer": {
+    "name": "Dancer",
+    "slug": "dancer",
+    "url": "https://pokemondb.net/ability/dancer",
+    "effect": "When another Pok\u00e9mon on the field uses any Dance move, Dancer causes the ability-bearer to use that same move immediately afterward. They will still use their own move originally selected, at the usual time (e.g. after the opponent if they are slower).",
+    "pokemon": {
+      "regular": [
+        "Oricorio Baile Style",
+        "Oricorio Pom-Pom Style",
+        "Oricorio Pa'u Style",
+        "Oricorio Sensu Style"
+      ],
+      "hidden": []
+    }
+  },
+  "dark aura": {
+    "name": "Dark Aura",
+    "slug": "dark-aura",
+    "url": "https://pokemondb.net/ability/dark-aura",
+    "effect": "Dark Aura raises the power of Dark-type moves by 33% for all Pok\u00e9mon on the field (not just the ability-bearer).",
+    "pokemon": {
+      "regular": [
+        "Yveltal"
+      ],
+      "hidden": []
+    }
+  },
+  "dauntless shield": {
+    "name": "Dauntless Shield",
+    "slug": "dauntless-shield",
+    "url": "https://pokemondb.net/ability/dauntless-shield",
+    "effect": "Boosts Defense in battle.",
+    "pokemon": {
+      "regular": [
+        "Zamazenta Hero of Many Battles",
+        "Zamazenta Crowned Shield"
+      ],
+      "hidden": []
+    }
+  },
+  "dazzling": {
+    "name": "Dazzling",
+    "slug": "dazzling",
+    "url": "https://pokemondb.net/ability/dazzling",
+    "effect": "Dazzling makes the Pok\u00e9mon immune to high-priority moves (i.e. those with a priority above 0).",
+    "pokemon": {
+      "regular": [
+        "Bruxish"
+      ],
+      "hidden": []
+    }
+  },
+  "defeatist": {
+    "name": "Defeatist",
+    "slug": "defeatist",
+    "url": "https://pokemondb.net/ability/defeatist",
+    "effect": "When the HP of a Pok\u00e9mon with Defeatist falls below 50%, its Attack and Special Attack stats are halved.",
+    "pokemon": {
+      "regular": [
+        "Archen",
+        "Archeops"
+      ],
+      "hidden": []
+    }
+  },
+  "defiant": {
+    "name": "Defiant",
+    "slug": "defiant",
+    "url": "https://pokemondb.net/ability/defiant",
+    "effect": "Defiant raises the ability-bearer's Attack by two stages when hit by a stat-lowering move.",
+    "pokemon": {
+      "regular": [
+        "Galarian Zapdos",
+        "Pawniard",
+        "Bisharp",
+        "Kingambit",
+        "Ogerpon Teal Mask"
+      ],
+      "hidden": [
+        "Mankey",
+        "Primeape",
+        "Farfetch'd",
+        "Purugly",
+        "Braviary",
+        "Tornadus Incarnate Forme",
+        "Thundurus Incarnate Forme",
+        "Passimian",
+        "Obstagoon",
+        "Falinks",
+        "Annihilape"
+      ]
+    }
+  },
+  "delta stream": {
+    "name": "Delta Stream",
+    "slug": "delta-stream",
+    "url": "https://pokemondb.net/ability/delta-stream",
+    "effect": "Delta Stream creates strong winds when the ability is activated (by Rayquaza Mega-Evolving).",
+    "pokemon": {
+      "regular": [
+        "Mega Rayquaza"
+      ],
+      "hidden": []
+    }
+  },
+  "desolate land": {
+    "name": "Desolate Land",
+    "slug": "desolate-land",
+    "url": "https://pokemondb.net/ability/desolate-land",
+    "effect": "Desolate Land creates extremely harsh sunlight when the ability is activated (by Groudon reverting to its Primal form).",
+    "pokemon": {
+      "regular": [
+        "Primal Groudon"
+      ],
+      "hidden": []
+    }
+  },
+  "disguise": {
+    "name": "Disguise",
+    "slug": "disguise",
+    "url": "https://pokemondb.net/ability/disguise",
+    "effect": "Disguise allows the bearer to avoid damage for one attack, in a similar way to Substitute .",
+    "pokemon": {
+      "regular": [
+        "Mimikyu"
+      ],
+      "hidden": []
+    }
+  },
+  "download": {
+    "name": "Download",
+    "slug": "download",
+    "url": "https://pokemondb.net/ability/download",
+    "effect": "Download raises either the bearer's Attack or Special Attack by one stage when switching into battle, base on the opponent's defenses.",
+    "pokemon": {
+      "regular": [
+        "Porygon",
+        "Porygon2",
+        "Porygon-Z",
+        "Genesect"
+      ],
+      "hidden": []
+    }
+  },
+  "dragon's maw": {
+    "name": "Dragon's Maw",
+    "slug": "dragons-maw",
+    "url": "https://pokemondb.net/ability/dragons-maw",
+    "effect": "Dragon's Maw increases the power of Dragon-type moves used by this Pok\u00e9mon by 50%.",
+    "pokemon": {
+      "regular": [
+        "Regidrago"
+      ],
+      "hidden": []
+    }
+  },
+  "drizzle": {
+    "name": "Drizzle",
+    "slug": "drizzle",
+    "url": "https://pokemondb.net/ability/drizzle",
+    "effect": "Drizzle creates a rain shower when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via Air Lock or Cloud Nine or replaced by another weather condition.",
+    "pokemon": {
+      "regular": [
+        "Pelipper",
+        "Kyogre"
+      ],
+      "hidden": [
+        "Politoed"
+      ]
+    }
+  },
+  "drought": {
+    "name": "Drought",
+    "slug": "drought",
+    "url": "https://pokemondb.net/ability/drought",
+    "effect": "Drought creates harsh sunlight when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via Air Lock or Cloud Nine or replaced by another weather condition.",
+    "pokemon": {
+      "regular": [
+        "Mega Charizard Y",
+        "Torkoal",
+        "Groudon"
+      ],
+      "hidden": [
+        "Vulpix",
+        "Ninetales"
+      ]
+    }
+  },
+  "dry skin": {
+    "name": "Dry Skin",
+    "slug": "dry-skin",
+    "url": "https://pokemondb.net/ability/dry-skin",
+    "effect": "Dry Skin causes several effects:",
+    "pokemon": {
+      "regular": [
+        "Paras",
+        "Parasect",
+        "Croagunk",
+        "Toxicroak",
+        "Helioptile",
+        "Heliolisk"
+      ],
+      "hidden": [
+        "Jynx"
+      ]
+    }
+  },
+  "early bird": {
+    "name": "Early Bird",
+    "slug": "early-bird",
+    "url": "https://pokemondb.net/ability/early-bird",
+    "effect": "The Pok\u00e9mon awakens quickly from sleep.",
+    "pokemon": {
+      "regular": [
+        "Doduo",
+        "Dodrio",
+        "Kangaskhan",
+        "Ledyba",
+        "Ledian",
+        "Natu",
+        "Xatu",
+        "Girafarig",
+        "Houndour",
+        "Houndoom",
+        "Seedot",
+        "Nuzleaf",
+        "Smoliv",
+        "Dolliv"
+      ],
+      "hidden": [
+        "Sunkern",
+        "Sunflora"
+      ]
+    }
+  },
+  "earth eater": {
+    "name": "Earth Eater",
+    "slug": "earth-eater",
+    "url": "https://pokemondb.net/ability/earth-eater",
+    "effect": "Restores HP when hit by a Ground-type move.",
+    "pokemon": {
+      "regular": [
+        "Orthworm"
+      ],
+      "hidden": []
+    }
+  },
+  "effect spore": {
+    "name": "Effect Spore",
+    "slug": "effect-spore",
+    "url": "https://pokemondb.net/ability/effect-spore",
+    "effect": "Contact may poison or cause paralysis or sleep.",
+    "pokemon": {
+      "regular": [
+        "Paras",
+        "Parasect",
+        "Shroomish",
+        "Breloom",
+        "Foongus",
+        "Amoonguss",
+        "Morelull",
+        "Shiinotic"
+      ],
+      "hidden": [
+        "Vileplume",
+        "Gossifleur",
+        "Eldegoss"
+      ]
+    }
+  },
+  "electric surge": {
+    "name": "Electric Surge",
+    "slug": "electric-surge",
+    "url": "https://pokemondb.net/ability/electric-surge",
+    "effect": "Electric Surge creates a low-lying electric field, like the move Electric Terrain , when the Pok\u00e9mon enters battle. It prevents grounded Pok\u00e9mon from falling asleep, and increases the power of Electric type attacks.",
+    "pokemon": {
+      "regular": [
+        "Tapu Koko"
+      ],
+      "hidden": [
+        "Pincurchin"
+      ]
+    }
+  },
+  "electromorphosis": {
+    "name": "Electromorphosis",
+    "slug": "electromorphosis",
+    "url": "https://pokemondb.net/ability/electromorphosis",
+    "effect": "If a Pok\u00e9mon with Electromorphosis is hit by an attack, the power of the next Electric-type move it uses is doubled.",
+    "pokemon": {
+      "regular": [
+        "Bellibolt"
+      ],
+      "hidden": []
+    }
+  },
+  "embody aspect": {
+    "name": "Embody Aspect",
+    "slug": "embody-aspect",
+    "url": "https://pokemondb.net/ability/embody-aspect",
+    "effect": "Embody Aspect boosts a particular stat, depending on the form of a Terastallized Ogerpon :",
+    "pokemon": {
+      "regular": [
+        "Ogerpon Teal Mask",
+        "Ogerpon Wellspring Mask",
+        "Ogerpon Hearthflame Mask",
+        "Ogerpon Cornerstone Mask"
+      ],
+      "hidden": [
+        "Ogerpon Teal Mask",
+        "Ogerpon Wellspring Mask",
+        "Ogerpon Hearthflame Mask",
+        "Ogerpon Cornerstone Mask"
+      ]
+    }
+  },
+  "emergency exit": {
+    "name": "Emergency Exit",
+    "slug": "emergency-exit",
+    "url": "https://pokemondb.net/ability/emergency-exit",
+    "effect": "Switches out when HP falls below 50%.",
+    "pokemon": {
+      "regular": [
+        "Golisopod",
+        "Mega Golisopod"
+      ],
+      "hidden": []
+    }
+  },
+  "fairy aura": {
+    "name": "Fairy Aura",
+    "slug": "fairy-aura",
+    "url": "https://pokemondb.net/ability/fairy-aura",
+    "effect": "Fairy Aura raises the power of Fairy-type moves by 33%, for all Pok\u00e9mon on the field (not just the ability-bearer).",
+    "pokemon": {
+      "regular": [
+        "Xerneas"
+      ],
+      "hidden": []
+    }
+  },
+  "filter": {
+    "name": "Filter",
+    "slug": "filter",
+    "url": "https://pokemondb.net/ability/filter",
+    "effect": "Filter reduces the damage taken from super-effective attacks by 25%.",
+    "pokemon": {
+      "regular": [
+        "Mr. Mime",
+        "Mega Aggron",
+        "Mime Jr."
+      ],
+      "hidden": [
+        "Revavroom"
+      ]
+    }
+  },
+  "flame body": {
+    "name": "Flame Body",
+    "slug": "flame-body",
+    "url": "https://pokemondb.net/ability/flame-body",
+    "effect": "If a Pok\u00e9mon with Flame Body is hit by a move that makes contact, there is a 30% chance the attacker will become burned.",
+    "pokemon": {
+      "regular": [
+        "Magmar",
+        "Slugma",
+        "Magcargo",
+        "Magby",
+        "Magmortar",
+        "Litwick",
+        "Lampent",
+        "Chandelure",
+        "Larvesta",
+        "Volcarona",
+        "Fletchinder",
+        "Talonflame",
+        "Carkol",
+        "Coalossal"
+      ],
+      "hidden": [
+        "Ponyta",
+        "Rapidash",
+        "Moltres",
+        "Heatran",
+        "Mega Heatran",
+        "Sizzlipede",
+        "Centiskorch",
+        "Charcadet"
+      ]
+    }
+  },
+  "flare boost": {
+    "name": "Flare Boost",
+    "slug": "flare-boost",
+    "url": "https://pokemondb.net/ability/flare-boost",
+    "effect": "Powers up special attacks when burned.",
+    "pokemon": {
+      "regular": [
+        "Drifloon",
+        "Drifblim"
+      ],
+      "hidden": [
+        "Drifloon",
+        "Drifblim"
+      ]
+    }
+  },
+  "flash fire": {
+    "name": "Flash Fire",
+    "slug": "flash-fire",
+    "url": "https://pokemondb.net/ability/flash-fire",
+    "effect": "When a Pok\u00e9mon with Flash Fire is hit by a Fire-type move, it does not deal damage but instead raises the power of the bearer's Fire-type moves by 50%. Subsequent hits do not raise the power even more, but the effect remains while the ability-bearer is in battle.",
+    "pokemon": {
+      "regular": [
+        "Vulpix",
+        "Ninetales",
+        "Growlithe",
+        "Hisuian Growlithe",
+        "Arcanine",
+        "Hisuian Arcanine",
+        "Ponyta",
+        "Rapidash",
+        "Flareon",
+        "Houndour",
+        "Houndoom",
+        "Heatran",
+        "Mega Heatran",
+        "Litwick",
+        "Lampent",
+        "Chandelure",
+        "Heatmor",
+        "Sizzlipede",
+        "Centiskorch",
+        "Charcadet",
+        "Armarouge",
+        "Ceruledge"
+      ],
+      "hidden": [
+        "Cyndaquil",
+        "Quilava",
+        "Typhlosion",
+        "Rolycoly",
+        "Carkol",
+        "Coalossal"
+      ]
+    }
+  },
+  "flower gift": {
+    "name": "Flower Gift",
+    "slug": "flower-gift",
+    "url": "https://pokemondb.net/ability/flower-gift",
+    "effect": "Flower Gift raises the Attack and Special Defense of all party Pok\u00e9mon by 50% during harsh sunlight.",
+    "pokemon": {
+      "regular": [
+        "Cherrim"
+      ],
+      "hidden": []
+    }
+  },
+  "flower veil": {
+    "name": "Flower Veil",
+    "slug": "flower-veil",
+    "url": "https://pokemondb.net/ability/flower-veil",
+    "effect": "Flower Veil prevents ally Grass-type Pok\u00e9mon's stats from being lowered, in double and triple battles.",
+    "pokemon": {
+      "regular": [
+        "Flab\u00e9b\u00e9",
+        "Floette",
+        "Floette Eternal Flower",
+        "Florges",
+        "Comfey"
+      ],
+      "hidden": []
+    }
+  },
+  "fluffy": {
+    "name": "Fluffy",
+    "slug": "fluffy",
+    "url": "https://pokemondb.net/ability/fluffy",
+    "effect": "Fluffy reduces damage from contact moves by 50%, but Fire-type moves do double damage. Fire-type moves that make contact do regular damage.",
+    "pokemon": {
+      "regular": [
+        "Stufful",
+        "Bewear",
+        "Wooloo",
+        "Dubwool"
+      ],
+      "hidden": [
+        "Greavard",
+        "Houndstone"
+      ]
+    }
+  },
+  "forecast": {
+    "name": "Forecast",
+    "slug": "forecast",
+    "url": "https://pokemondb.net/ability/forecast",
+    "effect": "Castform transforms with the weather.",
+    "pokemon": {
+      "regular": [
+        "Castform",
+        "Castform Sunny Form",
+        "Castform Rainy Form",
+        "Castform Snowy Form"
+      ],
+      "hidden": []
+    }
+  },
+  "forewarn": {
+    "name": "Forewarn",
+    "slug": "forewarn",
+    "url": "https://pokemondb.net/ability/forewarn",
+    "effect": "Determines what moves a foe has.",
+    "pokemon": {
+      "regular": [
+        "Drowzee",
+        "Hypno",
+        "Jynx",
+        "Smoochum",
+        "Munna",
+        "Musharna"
+      ],
+      "hidden": []
+    }
+  },
+  "friend guard": {
+    "name": "Friend Guard",
+    "slug": "friend-guard",
+    "url": "https://pokemondb.net/ability/friend-guard",
+    "effect": "Reduces damage done to allies.",
+    "pokemon": {
+      "regular": [
+        "Maushold Family of Four",
+        "Maushold Family of Three"
+      ],
+      "hidden": [
+        "Clefairy",
+        "Jigglypuff",
+        "Cleffa",
+        "Igglybuff",
+        "Happiny",
+        "Scatterbug",
+        "Spewpa",
+        "Vivillon"
+      ]
+    }
+  },
+  "frisk": {
+    "name": "Frisk",
+    "slug": "frisk",
+    "url": "https://pokemondb.net/ability/frisk",
+    "effect": "The Pok\u00e9mon can check a foe's held item.",
+    "pokemon": {
+      "regular": [
+        "Alolan Exeggutor",
+        "Stantler",
+        "Shuppet",
+        "Banette",
+        "Gothita",
+        "Gothorita",
+        "Gothitelle",
+        "Phantump",
+        "Trevenant",
+        "Pumpkaboo Average Size",
+        "Pumpkaboo Small Size",
+        "Pumpkaboo Large Size",
+        "Pumpkaboo Super Size",
+        "Gourgeist Average Size",
+        "Gourgeist Small Size",
+        "Gourgeist Large Size",
+        "Gourgeist Super Size",
+        "Noibat",
+        "Noivern",
+        "Orbeetle",
+        "Impidimp",
+        "Morgrem",
+        "Grimmsnarl",
+        "Wyrdeer",
+        "Flittle",
+        "Espathra"
+      ],
+      "hidden": [
+        "Wigglytuff",
+        "Hisuian Typhlosion",
+        "Sentret",
+        "Furret",
+        "Yanma",
+        "Duskull",
+        "Dusclops",
+        "Yanmega",
+        "Dusknoir",
+        "Munkidori"
+      ]
+    }
+  },
+  "full metal body": {
+    "name": "Full Metal Body",
+    "slug": "full-metal-body",
+    "url": "https://pokemondb.net/ability/full-metal-body",
+    "effect": "Prevents other Pok\u00e9mon from lowering its stats.",
+    "pokemon": {
+      "regular": [
+        "Solgaleo"
+      ],
+      "hidden": []
+    }
+  },
+  "fur coat": {
+    "name": "Fur Coat",
+    "slug": "fur-coat",
+    "url": "https://pokemondb.net/ability/fur-coat",
+    "effect": "Fur Coat reduces damage taken from physical attacks by 50%.",
+    "pokemon": {
+      "regular": [
+        "Alolan Persian",
+        "Furfrou"
+      ],
+      "hidden": []
+    }
+  },
+  "gale wings": {
+    "name": "Gale Wings",
+    "slug": "gale-wings",
+    "url": "https://pokemondb.net/ability/gale-wings",
+    "effect": "Gives priority to Flying-type moves.",
+    "pokemon": {
+      "regular": [
+        "Fletchling",
+        "Fletchinder",
+        "Talonflame"
+      ],
+      "hidden": [
+        "Fletchling",
+        "Fletchinder",
+        "Talonflame"
+      ]
+    }
+  },
+  "galvanize": {
+    "name": "Galvanize",
+    "slug": "galvanize",
+    "url": "https://pokemondb.net/ability/galvanize",
+    "effect": "Normal-type moves become Electric-type moves and their power boosted.",
+    "pokemon": {
+      "regular": [
+        "Alolan Geodude",
+        "Alolan Graveler",
+        "Alolan Golem"
+      ],
+      "hidden": [
+        "Alolan Geodude",
+        "Alolan Graveler",
+        "Alolan Golem"
+      ]
+    }
+  },
+  "gluttony": {
+    "name": "Gluttony",
+    "slug": "gluttony",
+    "url": "https://pokemondb.net/ability/gluttony",
+    "effect": "A Pok\u00e9mon with Gluttony will use a pinch berry when its HP drops to 50%, rather than the usual 25%.",
+    "pokemon": {
+      "regular": [
+        "Alolan Rattata",
+        "Alolan Raticate",
+        "Galarian Slowpoke",
+        "Alolan Grimer",
+        "Alolan Muk",
+        "Shuckle",
+        "Zigzagoon",
+        "Galarian Zigzagoon",
+        "Linoone",
+        "Galarian Linoone",
+        "Pansage",
+        "Simisage",
+        "Pansear",
+        "Simisear",
+        "Panpour",
+        "Simipour",
+        "Heatmor",
+        "Applin",
+        "Flapple",
+        "Appletun",
+        "Lechonk",
+        "Oinkologne Male",
+        "Oinkologne Female",
+        "Dipplin"
+      ],
+      "hidden": [
+        "Bellsprout",
+        "Weepinbell",
+        "Victreebel",
+        "Snorlax",
+        "Gulpin",
+        "Swalot",
+        "Spoink",
+        "Grumpig",
+        "Munchlax",
+        "Skwovet",
+        "Greedent"
+      ]
+    }
+  },
+  "good as gold": {
+    "name": "Good as Gold",
+    "slug": "good-as-gold",
+    "url": "https://pokemondb.net/ability/good-as-gold",
+    "effect": "Gives immunity to status moves.",
+    "pokemon": {
+      "regular": [
+        "Gholdengo"
+      ],
+      "hidden": []
+    }
+  },
+  "gooey": {
+    "name": "Gooey",
+    "slug": "gooey",
+    "url": "https://pokemondb.net/ability/gooey",
+    "effect": "Contact with the Pok\u00e9mon lowers the attacker's Speed stat.",
+    "pokemon": {
+      "regular": [
+        "Wiglett",
+        "Wugtrio"
+      ],
+      "hidden": [
+        "Goomy",
+        "Sliggoo",
+        "Hisuian Sliggoo",
+        "Goodra",
+        "Hisuian Goodra"
+      ]
+    }
+  },
+  "gorilla tactics": {
+    "name": "Gorilla Tactics",
+    "slug": "gorilla-tactics",
+    "url": "https://pokemondb.net/ability/gorilla-tactics",
+    "effect": "Boosts the Pok\u00e9mon's Attack stat but only allows the use of the first selected move.",
+    "pokemon": {
+      "regular": [
+        "Galarian Standard Mode Darmanitan",
+        "Galarian Zen Mode Darmanitan"
+      ],
+      "hidden": []
+    }
+  },
+  "grass pelt": {
+    "name": "Grass Pelt",
+    "slug": "grass-pelt",
+    "url": "https://pokemondb.net/ability/grass-pelt",
+    "effect": "Boosts the Defense stat in Grassy Terrain.",
+    "pokemon": {
+      "regular": [
+        "Skiddo",
+        "Gogoat"
+      ],
+      "hidden": [
+        "Skiddo",
+        "Gogoat"
+      ]
+    }
+  },
+  "grassy surge": {
+    "name": "Grassy Surge",
+    "slug": "grassy-surge",
+    "url": "https://pokemondb.net/ability/grassy-surge",
+    "effect": "Grassy Surge creates a low-lying grassy field, like the move Grassy Terrain , when the Pok\u00e9mon enters battle. It restores the HP of grounded Pok\u00e9mon each turn and increases the power of Grass type attacks.",
+    "pokemon": {
+      "regular": [
+        "Tapu Bulu"
+      ],
+      "hidden": [
+        "Grookey",
+        "Thwackey",
+        "Rillaboom"
+      ]
+    }
+  },
+  "grim neigh": {
+    "name": "Grim Neigh",
+    "slug": "grim-neigh",
+    "url": "https://pokemondb.net/ability/grim-neigh",
+    "effect": "Boosts Special Attack after knocking out a Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Spectrier"
+      ],
+      "hidden": []
+    }
+  },
+  "guard dog": {
+    "name": "Guard Dog",
+    "slug": "guard-dog",
+    "url": "https://pokemondb.net/ability/guard-dog",
+    "effect": "Boosts Attack if intimidated, and prevents being forced to switch out.",
+    "pokemon": {
+      "regular": [
+        "Mabosstiff"
+      ],
+      "hidden": [
+        "Okidogi"
+      ]
+    }
+  },
+  "gulp missile": {
+    "name": "Gulp Missile",
+    "slug": "gulp-missile",
+    "url": "https://pokemondb.net/ability/gulp-missile",
+    "effect": "Gulp Missile is the signature ability of Cramorant . If Cramorant uses the move Surf or Dive , it returns with a fish in its mouth. If Cramorant then takes damage, it retaliates by spitting out the fish, dealing extra damage.",
+    "pokemon": {
+      "regular": [
+        "Cramorant"
+      ],
+      "hidden": []
+    }
+  },
+  "guts": {
+    "name": "Guts",
+    "slug": "guts",
+    "url": "https://pokemondb.net/ability/guts",
+    "effect": "Guts raises the ability-bearer's Attack by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If burnt, the Pok\u00e9mon does not suffer the usual drop in Attack.",
+    "pokemon": {
+      "regular": [
+        "Rattata",
+        "Raticate",
+        "Machop",
+        "Machoke",
+        "Machamp",
+        "Heracross",
+        "Ursaring",
+        "Tyrogue",
+        "Larvitar",
+        "Taillow",
+        "Swellow",
+        "Makuhita",
+        "Hariyama",
+        "Timburr",
+        "Gurdurr",
+        "Conkeldurr",
+        "Throh",
+        "Obstagoon",
+        "Ursaluna"
+      ],
+      "hidden": [
+        "Flareon",
+        "Shinx",
+        "Luxio",
+        "Luxray",
+        "Squawkabilly Green Plumage",
+        "Squawkabilly Blue Plumage"
+      ]
+    }
+  },
+  "hadron engine": {
+    "name": "Hadron Engine",
+    "slug": "hadron-engine",
+    "url": "https://pokemondb.net/ability/hadron-engine",
+    "effect": "Creates an Electric Terrain when entering battle, and boosts Special Attack while active.",
+    "pokemon": {
+      "regular": [
+        "Miraidon"
+      ],
+      "hidden": []
+    }
+  },
+  "harvest": {
+    "name": "Harvest",
+    "slug": "harvest",
+    "url": "https://pokemondb.net/ability/harvest",
+    "effect": "May create another Berry after one is used.",
+    "pokemon": {
+      "regular": [
+        "Exeggcute",
+        "Exeggutor",
+        "Alolan Exeggutor",
+        "Tropius",
+        "Phantump",
+        "Trevenant",
+        "Smoliv",
+        "Dolliv",
+        "Arboliva"
+      ],
+      "hidden": [
+        "Exeggcute",
+        "Exeggutor",
+        "Alolan Exeggutor",
+        "Tropius",
+        "Phantump",
+        "Trevenant",
+        "Smoliv",
+        "Dolliv",
+        "Arboliva"
+      ]
+    }
+  },
+  "healer": {
+    "name": "Healer",
+    "slug": "healer",
+    "url": "https://pokemondb.net/ability/healer",
+    "effect": "May heal an ally's status conditions.",
+    "pokemon": {
+      "regular": [
+        "Audino",
+        "Mega Audino",
+        "Alomomola",
+        "Spritzee",
+        "Aromatisse",
+        "Hatenna",
+        "Hattrem",
+        "Hatterene"
+      ],
+      "hidden": [
+        "Chansey",
+        "Bellossom",
+        "Blissey"
+      ]
+    }
+  },
+  "heatproof": {
+    "name": "Heatproof",
+    "slug": "heatproof",
+    "url": "https://pokemondb.net/ability/heatproof",
+    "effect": "Heatproof reduces the damage taken from Fire -type moves by 50%. It also halves the damage from a burn, from 1 \u2044 8 to 1 \u2044 16 of the Pok\u00e9mon's maximum HP.",
+    "pokemon": {
+      "regular": [
+        "Bronzor",
+        "Bronzong",
+        "Rolycoly"
+      ],
+      "hidden": [
+        "Poltchageist",
+        "Sinistcha"
+      ]
+    }
+  },
+  "heavy metal": {
+    "name": "Heavy Metal",
+    "slug": "heavy-metal",
+    "url": "https://pokemondb.net/ability/heavy-metal",
+    "effect": "Heavy Metal doubles the Pok\u00e9mon's weight in battle. Increasing weight affects these moves:",
+    "pokemon": {
+      "regular": [
+        "Duraludon"
+      ],
+      "hidden": [
+        "Aron",
+        "Lairon",
+        "Aggron",
+        "Bronzor",
+        "Bronzong",
+        "Cufant",
+        "Copperajah"
+      ]
+    }
+  },
+  "honey gather": {
+    "name": "Honey Gather",
+    "slug": "honey-gather",
+    "url": "https://pokemondb.net/ability/honey-gather",
+    "effect": "Honey Gather has no effect in battle.",
+    "pokemon": {
+      "regular": [
+        "Combee",
+        "Cutiefly",
+        "Ribombee"
+      ],
+      "hidden": [
+        "Teddiursa"
+      ]
+    }
+  },
+  "hospitality": {
+    "name": "Hospitality",
+    "slug": "hospitality",
+    "url": "https://pokemondb.net/ability/hospitality",
+    "effect": "When the Pok\u00e9mon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP.",
+    "pokemon": {
+      "regular": [
+        "Poltchageist",
+        "Sinistcha"
+      ],
+      "hidden": []
+    }
+  },
+  "huge power": {
+    "name": "Huge Power",
+    "slug": "huge-power",
+    "url": "https://pokemondb.net/ability/huge-power",
+    "effect": "Raises the Pok\u00e9mon's Attack stat.",
+    "pokemon": {
+      "regular": [
+        "Marill",
+        "Azumarill",
+        "Azurill",
+        "Mega Mawile"
+      ],
+      "hidden": [
+        "Bunnelby",
+        "Diggersby"
+      ]
+    }
+  },
+  "hunger switch": {
+    "name": "Hunger Switch",
+    "slug": "hunger-switch",
+    "url": "https://pokemondb.net/ability/hunger-switch",
+    "effect": "Hunger Switch causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode. Morpeko's form also changes the type of its signature move, Aura Wheel .",
+    "pokemon": {
+      "regular": [
+        "Morpeko Full Belly Mode",
+        "Morpeko Hangry Mode"
+      ],
+      "hidden": []
+    }
+  },
+  "hustle": {
+    "name": "Hustle",
+    "slug": "hustle",
+    "url": "https://pokemondb.net/ability/hustle",
+    "effect": "Hustle increases the ability-bearer's Attack by 50%, however, it also reduces the Accuracy of all Physical moves by 20%.",
+    "pokemon": {
+      "regular": [
+        "Alolan Rattata",
+        "Alolan Raticate",
+        "Togepi",
+        "Togetic",
+        "Corsola",
+        "Remoraid",
+        "Delibird",
+        "Togekiss",
+        "Hisuian Lilligant",
+        "Darumaka",
+        "Galarian Darumaka",
+        "Durant",
+        "Deino",
+        "Zweilous",
+        "Dracozolt",
+        "Squawkabilly Green Plumage",
+        "Squawkabilly Blue Plumage",
+        "Squawkabilly Yellow Plumage",
+        "Squawkabilly White Plumage"
+      ],
+      "hidden": [
+        "Rattata",
+        "Raticate",
+        "Nidoran\u2640",
+        "Nidorina",
+        "Nidoran\u2642",
+        "Nidorino",
+        "Combee",
+        "Rufflet",
+        "Flapple"
+      ]
+    }
+  },
+  "hydration": {
+    "name": "Hydration",
+    "slug": "hydration",
+    "url": "https://pokemondb.net/ability/hydration",
+    "effect": "A Pok\u00e9mon with Hydration will cure itself of any status conditions during rain, at the end of each turn. This includes self-inflicted conditions such as from using Rest .",
+    "pokemon": {
+      "regular": [
+        "Seel",
+        "Dewgong",
+        "Wingull",
+        "Phione",
+        "Manaphy",
+        "Tympole",
+        "Palpitoad",
+        "Alomomola",
+        "Shelmet",
+        "Accelgor",
+        "Goomy",
+        "Sliggoo",
+        "Goodra"
+      ],
+      "hidden": [
+        "Lapras",
+        "Vaporeon",
+        "Smoochum",
+        "Barboach",
+        "Whiscash",
+        "Gorebyss",
+        "Luvdisc",
+        "Ducklett",
+        "Swanna"
+      ]
+    }
+  },
+  "hyper cutter": {
+    "name": "Hyper Cutter",
+    "slug": "hyper-cutter",
+    "url": "https://pokemondb.net/ability/hyper-cutter",
+    "effect": "Hyper Cutter prevents the bearer's Attack stat from being lowered by other Pok\u00e9mon, through moves such as Growl or abilities such as Intimidate .",
+    "pokemon": {
+      "regular": [
+        "Krabby",
+        "Kingler",
+        "Pinsir",
+        "Gligar",
+        "Mawile",
+        "Trapinch",
+        "Corphish",
+        "Crawdaunt",
+        "Gliscor",
+        "Crabrawler",
+        "Crabominable",
+        "Mega Crabominable"
+      ],
+      "hidden": []
+    }
+  },
+  "ice body": {
+    "name": "Ice Body",
+    "slug": "ice-body",
+    "url": "https://pokemondb.net/ability/ice-body",
+    "effect": "A Pok\u00e9mon with Ice Body will recover 1 \u2044 16 of its maximum HP during hail, after each turn. It also grants immunity to the hailstorm damage, if not already immune.",
+    "pokemon": {
+      "regular": [
+        "Snorunt",
+        "Glalie",
+        "Spheal",
+        "Sealeo",
+        "Walrein",
+        "Vanillite",
+        "Vanillish",
+        "Vanilluxe",
+        "Bergmite",
+        "Avalugg",
+        "Hisuian Avalugg",
+        "Arctovish"
+      ],
+      "hidden": [
+        "Seel",
+        "Dewgong",
+        "Galarian Mr. Mime",
+        "Regice",
+        "Glaceon",
+        "Mr. Rime",
+        "Frigibax",
+        "Arctibax",
+        "Baxcalibur",
+        "Mega Baxcalibur"
+      ]
+    }
+  },
+  "ice face": {
+    "name": "Ice Face",
+    "slug": "ice-face",
+    "url": "https://pokemondb.net/ability/ice-face",
+    "effect": "Ice Face is the signature ability of Eiscue . It allows the Pok\u00e9mon to take a physical attack without taking damage. After the attack, Eiscue changes to its No Ice Face form, however, it can be restored in hail.",
+    "pokemon": {
+      "regular": [
+        "Eiscue Ice Face",
+        "Eiscue Noice Face"
+      ],
+      "hidden": []
+    }
+  },
+  "ice scales": {
+    "name": "Ice Scales",
+    "slug": "ice-scales",
+    "url": "https://pokemondb.net/ability/ice-scales",
+    "effect": "Halves damage from Special moves.",
+    "pokemon": {
+      "regular": [
+        "Snom",
+        "Frosmoth"
+      ],
+      "hidden": [
+        "Snom",
+        "Frosmoth"
+      ]
+    }
+  },
+  "illuminate": {
+    "name": "Illuminate",
+    "slug": "illuminate",
+    "url": "https://pokemondb.net/ability/illuminate",
+    "effect": "Illuminate has no effect in battle.",
+    "pokemon": {
+      "regular": [
+        "Staryu",
+        "Starmie",
+        "Chinchou",
+        "Lanturn",
+        "Volbeat",
+        "Watchog",
+        "Morelull",
+        "Shiinotic"
+      ],
+      "hidden": []
+    }
+  },
+  "illusion": {
+    "name": "Illusion",
+    "slug": "illusion",
+    "url": "https://pokemondb.net/ability/illusion",
+    "effect": "When a Pok\u00e9mon with the Illusion ability switches into battle, it takes the form of the Pok\u00e9mon in last place (6th) of the player's party. Illusion will not activate if the Pok\u00e9mon in last place is the same species or is fainted.",
+    "pokemon": {
+      "regular": [
+        "Zorua",
+        "Hisuian Zorua",
+        "Zoroark",
+        "Hisuian Zoroark"
+      ],
+      "hidden": []
+    }
+  },
+  "immunity": {
+    "name": "Immunity",
+    "slug": "immunity",
+    "url": "https://pokemondb.net/ability/immunity",
+    "effect": "Prevents the Pok\u00e9mon from getting poisoned.",
+    "pokemon": {
+      "regular": [
+        "Snorlax",
+        "Zangoose"
+      ],
+      "hidden": [
+        "Gligar"
+      ]
+    }
+  },
+  "imposter": {
+    "name": "Imposter",
+    "slug": "imposter",
+    "url": "https://pokemondb.net/ability/imposter",
+    "effect": "It transforms itself into the Pok\u00e9mon it is facing.",
+    "pokemon": {
+      "regular": [
+        "Ditto"
+      ],
+      "hidden": [
+        "Ditto"
+      ]
+    }
+  },
+  "infiltrator": {
+    "name": "Infiltrator",
+    "slug": "infiltrator",
+    "url": "https://pokemondb.net/ability/infiltrator",
+    "effect": "Infiltrator ignores the effects of Reflect , Light Screen and Safeguard . In other words, if the opponent has used Safeguard, Toxic would still badly poison them.",
+    "pokemon": {
+      "regular": [
+        "Cottonee",
+        "Whimsicott",
+        "Espurr",
+        "Meowstic Male",
+        "Meowstic Female",
+        "Mega Meowstic (Male)",
+        "Mega Meowstic (Female)",
+        "Noibat",
+        "Noivern",
+        "Dreepy",
+        "Drakloak",
+        "Dragapult"
+      ],
+      "hidden": [
+        "Zubat",
+        "Golbat",
+        "Crobat",
+        "Hoppip",
+        "Skiploom",
+        "Jumpluff",
+        "Ninjask",
+        "Seviper",
+        "Spiritomb",
+        "Litwick",
+        "Lampent",
+        "Chandelure",
+        "Inkay",
+        "Malamar",
+        "Bramblin",
+        "Brambleghast"
+      ]
+    }
+  },
+  "innards out": {
+    "name": "Innards Out",
+    "slug": "innards-out",
+    "url": "https://pokemondb.net/ability/innards-out",
+    "effect": "When a Pok\u00e9mon with Innards Out faints, it deals damage to the opponent equal to amount of damage it took on the final blow.",
+    "pokemon": {
+      "regular": [
+        "Pyukumuku"
+      ],
+      "hidden": []
+    }
+  },
+  "inner focus": {
+    "name": "Inner Focus",
+    "slug": "inner-focus",
+    "url": "https://pokemondb.net/ability/inner-focus",
+    "effect": "Inner Focus prevents the Pok\u00e9mon from flinching, for example when attacked by a move like Headbutt .",
+    "pokemon": {
+      "regular": [
+        "Zubat",
+        "Golbat",
+        "Abra",
+        "Kadabra",
+        "Alakazam",
+        "Farfetch'd",
+        "Dragonite",
+        "Crobat",
+        "Girafarig",
+        "Sneasel",
+        "Hisuian Sneasel",
+        "Snorunt",
+        "Glalie",
+        "Riolu",
+        "Lucario",
+        "Mega Gallade",
+        "Throh",
+        "Sawk",
+        "Mienfoo",
+        "Mienshao",
+        "Pawniard",
+        "Bisharp",
+        "Oranguru",
+        "Indeedee Male",
+        "Kubfu",
+        "Annihilape"
+      ],
+      "hidden": [
+        "Drowzee",
+        "Hypno",
+        "Hitmonchan",
+        "Kangaskhan",
+        "Umbreon",
+        "Raikou",
+        "Entei",
+        "Suicune",
+        "Darumaka",
+        "Galarian Darumaka",
+        "Mudbray",
+        "Mudsdale"
+      ]
+    }
+  },
+  "insomnia": {
+    "name": "Insomnia",
+    "slug": "insomnia",
+    "url": "https://pokemondb.net/ability/insomnia",
+    "effect": "Insomnia prevents the ability-bearer from falling asleep, both from moves by other Pok\u00e9mon like Sing , and self-inflicted sleep like Rest .",
+    "pokemon": {
+      "regular": [
+        "Drowzee",
+        "Hypno",
+        "Mega Mewtwo Y",
+        "Hoothoot",
+        "Noctowl",
+        "Spinarak",
+        "Ariados",
+        "Murkrow",
+        "Shuppet",
+        "Banette",
+        "Honchkrow",
+        "Tarountula",
+        "Spidops",
+        "Capsakid",
+        "Scovillain",
+        "Mega Scovillain"
+      ],
+      "hidden": [
+        "Delibird",
+        "Pumpkaboo Average Size",
+        "Pumpkaboo Small Size",
+        "Pumpkaboo Large Size",
+        "Pumpkaboo Super Size",
+        "Gourgeist Average Size",
+        "Gourgeist Small Size",
+        "Gourgeist Large Size",
+        "Gourgeist Super Size"
+      ]
+    }
+  },
+  "intimidate": {
+    "name": "Intimidate",
+    "slug": "intimidate",
+    "url": "https://pokemondb.net/ability/intimidate",
+    "effect": "Intimidate lower's the Attack of all opponents by one stage when the ability-bearer switches in (including the start of a battle).",
+    "pokemon": {
+      "regular": [
+        "Ekans",
+        "Arbok",
+        "Growlithe",
+        "Hisuian Growlithe",
+        "Arcanine",
+        "Hisuian Arcanine",
+        "Tauros",
+        "Tauros Combat Breed",
+        "Tauros Blaze Breed",
+        "Tauros Aqua Breed",
+        "Gyarados",
+        "Snubbull",
+        "Granbull",
+        "Stantler",
+        "Hitmontop",
+        "Mightyena",
+        "Masquerain",
+        "Mawile",
+        "Mega Manectric",
+        "Salamence",
+        "Staravia",
+        "Staraptor",
+        "Mega Staraptor",
+        "Shinx",
+        "Luxio",
+        "Luxray",
+        "Herdier",
+        "Stoutland",
+        "Sandile",
+        "Krokorok",
+        "Krookodile",
+        "Landorus Therian Forme",
+        "Wyrdeer",
+        "Squawkabilly Green Plumage",
+        "Squawkabilly Blue Plumage",
+        "Squawkabilly Yellow Plumage",
+        "Squawkabilly White Plumage",
+        "Maschiff",
+        "Mabosstiff"
+      ],
+      "hidden": [
+        "Qwilfish",
+        "Hisuian Qwilfish",
+        "Scraggy",
+        "Scrafty",
+        "Litten",
+        "Torracat",
+        "Incineroar",
+        "Overqwil"
+      ]
+    }
+  },
+  "intrepid sword": {
+    "name": "Intrepid Sword",
+    "slug": "intrepid-sword",
+    "url": "https://pokemondb.net/ability/intrepid-sword",
+    "effect": "Boosts Attack in battle.",
+    "pokemon": {
+      "regular": [
+        "Zacian Hero of Many Battles",
+        "Zacian Crowned Sword"
+      ],
+      "hidden": []
+    }
+  },
+  "iron barbs": {
+    "name": "Iron Barbs",
+    "slug": "iron-barbs",
+    "url": "https://pokemondb.net/ability/iron-barbs",
+    "effect": "When a Pok\u00e9mon with Iron Barbs is hit by a move that makes contact, the attacker receives damage equal to 1 \u2044 8 of their maximum HP.",
+    "pokemon": {
+      "regular": [
+        "Ferroseed",
+        "Ferrothorn",
+        "Togedemaru"
+      ],
+      "hidden": []
+    }
+  },
+  "iron fist": {
+    "name": "Iron Fist",
+    "slug": "iron-fist",
+    "url": "https://pokemondb.net/ability/iron-fist",
+    "effect": "Iron Fist increases the power of all punching moves by 20%.",
+    "pokemon": {
+      "regular": [
+        "Hitmonchan",
+        "Golett",
+        "Golurk",
+        "Mega Golurk",
+        "Pancham",
+        "Pangoro",
+        "Crabrawler",
+        "Crabominable",
+        "Mega Crabominable",
+        "Melmetal"
+      ],
+      "hidden": [
+        "Ledian",
+        "Chimchar",
+        "Monferno",
+        "Infernape",
+        "Timburr",
+        "Gurdurr",
+        "Conkeldurr",
+        "Pawmi",
+        "Pawmo",
+        "Pawmot"
+      ]
+    }
+  },
+  "justified": {
+    "name": "Justified",
+    "slug": "justified",
+    "url": "https://pokemondb.net/ability/justified",
+    "effect": "Justified raises the ability-bearer's Attack by one stage when hit by a damaging Dark -type move.",
+    "pokemon": {
+      "regular": [
+        "Cobalion",
+        "Terrakion",
+        "Virizion",
+        "Keldeo Ordinary Form",
+        "Keldeo Resolute Form"
+      ],
+      "hidden": [
+        "Growlithe",
+        "Arcanine",
+        "Absol",
+        "Lucario",
+        "Gallade"
+      ]
+    }
+  },
+  "keen eye": {
+    "name": "Keen Eye",
+    "slug": "keen-eye",
+    "url": "https://pokemondb.net/ability/keen-eye",
+    "effect": "Keen Eye prevents the Pok\u00e9mon from losing accuracy, for example from moves like Sand-Attack .",
+    "pokemon": {
+      "regular": [
+        "Pidgey",
+        "Pidgeotto",
+        "Pidgeot",
+        "Spearow",
+        "Fearow",
+        "Farfetch'd",
+        "Hitmonchan",
+        "Sentret",
+        "Furret",
+        "Hoothoot",
+        "Noctowl",
+        "Sneasel",
+        "Hisuian Sneasel",
+        "Skarmory",
+        "Wingull",
+        "Pelipper",
+        "Sableye",
+        "Starly",
+        "Chatot",
+        "Patrat",
+        "Watchog",
+        "Ducklett",
+        "Swanna",
+        "Rufflet",
+        "Braviary",
+        "Hisuian Braviary",
+        "Espurr",
+        "Meowstic Male",
+        "Meowstic Female",
+        "Mega Meowstic (Male)",
+        "Mega Meowstic (Female)",
+        "Pikipek",
+        "Trumbeak",
+        "Toucannon",
+        "Rockruff",
+        "Lycanroc Midday Form",
+        "Lycanroc Midnight Form",
+        "Rookidee",
+        "Corvisquire",
+        "Bombirdier"
+      ],
+      "hidden": [
+        "Glameow",
+        "Stunky",
+        "Skuntank",
+        "Skorupi",
+        "Drapion"
+      ]
+    }
+  },
+  "klutz": {
+    "name": "Klutz",
+    "slug": "klutz",
+    "url": "https://pokemondb.net/ability/klutz",
+    "effect": "The Pok\u00e9mon can't use any held items.",
+    "pokemon": {
+      "regular": [
+        "Buneary",
+        "Lopunny",
+        "Woobat",
+        "Swoobat",
+        "Golett",
+        "Golurk",
+        "Mega Golurk",
+        "Stufful",
+        "Bewear"
+      ],
+      "hidden": [
+        "Audino",
+        "Toxel",
+        "Fidough",
+        "Capsakid"
+      ]
+    }
+  },
+  "leaf guard": {
+    "name": "Leaf Guard",
+    "slug": "leaf-guard",
+    "url": "https://pokemondb.net/ability/leaf-guard",
+    "effect": "Leaf Guard prevents the bearer from succumbing to major status ailments (sleep, burns, poisoning, paralysis or freezing) during sunny weather.",
+    "pokemon": {
+      "regular": [
+        "Tangela",
+        "Hoppip",
+        "Skiploom",
+        "Jumpluff",
+        "Tangrowth",
+        "Leafeon",
+        "Swadloon",
+        "Fomantis",
+        "Lurantis",
+        "Bounsweet",
+        "Steenee",
+        "Tsareena",
+        "Zarude"
+      ],
+      "hidden": [
+        "Chikorita",
+        "Bayleef",
+        "Meganium",
+        "Roselia",
+        "Budew",
+        "Petilil",
+        "Lilligant",
+        "Hisuian Lilligant"
+      ]
+    }
+  },
+  "levitate": {
+    "name": "Levitate",
+    "slug": "levitate",
+    "url": "https://pokemondb.net/ability/levitate",
+    "effect": "Levitate causes the Pok\u00e9mon to be raised (like Flying -type Pok\u00e9mon).",
+    "pokemon": {
+      "regular": [
+        "Gastly",
+        "Haunter",
+        "Koffing",
+        "Weezing",
+        "Galarian Weezing",
+        "Misdreavus",
+        "Unown",
+        "Vibrava",
+        "Flygon",
+        "Lunatone",
+        "Solrock",
+        "Baltoy",
+        "Claydol",
+        "Duskull",
+        "Chimecho",
+        "Mega Chimecho",
+        "Latias",
+        "Mega Latias",
+        "Latios",
+        "Mega Latios",
+        "Mismagius",
+        "Chingling",
+        "Bronzor",
+        "Bronzong",
+        "Carnivine",
+        "Rotom",
+        "Heat Rotom",
+        "Wash Rotom",
+        "Frost Rotom",
+        "Fan Rotom",
+        "Mow Rotom",
+        "Uxie",
+        "Mesprit",
+        "Azelf",
+        "Giratina Origin Forme",
+        "Cresselia",
+        "Tynamo",
+        "Eelektrik",
+        "Eelektross",
+        "Cryogonal",
+        "Hydreigon",
+        "Vikavolt"
+      ],
+      "hidden": []
+    }
+  },
+  "libero": {
+    "name": "Libero",
+    "slug": "libero",
+    "url": "https://pokemondb.net/ability/libero",
+    "effect": "Libero changes the Pok\u00e9mon's type to that of its previously used attack.",
+    "pokemon": {
+      "regular": [
+        "Scorbunny",
+        "Raboot",
+        "Cinderace"
+      ],
+      "hidden": [
+        "Scorbunny",
+        "Raboot",
+        "Cinderace"
+      ]
+    }
+  },
+  "light metal": {
+    "name": "Light Metal",
+    "slug": "light-metal",
+    "url": "https://pokemondb.net/ability/light-metal",
+    "effect": "Light Metal halves the Pok\u00e9mon's weight in battle. Decreasing weight affects these moves:",
+    "pokemon": {
+      "regular": [
+        "Duraludon"
+      ],
+      "hidden": [
+        "Scizor",
+        "Beldum",
+        "Metang",
+        "Metagross",
+        "Registeel"
+      ]
+    }
+  },
+  "lightning rod": {
+    "name": "Lightning Rod",
+    "slug": "lightning-rod",
+    "url": "https://pokemondb.net/ability/lightning-rod",
+    "effect": "Lightning Rod forces all single-target Electric -type moves - used by any other Pok\u00e9mon on the field - to target this Pok\u00e9mon, and with 100% accuracy. This includes the status move Thunder Wave . The ability is most useful in double/triple battles.",
+    "pokemon": {
+      "regular": [
+        "Cubone",
+        "Marowak",
+        "Alolan Marowak",
+        "Rhyhorn",
+        "Rhydon",
+        "Mega Sceptile",
+        "Electrike",
+        "Manectric",
+        "Rhyperior",
+        "Blitzle",
+        "Zebstrika",
+        "Togedemaru",
+        "Pincurchin"
+      ],
+      "hidden": [
+        "Pikachu",
+        "Raichu",
+        "Goldeen",
+        "Seaking",
+        "Pichu",
+        "Plusle"
+      ]
+    }
+  },
+  "limber": {
+    "name": "Limber",
+    "slug": "limber",
+    "url": "https://pokemondb.net/ability/limber",
+    "effect": "The Pok\u00e9mon is protected from paralysis.",
+    "pokemon": {
+      "regular": [
+        "Persian",
+        "Hitmonlee",
+        "Ditto",
+        "Glameow",
+        "Purrloin",
+        "Liepard",
+        "Stunfisk",
+        "Hawlucha",
+        "Mareanie",
+        "Toxapex",
+        "Clobbopus",
+        "Grapploct"
+      ],
+      "hidden": [
+        "Buneary",
+        "Lopunny"
+      ]
+    }
+  },
+  "lingering aroma": {
+    "name": "Lingering Aroma",
+    "slug": "lingering-aroma",
+    "url": "https://pokemondb.net/ability/lingering-aroma",
+    "effect": "Contact changes the attacker's Ability to Lingering Aroma.",
+    "pokemon": {
+      "regular": [
+        "Oinkologne Male"
+      ],
+      "hidden": []
+    }
+  },
+  "liquid ooze": {
+    "name": "Liquid Ooze",
+    "slug": "liquid-ooze",
+    "url": "https://pokemondb.net/ability/liquid-ooze",
+    "effect": "Damages attackers using any draining move.",
+    "pokemon": {
+      "regular": [
+        "Tentacool",
+        "Tentacruel",
+        "Gulpin",
+        "Swalot"
+      ],
+      "hidden": []
+    }
+  },
+  "liquid voice": {
+    "name": "Liquid Voice",
+    "slug": "liquid-voice",
+    "url": "https://pokemondb.net/ability/liquid-voice",
+    "effect": "Liquid Voice causes all sound-based moves used by the Pok\u00e9mon to become Water type. Water type Pok\u00e9mon also gain STAB from those moves.",
+    "pokemon": {
+      "regular": [
+        "Popplio",
+        "Brionne",
+        "Primarina"
+      ],
+      "hidden": [
+        "Popplio",
+        "Brionne",
+        "Primarina"
+      ]
+    }
+  },
+  "long reach": {
+    "name": "Long Reach",
+    "slug": "long-reach",
+    "url": "https://pokemondb.net/ability/long-reach",
+    "effect": "The Pok\u00e9mon uses its moves without making contact with the target.",
+    "pokemon": {
+      "regular": [
+        "Rowlet",
+        "Dartrix",
+        "Decidueye"
+      ],
+      "hidden": [
+        "Rowlet",
+        "Dartrix",
+        "Decidueye"
+      ]
+    }
+  },
+  "magic bounce": {
+    "name": "Magic Bounce",
+    "slug": "magic-bounce",
+    "url": "https://pokemondb.net/ability/magic-bounce",
+    "effect": "Reflects status- changing moves.",
+    "pokemon": {
+      "regular": [
+        "Mega Sableye",
+        "Mega Absol",
+        "Mega Absol Z",
+        "Mega Diancie"
+      ],
+      "hidden": [
+        "Natu",
+        "Xatu",
+        "Espeon",
+        "Hatenna",
+        "Hattrem",
+        "Hatterene"
+      ]
+    }
+  },
+  "magic guard": {
+    "name": "Magic Guard",
+    "slug": "magic-guard",
+    "url": "https://pokemondb.net/ability/magic-guard",
+    "effect": "Magic Guard protects the Pok\u00e9mon from indirect damage, including:",
+    "pokemon": {
+      "regular": [
+        "Clefairy",
+        "Clefable",
+        "Cleffa",
+        "Sigilyph",
+        "Solosis",
+        "Duosion",
+        "Reuniclus"
+      ],
+      "hidden": [
+        "Abra",
+        "Kadabra",
+        "Alakazam"
+      ]
+    }
+  },
+  "magician": {
+    "name": "Magician",
+    "slug": "magician",
+    "url": "https://pokemondb.net/ability/magician",
+    "effect": "The Pok\u00e9mon steals the held item of a Pok\u00e9mon it hits with a move.",
+    "pokemon": {
+      "regular": [
+        "Hoopa Confined",
+        "Hoopa Unbound"
+      ],
+      "hidden": [
+        "Fennekin",
+        "Braixen",
+        "Delphox",
+        "Klefki"
+      ]
+    }
+  },
+  "magma armor": {
+    "name": "Magma Armor",
+    "slug": "magma-armor",
+    "url": "https://pokemondb.net/ability/magma-armor",
+    "effect": "Magma Armor prevents the Pok\u00e9mon from becoming frozen, for example from moves like Blizzard .",
+    "pokemon": {
+      "regular": [
+        "Slugma",
+        "Magcargo",
+        "Camerupt"
+      ],
+      "hidden": []
+    }
+  },
+  "magnet pull": {
+    "name": "Magnet Pull",
+    "slug": "magnet-pull",
+    "url": "https://pokemondb.net/ability/magnet-pull",
+    "effect": "Magnet Pull prevents Steel type Pok\u00e9mon from switching out of battle or fleeing.",
+    "pokemon": {
+      "regular": [
+        "Alolan Geodude",
+        "Alolan Graveler",
+        "Alolan Golem",
+        "Magnemite",
+        "Magneton",
+        "Nosepass",
+        "Magnezone",
+        "Probopass",
+        "Meltan"
+      ],
+      "hidden": []
+    }
+  },
+  "marvel scale": {
+    "name": "Marvel Scale",
+    "slug": "marvel-scale",
+    "url": "https://pokemondb.net/ability/marvel-scale",
+    "effect": "Marvel Scale raises the ability-bearer's Defense by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep).",
+    "pokemon": {
+      "regular": [
+        "Milotic"
+      ],
+      "hidden": [
+        "Dratini",
+        "Dragonair"
+      ]
+    }
+  },
+  "mega launcher": {
+    "name": "Mega Launcher",
+    "slug": "mega-launcher",
+    "url": "https://pokemondb.net/ability/mega-launcher",
+    "effect": "Mega Launcher increases the power of all aura and pulse moves by 50%. Heal Pulse boosts the HP restored by 50%.",
+    "pokemon": {
+      "regular": [
+        "Mega Blastoise",
+        "Clauncher",
+        "Clawitzer"
+      ],
+      "hidden": []
+    }
+  },
+  "merciless": {
+    "name": "Merciless",
+    "slug": "merciless",
+    "url": "https://pokemondb.net/ability/merciless",
+    "effect": "The Pok\u00e9mon's attacks become critical hits if the target is poisoned.",
+    "pokemon": {
+      "regular": [
+        "Mareanie",
+        "Toxapex"
+      ],
+      "hidden": []
+    }
+  },
+  "mimicry": {
+    "name": "Mimicry",
+    "slug": "mimicry",
+    "url": "https://pokemondb.net/ability/mimicry",
+    "effect": "Changes type depending on the terrain.",
+    "pokemon": {
+      "regular": [
+        "Galarian Stunfisk"
+      ],
+      "hidden": []
+    }
+  },
+  "mind's eye": {
+    "name": "Mind's Eye",
+    "slug": "minds-eye",
+    "url": "https://pokemondb.net/ability/minds-eye",
+    "effect": "The Pok\u00e9mon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.",
+    "pokemon": {
+      "regular": [
+        "Ursaluna Bloodmoon"
+      ],
+      "hidden": []
+    }
+  },
+  "minus": {
+    "name": "Minus",
+    "slug": "minus",
+    "url": "https://pokemondb.net/ability/minus",
+    "effect": "Ups Sp. Atk if another Pok\u00e9mon has Plus or Minus.",
+    "pokemon": {
+      "regular": [
+        "Minun",
+        "Klink",
+        "Klang",
+        "Klinklang",
+        "Toxtricity Low Key Form"
+      ],
+      "hidden": [
+        "Electrike",
+        "Manectric"
+      ]
+    }
+  },
+  "mirror armor": {
+    "name": "Mirror Armor",
+    "slug": "mirror-armor",
+    "url": "https://pokemondb.net/ability/mirror-armor",
+    "effect": "Reflects any stat-lowering effects.",
+    "pokemon": {
+      "regular": [
+        "Corviknight"
+      ],
+      "hidden": [
+        "Corviknight"
+      ]
+    }
+  },
+  "misty surge": {
+    "name": "Misty Surge",
+    "slug": "misty-surge",
+    "url": "https://pokemondb.net/ability/misty-surge",
+    "effect": "Misty Surge creates a low-lying mist, like the move Misty Terrain , when the bearer enters battle. It protects all grounded Pok\u00e9mon from status conditions and halves the power of Dragon type attacks.",
+    "pokemon": {
+      "regular": [
+        "Tapu Fini"
+      ],
+      "hidden": [
+        "Galarian Weezing"
+      ]
+    }
+  },
+  "mold breaker": {
+    "name": "Mold Breaker",
+    "slug": "mold-breaker",
+    "url": "https://pokemondb.net/ability/mold-breaker",
+    "effect": "Mold Breaker prevents a target's ability from affecting moves that the Mold Breaker Pok\u00e9mon uses. It only affects abilities that change the power, accuracy or other effects of moves.",
+    "pokemon": {
+      "regular": [
+        "Pinsir",
+        "Mega Gyarados",
+        "Mega Ampharos",
+        "Cranidos",
+        "Rampardos",
+        "Axew",
+        "Fraxure",
+        "Haxorus",
+        "Pancham",
+        "Pangoro",
+        "Tinkatink",
+        "Tinkatuff",
+        "Tinkaton",
+        "Veluza",
+        "Ogerpon Hearthflame Mask"
+      ],
+      "hidden": [
+        "Drilbur",
+        "Excadrill",
+        "Throh",
+        "Sawk",
+        "Basculin Red-Striped Form",
+        "Basculin Blue-Striped Form",
+        "Basculin White-Striped Form",
+        "Druddigon",
+        "Hawlucha",
+        "Basculegion Male",
+        "Basculegion Female"
+      ]
+    }
+  },
+  "moody": {
+    "name": "Moody",
+    "slug": "moody",
+    "url": "https://pokemondb.net/ability/moody",
+    "effect": "Raises one stat and lowers another.",
+    "pokemon": {
+      "regular": [
+        "Remoraid",
+        "Octillery",
+        "Smeargle",
+        "Snorunt",
+        "Glalie",
+        "Bidoof",
+        "Bibarel",
+        "Scovillain",
+        "Mega Scovillain"
+      ],
+      "hidden": [
+        "Remoraid",
+        "Octillery",
+        "Smeargle",
+        "Snorunt",
+        "Glalie",
+        "Bidoof",
+        "Bibarel",
+        "Scovillain",
+        "Mega Scovillain"
+      ]
+    }
+  },
+  "motor drive": {
+    "name": "Motor Drive",
+    "slug": "motor-drive",
+    "url": "https://pokemondb.net/ability/motor-drive",
+    "effect": "Raises Speed if hit by an Electric-type move.",
+    "pokemon": {
+      "regular": [
+        "Electivire",
+        "Blitzle",
+        "Zebstrika"
+      ],
+      "hidden": [
+        "Emolga"
+      ]
+    }
+  },
+  "moxie": {
+    "name": "Moxie",
+    "slug": "moxie",
+    "url": "https://pokemondb.net/ability/moxie",
+    "effect": "Moxie increases the user's Attack one stage upon fainting an opponent.",
+    "pokemon": {
+      "regular": [
+        "Sandile",
+        "Krokorok",
+        "Krookodile",
+        "Scraggy",
+        "Scrafty"
+      ],
+      "hidden": [
+        "Pinsir",
+        "Gyarados",
+        "Heracross",
+        "Mightyena",
+        "Salamence",
+        "Honchkrow",
+        "Litleo",
+        "Pyroar",
+        "Quaxly",
+        "Quaxwell",
+        "Quaquaval"
+      ]
+    }
+  },
+  "multiscale": {
+    "name": "Multiscale",
+    "slug": "multiscale",
+    "url": "https://pokemondb.net/ability/multiscale",
+    "effect": "Reduces damage when HP is full.",
+    "pokemon": {
+      "regular": [
+        "Dragonite",
+        "Lugia"
+      ],
+      "hidden": [
+        "Dragonite",
+        "Lugia"
+      ]
+    }
+  },
+  "multitype": {
+    "name": "Multitype",
+    "slug": "multitype",
+    "url": "https://pokemondb.net/ability/multitype",
+    "effect": "Multitype changes the ability-bearer's type if it is holding one of the Type Plate items. Moves of the corresponding type receive STAB .",
+    "pokemon": {
+      "regular": [
+        "Arceus"
+      ],
+      "hidden": []
+    }
+  },
+  "mummy": {
+    "name": "Mummy",
+    "slug": "mummy",
+    "url": "https://pokemondb.net/ability/mummy",
+    "effect": "Contact with this Pok\u00e9mon spreads this Ability.",
+    "pokemon": {
+      "regular": [
+        "Yamask",
+        "Cofagrigus"
+      ],
+      "hidden": []
+    }
+  },
+  "mycelium might": {
+    "name": "Mycelium Might",
+    "slug": "mycelium-might",
+    "url": "https://pokemondb.net/ability/mycelium-might",
+    "effect": "Status moves go last, but are not affected by the opponent's ability.",
+    "pokemon": {
+      "regular": [
+        "Toedscool",
+        "Toedscruel"
+      ],
+      "hidden": []
+    }
+  },
+  "natural cure": {
+    "name": "Natural Cure",
+    "slug": "natural-cure",
+    "url": "https://pokemondb.net/ability/natural-cure",
+    "effect": "All status problems heal when it switches out.",
+    "pokemon": {
+      "regular": [
+        "Chansey",
+        "Staryu",
+        "Starmie",
+        "Corsola",
+        "Blissey",
+        "Celebi",
+        "Roselia",
+        "Swablu",
+        "Altaria",
+        "Budew",
+        "Roserade",
+        "Happiny",
+        "Shaymin Land Forme",
+        "Phantump",
+        "Trevenant",
+        "Pawmi",
+        "Pawmo",
+        "Pawmot"
+      ],
+      "hidden": [
+        "Comfey"
+      ]
+    }
+  },
+  "neuroforce": {
+    "name": "Neuroforce",
+    "slug": "neuroforce",
+    "url": "https://pokemondb.net/ability/neuroforce",
+    "effect": "Powers up moves that are super effective.",
+    "pokemon": {
+      "regular": [
+        "Ultra Necrozma"
+      ],
+      "hidden": []
+    }
+  },
+  "neutralizing gas": {
+    "name": "Neutralizing Gas",
+    "slug": "neutralizing-gas",
+    "url": "https://pokemondb.net/ability/neutralizing-gas",
+    "effect": "Neutralizes abilities of all Pok\u00e9mon in battle.",
+    "pokemon": {
+      "regular": [
+        "Koffing",
+        "Weezing",
+        "Galarian Weezing"
+      ],
+      "hidden": []
+    }
+  },
+  "no guard": {
+    "name": "No Guard",
+    "slug": "no-guard",
+    "url": "https://pokemondb.net/ability/no-guard",
+    "effect": "No Guard ensures that all attacks used by, and targeted at, the ability-bearer hit without fail.",
+    "pokemon": {
+      "regular": [
+        "Mega Pidgeot",
+        "Machop",
+        "Machoke",
+        "Machamp",
+        "Honedge",
+        "Doublade"
+      ],
+      "hidden": [
+        "Karrablast",
+        "Golett",
+        "Golurk",
+        "Mega Golurk",
+        "Lycanroc Midnight Form"
+      ]
+    }
+  },
+  "normalize": {
+    "name": "Normalize",
+    "slug": "normalize",
+    "url": "https://pokemondb.net/ability/normalize",
+    "effect": "Normalize causes all moves used by the Pok\u00e9mon to become Normal -type, and attacking moves increase in power by 20%.",
+    "pokemon": {
+      "regular": [
+        "Skitty",
+        "Delcatty"
+      ],
+      "hidden": []
+    }
+  },
+  "oblivious": {
+    "name": "Oblivious",
+    "slug": "oblivious",
+    "url": "https://pokemondb.net/ability/oblivious",
+    "effect": "Oblivious makes the Pok\u00e9mon immune to gender-based moves and abilities, specifically Attract , Captivate and Cute Charm .",
+    "pokemon": {
+      "regular": [
+        "Slowpoke",
+        "Slowbro",
+        "Lickitung",
+        "Jynx",
+        "Slowking",
+        "Swinub",
+        "Piloswine",
+        "Smoochum",
+        "Illumise",
+        "Wailmer",
+        "Wailord",
+        "Numel",
+        "Barboach",
+        "Whiscash",
+        "Feebas",
+        "Lickilicky",
+        "Mamoswine",
+        "Bounsweet",
+        "Steenee",
+        "Dondozo"
+      ],
+      "hidden": [
+        "Spheal",
+        "Sealeo",
+        "Walrein",
+        "Salandit",
+        "Salazzle"
+      ]
+    }
+  },
+  "opportunist": {
+    "name": "Opportunist",
+    "slug": "opportunist",
+    "url": "https://pokemondb.net/ability/opportunist",
+    "effect": "Copies stat boosts by the opponent.",
+    "pokemon": {
+      "regular": [
+        "Espathra"
+      ],
+      "hidden": []
+    }
+  },
+  "orichalcum pulse": {
+    "name": "Orichalcum Pulse",
+    "slug": "orichalcum-pulse",
+    "url": "https://pokemondb.net/ability/orichalcum-pulse",
+    "effect": "Turns the sunlight harsh when entering battle, and boosts Attack while active.",
+    "pokemon": {
+      "regular": [
+        "Koraidon"
+      ],
+      "hidden": []
+    }
+  },
+  "overcoat": {
+    "name": "Overcoat",
+    "slug": "overcoat",
+    "url": "https://pokemondb.net/ability/overcoat",
+    "effect": "Overcoat makes the Pok\u00e9mon immune to residual damage from weather conditions (specifically Hail and Sandstorm ).",
+    "pokemon": {
+      "regular": [
+        "Solosis",
+        "Duosion",
+        "Reuniclus",
+        "Vullaby",
+        "Mandibuzz",
+        "Enamorus Therian Forme",
+        "Varoom",
+        "Revavroom"
+      ],
+      "hidden": [
+        "Shellder",
+        "Cloyster",
+        "Pineco",
+        "Forretress",
+        "Shelgon",
+        "Burmy Plant Cloak",
+        "Burmy Sandy Cloak",
+        "Trash Cloak Burmy",
+        "Wormadam Plant Cloak",
+        "Wormadam Sandy Cloak",
+        "Trash Cloak Wormadam",
+        "Sewaddle",
+        "Swadloon",
+        "Leavanny",
+        "Escavalier",
+        "Shelmet",
+        "Jangmo-o",
+        "Hakamo-o",
+        "Kommo-o"
+      ]
+    }
+  },
+  "overgrow": {
+    "name": "Overgrow",
+    "slug": "overgrow",
+    "url": "https://pokemondb.net/ability/overgrow",
+    "effect": "Overgrow increases the power of Grass -type moves by 50% (1.5\u00d7) when the ability-bearer's HP falls below a third of its maximum (known in-game as in a pinch ).",
+    "pokemon": {
+      "regular": [
+        "Bulbasaur",
+        "Ivysaur",
+        "Venusaur",
+        "Chikorita",
+        "Bayleef",
+        "Meganium",
+        "Treecko",
+        "Grovyle",
+        "Sceptile",
+        "Turtwig",
+        "Grotle",
+        "Torterra",
+        "Snivy",
+        "Servine",
+        "Serperior",
+        "Chespin",
+        "Quilladin",
+        "Chesnaught",
+        "Rowlet",
+        "Dartrix",
+        "Decidueye",
+        "Hisuian Decidueye",
+        "Grookey",
+        "Thwackey",
+        "Rillaboom",
+        "Sprigatito",
+        "Floragato",
+        "Meowscarada"
+      ],
+      "hidden": [
+        "Pansage",
+        "Simisage"
+      ]
+    }
+  },
+  "own tempo": {
+    "name": "Own Tempo",
+    "slug": "own-tempo",
+    "url": "https://pokemondb.net/ability/own-tempo",
+    "effect": "Prevents the Pok\u00e9mon from becoming confused.",
+    "pokemon": {
+      "regular": [
+        "Slowpoke",
+        "Galarian Slowpoke",
+        "Slowbro",
+        "Galarian Slowbro",
+        "Lickitung",
+        "Slowking",
+        "Galarian Slowking",
+        "Smeargle",
+        "Spoink",
+        "Grumpig",
+        "Spinda",
+        "Glameow",
+        "Purugly",
+        "Lickilicky",
+        "Petilil",
+        "Lilligant",
+        "Bergmite",
+        "Avalugg",
+        "Own Tempo Rockruff",
+        "Mudbray",
+        "Mudsdale",
+        "Indeedee Female",
+        "Fidough",
+        "Tadbulb",
+        "Tinkatink",
+        "Tinkatuff",
+        "Tinkaton"
+      ],
+      "hidden": [
+        "Lotad",
+        "Lombre",
+        "Ludicolo",
+        "Numel",
+        "Espurr",
+        "Tandemaus"
+      ]
+    }
+  },
+  "parental bond": {
+    "name": "Parental Bond",
+    "slug": "parental-bond",
+    "url": "https://pokemondb.net/ability/parental-bond",
+    "effect": "Parental Bond allows the ability-bearer to attack twice. The second attack hits with 25% of the power, so in effect it is equivalent to a 25% boost to all attacks.",
+    "pokemon": {
+      "regular": [
+        "Mega Kangaskhan"
+      ],
+      "hidden": []
+    }
+  },
+  "pastel veil": {
+    "name": "Pastel Veil",
+    "slug": "pastel-veil",
+    "url": "https://pokemondb.net/ability/pastel-veil",
+    "effect": "Pastel Veil prevents the Pok\u00e9mon and its teammates from being poisoned. It also cures teammates of poisoning when it enters the battlefield.",
+    "pokemon": {
+      "regular": [
+        "Galarian Ponyta",
+        "Galarian Rapidash"
+      ],
+      "hidden": []
+    }
+  },
+  "perish body": {
+    "name": "Perish Body",
+    "slug": "perish-body",
+    "url": "https://pokemondb.net/ability/perish-body",
+    "effect": "When hit by a move that makes direct contact, the Pok\u00e9mon and the attacker will faint after three turns unless they switch out of battle.",
+    "pokemon": {
+      "regular": [
+        "Cursola"
+      ],
+      "hidden": [
+        "Cursola"
+      ]
+    }
+  },
+  "pickpocket": {
+    "name": "Pickpocket",
+    "slug": "pickpocket",
+    "url": "https://pokemondb.net/ability/pickpocket",
+    "effect": "Steals an item when hit by another Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Shroodle"
+      ],
+      "hidden": [
+        "Sneasel",
+        "Hisuian Sneasel",
+        "Seedot",
+        "Nuzleaf",
+        "Shiftry",
+        "Weavile",
+        "Binacle",
+        "Barbaracle",
+        "Impidimp",
+        "Morgrem",
+        "Grimmsnarl",
+        "Tinkatink",
+        "Tinkatuff",
+        "Tinkaton"
+      ]
+    }
+  },
+  "pickup": {
+    "name": "Pickup",
+    "slug": "pickup",
+    "url": "https://pokemondb.net/ability/pickup",
+    "effect": "When another Pok\u00e9mon on the field uses a single-use held item, a Pok\u00e9mon with Pickup will obtain the used item (if they are not already holding anything) and it can be used again.",
+    "pokemon": {
+      "regular": [
+        "Meowth",
+        "Alolan Meowth",
+        "Galarian Meowth",
+        "Aipom",
+        "Teddiursa",
+        "Phanpy",
+        "Zigzagoon",
+        "Galarian Zigzagoon",
+        "Linoone",
+        "Galarian Linoone",
+        "Pachirisu",
+        "Ambipom",
+        "Munchlax",
+        "Lillipup",
+        "Bunnelby",
+        "Diggersby",
+        "Dedenne",
+        "Pumpkaboo Average Size",
+        "Pumpkaboo Small Size",
+        "Pumpkaboo Large Size",
+        "Pumpkaboo Super Size",
+        "Gourgeist Average Size",
+        "Gourgeist Small Size",
+        "Gourgeist Large Size",
+        "Gourgeist Super Size",
+        "Tandemaus",
+        "Greavard"
+      ],
+      "hidden": [
+        "Pikipek",
+        "Trumbeak"
+      ]
+    }
+  },
+  "pixilate": {
+    "name": "Pixilate",
+    "slug": "pixilate",
+    "url": "https://pokemondb.net/ability/pixilate",
+    "effect": "Pixilate causes all Normal -type attacking moves used by the Pok\u00e9mon to become Fairy -type, and increase in power by 20%.",
+    "pokemon": {
+      "regular": [
+        "Mega Gardevoir",
+        "Mega Altaria"
+      ],
+      "hidden": [
+        "Sylveon"
+      ]
+    }
+  },
+  "plus": {
+    "name": "Plus",
+    "slug": "plus",
+    "url": "https://pokemondb.net/ability/plus",
+    "effect": "Ups Sp. Atk if another Pok\u00e9mon has Plus or Minus.",
+    "pokemon": {
+      "regular": [
+        "Plusle",
+        "Klink",
+        "Klang",
+        "Klinklang",
+        "Toxtricity Amped Form"
+      ],
+      "hidden": [
+        "Mareep",
+        "Flaaffy",
+        "Ampharos",
+        "Dedenne"
+      ]
+    }
+  },
+  "poison heal": {
+    "name": "Poison Heal",
+    "slug": "poison-heal",
+    "url": "https://pokemondb.net/ability/poison-heal",
+    "effect": "Restores HP if the Pok\u00e9mon is poisoned.",
+    "pokemon": {
+      "regular": [
+        "Shroomish",
+        "Breloom"
+      ],
+      "hidden": [
+        "Gliscor"
+      ]
+    }
+  },
+  "poison point": {
+    "name": "Poison Point",
+    "slug": "poison-point",
+    "url": "https://pokemondb.net/ability/poison-point",
+    "effect": "Contact with the Pok\u00e9mon may poison the attacker.",
+    "pokemon": {
+      "regular": [
+        "Nidoran\u2640",
+        "Nidorina",
+        "Nidoqueen",
+        "Nidoran\u2642",
+        "Nidorino",
+        "Nidoking",
+        "Seadra",
+        "Paldean Wooper",
+        "Qwilfish",
+        "Hisuian Qwilfish",
+        "Roselia",
+        "Budew",
+        "Roserade",
+        "Venipede",
+        "Whirlipede",
+        "Scolipede",
+        "Skrelp",
+        "Dragalge",
+        "Overqwil",
+        "Clodsire"
+      ],
+      "hidden": []
+    }
+  },
+  "poison puppeteer": {
+    "name": "Poison Puppeteer",
+    "slug": "poison-puppeteer",
+    "url": "https://pokemondb.net/ability/poison-puppeteer",
+    "effect": "Pok\u00e9mon poisoned by Pecharunt\u2019s moves will also become confused.",
+    "pokemon": {
+      "regular": [
+        "Pecharunt"
+      ],
+      "hidden": []
+    }
+  },
+  "poison touch": {
+    "name": "Poison Touch",
+    "slug": "poison-touch",
+    "url": "https://pokemondb.net/ability/poison-touch",
+    "effect": "May poison targets when a Pok\u00e9mon makes contact.",
+    "pokemon": {
+      "regular": [
+        "Alolan Grimer",
+        "Alolan Muk",
+        "Seismitoad",
+        "Skrelp",
+        "Dragalge",
+        "Grafaiai"
+      ],
+      "hidden": [
+        "Grimer",
+        "Muk",
+        "Croagunk",
+        "Toxicroak",
+        "Sneasler"
+      ]
+    }
+  },
+  "power construct": {
+    "name": "Power Construct",
+    "slug": "power-construct",
+    "url": "https://pokemondb.net/ability/power-construct",
+    "effect": "Power Construct is unique to Zygarde. When Zygarde 10% Forme or Zygarde 50% Forme falls below half HP, it changes into Zygarde Complete Forme.",
+    "pokemon": {
+      "regular": [
+        "Zygarde 50% Forme",
+        "Zygarde 10% Forme",
+        "Zygarde Complete Forme"
+      ],
+      "hidden": []
+    }
+  },
+  "power of alchemy": {
+    "name": "Power of Alchemy",
+    "slug": "power-of-alchemy",
+    "url": "https://pokemondb.net/ability/power-of-alchemy",
+    "effect": "The Pok\u00e9mon copies the Ability of a defeated ally.",
+    "pokemon": {
+      "regular": [
+        "Alolan Grimer",
+        "Alolan Muk"
+      ],
+      "hidden": [
+        "Alolan Grimer",
+        "Alolan Muk"
+      ]
+    }
+  },
+  "power spot": {
+    "name": "Power Spot",
+    "slug": "power-spot",
+    "url": "https://pokemondb.net/ability/power-spot",
+    "effect": "Just being next to the Pok\u00e9mon powers up moves.",
+    "pokemon": {
+      "regular": [
+        "Stonjourner"
+      ],
+      "hidden": []
+    }
+  },
+  "prankster": {
+    "name": "Prankster",
+    "slug": "prankster",
+    "url": "https://pokemondb.net/ability/prankster",
+    "effect": "Prankster increases the priority of status moves by +1.",
+    "pokemon": {
+      "regular": [
+        "Mega Banette",
+        "Cottonee",
+        "Whimsicott",
+        "Tornadus Incarnate Forme",
+        "Thundurus Incarnate Forme",
+        "Klefki",
+        "Impidimp",
+        "Morgrem",
+        "Grimmsnarl"
+      ],
+      "hidden": [
+        "Murkrow",
+        "Sableye",
+        "Volbeat",
+        "Illumise",
+        "Riolu",
+        "Purrloin",
+        "Liepard",
+        "Meowstic Male",
+        "Shroodle",
+        "Grafaiai"
+      ]
+    }
+  },
+  "pressure": {
+    "name": "Pressure",
+    "slug": "pressure",
+    "url": "https://pokemondb.net/ability/pressure",
+    "effect": "Pressure makes any attack targeted at the ability-bearer - regardless of whether it hits - use 2 PP instead of 1.",
+    "pokemon": {
+      "regular": [
+        "Aerodactyl",
+        "Articuno",
+        "Zapdos",
+        "Moltres",
+        "Mewtwo",
+        "Raikou",
+        "Entei",
+        "Suicune",
+        "Lugia",
+        "Ho-oh",
+        "Dusclops",
+        "Absol",
+        "Deoxys Normal Forme",
+        "Deoxys Attack Forme",
+        "Deoxys Defense Forme",
+        "Deoxys Speed Forme",
+        "Vespiquen",
+        "Spiritomb",
+        "Weavile",
+        "Dusknoir",
+        "Dialga",
+        "Dialga Origin Forme",
+        "Palkia",
+        "Palkia Origin Forme",
+        "Giratina Altered Forme",
+        "Kyurem",
+        "Corviknight",
+        "Eternatus",
+        "Sneasler"
+      ],
+      "hidden": [
+        "Wailmer",
+        "Wailord",
+        "Pawniard",
+        "Bisharp",
+        "Kingambit"
+      ]
+    }
+  },
+  "primordial sea": {
+    "name": "Primordial Sea",
+    "slug": "primordial-sea",
+    "url": "https://pokemondb.net/ability/primordial-sea",
+    "effect": "Primordial Sea creates heavy rain when the ability is activated (by Kyogre reverting to its Primal form).",
+    "pokemon": {
+      "regular": [
+        "Primal Kyogre"
+      ],
+      "hidden": []
+    }
+  },
+  "prism armor": {
+    "name": "Prism Armor",
+    "slug": "prism-armor",
+    "url": "https://pokemondb.net/ability/prism-armor",
+    "effect": "Prism Armor reduces the damage taken from super-effective attacks by 25%. It is not affected by the abilities Mold Breaker , Teravolt , or Turboblaze .",
+    "pokemon": {
+      "regular": [
+        "Necrozma",
+        "Dusk Mane Necrozma",
+        "Dawn Wings Necrozma"
+      ],
+      "hidden": []
+    }
+  },
+  "propeller tail": {
+    "name": "Propeller Tail",
+    "slug": "propeller-tail",
+    "url": "https://pokemondb.net/ability/propeller-tail",
+    "effect": "Ignores moves and abilities that draw in moves.",
+    "pokemon": {
+      "regular": [
+        "Arrokuda",
+        "Barraskewda"
+      ],
+      "hidden": [
+        "Arrokuda",
+        "Barraskewda"
+      ]
+    }
+  },
+  "protean": {
+    "name": "Protean",
+    "slug": "protean",
+    "url": "https://pokemondb.net/ability/protean",
+    "effect": "Protean changes the Pok\u00e9mon's type to that of its previously used attack.",
+    "pokemon": {
+      "regular": [
+        "Kecleon",
+        "Froakie",
+        "Frogadier",
+        "Greninja",
+        "Sprigatito",
+        "Floragato",
+        "Meowscarada"
+      ],
+      "hidden": [
+        "Kecleon",
+        "Froakie",
+        "Frogadier",
+        "Greninja",
+        "Sprigatito",
+        "Floragato",
+        "Meowscarada"
+      ]
+    }
+  },
+  "protosynthesis": {
+    "name": "Protosynthesis",
+    "slug": "protosynthesis",
+    "url": "https://pokemondb.net/ability/protosynthesis",
+    "effect": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+    "pokemon": {
+      "regular": [
+        "Great Tusk",
+        "Scream Tail",
+        "Brute Bonnet",
+        "Flutter Mane",
+        "Slither Wing",
+        "Sandy Shocks",
+        "Roaring Moon",
+        "Walking Wake",
+        "Gouging Fire",
+        "Raging Bolt"
+      ],
+      "hidden": []
+    }
+  },
+  "psychic surge": {
+    "name": "Psychic Surge",
+    "slug": "psychic-surge",
+    "url": "https://pokemondb.net/ability/psychic-surge",
+    "effect": "Psychic Surge creates a low-lying psychic field, like the move Psychic Terrain , when the Pok\u00e9mon enters battle. It prevents high-priority moves being used and increases the power of Psychic type attacks.",
+    "pokemon": {
+      "regular": [
+        "Tapu Lele"
+      ],
+      "hidden": [
+        "Indeedee Male",
+        "Indeedee Female"
+      ]
+    }
+  },
+  "punk rock": {
+    "name": "Punk Rock",
+    "slug": "punk-rock",
+    "url": "https://pokemondb.net/ability/punk-rock",
+    "effect": "Boosts sound-based moves and halves damage from the same moves.",
+    "pokemon": {
+      "regular": [
+        "Toxtricity Amped Form",
+        "Toxtricity Low Key Form"
+      ],
+      "hidden": []
+    }
+  },
+  "pure power": {
+    "name": "Pure Power",
+    "slug": "pure-power",
+    "url": "https://pokemondb.net/ability/pure-power",
+    "effect": "Raises the Pok\u00e9mon's Attack stat.",
+    "pokemon": {
+      "regular": [
+        "Meditite",
+        "Medicham",
+        "Mega Medicham"
+      ],
+      "hidden": []
+    }
+  },
+  "purifying salt": {
+    "name": "Purifying Salt",
+    "slug": "purifying-salt",
+    "url": "https://pokemondb.net/ability/purifying-salt",
+    "effect": "Protects from status conditions and halves damage from Ghost-type moves.",
+    "pokemon": {
+      "regular": [
+        "Nacli",
+        "Naclstack",
+        "Garganacl"
+      ],
+      "hidden": []
+    }
+  },
+  "quark drive": {
+    "name": "Quark Drive",
+    "slug": "quark-drive",
+    "url": "https://pokemondb.net/ability/quark-drive",
+    "effect": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+    "pokemon": {
+      "regular": [
+        "Iron Treads",
+        "Iron Bundle",
+        "Iron Hands",
+        "Iron Jugulis",
+        "Iron Moth",
+        "Iron Thorns",
+        "Iron Valiant",
+        "Iron Leaves",
+        "Iron Boulder",
+        "Iron Crown"
+      ],
+      "hidden": []
+    }
+  },
+  "queenly majesty": {
+    "name": "Queenly Majesty",
+    "slug": "queenly-majesty",
+    "url": "https://pokemondb.net/ability/queenly-majesty",
+    "effect": "Prevents use of priority moves.",
+    "pokemon": {
+      "regular": [
+        "Tsareena"
+      ],
+      "hidden": []
+    }
+  },
+  "quick draw": {
+    "name": "Quick Draw",
+    "slug": "quick-draw",
+    "url": "https://pokemondb.net/ability/quick-draw",
+    "effect": "",
+    "pokemon": {
+      "regular": [
+        "Galarian Slowbro"
+      ],
+      "hidden": []
+    }
+  },
+  "quick feet": {
+    "name": "Quick Feet",
+    "slug": "quick-feet",
+    "url": "https://pokemondb.net/ability/quick-feet",
+    "effect": "Quick Feet raises the ability-bearer's Speed by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If paralyzed, the Pok\u00e9mon does not suffer the usual drop in Speed.",
+    "pokemon": {
+      "regular": [
+        "Granbull",
+        "Teddiursa",
+        "Ursaring",
+        "Poochyena",
+        "Mightyena"
+      ],
+      "hidden": [
+        "Jolteon",
+        "Zigzagoon",
+        "Galarian Zigzagoon",
+        "Linoone",
+        "Galarian Linoone",
+        "Shroomish"
+      ]
+    }
+  },
+  "rain dish": {
+    "name": "Rain Dish",
+    "slug": "rain-dish",
+    "url": "https://pokemondb.net/ability/rain-dish",
+    "effect": "A Pok\u00e9mon with Rain Dish will recover 1 \u2044 16 of its maximum HP during rain, after each turn.",
+    "pokemon": {
+      "regular": [
+        "Lotad",
+        "Lombre",
+        "Ludicolo"
+      ],
+      "hidden": [
+        "Squirtle",
+        "Wartortle",
+        "Blastoise",
+        "Tentacool",
+        "Tentacruel",
+        "Wingull",
+        "Pelipper",
+        "Surskit",
+        "Morelull",
+        "Shiinotic"
+      ]
+    }
+  },
+  "rattled": {
+    "name": "Rattled",
+    "slug": "rattled",
+    "url": "https://pokemondb.net/ability/rattled",
+    "effect": "When a Pok\u00e9mon with Rattled is hit by a Bug , Ghost or Dark type move, its Speed is raised one stage (up to the usual maximum of +6 stages).",
+    "pokemon": {
+      "regular": [
+        "Basculin White-Striped Form",
+        "Toxel",
+        "Wiglett",
+        "Wugtrio",
+        "Gimmighoul Chest Form"
+      ],
+      "hidden": [
+        "Alolan Meowth",
+        "Alolan Persian",
+        "Magikarp",
+        "Ledyba",
+        "Sudowoodo",
+        "Dunsparce",
+        "Snubbull",
+        "Granbull",
+        "Poochyena",
+        "Whismur",
+        "Clamperl",
+        "Bonsly",
+        "Cubchoo",
+        "Yamper",
+        "Dudunsparce Two-Segment Form",
+        "Dudunsparce Three-Segment Form"
+      ]
+    }
+  },
+  "receiver": {
+    "name": "Receiver",
+    "slug": "receiver",
+    "url": "https://pokemondb.net/ability/receiver",
+    "effect": "A Pok\u00e9mon with Receiver will inherit the ability of a teammate in a double/triple battle when that teammate faints.",
+    "pokemon": {
+      "regular": [
+        "Passimian"
+      ],
+      "hidden": []
+    }
+  },
+  "reckless": {
+    "name": "Reckless",
+    "slug": "reckless",
+    "url": "https://pokemondb.net/ability/reckless",
+    "effect": "Reckless increases the power of recoil moves by 20%. By extension, this means the amount of recoil damage taken will increase as more damage is dealt (except for High Jump Kick and Jump Kick which are based on the user's HP).",
+    "pokemon": {
+      "regular": [
+        "Hitmonlee",
+        "Basculin Red-Striped Form",
+        "Bouffalant",
+        "Obstagoon"
+      ],
+      "hidden": [
+        "Rhyhorn",
+        "Rhydon",
+        "Starly",
+        "Staravia",
+        "Staraptor",
+        "Mega Staraptor",
+        "Rhyperior",
+        "Emboar",
+        "Mienfoo",
+        "Mienshao"
+      ]
+    }
+  },
+  "refrigerate": {
+    "name": "Refrigerate",
+    "slug": "refrigerate",
+    "url": "https://pokemondb.net/ability/refrigerate",
+    "effect": "Refrigerate causes all Normal -type attacking moves used by the Pok\u00e9mon to become Ice -type, and increase in power by 20%.",
+    "pokemon": {
+      "regular": [
+        "Mega Glalie",
+        "Amaura",
+        "Aurorus"
+      ],
+      "hidden": []
+    }
+  },
+  "regenerator": {
+    "name": "Regenerator",
+    "slug": "regenerator",
+    "url": "https://pokemondb.net/ability/regenerator",
+    "effect": "A Pok\u00e9mon with Regenerator restores 1 \u2044 3 of its maximum HP when switching out.",
+    "pokemon": {
+      "regular": [
+        "Audino",
+        "Mienfoo",
+        "Mienshao",
+        "Tornadus Therian Forme",
+        "Gossifleur",
+        "Eldegoss",
+        "Hydrapple"
+      ],
+      "hidden": [
+        "Slowpoke",
+        "Galarian Slowpoke",
+        "Slowbro",
+        "Galarian Slowbro",
+        "Tangela",
+        "Slowking",
+        "Galarian Slowking",
+        "Corsola",
+        "Ho-oh",
+        "Tangrowth",
+        "Solosis",
+        "Duosion",
+        "Reuniclus",
+        "Foongus",
+        "Amoonguss",
+        "Alomomola",
+        "Mareanie",
+        "Toxapex",
+        "Klawf",
+        "Cyclizar"
+      ]
+    }
+  },
+  "ripen": {
+    "name": "Ripen",
+    "slug": "ripen",
+    "url": "https://pokemondb.net/ability/ripen",
+    "effect": "Doubles the effect of berries.",
+    "pokemon": {
+      "regular": [
+        "Applin",
+        "Flapple",
+        "Appletun"
+      ],
+      "hidden": []
+    }
+  },
+  "rivalry": {
+    "name": "Rivalry",
+    "slug": "rivalry",
+    "url": "https://pokemondb.net/ability/rivalry",
+    "effect": "Deals more damage to a Pok\u00e9mon of same gender.",
+    "pokemon": {
+      "regular": [
+        "Nidoran\u2640",
+        "Nidorina",
+        "Nidoqueen",
+        "Nidoran\u2642",
+        "Nidorino",
+        "Nidoking",
+        "Shinx",
+        "Luxio",
+        "Luxray",
+        "Axew",
+        "Fraxure",
+        "Haxorus",
+        "Litleo",
+        "Pyroar"
+      ],
+      "hidden": [
+        "Beautifly",
+        "Pidove",
+        "Tranquill",
+        "Unfezant"
+      ]
+    }
+  },
+  "rks system": {
+    "name": "RKS System",
+    "slug": "rks-system",
+    "url": "https://pokemondb.net/ability/rks-system",
+    "effect": "Changes type depending on held item.",
+    "pokemon": {
+      "regular": [
+        "Silvally"
+      ],
+      "hidden": []
+    }
+  },
+  "rock head": {
+    "name": "Rock Head",
+    "slug": "rock-head",
+    "url": "https://pokemondb.net/ability/rock-head",
+    "effect": "Protects the Pok\u00e9mon from recoil damage.",
+    "pokemon": {
+      "regular": [
+        "Geodude",
+        "Graveler",
+        "Golem",
+        "Onix",
+        "Cubone",
+        "Marowak",
+        "Rhyhorn",
+        "Rhydon",
+        "Aerodactyl",
+        "Sudowoodo",
+        "Steelix",
+        "Aron",
+        "Lairon",
+        "Aggron",
+        "Relicanth",
+        "Bagon",
+        "Shelgon",
+        "Bonsly",
+        "Basculin Blue-Striped Form"
+      ],
+      "hidden": [
+        "Hisuian Growlithe",
+        "Hisuian Arcanine",
+        "Alolan Marowak",
+        "Tyrantrum"
+      ]
+    }
+  },
+  "rocky payload": {
+    "name": "Rocky Payload",
+    "slug": "rocky-payload",
+    "url": "https://pokemondb.net/ability/rocky-payload",
+    "effect": "Rocky Payload increases the power of Rock-type moves used by this Pok\u00e9mon by 50%.",
+    "pokemon": {
+      "regular": [
+        "Bombirdier"
+      ],
+      "hidden": [
+        "Bombirdier"
+      ]
+    }
+  },
+  "rough skin": {
+    "name": "Rough Skin",
+    "slug": "rough-skin",
+    "url": "https://pokemondb.net/ability/rough-skin",
+    "effect": "When a Pok\u00e9mon with Rough Skin is hit by a move that makes contact, the attacker receives damage equal to 1 \u2044 8 of their maximum HP.",
+    "pokemon": {
+      "regular": [
+        "Carvanha",
+        "Sharpedo",
+        "Druddigon"
+      ],
+      "hidden": [
+        "Gible",
+        "Gabite",
+        "Garchomp"
+      ]
+    }
+  },
+  "run away": {
+    "name": "Run Away",
+    "slug": "run-away",
+    "url": "https://pokemondb.net/ability/run-away",
+    "effect": "Run Away allows the bearer to flee a battle with a wild Pok\u00e9mon without fail, even if the opposing Pok\u00e9mon has used a move like Mean Look or Bind , or has an ability such as Arena Trap .",
+    "pokemon": {
+      "regular": [
+        "Rattata",
+        "Raticate",
+        "Ponyta",
+        "Galarian Ponyta",
+        "Rapidash",
+        "Galarian Rapidash",
+        "Doduo",
+        "Dodrio",
+        "Eevee",
+        "Sentret",
+        "Furret",
+        "Aipom",
+        "Dunsparce",
+        "Snubbull",
+        "Poochyena",
+        "Pachirisu",
+        "Buneary",
+        "Patrat",
+        "Nickit",
+        "Thievul",
+        "Wooloo",
+        "Tandemaus",
+        "Maschiff",
+        "Dudunsparce Two-Segment Form",
+        "Dudunsparce Three-Segment Form",
+        "Gimmighoul Roaming Form"
+      ],
+      "hidden": [
+        "Caterpie",
+        "Weedle",
+        "Oddish",
+        "Venonat",
+        "Wurmple",
+        "Nincada",
+        "Kricketot",
+        "Lillipup"
+      ]
+    }
+  },
+  "sand force": {
+    "name": "Sand Force",
+    "slug": "sand-force",
+    "url": "https://pokemondb.net/ability/sand-force",
+    "effect": "Sand Force raises the power of Ground , Rock and Steel type moves by 30% during a sandstorm .",
+    "pokemon": {
+      "regular": [
+        "Mega Steelix",
+        "Mega Garchomp",
+        "Mega Garchomp Z",
+        "Drilbur",
+        "Excadrill",
+        "Landorus Incarnate Forme"
+      ],
+      "hidden": [
+        "Diglett",
+        "Alolan Diglett",
+        "Dugtrio",
+        "Alolan Dugtrio",
+        "Nosepass",
+        "Shellos",
+        "Gastrodon",
+        "Hippopotas",
+        "Hippowdon",
+        "Probopass",
+        "Roggenrola",
+        "Boldore",
+        "Gigalith"
+      ]
+    }
+  },
+  "sand rush": {
+    "name": "Sand Rush",
+    "slug": "sand-rush",
+    "url": "https://pokemondb.net/ability/sand-rush",
+    "effect": "Sand Rush doubles the ability-bearer's Speed during a sandstorm .",
+    "pokemon": {
+      "regular": [
+        "Herdier",
+        "Stoutland",
+        "Drilbur",
+        "Excadrill",
+        "Lycanroc Midday Form",
+        "Houndstone"
+      ],
+      "hidden": [
+        "Sandshrew",
+        "Sandslash",
+        "Dracozolt",
+        "Dracovish"
+      ]
+    }
+  },
+  "sand spit": {
+    "name": "Sand Spit",
+    "slug": "sand-spit",
+    "url": "https://pokemondb.net/ability/sand-spit",
+    "effect": "Creates a sandstorm when hit by an attack.",
+    "pokemon": {
+      "regular": [
+        "Silicobra",
+        "Sandaconda"
+      ],
+      "hidden": []
+    }
+  },
+  "sand stream": {
+    "name": "Sand Stream",
+    "slug": "sand-stream",
+    "url": "https://pokemondb.net/ability/sand-stream",
+    "effect": "Sand Stream creates a sandstorm when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via Air Lock or Cloud Nine or replaced by another weather condition.",
+    "pokemon": {
+      "regular": [
+        "Tyranitar",
+        "Mega Tyranitar",
+        "Hippopotas",
+        "Hippowdon",
+        "Gigalith"
+      ],
+      "hidden": []
+    }
+  },
+  "sand veil": {
+    "name": "Sand Veil",
+    "slug": "sand-veil",
+    "url": "https://pokemondb.net/ability/sand-veil",
+    "effect": "Sand Veil raises the ability-bearer's evasion by 20% in a sandstorm . It also gives immunity to sandstorm damage (if they are not already protected by being Ground / Rock / Steel type).",
+    "pokemon": {
+      "regular": [
+        "Sandshrew",
+        "Sandslash",
+        "Diglett",
+        "Alolan Diglett",
+        "Dugtrio",
+        "Alolan Dugtrio",
+        "Gligar",
+        "Cacnea",
+        "Cacturne",
+        "Gible",
+        "Gabite",
+        "Garchomp",
+        "Gliscor",
+        "Helioptile",
+        "Heliolisk"
+      ],
+      "hidden": [
+        "Geodude",
+        "Graveler",
+        "Golem",
+        "Phanpy",
+        "Donphan",
+        "Larvitar",
+        "Stunfisk",
+        "Sandygast",
+        "Palossand",
+        "Silicobra",
+        "Sandaconda",
+        "Wiglett",
+        "Wugtrio",
+        "Orthworm"
+      ]
+    }
+  },
+  "sap sipper": {
+    "name": "Sap Sipper",
+    "slug": "sap-sipper",
+    "url": "https://pokemondb.net/ability/sap-sipper",
+    "effect": "Boosts Attack when hit by a Grass-type move.",
+    "pokemon": {
+      "regular": [
+        "Deerling",
+        "Sawsbuck",
+        "Bouffalant",
+        "Skiddo",
+        "Gogoat",
+        "Goomy",
+        "Sliggoo",
+        "Hisuian Sliggoo",
+        "Goodra",
+        "Hisuian Goodra",
+        "Drampa"
+      ],
+      "hidden": [
+        "Marill",
+        "Azumarill",
+        "Girafarig",
+        "Stantler",
+        "Miltank",
+        "Azurill",
+        "Blitzle",
+        "Zebstrika",
+        "Wyrdeer",
+        "Farigiraf"
+      ]
+    }
+  },
+  "schooling": {
+    "name": "Schooling",
+    "slug": "schooling",
+    "url": "https://pokemondb.net/ability/schooling",
+    "effect": "Schooling changes Wishiwashi into its School Form, if its HP is above 25% and Wishiwashi is at least level 20. If its HP falls below 25%, Wishiwashi will revert back to Solo Form.",
+    "pokemon": {
+      "regular": [
+        "Wishiwashi Solo Form",
+        "Wishiwashi School Form"
+      ],
+      "hidden": []
+    }
+  },
+  "scrappy": {
+    "name": "Scrappy",
+    "slug": "scrappy",
+    "url": "https://pokemondb.net/ability/scrappy",
+    "effect": "Enables moves to hit Ghost-type Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Kangaskhan",
+        "Miltank",
+        "Mega Lopunny",
+        "Flamigo"
+      ],
+      "hidden": [
+        "Galarian Farfetch'd",
+        "Taillow",
+        "Swellow",
+        "Loudred",
+        "Exploud",
+        "Herdier",
+        "Stoutland",
+        "Pancham",
+        "Pangoro",
+        "Hisuian Decidueye",
+        "Sirfetch'd"
+      ]
+    }
+  },
+  "screen cleaner": {
+    "name": "Screen Cleaner",
+    "slug": "screen-cleaner",
+    "url": "https://pokemondb.net/ability/screen-cleaner",
+    "effect": "Nullifies effects of Light Screen, Reflect, and Aurora Veil.",
+    "pokemon": {
+      "regular": [
+        "Galarian Mr. Mime",
+        "Mr. Rime"
+      ],
+      "hidden": []
+    }
+  },
+  "seed sower": {
+    "name": "Seed Sower",
+    "slug": "seed-sower",
+    "url": "https://pokemondb.net/ability/seed-sower",
+    "effect": "Turns the ground into Grassy Terrain when the Pok\u00e9mon is hit by an attack.",
+    "pokemon": {
+      "regular": [
+        "Arboliva"
+      ],
+      "hidden": []
+    }
+  },
+  "serene grace": {
+    "name": "Serene Grace",
+    "slug": "serene-grace",
+    "url": "https://pokemondb.net/ability/serene-grace",
+    "effect": "Serene Grace doubles the chance of moves' secondary effects occurring - specifically stat changes, status ailments, or flinching. It also increases the chance of flinching due to the held items King's Rock and Razor Fang from 10% to 20% (however, note that those items do not affect moves that already have a flinch chance).",
+    "pokemon": {
+      "regular": [
+        "Chansey",
+        "Togepi",
+        "Togetic",
+        "Dunsparce",
+        "Blissey",
+        "Jirachi",
+        "Happiny",
+        "Togekiss",
+        "Shaymin Sky Forme",
+        "Meloetta Aria Forme",
+        "Meloetta Pirouette Forme",
+        "Dudunsparce Two-Segment Form",
+        "Dudunsparce Three-Segment Form"
+      ],
+      "hidden": [
+        "Deerling",
+        "Sawsbuck"
+      ]
+    }
+  },
+  "shadow shield": {
+    "name": "Shadow Shield",
+    "slug": "shadow-shield",
+    "url": "https://pokemondb.net/ability/shadow-shield",
+    "effect": "Reduces damage when HP is full.",
+    "pokemon": {
+      "regular": [
+        "Lunala"
+      ],
+      "hidden": []
+    }
+  },
+  "shadow tag": {
+    "name": "Shadow Tag",
+    "slug": "shadow-tag",
+    "url": "https://pokemondb.net/ability/shadow-tag",
+    "effect": "Prevents the foe from escaping.",
+    "pokemon": {
+      "regular": [
+        "Mega Gengar",
+        "Wobbuffet",
+        "Wynaut"
+      ],
+      "hidden": [
+        "Gothita",
+        "Gothorita",
+        "Gothitelle"
+      ]
+    }
+  },
+  "sharpness": {
+    "name": "Sharpness",
+    "slug": "sharpness",
+    "url": "https://pokemondb.net/ability/sharpness",
+    "effect": "Sharpness increases the power of all slicing moves by 50%.",
+    "pokemon": {
+      "regular": [
+        "Gallade"
+      ],
+      "hidden": [
+        "Hisuian Samurott",
+        "Kleavor",
+        "Veluza"
+      ]
+    }
+  },
+  "shed skin": {
+    "name": "Shed Skin",
+    "slug": "shed-skin",
+    "url": "https://pokemondb.net/ability/shed-skin",
+    "effect": "The Pok\u00e9mon may heal its own status problems.",
+    "pokemon": {
+      "regular": [
+        "Metapod",
+        "Kakuna",
+        "Ekans",
+        "Arbok",
+        "Dratini",
+        "Dragonair",
+        "Pupitar",
+        "Silcoon",
+        "Cascoon",
+        "Seviper",
+        "Kricketot",
+        "Burmy Plant Cloak",
+        "Burmy Sandy Cloak",
+        "Trash Cloak Burmy",
+        "Scraggy",
+        "Scrafty",
+        "Karrablast",
+        "Spewpa",
+        "Silicobra",
+        "Sandaconda",
+        "Cyclizar"
+      ],
+      "hidden": [
+        "Rellor"
+      ]
+    }
+  },
+  "sheer force": {
+    "name": "Sheer Force",
+    "slug": "sheer-force",
+    "url": "https://pokemondb.net/ability/sheer-force",
+    "effect": "Sheer Force increases the power of moves that have beneficial secondary effects by 30%, but removes those additional effects.",
+    "pokemon": {
+      "regular": [
+        "Mega Camerupt",
+        "Timburr",
+        "Gurdurr",
+        "Conkeldurr",
+        "Darmanitan Standard Mode",
+        "Darmanitan Zen Mode",
+        "Druddigon",
+        "Rufflet",
+        "Braviary",
+        "Hisuian Braviary",
+        "Cufant",
+        "Copperajah",
+        "Kleavor"
+      ],
+      "hidden": [
+        "Nidoqueen",
+        "Nidoking",
+        "Krabby",
+        "Kingler",
+        "Tauros",
+        "Totodile",
+        "Croconaw",
+        "Feraligatr",
+        "Steelix",
+        "Makuhita",
+        "Hariyama",
+        "Mawile",
+        "Trapinch",
+        "Bagon",
+        "Cranidos",
+        "Rampardos",
+        "Landorus Incarnate Forme",
+        "Toucannon",
+        "Squawkabilly Yellow Plumage",
+        "Squawkabilly White Plumage",
+        "Cetoddle",
+        "Cetitan"
+      ]
+    }
+  },
+  "shell armor": {
+    "name": "Shell Armor",
+    "slug": "shell-armor",
+    "url": "https://pokemondb.net/ability/shell-armor",
+    "effect": "Shell Armor prevents the Pok\u00e9mon from receiving a critical hit.",
+    "pokemon": {
+      "regular": [
+        "Mega Slowbro",
+        "Shellder",
+        "Cloyster",
+        "Krabby",
+        "Kingler",
+        "Lapras",
+        "Omanyte",
+        "Omastar",
+        "Corphish",
+        "Crawdaunt",
+        "Clamperl",
+        "Dwebble",
+        "Crustle",
+        "Escavalier",
+        "Shelmet",
+        "Hisuian Sliggoo",
+        "Hisuian Goodra",
+        "Turtonator",
+        "Chewtle",
+        "Drednaw",
+        "Klawf"
+      ],
+      "hidden": [
+        "Torkoal",
+        "Turtwig",
+        "Grotle",
+        "Torterra",
+        "Oshawott",
+        "Dewott",
+        "Samurott"
+      ]
+    }
+  },
+  "shield dust": {
+    "name": "Shield Dust",
+    "slug": "shield-dust",
+    "url": "https://pokemondb.net/ability/shield-dust",
+    "effect": "Blocks the added effects of attacks taken.",
+    "pokemon": {
+      "regular": [
+        "Caterpie",
+        "Weedle",
+        "Venomoth",
+        "Wurmple",
+        "Dustox",
+        "Scatterbug",
+        "Vivillon",
+        "Cutiefly",
+        "Ribombee",
+        "Snom",
+        "Frosmoth"
+      ],
+      "hidden": []
+    }
+  },
+  "shields down": {
+    "name": "Shields Down",
+    "slug": "shields-down",
+    "url": "https://pokemondb.net/ability/shields-down",
+    "effect": "Shields Down causes the Pok\u00e9mon to changes its appearance and stats depending on its remaining HP.",
+    "pokemon": {
+      "regular": [
+        "Minior Meteor Form",
+        "Minior Core Form"
+      ],
+      "hidden": []
+    }
+  },
+  "simple": {
+    "name": "Simple",
+    "slug": "simple",
+    "url": "https://pokemondb.net/ability/simple",
+    "effect": "The Simple ability doubles the number of stages of all stat changes. Stats can be raised to a maximum of +6 stages each, or lowered to a minimum of -6 stages each.",
+    "pokemon": {
+      "regular": [
+        "Numel",
+        "Bidoof",
+        "Bibarel"
+      ],
+      "hidden": [
+        "Woobat",
+        "Swoobat"
+      ]
+    }
+  },
+  "skill link": {
+    "name": "Skill Link",
+    "slug": "skill-link",
+    "url": "https://pokemondb.net/ability/skill-link",
+    "effect": "Skill Link causes multi-strike moves to always hit their maximum number of times. The moves affected are listed below; note that moves such as Double Kick that always strike the same number of times are not affected.",
+    "pokemon": {
+      "regular": [
+        "Shellder",
+        "Cloyster",
+        "Mega Heracross",
+        "Pikipek",
+        "Trumbeak",
+        "Toucannon"
+      ],
+      "hidden": [
+        "Aipom",
+        "Ambipom",
+        "Minccino",
+        "Cinccino"
+      ]
+    }
+  },
+  "slow start": {
+    "name": "Slow Start",
+    "slug": "slow-start",
+    "url": "https://pokemondb.net/ability/slow-start",
+    "effect": "Temporarily halves Attack and Speed.",
+    "pokemon": {
+      "regular": [
+        "Regigigas"
+      ],
+      "hidden": [
+        "Varoom"
+      ]
+    }
+  },
+  "slush rush": {
+    "name": "Slush Rush",
+    "slug": "slush-rush",
+    "url": "https://pokemondb.net/ability/slush-rush",
+    "effect": "Boosts the Pok\u00e9mon's Speed stat in a hailstorm.",
+    "pokemon": {
+      "regular": [
+        "Cubchoo",
+        "Beartic",
+        "Cetitan"
+      ],
+      "hidden": [
+        "Alolan Sandshrew",
+        "Alolan Sandslash",
+        "Arctozolt",
+        "Arctovish"
+      ]
+    }
+  },
+  "sniper": {
+    "name": "Sniper",
+    "slug": "sniper",
+    "url": "https://pokemondb.net/ability/sniper",
+    "effect": "Sniper increases the power of critical hits by 1.5\u00d7. This means a critical hit will deal 2.25\u00d7 normal damage instead of 1.5\u00d7.",
+    "pokemon": {
+      "regular": [
+        "Horsea",
+        "Seadra",
+        "Remoraid",
+        "Octillery",
+        "Kingdra",
+        "Skorupi",
+        "Drapion",
+        "Binacle",
+        "Barbaracle"
+      ],
+      "hidden": [
+        "Beedrill",
+        "Spearow",
+        "Fearow",
+        "Spinarak",
+        "Ariados",
+        "Sobble",
+        "Drizzile",
+        "Inteleon"
+      ]
+    }
+  },
+  "snow cloak": {
+    "name": "Snow Cloak",
+    "slug": "snow-cloak",
+    "url": "https://pokemondb.net/ability/snow-cloak",
+    "effect": "Snow Cloak raises ability-bearer's evasion by 20% in a hail storm. It also gives immunity to damage by hail (if they are not already protected by being Ice type).",
+    "pokemon": {
+      "regular": [
+        "Alolan Sandshrew",
+        "Alolan Sandslash",
+        "Alolan Vulpix",
+        "Alolan Ninetales",
+        "Swinub",
+        "Piloswine",
+        "Glaceon",
+        "Mamoswine",
+        "Froslass",
+        "Vanillite",
+        "Vanillish",
+        "Cubchoo",
+        "Beartic",
+        "Cetoddle"
+      ],
+      "hidden": [
+        "Articuno"
+      ]
+    }
+  },
+  "snow warning": {
+    "name": "Snow Warning",
+    "slug": "snow-warning",
+    "url": "https://pokemondb.net/ability/snow-warning",
+    "effect": "Snow Warning creates a hailstorm when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via Air Lock or Cloud Nine or replaced by another weather condition.",
+    "pokemon": {
+      "regular": [
+        "Snover",
+        "Abomasnow",
+        "Mega Abomasnow",
+        "Vanilluxe"
+      ],
+      "hidden": [
+        "Alolan Vulpix",
+        "Alolan Ninetales",
+        "Amaura",
+        "Aurorus"
+      ]
+    }
+  },
+  "solar power": {
+    "name": "Solar Power",
+    "slug": "solar-power",
+    "url": "https://pokemondb.net/ability/solar-power",
+    "effect": "During harsh sunlight, Solar Power raises the ability-bearer's Special Attack by 50%, but it also loses 1 \u2044 8 of its maximum HP after each turn.",
+    "pokemon": {
+      "regular": [
+        "Sunkern",
+        "Sunflora",
+        "Mega Houndoom",
+        "Tropius"
+      ],
+      "hidden": [
+        "Charmander",
+        "Charmeleon",
+        "Charizard",
+        "Helioptile",
+        "Heliolisk"
+      ]
+    }
+  },
+  "solid rock": {
+    "name": "Solid Rock",
+    "slug": "solid-rock",
+    "url": "https://pokemondb.net/ability/solid-rock",
+    "effect": "Solid Rock reduces the damage taken from super-effective attacks by 25%.",
+    "pokemon": {
+      "regular": [
+        "Camerupt",
+        "Rhyperior",
+        "Tirtouga",
+        "Carracosta"
+      ],
+      "hidden": []
+    }
+  },
+  "soul-heart": {
+    "name": "Soul-Heart",
+    "slug": "soul-heart",
+    "url": "https://pokemondb.net/ability/soul-heart",
+    "effect": "Soul-Heart raises the bearer's Special Attack one stage when any Pok\u00e9mon on the field faints.",
+    "pokemon": {
+      "regular": [
+        "Magearna",
+        "Mega Magearna"
+      ],
+      "hidden": []
+    }
+  },
+  "soundproof": {
+    "name": "Soundproof",
+    "slug": "soundproof",
+    "url": "https://pokemondb.net/ability/soundproof",
+    "effect": "Soundproof grants the Pok\u00e9mon immunity to all sound-based moves, preventing all damage and effects.",
+    "pokemon": {
+      "regular": [
+        "Voltorb",
+        "Hisuian Voltorb",
+        "Electrode",
+        "Hisuian Electrode",
+        "Mr. Mime",
+        "Whismur",
+        "Loudred",
+        "Exploud",
+        "Mime Jr.",
+        "Jangmo-o",
+        "Hakamo-o",
+        "Kommo-o"
+      ],
+      "hidden": [
+        "Shieldon",
+        "Bastiodon",
+        "Snover",
+        "Abomasnow",
+        "Bouffalant"
+      ]
+    }
+  },
+  "speed boost": {
+    "name": "Speed Boost",
+    "slug": "speed-boost",
+    "url": "https://pokemondb.net/ability/speed-boost",
+    "effect": "Its Speed stat is gradually boosted.",
+    "pokemon": {
+      "regular": [
+        "Yanma",
+        "Mega Blaziken",
+        "Ninjask",
+        "Yanmega"
+      ],
+      "hidden": [
+        "Torchic",
+        "Combusken",
+        "Blaziken",
+        "Carvanha",
+        "Sharpedo",
+        "Venipede",
+        "Whirlipede",
+        "Scolipede",
+        "Flittle",
+        "Espathra"
+      ]
+    }
+  },
+  "stakeout": {
+    "name": "Stakeout",
+    "slug": "stakeout",
+    "url": "https://pokemondb.net/ability/stakeout",
+    "effect": "Stakeout enables the Pok\u00e9mon to deal twice the normal damage to any Pok\u00e9mon that switches in or enters the field mid-battle.",
+    "pokemon": {
+      "regular": [
+        "Yungoos",
+        "Gumshoos"
+      ],
+      "hidden": [
+        "Nickit",
+        "Thievul",
+        "Tarountula",
+        "Spidops",
+        "Maschiff",
+        "Mabosstiff"
+      ]
+    }
+  },
+  "stall": {
+    "name": "Stall",
+    "slug": "stall",
+    "url": "https://pokemondb.net/ability/stall",
+    "effect": "The Pok\u00e9mon moves after all other Pok\u00e9mon do.",
+    "pokemon": {
+      "regular": [
+        "Sableye"
+      ],
+      "hidden": []
+    }
+  },
+  "stalwart": {
+    "name": "Stalwart",
+    "slug": "stalwart",
+    "url": "https://pokemondb.net/ability/stalwart",
+    "effect": "Ignores moves and abilities that draw in moves.",
+    "pokemon": {
+      "regular": [
+        "Duraludon",
+        "Archaludon"
+      ],
+      "hidden": [
+        "Duraludon",
+        "Archaludon"
+      ]
+    }
+  },
+  "stamina": {
+    "name": "Stamina",
+    "slug": "stamina",
+    "url": "https://pokemondb.net/ability/stamina",
+    "effect": "Stamina raises the bearer's Defense by one stage when it is attacked by any move.",
+    "pokemon": {
+      "regular": [
+        "Mudbray",
+        "Mudsdale",
+        "Archaludon"
+      ],
+      "hidden": []
+    }
+  },
+  "stance change": {
+    "name": "Stance Change",
+    "slug": "stance-change",
+    "url": "https://pokemondb.net/ability/stance-change",
+    "effect": "Stance Change is exclusive to Aegislash . When using a damage-dealing move, Aegislash switches to its Blade Forme. When using the move King's Shield , Aegislash switches to its Shield Forme.",
+    "pokemon": {
+      "regular": [
+        "Aegislash Shield Forme",
+        "Aegislash Blade Forme"
+      ],
+      "hidden": []
+    }
+  },
+  "static": {
+    "name": "Static",
+    "slug": "static",
+    "url": "https://pokemondb.net/ability/static",
+    "effect": "If a Pok\u00e9mon with Static is hit by a move making contact, there is a 30% chance the foe will become paralyzed.",
+    "pokemon": {
+      "regular": [
+        "Pikachu",
+        "Raichu",
+        "Voltorb",
+        "Hisuian Voltorb",
+        "Electrode",
+        "Hisuian Electrode",
+        "Electabuzz",
+        "Pichu",
+        "Mareep",
+        "Flaaffy",
+        "Ampharos",
+        "Elekid",
+        "Electrike",
+        "Manectric",
+        "Emolga",
+        "Stunfisk",
+        "Toxel",
+        "Arctozolt",
+        "Pawmi",
+        "Tadbulb",
+        "Bellibolt"
+      ],
+      "hidden": [
+        "Zapdos"
+      ]
+    }
+  },
+  "steadfast": {
+    "name": "Steadfast",
+    "slug": "steadfast",
+    "url": "https://pokemondb.net/ability/steadfast",
+    "effect": "Raises Speed each time the Pok\u00e9mon flinches.",
+    "pokemon": {
+      "regular": [
+        "Galarian Farfetch'd",
+        "Mega Mewtwo X",
+        "Tyrogue",
+        "Riolu",
+        "Lucario",
+        "Gallade",
+        "Dubwool",
+        "Sirfetch'd"
+      ],
+      "hidden": [
+        "Machop",
+        "Machoke",
+        "Machamp",
+        "Scyther",
+        "Hitmontop",
+        "Rockruff",
+        "Lycanroc Midday Form"
+      ]
+    }
+  },
+  "steam engine": {
+    "name": "Steam Engine",
+    "slug": "steam-engine",
+    "url": "https://pokemondb.net/ability/steam-engine",
+    "effect": "Steam Engine raises the user's Speed by three stages when it is hit by a Fire- or Water-type attack. The attack still deals damage.",
+    "pokemon": {
+      "regular": [
+        "Rolycoly",
+        "Carkol",
+        "Coalossal"
+      ],
+      "hidden": []
+    }
+  },
+  "steelworker": {
+    "name": "Steelworker",
+    "slug": "steelworker",
+    "url": "https://pokemondb.net/ability/steelworker",
+    "effect": "Steelworker increases the power of Steel-type moves used by this Pok\u00e9mon by 50%.",
+    "pokemon": {
+      "regular": [
+        "Dhelmise"
+      ],
+      "hidden": []
+    }
+  },
+  "steely spirit": {
+    "name": "Steely Spirit",
+    "slug": "steely-spirit",
+    "url": "https://pokemondb.net/ability/steely-spirit",
+    "effect": "Powers up ally Pok\u00e9mon's Steel-type moves.",
+    "pokemon": {
+      "regular": [
+        "Perrserker"
+      ],
+      "hidden": [
+        "Perrserker"
+      ]
+    }
+  },
+  "stench": {
+    "name": "Stench",
+    "slug": "stench",
+    "url": "https://pokemondb.net/ability/stench",
+    "effect": "A Pok\u00e9mon with Stench has a 10% chance of causing the opponent to flinch when hit by a damaging move (provided the ability-bearer strikes first as usual).",
+    "pokemon": {
+      "regular": [
+        "Grimer",
+        "Muk",
+        "Stunky",
+        "Skuntank",
+        "Trubbish",
+        "Garbodor"
+      ],
+      "hidden": [
+        "Gloom",
+        "Koffing",
+        "Weezing"
+      ]
+    }
+  },
+  "sticky hold": {
+    "name": "Sticky Hold",
+    "slug": "sticky-hold",
+    "url": "https://pokemondb.net/ability/sticky-hold",
+    "effect": "Sticky Hold prevents held items from being taken or switched.",
+    "pokemon": {
+      "regular": [
+        "Grimer",
+        "Muk",
+        "Gulpin",
+        "Swalot",
+        "Shellos",
+        "Gastrodon",
+        "Trubbish",
+        "Accelgor"
+      ],
+      "hidden": [
+        "Dipplin",
+        "Hydrapple"
+      ]
+    }
+  },
+  "storm drain": {
+    "name": "Storm Drain",
+    "slug": "storm-drain",
+    "url": "https://pokemondb.net/ability/storm-drain",
+    "effect": "Storm Drain forces all single-target Water -type moves - used by any other Pok\u00e9mon on the field - to target this Pok\u00e9mon, and with 100% accuracy. The ability is most useful in double/triple battles.",
+    "pokemon": {
+      "regular": [
+        "Shellos",
+        "Gastrodon",
+        "Finneon",
+        "Lumineon"
+      ],
+      "hidden": [
+        "Lileep",
+        "Cradily",
+        "Maractus",
+        "Tatsugiri Curly Form",
+        "Mega Tatsugiri"
+      ]
+    }
+  },
+  "strong jaw": {
+    "name": "Strong Jaw",
+    "slug": "strong-jaw",
+    "url": "https://pokemondb.net/ability/strong-jaw",
+    "effect": "Strong Jaw increases the power of all biting moves by 50%.",
+    "pokemon": {
+      "regular": [
+        "Mega Sharpedo",
+        "Tyrunt",
+        "Tyrantrum",
+        "Hisuian Avalugg",
+        "Yungoos",
+        "Gumshoos",
+        "Bruxish",
+        "Chewtle",
+        "Drednaw",
+        "Boltund",
+        "Dracovish"
+      ],
+      "hidden": []
+    }
+  },
+  "sturdy": {
+    "name": "Sturdy",
+    "slug": "sturdy",
+    "url": "https://pokemondb.net/ability/sturdy",
+    "effect": "Sturdy allows the Pok\u00e9mon to survive with 1 HP if attacked at full HP with an attack that would otherwise knock it out. It also prevents One-Hit-KO moves ( Fissure , Horn Drill , Guillotine or Sheer Cold ).",
+    "pokemon": {
+      "regular": [
+        "Geodude",
+        "Alolan Geodude",
+        "Graveler",
+        "Alolan Graveler",
+        "Golem",
+        "Alolan Golem",
+        "Magnemite",
+        "Magneton",
+        "Onix",
+        "Sudowoodo",
+        "Pineco",
+        "Forretress",
+        "Steelix",
+        "Shuckle",
+        "Skarmory",
+        "Donphan",
+        "Nosepass",
+        "Aron",
+        "Lairon",
+        "Aggron",
+        "Shieldon",
+        "Bastiodon",
+        "Bonsly",
+        "Magnezone",
+        "Probopass",
+        "Roggenrola",
+        "Boldore",
+        "Gigalith",
+        "Sawk",
+        "Dwebble",
+        "Crustle",
+        "Tirtouga",
+        "Carracosta",
+        "Cosmoem",
+        "Nacli",
+        "Naclstack",
+        "Garganacl",
+        "Ogerpon Cornerstone Mask",
+        "Archaludon"
+      ],
+      "hidden": [
+        "Relicanth",
+        "Regirock",
+        "Tyrunt",
+        "Carbink",
+        "Bergmite",
+        "Avalugg",
+        "Hisuian Avalugg",
+        "Togedemaru"
+      ]
+    }
+  },
+  "suction cups": {
+    "name": "Suction Cups",
+    "slug": "suction-cups",
+    "url": "https://pokemondb.net/ability/suction-cups",
+    "effect": "Suction Cups prevents opponents forcing the ability-bearer to switch out or flee via the moves Roar , Whirlwind , Circle Throw , or Dragon Tail , or the item Red Card .",
+    "pokemon": {
+      "regular": [
+        "Octillery",
+        "Lileep",
+        "Cradily",
+        "Inkay",
+        "Malamar"
+      ],
+      "hidden": []
+    }
+  },
+  "super luck": {
+    "name": "Super Luck",
+    "slug": "super-luck",
+    "url": "https://pokemondb.net/ability/super-luck",
+    "effect": "Super Luck raises the ability-bearer's critical-hit ratio by one stage (for most moves this increases from a 1 \u2044 16 chance to 1 \u2044 8 ).",
+    "pokemon": {
+      "regular": [
+        "Murkrow",
+        "Absol",
+        "Honchkrow",
+        "Pidove",
+        "Tranquill",
+        "Unfezant"
+      ],
+      "hidden": [
+        "Togepi",
+        "Togetic",
+        "Togekiss"
+      ]
+    }
+  },
+  "supersweet syrup": {
+    "name": "Supersweet Syrup",
+    "slug": "supersweet-syrup",
+    "url": "https://pokemondb.net/ability/supersweet-syrup",
+    "effect": "A sickly sweet scent spreads across the field the first time the Pok\u00e9mon enters a battle, lowering the evasiveness of opposing Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Dipplin",
+        "Hydrapple"
+      ],
+      "hidden": []
+    }
+  },
+  "supreme overlord": {
+    "name": "Supreme Overlord",
+    "slug": "supreme-overlord",
+    "url": "https://pokemondb.net/ability/supreme-overlord",
+    "effect": "Attack and Special Attack are boosted for each party Pok\u00e9mon that has been defeated.",
+    "pokemon": {
+      "regular": [
+        "Kingambit"
+      ],
+      "hidden": []
+    }
+  },
+  "surge surfer": {
+    "name": "Surge Surfer",
+    "slug": "surge-surfer",
+    "url": "https://pokemondb.net/ability/surge-surfer",
+    "effect": "Surge Surfer doubles the bearer's Speed when Electric Terrain is active.",
+    "pokemon": {
+      "regular": [
+        "Alolan Raichu",
+        "Mega Raichu X",
+        "Mega Raichu Y"
+      ],
+      "hidden": []
+    }
+  },
+  "swarm": {
+    "name": "Swarm",
+    "slug": "swarm",
+    "url": "https://pokemondb.net/ability/swarm",
+    "effect": "Swarm increases the power of Bug -type moves by 50% (1.5\u00d7) when the ability-bearer's HP falls below a third of its maximum (known in-game as in a pinch ).",
+    "pokemon": {
+      "regular": [
+        "Beedrill",
+        "Scyther",
+        "Ledyba",
+        "Ledian",
+        "Spinarak",
+        "Ariados",
+        "Scizor",
+        "Heracross",
+        "Beautifly",
+        "Volbeat",
+        "Kricketune",
+        "Mothim",
+        "Sewaddle",
+        "Leavanny",
+        "Venipede",
+        "Whirlipede",
+        "Scolipede",
+        "Karrablast",
+        "Escavalier",
+        "Durant",
+        "Grubbin",
+        "Blipbug",
+        "Dottler",
+        "Orbeetle",
+        "Kleavor",
+        "Nymble",
+        "Lokix"
+      ],
+      "hidden": [
+        "Joltik",
+        "Galvantula",
+        "Larvesta",
+        "Volcarona"
+      ]
+    }
+  },
+  "sweet veil": {
+    "name": "Sweet Veil",
+    "slug": "sweet-veil",
+    "url": "https://pokemondb.net/ability/sweet-veil",
+    "effect": "Sweet Veil prevents this Pok\u00e9mon and its allies from falling asleep, for example from moves like Hypnosis .",
+    "pokemon": {
+      "regular": [
+        "Swirlix",
+        "Slurpuff",
+        "Milcery",
+        "Alcremie"
+      ],
+      "hidden": [
+        "Cutiefly",
+        "Ribombee",
+        "Bounsweet",
+        "Steenee",
+        "Tsareena"
+      ]
+    }
+  },
+  "swift swim": {
+    "name": "Swift Swim",
+    "slug": "swift-swim",
+    "url": "https://pokemondb.net/ability/swift-swim",
+    "effect": "Swift Swim doubles the ability-bearer's Speed during rain .",
+    "pokemon": {
+      "regular": [
+        "Horsea",
+        "Goldeen",
+        "Seaking",
+        "Magikarp",
+        "Omanyte",
+        "Omastar",
+        "Kabuto",
+        "Kabutops",
+        "Qwilfish",
+        "Hisuian Qwilfish",
+        "Mantine",
+        "Kingdra",
+        "Mega Swampert",
+        "Lotad",
+        "Lombre",
+        "Ludicolo",
+        "Surskit",
+        "Feebas",
+        "Huntail",
+        "Gorebyss",
+        "Relicanth",
+        "Luvdisc",
+        "Buizel",
+        "Floatzel",
+        "Finneon",
+        "Lumineon",
+        "Mantyke",
+        "Tympole",
+        "Palpitoad",
+        "Seismitoad",
+        "Arrokuda",
+        "Barraskewda",
+        "Basculegion Male",
+        "Basculegion Female",
+        "Overqwil"
+      ],
+      "hidden": [
+        "Psyduck",
+        "Golduck",
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath",
+        "Anorith",
+        "Armaldo",
+        "Tirtouga",
+        "Carracosta",
+        "Beartic",
+        "Chewtle",
+        "Drednaw"
+      ]
+    }
+  },
+  "sword of ruin": {
+    "name": "Sword of Ruin",
+    "slug": "sword-of-ruin",
+    "url": "https://pokemondb.net/ability/sword-of-ruin",
+    "effect": "Lowers Defense of all Pok\u00e9mon except itself.",
+    "pokemon": {
+      "regular": [
+        "Chien-Pao"
+      ],
+      "hidden": []
+    }
+  },
+  "symbiosis": {
+    "name": "Symbiosis",
+    "slug": "symbiosis",
+    "url": "https://pokemondb.net/ability/symbiosis",
+    "effect": "The Pok\u00e9mon can pass an item to an ally.",
+    "pokemon": {
+      "regular": [
+        "Flab\u00e9b\u00e9",
+        "Floette",
+        "Floette Eternal Flower",
+        "Florges",
+        "Oranguru"
+      ],
+      "hidden": [
+        "Flab\u00e9b\u00e9",
+        "Floette",
+        "Floette Eternal Flower",
+        "Florges",
+        "Oranguru"
+      ]
+    }
+  },
+  "synchronize": {
+    "name": "Synchronize",
+    "slug": "synchronize",
+    "url": "https://pokemondb.net/ability/synchronize",
+    "effect": "If the opponent causes a burn, paralysis, or poisoning of a Pok\u00e9mon with Synchronize , the opponent receives the status condition too. Self-inflicted status conditions (for example through the use of an item) are not passed on.",
+    "pokemon": {
+      "regular": [
+        "Abra",
+        "Kadabra",
+        "Alakazam",
+        "Mew",
+        "Natu",
+        "Xatu",
+        "Espeon",
+        "Umbreon",
+        "Ralts",
+        "Kirlia",
+        "Gardevoir",
+        "Munna",
+        "Musharna",
+        "Elgyem",
+        "Beheeyem",
+        "Indeedee Male",
+        "Indeedee Female",
+        "Rabsca"
+      ],
+      "hidden": []
+    }
+  },
+  "tablets of ruin": {
+    "name": "Tablets of Ruin",
+    "slug": "tablets-of-ruin",
+    "url": "https://pokemondb.net/ability/tablets-of-ruin",
+    "effect": "Lowers Attack of all Pok\u00e9mon except itself.",
+    "pokemon": {
+      "regular": [
+        "Wo-Chien"
+      ],
+      "hidden": []
+    }
+  },
+  "tangled feet": {
+    "name": "Tangled Feet",
+    "slug": "tangled-feet",
+    "url": "https://pokemondb.net/ability/tangled-feet",
+    "effect": "Raises evasion if the Pok\u00e9mon is confused.",
+    "pokemon": {
+      "regular": [
+        "Pidgey",
+        "Pidgeotto",
+        "Pidgeot",
+        "Spinda",
+        "Chatot",
+        "Mr. Rime",
+        "Flamigo"
+      ],
+      "hidden": [
+        "Doduo",
+        "Dodrio"
+      ]
+    }
+  },
+  "tangling hair": {
+    "name": "Tangling Hair",
+    "slug": "tangling-hair",
+    "url": "https://pokemondb.net/ability/tangling-hair",
+    "effect": "Contact with the Pok\u00e9mon lowers the attacker's Speed stat.",
+    "pokemon": {
+      "regular": [
+        "Alolan Diglett",
+        "Alolan Dugtrio"
+      ],
+      "hidden": []
+    }
+  },
+  "technician": {
+    "name": "Technician",
+    "slug": "technician",
+    "url": "https://pokemondb.net/ability/technician",
+    "effect": "Technician increases the power of moves - that are usually base power 60 or below - by 50%.",
+    "pokemon": {
+      "regular": [
+        "Meowth",
+        "Alolan Meowth",
+        "Persian",
+        "Alolan Persian",
+        "Scyther",
+        "Scizor",
+        "Mega Scizor",
+        "Smeargle",
+        "Hitmontop",
+        "Ambipom",
+        "Minccino",
+        "Cinccino",
+        "Marshadow"
+      ],
+      "hidden": [
+        "Mr. Mime",
+        "Breloom",
+        "Kricketune",
+        "Roserade",
+        "Mime Jr.",
+        "Toxtricity Amped Form",
+        "Toxtricity Low Key Form",
+        "Clobbopus",
+        "Grapploct",
+        "Maushold Family of Four",
+        "Maushold Family of Three",
+        "Fezandipiti"
+      ]
+    }
+  },
+  "telepathy": {
+    "name": "Telepathy",
+    "slug": "telepathy",
+    "url": "https://pokemondb.net/ability/telepathy",
+    "effect": "Pok\u00e9mon with the Telepathy ability will not take damage from teammates in double and triple battles.",
+    "pokemon": {
+      "regular": [
+        "Elgyem",
+        "Beheeyem",
+        "Oranguru"
+      ],
+      "hidden": [
+        "Wobbuffet",
+        "Ralts",
+        "Kirlia",
+        "Gardevoir",
+        "Meditite",
+        "Medicham",
+        "Wynaut",
+        "Dialga",
+        "Dialga Origin Forme",
+        "Palkia",
+        "Palkia Origin Forme",
+        "Giratina Altered Forme",
+        "Munna",
+        "Musharna",
+        "Noibat",
+        "Noivern",
+        "Tapu Koko",
+        "Tapu Lele",
+        "Tapu Bulu",
+        "Tapu Fini",
+        "Blipbug",
+        "Dottler",
+        "Orbeetle",
+        "Rabsca"
+      ]
+    }
+  },
+  "tera shell": {
+    "name": "Tera Shell",
+    "slug": "tera-shell",
+    "url": "https://pokemondb.net/ability/tera-shell",
+    "effect": "The Pok\u00e9mon\u2019s shell contains the powers of each type. All damage-dealing moves that hit the Pok\u00e9mon when its HP is full will not be very effective.",
+    "pokemon": {
+      "regular": [
+        "Terapagos Terastal Form"
+      ],
+      "hidden": []
+    }
+  },
+  "tera shift": {
+    "name": "Tera Shift",
+    "slug": "tera-shift",
+    "url": "https://pokemondb.net/ability/tera-shift",
+    "effect": "When the Pok\u00e9mon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form.",
+    "pokemon": {
+      "regular": [
+        "Terapagos Normal Form"
+      ],
+      "hidden": []
+    }
+  },
+  "teraform zero": {
+    "name": "Teraform Zero",
+    "slug": "teraform-zero",
+    "url": "https://pokemondb.net/ability/teraform-zero",
+    "effect": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero.",
+    "pokemon": {
+      "regular": [
+        "Terapagos Stellar Form"
+      ],
+      "hidden": []
+    }
+  },
+  "teravolt": {
+    "name": "Teravolt",
+    "slug": "teravolt",
+    "url": "https://pokemondb.net/ability/teravolt",
+    "effect": "Teravolt prevents a target's ability from affecting moves that the Teravolt Pok\u00e9mon uses. It only affects abilities that change the power, accuracy or other effects of moves.",
+    "pokemon": {
+      "regular": [
+        "Zekrom",
+        "Black Kyurem"
+      ],
+      "hidden": []
+    }
+  },
+  "thermal exchange": {
+    "name": "Thermal Exchange",
+    "slug": "thermal-exchange",
+    "url": "https://pokemondb.net/ability/thermal-exchange",
+    "effect": "Raises Attack when hit by a Fire-type move. Cannot be burned.",
+    "pokemon": {
+      "regular": [
+        "Frigibax",
+        "Arctibax",
+        "Baxcalibur",
+        "Mega Baxcalibur"
+      ],
+      "hidden": []
+    }
+  },
+  "thick fat": {
+    "name": "Thick Fat",
+    "slug": "thick-fat",
+    "url": "https://pokemondb.net/ability/thick-fat",
+    "effect": "Thick Fat reduces the damage taken from Fire -type and Ice -type moves by 50%.",
+    "pokemon": {
+      "regular": [
+        "Mega Venusaur",
+        "Seel",
+        "Dewgong",
+        "Snorlax",
+        "Marill",
+        "Azumarill",
+        "Miltank",
+        "Makuhita",
+        "Hariyama",
+        "Azurill",
+        "Spoink",
+        "Grumpig",
+        "Spheal",
+        "Sealeo",
+        "Walrein",
+        "Purugly",
+        "Munchlax",
+        "Cetoddle",
+        "Cetitan"
+      ],
+      "hidden": [
+        "Alolan Rattata",
+        "Alolan Raticate",
+        "Swinub",
+        "Piloswine",
+        "Mamoswine",
+        "Tepig",
+        "Pignite",
+        "Appletun",
+        "Lechonk",
+        "Oinkologne Male",
+        "Oinkologne Female"
+      ]
+    }
+  },
+  "tinted lens": {
+    "name": "Tinted Lens",
+    "slug": "tinted-lens",
+    "url": "https://pokemondb.net/ability/tinted-lens",
+    "effect": "Powers up \u201cnot very effective\u201d moves.",
+    "pokemon": {
+      "regular": [
+        "Venonat",
+        "Venomoth",
+        "Illumise",
+        "Yanmega"
+      ],
+      "hidden": [
+        "Butterfree",
+        "Hoothoot",
+        "Noctowl",
+        "Mothim",
+        "Sigilyph",
+        "Hisuian Braviary",
+        "Nymble",
+        "Lokix"
+      ]
+    }
+  },
+  "torrent": {
+    "name": "Torrent",
+    "slug": "torrent",
+    "url": "https://pokemondb.net/ability/torrent",
+    "effect": "Torrent increases the power of Water -type moves by 50% (1.5\u00d7) when the ability-bearer's HP falls below a third of its maximum (known in-game as in a pinch ).",
+    "pokemon": {
+      "regular": [
+        "Squirtle",
+        "Wartortle",
+        "Blastoise",
+        "Totodile",
+        "Croconaw",
+        "Feraligatr",
+        "Mudkip",
+        "Marshtomp",
+        "Swampert",
+        "Piplup",
+        "Prinplup",
+        "Empoleon",
+        "Oshawott",
+        "Dewott",
+        "Samurott",
+        "Hisuian Samurott",
+        "Froakie",
+        "Frogadier",
+        "Greninja",
+        "Popplio",
+        "Brionne",
+        "Primarina",
+        "Sobble",
+        "Drizzile",
+        "Inteleon",
+        "Quaxly",
+        "Quaxwell",
+        "Quaquaval"
+      ],
+      "hidden": [
+        "Panpour",
+        "Simipour"
+      ]
+    }
+  },
+  "tough claws": {
+    "name": "Tough Claws",
+    "slug": "tough-claws",
+    "url": "https://pokemondb.net/ability/tough-claws",
+    "effect": "Tough Claws increases the power of moves that make contact.",
+    "pokemon": {
+      "regular": [
+        "Mega Charizard X",
+        "Galarian Meowth",
+        "Mega Aerodactyl",
+        "Mega Metagross",
+        "Binacle",
+        "Barbaracle",
+        "Lycanroc Dusk Form",
+        "Perrserker"
+      ],
+      "hidden": []
+    }
+  },
+  "toxic boost": {
+    "name": "Toxic Boost",
+    "slug": "toxic-boost",
+    "url": "https://pokemondb.net/ability/toxic-boost",
+    "effect": "Powers up physical attacks when poisoned.",
+    "pokemon": {
+      "regular": [
+        "Zangoose"
+      ],
+      "hidden": [
+        "Zangoose"
+      ]
+    }
+  },
+  "toxic chain": {
+    "name": "Toxic Chain",
+    "slug": "toxic-chain",
+    "url": "https://pokemondb.net/ability/toxic-chain",
+    "effect": "Toxic Chain may cause bad poisoning when the Pok\u00e9mon hits an opponent with a move.",
+    "pokemon": {
+      "regular": [
+        "Okidogi",
+        "Munkidori",
+        "Fezandipiti"
+      ],
+      "hidden": []
+    }
+  },
+  "toxic debris": {
+    "name": "Toxic Debris",
+    "slug": "toxic-debris",
+    "url": "https://pokemondb.net/ability/toxic-debris",
+    "effect": "Scatters poison spikes at the feet of the opposing team when the Pok\u00e9mon takes damage from physical moves.",
+    "pokemon": {
+      "regular": [
+        "Glimmet",
+        "Glimmora",
+        "Mega Glimmora"
+      ],
+      "hidden": []
+    }
+  },
+  "trace": {
+    "name": "Trace",
+    "slug": "trace",
+    "url": "https://pokemondb.net/ability/trace",
+    "effect": "The Pok\u00e9mon copies a foe's Ability.",
+    "pokemon": {
+      "regular": [
+        "Mega Alakazam",
+        "Porygon",
+        "Porygon2",
+        "Ralts",
+        "Kirlia",
+        "Gardevoir"
+      ],
+      "hidden": []
+    }
+  },
+  "transistor": {
+    "name": "Transistor",
+    "slug": "transistor",
+    "url": "https://pokemondb.net/ability/transistor",
+    "effect": "Transistor increases the power of Electric-type moves used by this Pok\u00e9mon by 50%.",
+    "pokemon": {
+      "regular": [
+        "Regieleki"
+      ],
+      "hidden": []
+    }
+  },
+  "triage": {
+    "name": "Triage",
+    "slug": "triage",
+    "url": "https://pokemondb.net/ability/triage",
+    "effect": "Triage increases the priority of HP-restoring moves to +3, when used by the ability-bearer.",
+    "pokemon": {
+      "regular": [
+        "Comfey"
+      ],
+      "hidden": []
+    }
+  },
+  "truant": {
+    "name": "Truant",
+    "slug": "truant",
+    "url": "https://pokemondb.net/ability/truant",
+    "effect": "Truant causes the ability-bearer to only attack every alternate turn. On the even turns, it will say the Pok\u00e9mon is loafing around .",
+    "pokemon": {
+      "regular": [
+        "Slakoth",
+        "Slaking"
+      ],
+      "hidden": [
+        "Durant"
+      ]
+    }
+  },
+  "turboblaze": {
+    "name": "Turboblaze",
+    "slug": "turboblaze",
+    "url": "https://pokemondb.net/ability/turboblaze",
+    "effect": "Turboblaze prevents a target's ability from affecting moves that the Turboblaze Pok\u00e9mon uses. It only affects abilities that change the power, accuracy or other effects of moves.",
+    "pokemon": {
+      "regular": [
+        "Reshiram",
+        "White Kyurem"
+      ],
+      "hidden": []
+    }
+  },
+  "unaware": {
+    "name": "Unaware",
+    "slug": "unaware",
+    "url": "https://pokemondb.net/ability/unaware",
+    "effect": "Ignores any stat changes in the Pok\u00e9mon.",
+    "pokemon": {
+      "regular": [
+        "Bidoof",
+        "Bibarel",
+        "Woobat",
+        "Swoobat",
+        "Cosmog",
+        "Dondozo"
+      ],
+      "hidden": [
+        "Clefable",
+        "Wooper",
+        "Paldean Wooper",
+        "Quagsire",
+        "Pyukumuku",
+        "Fuecoco",
+        "Crocalor",
+        "Skeledirge",
+        "Clodsire"
+      ]
+    }
+  },
+  "unburden": {
+    "name": "Unburden",
+    "slug": "unburden",
+    "url": "https://pokemondb.net/ability/unburden",
+    "effect": "Raises Speed if a held item is used.",
+    "pokemon": {
+      "regular": [
+        "Drifloon",
+        "Drifblim",
+        "Purrloin",
+        "Liepard",
+        "Hawlucha",
+        "Nickit",
+        "Thievul",
+        "Sneasler",
+        "Shroodle",
+        "Grafaiai"
+      ],
+      "hidden": [
+        "Hitmonlee",
+        "Treecko",
+        "Grovyle",
+        "Sceptile",
+        "Accelgor",
+        "Swirlix",
+        "Slurpuff"
+      ]
+    }
+  },
+  "unnerve": {
+    "name": "Unnerve",
+    "slug": "unnerve",
+    "url": "https://pokemondb.net/ability/unnerve",
+    "effect": "Makes the foe nervous and unable to eat Berries.",
+    "pokemon": {
+      "regular": [
+        "Joltik",
+        "Galvantula",
+        "Litleo",
+        "Pyroar",
+        "Rookidee",
+        "Corvisquire",
+        "Corviknight",
+        "Calyrex"
+      ],
+      "hidden": [
+        "Ekans",
+        "Arbok",
+        "Meowth",
+        "Galarian Meowth",
+        "Persian",
+        "Aerodactyl",
+        "Mewtwo",
+        "Ursaring",
+        "Houndour",
+        "Houndoom",
+        "Tyranitar",
+        "Masquerain",
+        "Vespiquen",
+        "Axew",
+        "Fraxure",
+        "Haxorus",
+        "Bewear",
+        "Ursaluna"
+      ]
+    }
+  },
+  "unseen fist": {
+    "name": "Unseen Fist",
+    "slug": "unseen-fist",
+    "url": "https://pokemondb.net/ability/unseen-fist",
+    "effect": "Contact moves can strike through Protect/Detect.",
+    "pokemon": {
+      "regular": [
+        "Urshifu Single Strike Style",
+        "Urshifu Rapid Strike Style"
+      ],
+      "hidden": []
+    }
+  },
+  "vessel of ruin": {
+    "name": "Vessel of Ruin",
+    "slug": "vessel-of-ruin",
+    "url": "https://pokemondb.net/ability/vessel-of-ruin",
+    "effect": "Lowers Special Attack of all Pok\u00e9mon except itself.",
+    "pokemon": {
+      "regular": [
+        "Ting-Lu"
+      ],
+      "hidden": []
+    }
+  },
+  "victory star": {
+    "name": "Victory Star",
+    "slug": "victory-star",
+    "url": "https://pokemondb.net/ability/victory-star",
+    "effect": "Boosts the accuracy of its allies and itself.",
+    "pokemon": {
+      "regular": [
+        "Victini"
+      ],
+      "hidden": []
+    }
+  },
+  "vital spirit": {
+    "name": "Vital Spirit",
+    "slug": "vital-spirit",
+    "url": "https://pokemondb.net/ability/vital-spirit",
+    "effect": "Vital Spirit prevents the ability-bearer from falling asleep. This means that it also prevents the use of the move Rest .",
+    "pokemon": {
+      "regular": [
+        "Mankey",
+        "Primeape",
+        "Galarian Mr. Mime",
+        "Delibird",
+        "Vigoroth",
+        "Lillipup",
+        "Rockruff",
+        "Lycanroc Midnight Form",
+        "Annihilape"
+      ],
+      "hidden": [
+        "Electabuzz",
+        "Magmar",
+        "Tyrogue",
+        "Elekid",
+        "Magby",
+        "Electivire",
+        "Magmortar"
+      ]
+    }
+  },
+  "volt absorb": {
+    "name": "Volt Absorb",
+    "slug": "volt-absorb",
+    "url": "https://pokemondb.net/ability/volt-absorb",
+    "effect": "A Pok\u00e9mon with Volt Absorb heals 1 \u2044 4 of its maximum HP when hit by an Electric -type attack, including Thunder Wave .",
+    "pokemon": {
+      "regular": [
+        "Jolteon",
+        "Chinchou",
+        "Lanturn",
+        "Thundurus Therian Forme",
+        "Zeraora",
+        "Mega Zeraora",
+        "Dracozolt",
+        "Arctozolt",
+        "Pawmo",
+        "Pawmot",
+        "Wattrel",
+        "Kilowattrel"
+      ],
+      "hidden": [
+        "Minun",
+        "Pachirisu"
+      ]
+    }
+  },
+  "wandering spirit": {
+    "name": "Wandering Spirit",
+    "slug": "wandering-spirit",
+    "url": "https://pokemondb.net/ability/wandering-spirit",
+    "effect": "Swaps abilities with opponents on contact.",
+    "pokemon": {
+      "regular": [
+        "Galarian Yamask",
+        "Runerigus"
+      ],
+      "hidden": []
+    }
+  },
+  "water absorb": {
+    "name": "Water Absorb",
+    "slug": "water-absorb",
+    "url": "https://pokemondb.net/ability/water-absorb",
+    "effect": "A Pok\u00e9mon with Water Absorb heals 1 \u2044 4 of its maximum HP when hit by a Water -type attack.",
+    "pokemon": {
+      "regular": [
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath",
+        "Lapras",
+        "Vaporeon",
+        "Politoed",
+        "Wooper",
+        "Paldean Wooper",
+        "Quagsire",
+        "Mantine",
+        "Mantyke",
+        "Maractus",
+        "Frillish",
+        "Jellicent",
+        "Volcanion",
+        "Dracovish",
+        "Arctovish",
+        "Clodsire",
+        "Ogerpon Wellspring Mask"
+      ],
+      "hidden": [
+        "Chinchou",
+        "Lanturn",
+        "Cacnea",
+        "Cacturne",
+        "Tympole",
+        "Palpitoad",
+        "Seismitoad",
+        "Dewpider",
+        "Araquanid"
+      ]
+    }
+  },
+  "water bubble": {
+    "name": "Water Bubble",
+    "slug": "water-bubble",
+    "url": "https://pokemondb.net/ability/water-bubble",
+    "effect": "Water Bubble reduces damage taken from Fire-type moves by 50%, and doubles the power of Water-type moves used by the ability-bearer. It also prevents the Pok\u00e9mon from being burned.",
+    "pokemon": {
+      "regular": [
+        "Dewpider",
+        "Araquanid"
+      ],
+      "hidden": []
+    }
+  },
+  "water compaction": {
+    "name": "Water Compaction",
+    "slug": "water-compaction",
+    "url": "https://pokemondb.net/ability/water-compaction",
+    "effect": "Water Compaction raises the bearer's Defense by 2 stages when it is hit by a Water-type move.",
+    "pokemon": {
+      "regular": [
+        "Sandygast",
+        "Palossand"
+      ],
+      "hidden": []
+    }
+  },
+  "water veil": {
+    "name": "Water Veil",
+    "slug": "water-veil",
+    "url": "https://pokemondb.net/ability/water-veil",
+    "effect": "Prevents the Pok\u00e9mon from getting a burn.",
+    "pokemon": {
+      "regular": [
+        "Goldeen",
+        "Seaking",
+        "Wailmer",
+        "Wailord",
+        "Finizen"
+      ],
+      "hidden": [
+        "Mantine",
+        "Huntail",
+        "Buizel",
+        "Floatzel",
+        "Finneon",
+        "Lumineon",
+        "Mantyke",
+        "Dondozo"
+      ]
+    }
+  },
+  "weak armor": {
+    "name": "Weak Armor",
+    "slug": "weak-armor",
+    "url": "https://pokemondb.net/ability/weak-armor",
+    "effect": "When a Pok\u00e9mon with Weak Armor is hit by a physical move, its Defense drops one stage, but its Speed increases by one stage.",
+    "pokemon": {
+      "regular": [
+        "Galarian Corsola",
+        "Roggenrola",
+        "Boldore",
+        "Garbodor",
+        "Sinistea",
+        "Polteageist",
+        "Cursola"
+      ],
+      "hidden": [
+        "Onix",
+        "Omanyte",
+        "Omastar",
+        "Kabuto",
+        "Kabutops",
+        "Slugma",
+        "Magcargo",
+        "Skarmory",
+        "Dwebble",
+        "Crustle",
+        "Vanillite",
+        "Vanillish",
+        "Vanilluxe",
+        "Vullaby",
+        "Mandibuzz",
+        "Armarouge",
+        "Ceruledge"
+      ]
+    }
+  },
+  "well-baked body": {
+    "name": "Well-Baked Body",
+    "slug": "well-baked-body",
+    "url": "https://pokemondb.net/ability/well-baked-body",
+    "effect": "Immune to Fire-type moves, and Defense is sharply boosted.",
+    "pokemon": {
+      "regular": [
+        "Dachsbun"
+      ],
+      "hidden": []
+    }
+  },
+  "white smoke": {
+    "name": "White Smoke",
+    "slug": "white-smoke",
+    "url": "https://pokemondb.net/ability/white-smoke",
+    "effect": "Prevents other Pok\u00e9mon from lowering its stats.",
+    "pokemon": {
+      "regular": [
+        "Torkoal",
+        "Sizzlipede",
+        "Centiskorch"
+      ],
+      "hidden": [
+        "Heatmor"
+      ]
+    }
+  },
+  "wimp out": {
+    "name": "Wimp Out",
+    "slug": "wimp-out",
+    "url": "https://pokemondb.net/ability/wimp-out",
+    "effect": "Wimp Out causes the bearer to switch out (or flee in a wild battle) when its HP falls below 50%.",
+    "pokemon": {
+      "regular": [
+        "Wimpod"
+      ],
+      "hidden": []
+    }
+  },
+  "wind power": {
+    "name": "Wind Power",
+    "slug": "wind-power",
+    "url": "https://pokemondb.net/ability/wind-power",
+    "effect": "If a Pok\u00e9mon with Wind Power is hit by a wind move, the power of the next Electric-type move it uses is doubled.",
+    "pokemon": {
+      "regular": [
+        "Wattrel",
+        "Kilowattrel"
+      ],
+      "hidden": []
+    }
+  },
+  "wind rider": {
+    "name": "Wind Rider",
+    "slug": "wind-rider",
+    "url": "https://pokemondb.net/ability/wind-rider",
+    "effect": "Wind Rider gives immunity to wind moves, and causes the Pok\u00e9mon's Attack to increase by one stage when hit by one.",
+    "pokemon": {
+      "regular": [
+        "Shiftry",
+        "Bramblin",
+        "Brambleghast"
+      ],
+      "hidden": []
+    }
+  },
+  "wonder guard": {
+    "name": "Wonder Guard",
+    "slug": "wonder-guard",
+    "url": "https://pokemondb.net/ability/wonder-guard",
+    "effect": "Wonder Guard prevents damage from direct attacks unless they are super-effective. Shedinja is the only Pok\u00e9mon to have this ability so this means that only Fire , Flying , Rock , Ghost and Dark moves will have an effect.",
+    "pokemon": {
+      "regular": [
+        "Shedinja"
+      ],
+      "hidden": []
+    }
+  },
+  "wonder skin": {
+    "name": "Wonder Skin",
+    "slug": "wonder-skin",
+    "url": "https://pokemondb.net/ability/wonder-skin",
+    "effect": "Wonder Skin halves the accuracy of all status moves targeted at the ability-bearer.",
+    "pokemon": {
+      "regular": [
+        "Sigilyph"
+      ],
+      "hidden": [
+        "Venomoth",
+        "Skitty",
+        "Delcatty",
+        "Bruxish"
+      ]
+    }
+  },
+  "zen mode": {
+    "name": "Zen Mode",
+    "slug": "zen-mode",
+    "url": "https://pokemondb.net/ability/zen-mode",
+    "effect": "Zen Mode changes the ability-bearer's form to Zen Mode when their health falls below 50%.",
+    "pokemon": {
+      "regular": [
+        "Darmanitan Standard Mode",
+        "Darmanitan Zen Mode",
+        "Galarian Standard Mode Darmanitan",
+        "Galarian Zen Mode Darmanitan"
+      ],
+      "hidden": [
+        "Darmanitan Standard Mode",
+        "Darmanitan Zen Mode",
+        "Galarian Standard Mode Darmanitan",
+        "Galarian Zen Mode Darmanitan"
+      ]
+    }
+  },
+  "zero to hero": {
+    "name": "Zero to Hero",
+    "slug": "zero-to-hero",
+    "url": "https://pokemondb.net/ability/zero-to-hero",
+    "effect": "Transforms into its Hero Form when switching out.",
+    "pokemon": {
+      "regular": [
+        "Palafin Zero Form",
+        "Palafin Hero Form"
+      ],
+      "hidden": []
+    }
+  }
+}

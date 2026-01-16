@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../data/models/pokemon.dart';
 import '../../../data/models/type_effectiveness.dart';
 import 'type_effectiveness_compact.dart';
+import 'type_icon.dart';
 
 class TypeEffectivenessTabs extends StatefulWidget {
   final Pokemon pokemon;
@@ -87,20 +88,14 @@ class _TypeEffectivenessTabsState extends State<TypeEffectivenessTabs>
               ),
               ...widget.pokemon.types.map((type) {
                 return Tab(
-                  child: ConstrainedBox(
-                    constraints: const BoxConstraints(minWidth: 80),
-                    child: FittedBox(
-                      fit: BoxFit.scaleDown,
-                      alignment: Alignment.center,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const Icon(Icons.offline_bolt, size: 18),
-                          const SizedBox(width: 6),
-                          Text(type),
-                        ],
-                      ),
-                    ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      TypeIcon(type: type, size: 16),
+                      const SizedBox(width: 6),
+                      Text(type),
+                    ],
                   ),
                 );
               }),

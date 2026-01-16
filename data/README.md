@@ -3,11 +3,18 @@
 Generated from:
 - National Pokédex ordering and generation grouping: https://pokemondb.net/pokedex/national
 - Stats table: https://pokemondb.net/pokedex/all
+- Abilities: https://pokemondb.net/ability and individual ability pages
 
 Run the builder to regenerate:
 
 ```bash
 python scripts/build_pokemon_data.py
+```
+
+Run the ability collector:
+
+```bash
+/Users/kevin.buckley/Documents/Personal/ChampionDex/.venv/bin/python scripts/collect_abilities.py
 ```
 
 ## Schema
@@ -25,6 +32,9 @@ Outputs
 - `data/pokemon_by_number.json`: map number -> list of Pokémon (handles multiple variants per number)
 - `data/pokemon_by_name.json`: map lowercase name -> Pokémon (single entry per unique name)
 - `data/pokemon_by_base_name.json`: map lowercase base_name -> list of variants (hierarchical access)
+
+- `data/abilities.json`: map ability name -> object with `effect` and Pokémon lists
+- `data/abilities_by_name.json`: lowercase map of ability name -> same object
 
 ## Example objects
 
@@ -77,4 +87,14 @@ Pokémon variants (regional forms, alternate forms) share the same National Pok�
 - `variant` field distinguishes forms (null for base, string for variants)
 - `base_name` provides hierarchical grouping
 - Use `pokemon_by_base_name.json` to get all variants of a Pokémon
+
+## Ability Schema
+
+- `name` (string): Display name of the ability
+- `slug` (string): URL slug
+- `url` (string): Source page URL
+- `effect` (string): Effect description text
+- `pokemon` (object):
+  - `regular` (string[]): Pokémon that have the ability normally
+  - `hidden` (string[]): Pokémon that have the ability as a hidden ability
 

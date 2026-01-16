@@ -125,24 +125,36 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  AnimatedRotation(
-                    turns: _sortAscending ? 0 : 0.5,
-                    duration: const Duration(milliseconds: 300),
-                    child: IconButton(
-                      icon: Icon(
-                        Icons.arrow_upward,
-                        color: theme.colorScheme.primary,
+                  Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        _sortAscending ? 'Asc' : 'Desc',
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: theme.colorScheme.onSurface.withOpacity(0.6),
+                        ),
                       ),
-                      onPressed: () {
-                        setState(() {
-                          _sortAscending = !_sortAscending;
-                        });
-                        setModalState(() {});
-                      },
-                      tooltip: _sortAscending
-                          ? 'Switch to descending'
-                          : 'Switch to ascending',
-                    ),
+                      const SizedBox(width: 4),
+                      AnimatedRotation(
+                        turns: _sortAscending ? 0 : 0.5,
+                        duration: const Duration(milliseconds: 300),
+                        child: IconButton(
+                          icon: Icon(
+                            Icons.arrow_upward,
+                            color: theme.colorScheme.primary,
+                          ),
+                          onPressed: () {
+                            setState(() {
+                              _sortAscending = !_sortAscending;
+                            });
+                            setModalState(() {});
+                          },
+                          tooltip: _sortAscending
+                              ? 'Switch to descending'
+                              : 'Switch to ascending',
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -164,28 +176,39 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                       ('speed', 'Speed'),
                     ].map((option) {
                       final (field, label) = option;
-                      return InkWell(
-                        onTap: () {
-                          setState(() {
-                            _sortField = field;
-                          });
-                          Navigator.pop(context);
-                        },
-                        borderRadius: BorderRadius.circular(12),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 12,
-                          ),
-                          child: Text(
-                            label,
-                            style: theme.textTheme.bodyLarge?.copyWith(
+                      return Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          onTap: () {
+                            setState(() {
+                              _sortField = field;
+                            });
+                            Navigator.pop(context);
+                          },
+                          borderRadius: BorderRadius.circular(12),
+                          child: Ink(
+                            decoration: BoxDecoration(
                               color: _sortField == field
-                                  ? theme.colorScheme.primary
-                                  : theme.colorScheme.onSurface,
-                              fontWeight: _sortField == field
-                                  ? FontWeight.bold
-                                  : FontWeight.normal,
+                                  ? theme.colorScheme.primary.withOpacity(0.08)
+                                  : Colors.transparent,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 12,
+                              ),
+                              child: Text(
+                                label,
+                                style: theme.textTheme.bodyLarge?.copyWith(
+                                  color: _sortField == field
+                                      ? theme.colorScheme.primary
+                                      : theme.colorScheme.onSurface,
+                                  fontWeight: _sortField == field
+                                      ? FontWeight.bold
+                                      : FontWeight.normal,
+                                ),
+                              ),
                             ),
                           ),
                         ),
