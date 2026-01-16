@@ -1,0 +1,30 @@
+name: championdex
+description: A modern Pokemon reference app for competitive play
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  google_fonts: ^7.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/pokemon.json
+    - assets/data/pokemon_by_number.json
+    - assets/data/pokemon_by_name.json
+    - assets/data/pokemon_by_base_name.json
+
+
+
+

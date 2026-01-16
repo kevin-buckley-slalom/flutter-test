@@ -1,0 +1,54 @@
+[
+  {
+    "number": 1,
+    "name": "Bulbasaur",
+    "base_name": "Bulbasaur",
+    "variant": null,
+    "generation": 1,
+    "types": ["Grass", "Poison"],
+    "stats": {
+      "total": 318,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp_atk": 65,
+      "sp_def": 65,
+      "speed": 45
+    }
+  },
+  {
+    "number": 19,
+    "name": "Rattata",
+    "base_name": "Rattata",
+    "variant": null,
+    "generation": 1,
+    "types": ["Normal"],
+    "stats": {
+      "total": 253,
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "sp_atk": 25,
+      "sp_def": 35,
+      "speed": 72
+    }
+  },
+  {
+    "number": 19,
+    "name": "Alolan Rattata",
+    "base_name": "Rattata",
+    "variant": "Alolan",
+    "generation": 7,
+    "types": ["Dark", "Normal"],
+    "stats": {
+      "total": 253,
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "sp_atk": 25,
+      "sp_def": 35,
+      "speed": 72
+    }
+  }
+]
+
