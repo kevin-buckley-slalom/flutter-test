@@ -8,6 +8,10 @@ class Pokemon {
   final int generation;
   final List<String> types;
   final PokemonStats stats;
+  final String? imagePath;
+  final String? imageShinyPath;
+  final String? imagePathLarge;
+  final String? imageShinyPathLarge;
 
   Pokemon({
     required this.number,
@@ -17,6 +21,10 @@ class Pokemon {
     required this.generation,
     required this.types,
     required this.stats,
+    this.imagePath,
+    this.imageShinyPath,
+    this.imagePathLarge,
+    this.imageShinyPathLarge,
   });
 
   factory Pokemon.fromJson(Map<String, dynamic> json) {
@@ -28,6 +36,10 @@ class Pokemon {
       generation: json['generation'] as int,
       types: (json['types'] as List).map((e) => e as String).toList(),
       stats: PokemonStats.fromJson(json['stats'] as Map<String, dynamic>),
+      imagePath: json['image'] as String?,
+      imageShinyPath: json['image_shiny'] as String?,
+      imagePathLarge: json['image_large'] as String?,
+      imageShinyPathLarge: json['image_shiny_large'] as String?,
     );
   }
 
@@ -40,6 +52,8 @@ class Pokemon {
       'generation': generation,
       'types': types,
       'stats': stats.toJson(),
+      'image': imagePath,
+      'image_shiny': imageShinyPath,
     };
   }
 

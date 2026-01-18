@@ -1,3 +1,4 @@
+import 'package:championdex/ui/shared/pokemon_image.dart';
 import 'package:flutter/material.dart';
 import '../../../app/theme/type_colors.dart';
 import '../../../data/models/pokemon.dart';
@@ -36,10 +37,7 @@ class PokemonListItem extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   color: theme.colorScheme.primary.withOpacity(0.08),
                 ),
-                child: const PlaceholderImage(
-                  width: 80,
-                  height: 80,
-                ),
+                child: PokemonImage(imagePath: pokemon.imagePath, imagePathLarge: pokemon.imagePathLarge, size: 80, useLarge: false),
               ),
             ),
             const SizedBox(width: 16),

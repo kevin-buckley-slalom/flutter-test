@@ -1,6 +1,6 @@
+import 'package:championdex/ui/shared/pokemon_image.dart';
 import 'package:flutter/material.dart';
 import '../../data/models/pokemon.dart';
-import '../shared/placeholder_image.dart';
 import '../shared/flat_card.dart';
 import '../shared/parallax_scroll_container.dart';
 import 'pokemon_detail_view_model.dart';
@@ -57,10 +57,7 @@ class PokemonDetailView extends StatelessWidget {
             Center(
               child: Hero(
                 tag: 'pokemon-image-${pokemon.number}-${pokemon.variant ?? 'base'}',
-                child: const PlaceholderImage(
-                  width: 200,
-                  height: 200,
-                ),
+                child: PokemonImage(imagePath: pokemon.imagePath, imagePathLarge: pokemon.imagePathLarge, size: 200, useLarge: true),
               ),
             ),
           ],

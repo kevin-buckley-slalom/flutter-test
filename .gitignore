@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Image Assets
+**/assets/images/pokemon/*.png
+**/assets/images_large/pokemon/*.png
+**/data/images
+**/data/images_large
