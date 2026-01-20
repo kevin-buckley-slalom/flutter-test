@@ -1,0 +1,703 @@
+{
+  "Seviper": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Leer",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Lick",
+              "type": "",
+              "level": "6",
+              "level_plus": "9"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "14",
+              "level_plus": "17"
+            },
+            {
+              "name": "Snarl",
+              "type": "",
+              "level": "17",
+              "level_plus": "20"
+            },
+            {
+              "name": "Glare",
+              "type": "",
+              "level": "19",
+              "level_plus": "22"
+            },
+            {
+              "name": "Poison Fang",
+              "type": "",
+              "level": "21",
+              "level_plus": "24"
+            },
+            {
+              "name": "Breaking Swipe",
+              "type": "",
+              "level": "24",
+              "level_plus": "27"
+            },
+            {
+              "name": "Night Slash",
+              "type": "",
+              "level": "28",
+              "level_plus": "31"
+            },
+            {
+              "name": "Poison Jab",
+              "type": "",
+              "level": "31",
+              "level_plus": "34"
+            },
+            {
+              "name": "Haze",
+              "type": "",
+              "level": "34",
+              "level_plus": "37"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "39",
+              "level_plus": "42"
+            },
+            {
+              "name": "Sludge Bomb",
+              "type": "",
+              "level": "46",
+              "level_plus": "49"
+            },
+            {
+              "name": "Gunk Shot",
+              "type": "",
+              "level": "52",
+              "level_plus": "55"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM007",
+              "name": "Toxic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM014",
+              "name": "Fire Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM015",
+              "name": "Ice Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM021",
+              "name": "Thunder Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM030",
+              "name": "Swords Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Night Slash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM042",
+              "name": "Giga Drain",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM053",
+              "name": "Sludge Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM069",
+              "name": "Earthquake",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM078",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM081",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Iron Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM090",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM091",
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM100",
+              "name": "Gunk Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM112",
+              "name": "Acid Spray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM115",
+              "name": "Trailblaze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM123",
+              "name": "Poison Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM124",
+              "name": "Psychic Fangs",
+              "type": ""
+            },
+            {
+              "tm_id": "TM128",
+              "name": "Seed Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM139",
+              "name": "Swagger",
+              "type": ""
+            },
+            {
+              "tm_id": "TM143",
+              "name": "Scale Shot",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Wrap",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Swagger",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "4"
+            },
+            {
+              "name": "Lick",
+              "type": "",
+              "level": "6"
+            },
+            {
+              "name": "Poison Tail",
+              "type": "",
+              "level": "9"
+            },
+            {
+              "name": "Feint",
+              "type": "",
+              "level": "11"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "14"
+            },
+            {
+              "name": "Glare",
+              "type": "",
+              "level": "19"
+            },
+            {
+              "name": "Poison Fang",
+              "type": "",
+              "level": "21"
+            },
+            {
+              "name": "Venoshock",
+              "type": "",
+              "level": "24"
+            },
+            {
+              "name": "Gastro Acid",
+              "type": "",
+              "level": "29"
+            },
+            {
+              "name": "Poison Jab",
+              "type": "",
+              "level": "31"
+            },
+            {
+              "name": "Haze",
+              "type": "",
+              "level": "34"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "39"
+            },
+            {
+              "name": "Belch",
+              "type": "",
+              "level": "41"
+            },
+            {
+              "name": "Coil",
+              "type": "",
+              "level": "44"
+            },
+            {
+              "name": "Sludge Bomb",
+              "type": "",
+              "level": "46"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Fire Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM009",
+              "name": "Thunder Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Ice Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Acid Spray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Thief",
+              "type": ""
+            },
+            {
+              "tm_id": "TM020",
+              "name": "Trailblaze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM021",
+              "name": "Pounce",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM026",
+              "name": "Poison Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM030",
+              "name": "Snarl",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Venoshock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic Fangs",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM071",
+              "name": "Seed Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM083",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM088",
+              "name": "Swords Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM094",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM099",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM102",
+              "name": "Gunk Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM111",
+              "name": "Giga Drain",
+              "type": ""
+            },
+            {
+              "tm_id": "TM125",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM130",
+              "name": "Helping Hand",
+              "type": ""
+            },
+            {
+              "tm_id": "TM134",
+              "name": "Reversal",
+              "type": ""
+            },
+            {
+              "tm_id": "TM148",
+              "name": "Sludge Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM149",
+              "name": "Earthquake",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM174",
+              "name": "Haze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM175",
+              "name": "Toxic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM181",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM199",
+              "name": "Lash Out",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM205",
+              "name": "Endeavor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM214",
+              "name": "Sludge Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM219",
+              "name": "Skitter Smack",
+              "type": ""
+            },
+            {
+              "tm_id": "TM221",
+              "name": "Throat Chop",
+              "type": ""
+            },
+            {
+              "tm_id": "TM222",
+              "name": "Breaking Swipe",
+              "type": ""
+            },
+            {
+              "tm_id": "TM224",
+              "name": "Curse",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "name": "Stockpile",
+              "type": ""
+            },
+            {
+              "name": "Spit Up",
+              "type": ""
+            },
+            {
+              "name": "Swallow",
+              "type": ""
+            },
+            {
+              "name": "Assurance",
+              "type": ""
+            },
+            {
+              "name": "Night Slash",
+              "type": ""
+            },
+            {
+              "name": "Switcheroo",
+              "type": ""
+            },
+            {
+              "name": "Final Gambit",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/seviper/"
+  }
+}

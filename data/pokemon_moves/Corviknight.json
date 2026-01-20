@@ -1,0 +1,614 @@
+{
+  "Corviknight": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Steel Wing",
+              "type": "",
+              "level": "Evolve",
+              "level_plus": "41"
+            },
+            {
+              "name": "Metal Sound",
+              "type": "",
+              "level": "Evolve",
+              "level_plus": "41"
+            },
+            {
+              "name": "Metal Claw",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Leer",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Peck",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Iron Defense",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Gust",
+              "type": "",
+              "level": "10",
+              "level_plus": "13"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "14",
+              "level_plus": "17"
+            },
+            {
+              "name": "Wing Attack",
+              "type": "",
+              "level": "18",
+              "level_plus": "21"
+            },
+            {
+              "name": "Taunt",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Air Slash",
+              "type": "",
+              "level": "24",
+              "level_plus": "27"
+            },
+            {
+              "name": "Feather Dance",
+              "type": "",
+              "level": "27",
+              "level_plus": "30"
+            },
+            {
+              "name": "Swagger",
+              "type": "",
+              "level": "32",
+              "level_plus": "35"
+            },
+            {
+              "name": "Slash",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Dual Wingbeat",
+              "type": "",
+              "level": "42",
+              "level_plus": "45"
+            },
+            {
+              "name": "Brave Bird",
+              "type": "",
+              "level": "47",
+              "level_plus": "50"
+            },
+            {
+              "name": "Heavy Slam",
+              "type": "",
+              "level": "53",
+              "level_plus": "56"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM004",
+              "name": "Rock Smash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Bulk Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM016",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM043",
+              "name": "Fly",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM079",
+              "name": "Hurricane",
+              "type": ""
+            },
+            {
+              "tm_id": "TM080",
+              "name": "Iron Defense",
+              "type": ""
+            },
+            {
+              "tm_id": "TM082",
+              "name": "U-turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM083",
+              "name": "Nasty Plot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM084",
+              "name": "Flash Cannon",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM091",
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Work Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM119",
+              "name": "Ominous Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM126",
+              "name": "Magnet Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM134",
+              "name": "Dual Wingbeat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM139",
+              "name": "Swagger",
+              "type": ""
+            },
+            {
+              "tm_id": "TM145",
+              "name": "Razor Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM153",
+              "name": "Sky Attack",
+              "type": ""
+            },
+            {
+              "tm_id": "TM157",
+              "name": "Steel Beam",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Steel Wing",
+              "type": "",
+              "level": "Evolve"
+            },
+            {
+              "name": "Leer",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Peck",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Metal Sound",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Iron Defense",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Hone Claws",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Power Trip",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Fury Attack",
+              "type": "",
+              "level": "12"
+            },
+            {
+              "name": "Pluck",
+              "type": "",
+              "level": "16"
+            },
+            {
+              "name": "Taunt",
+              "type": "",
+              "level": "22"
+            },
+            {
+              "name": "Scary Face",
+              "type": "",
+              "level": "28"
+            },
+            {
+              "name": "Drill Peck",
+              "type": "",
+              "level": "34"
+            },
+            {
+              "name": "Swagger",
+              "type": "",
+              "level": "42"
+            },
+            {
+              "name": "Brave Bird",
+              "type": "",
+              "level": "50"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM003",
+              "name": "Fake Tears",
+              "type": ""
+            },
+            {
+              "tm_id": "TM004",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Thief",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Metal Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM040",
+              "name": "Air Cutter",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM060",
+              "name": "U-turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Bulk Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Air Slash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM089",
+              "name": "Body Press",
+              "type": ""
+            },
+            {
+              "tm_id": "TM093",
+              "name": "Flash Cannon",
+              "type": ""
+            },
+            {
+              "tm_id": "TM097",
+              "name": "Fly",
+              "type": ""
+            },
+            {
+              "tm_id": "TM099",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM104",
+              "name": "Iron Defense",
+              "type": ""
+            },
+            {
+              "tm_id": "TM113",
+              "name": "Tailwind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM121",
+              "name": "Heavy Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM134",
+              "name": "Reversal",
+              "type": ""
+            },
+            {
+              "tm_id": "TM140",
+              "name": "Nasty Plot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM160",
+              "name": "Hurricane",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM164",
+              "name": "Brave Bird",
+              "type": ""
+            },
+            {
+              "tm_id": "TM170",
+              "name": "Steel Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM177",
+              "name": "Spite",
+              "type": ""
+            },
+            {
+              "tm_id": "TM197",
+              "name": "Dual Wingbeat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM223",
+              "name": "Metal Sound",
+              "type": ""
+            },
+            {
+              "tm_id": "TM224",
+              "name": "Curse",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Sand Attack",
+              "type": ""
+            },
+            {
+              "name": "Sky Attack",
+              "type": ""
+            },
+            {
+              "name": "Spite",
+              "type": ""
+            },
+            {
+              "name": "Rock Smash",
+              "type": ""
+            },
+            {
+              "name": "Roost",
+              "type": ""
+            },
+            {
+              "name": "Tailwind",
+              "type": ""
+            },
+            {
+              "name": "Defog",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/corviknight/"
+  }
+}

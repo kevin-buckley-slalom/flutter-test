@@ -1,0 +1,618 @@
+{
+  "Loudred": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Bite",
+          "level": "Evolve",
+          "type": ""
+        },
+        {
+          "name": "Bite",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Astonish",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Pound",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Echoed Voice",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Howl",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Rest",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Sleep Talk",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Stomp",
+          "level": "23",
+          "type": ""
+        },
+        {
+          "name": "Roar",
+          "level": "29",
+          "type": ""
+        },
+        {
+          "name": "Supersonic",
+          "level": "36",
+          "type": ""
+        },
+        {
+          "name": "Uproar",
+          "level": "43",
+          "type": ""
+        },
+        {
+          "name": "Screech",
+          "level": "50",
+          "type": ""
+        },
+        {
+          "name": "Hyper Voice",
+          "level": "57",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Mega Punch",
+          "type": "",
+          "id": "TM00"
+        },
+        {
+          "name": "Mega Kick",
+          "type": "",
+          "id": "TM01"
+        },
+        {
+          "name": "Fire Punch",
+          "type": "",
+          "id": "TM03"
+        },
+        {
+          "name": "Ice Punch",
+          "type": "",
+          "id": "TM04"
+        },
+        {
+          "name": "Thunder Punch",
+          "type": "",
+          "id": "TM05"
+        },
+        {
+          "name": "Solar Beam",
+          "type": "",
+          "id": "TM11"
+        },
+        {
+          "name": "Screech",
+          "type": "",
+          "id": "TM16"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Rock Slide",
+          "type": "",
+          "id": "TM22"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Icy Wind",
+          "type": "",
+          "id": "TM27"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Sunny Day",
+          "type": "",
+          "id": "TM34"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Brick Break",
+          "type": "",
+          "id": "TM43"
+        },
+        {
+          "name": "Fake Tears",
+          "type": "",
+          "id": "TM47"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM48"
+        },
+        {
+          "name": "Fling",
+          "type": "",
+          "id": "TM59"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Retaliate",
+          "type": "",
+          "id": "TM79"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM81"
+        },
+        {
+          "name": "Stomping Tantrum",
+          "type": "",
+          "id": "TM98"
+        },
+        {
+          "name": "Water Pulse",
+          "type": "",
+          "id": "TM03"
+        },
+        {
+          "name": "Roar",
+          "type": "",
+          "id": "TM05"
+        },
+        {
+          "name": "Work Up",
+          "type": "",
+          "id": "TM10"
+        },
+        {
+          "name": "Sunny Day",
+          "type": "",
+          "id": "TM11"
+        },
+        {
+          "name": "Taunt",
+          "type": "",
+          "id": "TM12"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TM13"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TM14"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Solar Beam",
+          "type": "",
+          "id": "TM22"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TM26"
+        },
+        {
+          "name": "Shadow Ball",
+          "type": "",
+          "id": "TM30"
+        },
+        {
+          "name": "Brick Break",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Double Team",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Shock Wave",
+          "type": "",
+          "id": "TM34"
+        },
+        {
+          "name": "Flamethrower",
+          "type": "",
+          "id": "TM35"
+        },
+        {
+          "name": "Fire Blast",
+          "type": "",
+          "id": "TM38"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Torment",
+          "type": "",
+          "id": "TM41"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM42"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM44"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Overheat",
+          "type": "",
+          "id": "TM50"
+        },
+        {
+          "name": "Fling",
+          "type": "",
+          "id": "TM56"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Rock Slide",
+          "type": "",
+          "id": "TM80"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM83"
+        },
+        {
+          "name": "Swagger",
+          "type": "",
+          "id": "TM87"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TM90"
+        },
+        {
+          "name": "Strength",
+          "type": "",
+          "id": "TM96"
+        },
+        {
+          "name": "Rock Smash",
+          "type": "",
+          "id": "TM98"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Flamethrower",
+          "type": "",
+          "id": "TR02"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TR05"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TR06"
+        },
+        {
+          "name": "Low Kick",
+          "type": "",
+          "id": "TR07"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TR10"
+        },
+        {
+          "name": "Fire Blast",
+          "type": "",
+          "id": "TR15"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Shadow Ball",
+          "type": "",
+          "id": "TR33"
+        },
+        {
+          "name": "Uproar",
+          "type": "",
+          "id": "TR35"
+        },
+        {
+          "name": "Taunt",
+          "type": "",
+          "id": "TR37"
+        },
+        {
+          "name": "Hyper Voice",
+          "type": "",
+          "id": "TR42"
+        },
+        {
+          "name": "Overheat",
+          "type": "",
+          "id": "TR43"
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "",
+          "id": "TR69"
+        },
+        {
+          "name": "Work Up",
+          "type": "",
+          "id": "TR85"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Circle Throw",
+          "type": ""
+        },
+        {
+          "name": "Disarming Voice",
+          "type": ""
+        },
+        {
+          "name": "Endeavor",
+          "type": ""
+        },
+        {
+          "name": "Extrasensory",
+          "type": ""
+        },
+        {
+          "name": "Hammer Arm",
+          "type": ""
+        },
+        {
+          "name": "Smokescreen",
+          "type": ""
+        },
+        {
+          "name": "Take Down",
+          "type": ""
+        },
+        {
+          "name": "Whirlwind",
+          "type": ""
+        },
+        {
+          "name": "SnoreBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Fake TearsBDSP Only",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Flare",
+          "type": ""
+        },
+        {
+          "name": "Max Lightning",
+          "type": ""
+        },
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Phantasm",
+          "type": ""
+        },
+        {
+          "name": "Max Hailstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Starfall",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Rockfall",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Overgrowth",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Smack Down",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Smack Down",
+          "type": ""
+        },
+        {
+          "name": "Incinerate",
+          "type": ""
+        },
+        {
+          "name": "Power-up Punch",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Mud-slap",
+          "type": ""
+        },
+        {
+          "name": "Rollout",
+          "type": ""
+        },
+        {
+          "name": "Headbutt",
+          "type": ""
+        },
+        {
+          "name": "Double-edge",
+          "type": ""
+        },
+        {
+          "name": "Counter",
+          "type": ""
+        },
+        {
+          "name": "Seismic Toss",
+          "type": ""
+        },
+        {
+          "name": "Mimic",
+          "type": ""
+        },
+        {
+          "name": "Dynamic Punch",
+          "type": ""
+        },
+        {
+          "name": "Psych Up",
+          "type": ""
+        },
+        {
+          "name": "Defense Curl",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/loudred/"
+  }
+}

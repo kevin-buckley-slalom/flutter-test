@@ -1,0 +1,573 @@
+{
+  "Dragalge": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Water Gun",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Smokescreen",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "5",
+              "level_plus": "8"
+            },
+            {
+              "name": "Mud Shot",
+              "type": "",
+              "level": "10",
+              "level_plus": "13"
+            },
+            {
+              "name": "Bubble Beam",
+              "type": "",
+              "level": "15",
+              "level_plus": "18"
+            },
+            {
+              "name": "Double Team",
+              "type": "",
+              "level": "22",
+              "level_plus": "25"
+            },
+            {
+              "name": "Toxic",
+              "type": "",
+              "level": "25",
+              "level_plus": "28"
+            },
+            {
+              "name": "Water Pulse",
+              "type": "",
+              "level": "30",
+              "level_plus": "33"
+            },
+            {
+              "name": "Poison Jab",
+              "type": "",
+              "level": "32",
+              "level_plus": "35"
+            },
+            {
+              "name": "Dragon Pulse",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Sludge Bomb",
+              "type": "",
+              "level": "40",
+              "level_plus": "43"
+            },
+            {
+              "name": "Hydro Pump",
+              "type": "",
+              "level": "46",
+              "level_plus": "49"
+            },
+            {
+              "name": "Sludge Wave",
+              "type": "",
+              "level": "52",
+              "level_plus": "55"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM007",
+              "name": "Toxic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM009",
+              "name": "Flip Turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM020",
+              "name": "Play Rough",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Double Team",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM041",
+              "name": "Water Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM046",
+              "name": "Mud Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM053",
+              "name": "Sludge Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM054",
+              "name": "Draco Meteor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM073",
+              "name": "Surf",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM076",
+              "name": "Liquidation",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM089",
+              "name": "Toxic Spikes",
+              "type": ""
+            },
+            {
+              "tm_id": "TM093",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM096",
+              "name": "Hydro Pump",
+              "type": ""
+            },
+            {
+              "tm_id": "TM098",
+              "name": "Waterfall",
+              "type": ""
+            },
+            {
+              "tm_id": "TM100",
+              "name": "Gunk Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM102",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM110",
+              "name": "Chilling Water",
+              "type": ""
+            },
+            {
+              "tm_id": "TM112",
+              "name": "Acid Spray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM140",
+              "name": "Muddy Water",
+              "type": ""
+            },
+            {
+              "tm_id": "TM143",
+              "name": "Scale Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM148",
+              "name": "Scald",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Acid",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Water Gun",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Smokescreen",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "15"
+            },
+            {
+              "name": "Double Team",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Poison Tail",
+              "type": "",
+              "level": "25"
+            },
+            {
+              "name": "Water Pulse",
+              "type": "",
+              "level": "30"
+            },
+            {
+              "name": "Toxic",
+              "type": "",
+              "level": "35"
+            },
+            {
+              "name": "Dragon Pulse",
+              "type": "",
+              "level": "40"
+            },
+            {
+              "name": "Aqua Tail",
+              "type": "",
+              "level": "45"
+            },
+            {
+              "name": "Sludge Bomb",
+              "type": "",
+              "level": "52"
+            },
+            {
+              "name": "Hydro Pump",
+              "type": "",
+              "level": "59"
+            },
+            {
+              "name": "Outrage",
+              "type": "",
+              "level": "66"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM005",
+              "name": "Mud-Slap",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Water Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Acid Spray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Thief",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Chilling Water",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM026",
+              "name": "Poison Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Mud Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Venoshock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM052",
+              "name": "Snowscape",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Waterfall",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM091",
+              "name": "Toxic Spikes",
+              "type": ""
+            },
+            {
+              "tm_id": "TM102",
+              "name": "Gunk Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM110",
+              "name": "Liquidation",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM115",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM123",
+              "name": "Surf",
+              "type": ""
+            },
+            {
+              "tm_id": "TM126",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM127",
+              "name": "Play Rough",
+              "type": ""
+            },
+            {
+              "tm_id": "TM142",
+              "name": "Hydro Pump",
+              "type": ""
+            },
+            {
+              "tm_id": "TM148",
+              "name": "Sludge Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM156",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM158",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM166",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM169",
+              "name": "Draco Meteor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM174",
+              "name": "Haze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM175",
+              "name": "Toxic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM177",
+              "name": "Spite",
+              "type": ""
+            },
+            {
+              "tm_id": "TM188",
+              "name": "Scald",
+              "type": ""
+            },
+            {
+              "tm_id": "TM196",
+              "name": "Flip Turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM200",
+              "name": "Scale Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM208",
+              "name": "Whirlpool",
+              "type": ""
+            },
+            {
+              "tm_id": "TM209",
+              "name": "Muddy Water",
+              "type": ""
+            },
+            {
+              "tm_id": "TM214",
+              "name": "Sludge Wave",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Haze",
+              "type": ""
+            },
+            {
+              "name": "Acid Armor",
+              "type": ""
+            },
+            {
+              "name": "Twister",
+              "type": ""
+            },
+            {
+              "name": "Dragon Tail",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/dragalge/"
+  }
+}

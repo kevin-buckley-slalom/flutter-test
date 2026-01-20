@@ -1,0 +1,795 @@
+{
+  "Emboar": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Heat Crash",
+              "type": "",
+              "level": "Evolve",
+              "level_plus": "39"
+            },
+            {
+              "name": "Power-Up Punch",
+              "type": "",
+              "level": "—",
+              "level_plus": "20"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Ember",
+              "type": "",
+              "level": "6",
+              "level_plus": "9"
+            },
+            {
+              "name": "Rollout",
+              "type": "",
+              "level": "10",
+              "level_plus": "13"
+            },
+            {
+              "name": "Smokescreen",
+              "type": "",
+              "level": "13",
+              "level_plus": "16"
+            },
+            {
+              "name": "Flame Wheel",
+              "type": "",
+              "level": "15",
+              "level_plus": "18"
+            },
+            {
+              "name": "Fire Spin",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Focus Energy",
+              "type": "",
+              "level": "24",
+              "level_plus": "27"
+            },
+            {
+              "name": "Flamethrower",
+              "type": "",
+              "level": "29",
+              "level_plus": "32"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "32",
+              "level_plus": "35"
+            },
+            {
+              "name": "Bulk Up",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Close Combat",
+              "type": "",
+              "level": "45",
+              "level_plus": "48"
+            },
+            {
+              "name": "Flare Blitz",
+              "type": "",
+              "level": "50",
+              "level_plus": "53"
+            },
+            {
+              "name": "Head Smash",
+              "type": "",
+              "level": "56",
+              "level_plus": "59"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM004",
+              "name": "Rock Smash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM005",
+              "name": "Roar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Bulk Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM012",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Power-Up Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM023",
+              "name": "Thunder Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Fire Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Double Team",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM038",
+              "name": "Fire Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Overheat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM057",
+              "name": "Will-O-Wisp",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Stone Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM068",
+              "name": "Heat Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM069",
+              "name": "Earthquake",
+              "type": ""
+            },
+            {
+              "tm_id": "TM072",
+              "name": "Fire Spin",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM091",
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM102",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Work Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM104",
+              "name": "Flare Blitz",
+              "type": ""
+            },
+            {
+              "tm_id": "TM107",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Comet Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM113",
+              "name": "Low Sweep",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Flame Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM115",
+              "name": "Trailblaze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM129",
+              "name": "Circle Throw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM131",
+              "name": "Drain Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM135",
+              "name": "Dual Chop",
+              "type": ""
+            },
+            {
+              "tm_id": "TM137",
+              "name": "Storm Throw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM148",
+              "name": "Scald",
+              "type": ""
+            },
+            {
+              "tm_id": "TM150",
+              "name": "Vacuum Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Solar Blade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM158",
+              "name": "Blast Burn",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Ember",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Arm Thrust",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Defense Curl",
+              "type": "",
+              "level": "13"
+            },
+            {
+              "name": "Flame Charge",
+              "type": "",
+              "level": "15"
+            },
+            {
+              "name": "Smog",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Rollout",
+              "type": "",
+              "level": "23"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "28"
+            },
+            {
+              "name": "Heat Crash",
+              "type": "",
+              "level": "31"
+            },
+            {
+              "name": "Assurance",
+              "type": "",
+              "level": "38"
+            },
+            {
+              "name": "Flamethrower",
+              "type": "",
+              "level": "43"
+            },
+            {
+              "name": "Head Smash",
+              "type": "",
+              "level": "50"
+            },
+            {
+              "name": "Roar",
+              "type": "",
+              "level": "55"
+            },
+            {
+              "name": "Flare Blitz",
+              "type": "",
+              "level": "62"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM005",
+              "name": "Mud-Slap",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM012",
+              "name": "Low Kick",
+              "type": ""
+            },
+            {
+              "tm_id": "TM020",
+              "name": "Trailblaze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM024",
+              "name": "Fire Spin",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM038",
+              "name": "Flame Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM039",
+              "name": "Low Sweep",
+              "type": ""
+            },
+            {
+              "tm_id": "TM043",
+              "name": "Fling",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Bulk Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Fire Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM068",
+              "name": "Thunder Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM073",
+              "name": "Drain Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM081",
+              "name": "Grass Knot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM083",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM084",
+              "name": "Stomping Tantrum",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM089",
+              "name": "Body Press",
+              "type": ""
+            },
+            {
+              "tm_id": "TM099",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM107",
+              "name": "Will-O-Wisp",
+              "type": ""
+            },
+            {
+              "tm_id": "TM118",
+              "name": "Heat Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM121",
+              "name": "Heavy Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM125",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM130",
+              "name": "Helping Hand",
+              "type": ""
+            },
+            {
+              "tm_id": "TM134",
+              "name": "Reversal",
+              "type": ""
+            },
+            {
+              "tm_id": "TM141",
+              "name": "Fire Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM144",
+              "name": "Fire Pledge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM147",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM149",
+              "name": "Earthquake",
+              "type": ""
+            },
+            {
+              "tm_id": "TM150",
+              "name": "Stone Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM153",
+              "name": "Blast Burn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM157",
+              "name": "Overheat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM158",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM165",
+              "name": "Flare Blitz",
+              "type": ""
+            },
+            {
+              "tm_id": "TM167",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM168",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM172",
+              "name": "Roar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM179",
+              "name": "Smack Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM180",
+              "name": "Gyro Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM181",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM186",
+              "name": "High Horsepower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM188",
+              "name": "Scald",
+              "type": ""
+            },
+            {
+              "tm_id": "TM189",
+              "name": "Heat Crash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM192",
+              "name": "Focus Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM205",
+              "name": "Endeavor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM207",
+              "name": "Temper Flare",
+              "type": ""
+            },
+            {
+              "tm_id": "TM213",
+              "name": "Coaching",
+              "type": ""
+            },
+            {
+              "tm_id": "TM224",
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM225",
+              "name": "Hard Press",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Thrash",
+              "type": ""
+            },
+            {
+              "name": "Superpower",
+              "type": ""
+            },
+            {
+              "name": "Yawn",
+              "type": ""
+            },
+            {
+              "name": "Sucker Punch",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/emboar/"
+  }
+}

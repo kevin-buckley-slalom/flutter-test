@@ -1,0 +1,576 @@
+{
+  "Porygon-Z": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Confuse Ray",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Conversion",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Charge",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Eerie Impulse",
+              "type": "",
+              "level": "10",
+              "level_plus": "13"
+            },
+            {
+              "name": "Thunder Shock",
+              "type": "",
+              "level": "15",
+              "level_plus": "18"
+            },
+            {
+              "name": "Psybeam",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Conversion 2",
+              "type": "",
+              "level": "25",
+              "level_plus": "28"
+            },
+            {
+              "name": "Agility",
+              "type": "",
+              "level": "30",
+              "level_plus": "33"
+            },
+            {
+              "name": "Recover",
+              "type": "",
+              "level": "35",
+              "level_plus": "38"
+            },
+            {
+              "name": "Discharge",
+              "type": "",
+              "level": "40",
+              "level_plus": "43"
+            },
+            {
+              "name": "Metal Sound",
+              "type": "",
+              "level": "45",
+              "level_plus": "48"
+            },
+            {
+              "name": "Self-Destruct",
+              "type": "",
+              "level": "50",
+              "level_plus": "53"
+            },
+            {
+              "name": "Zap Cannon",
+              "type": "",
+              "level": "55",
+              "level_plus": "58"
+            },
+            {
+              "name": "Hyper Beam",
+              "type": "",
+              "level": "60",
+              "level_plus": "63"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM003",
+              "name": "Psyshock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM039",
+              "name": "Discharge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM048",
+              "name": "Self-Destruct",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Volt Switch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM083",
+              "name": "Nasty Plot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM084",
+              "name": "Flash Cannon",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Iron Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM090",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM097",
+              "name": "Heal Block",
+              "type": ""
+            },
+            {
+              "tm_id": "TM101",
+              "name": "Electroweb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM106",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM119",
+              "name": "Ominous Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM126",
+              "name": "Magnet Bomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM130",
+              "name": "Charge Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM146",
+              "name": "Skull Bash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM147",
+              "name": "Tri Attack",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Conversion",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Nasty Plot",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Magnet Rise",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Recycle",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Trick Room",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Defense Curl",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Thunder Shock",
+              "type": "",
+              "level": "15"
+            },
+            {
+              "name": "Psybeam",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Conversion 2",
+              "type": "",
+              "level": "25"
+            },
+            {
+              "name": "Agility",
+              "type": "",
+              "level": "30"
+            },
+            {
+              "name": "Recover",
+              "type": "",
+              "level": "35"
+            },
+            {
+              "name": "Discharge",
+              "type": "",
+              "level": "40"
+            },
+            {
+              "name": "Tri Attack",
+              "type": "",
+              "level": "45"
+            },
+            {
+              "name": "Double-Edge",
+              "type": "",
+              "level": "50"
+            },
+            {
+              "name": "Lock-On",
+              "type": "",
+              "level": "55"
+            },
+            {
+              "name": "Zap Cannon",
+              "type": "",
+              "level": "60"
+            },
+            {
+              "name": "Hyper Beam",
+              "type": "",
+              "level": "65"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM004",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM016",
+              "name": "Psybeam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Thief",
+              "type": ""
+            },
+            {
+              "tm_id": "TM023",
+              "name": "Charge Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM054",
+              "name": "Psyshock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Foul Play",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM082",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM094",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM096",
+              "name": "Eerie Impulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Trick",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM120",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM126",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM135",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM140",
+              "name": "Nasty Plot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM143",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM161",
+              "name": "Trick Room",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM166",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM168",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM173",
+              "name": "Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM178",
+              "name": "Gravity",
+              "type": ""
+            },
+            {
+              "tm_id": "TM191",
+              "name": "Uproar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM211",
+              "name": "Electroweb",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/porygon-z/"
+  }
+}

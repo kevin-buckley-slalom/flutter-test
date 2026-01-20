@@ -1,0 +1,824 @@
+{
+  "Togekiss": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Air Slash",
+          "level": "Evolve",
+          "type": ""
+        },
+        {
+          "name": "Air Slash",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Fairy Wind",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Sky Attack",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Aura Sphere",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Extreme Speed",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Tri Attack",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Charm",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Ancient Power",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Yawn",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Metronome",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "After You",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Double-Edge",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Safeguard",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Follow Me",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Baton Pass",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Last Resort",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Wish",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Growl",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Pound",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Sweet Kiss",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Life Dew",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Tackle",
+          "level": "—10",
+          "type": ""
+        },
+        {
+          "name": "Fairy Wind",
+          "level": "615",
+          "type": ""
+        },
+        {
+          "name": "Draining Kiss",
+          "level": "1120",
+          "type": ""
+        },
+        {
+          "name": "Air Cutter",
+          "level": "1120",
+          "type": ""
+        },
+        {
+          "name": "Calm Mind",
+          "level": "1828",
+          "type": ""
+        },
+        {
+          "name": "Baby-Doll Eyes",
+          "level": "2535",
+          "type": ""
+        },
+        {
+          "name": "Air Slash",
+          "level": "2535",
+          "type": ""
+        },
+        {
+          "name": "Extrasensory",
+          "level": "3445",
+          "type": ""
+        },
+        {
+          "name": "Moonblast",
+          "level": "4354",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Mega Punch",
+          "type": "",
+          "id": "TM00"
+        },
+        {
+          "name": "Mega Kick",
+          "type": "",
+          "id": "TM01"
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "id": "TM06"
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Magical Leaf",
+          "type": "",
+          "id": "TM10"
+        },
+        {
+          "name": "Solar Beam",
+          "type": "",
+          "id": "TM11"
+        },
+        {
+          "name": "Thunder Wave",
+          "type": "",
+          "id": "TM14"
+        },
+        {
+          "name": "Light Screen",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Reflect",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Safeguard",
+          "type": "",
+          "id": "TM19"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Charm",
+          "type": "",
+          "id": "TM29"
+        },
+        {
+          "name": "Steel Wing",
+          "type": "",
+          "id": "TM30"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Sunny Day",
+          "type": "",
+          "id": "TM34"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Swift",
+          "type": "",
+          "id": "TM40"
+        },
+        {
+          "name": "Helping Hand",
+          "type": "",
+          "id": "TM41"
+        },
+        {
+          "name": "Brick Break",
+          "type": "",
+          "id": "TM43"
+        },
+        {
+          "name": "Imprison",
+          "type": "",
+          "id": "TM44"
+        },
+        {
+          "name": "Fling",
+          "type": "",
+          "id": "TM59"
+        },
+        {
+          "name": "Drain Punch",
+          "type": "",
+          "id": "TM63"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Retaliate",
+          "type": "",
+          "id": "TM79"
+        },
+        {
+          "name": "Draining Kiss",
+          "type": "",
+          "id": "TM87"
+        },
+        {
+          "name": "Mystical Fire",
+          "type": "",
+          "id": "TM92"
+        },
+        {
+          "name": "Air Slash",
+          "type": "",
+          "id": "TM95"
+        },
+        {
+          "name": "Smart Strike",
+          "type": "",
+          "id": "TM96"
+        },
+        {
+          "name": "Focus Punch",
+          "type": "",
+          "id": "TM01"
+        },
+        {
+          "name": "Water Pulse",
+          "type": "",
+          "id": "TM03"
+        },
+        {
+          "name": "Work Up",
+          "type": "",
+          "id": "TM10"
+        },
+        {
+          "name": "Sunny Day",
+          "type": "",
+          "id": "TM11"
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM15"
+        },
+        {
+          "name": "Light Screen",
+          "type": "",
+          "id": "TM16"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Safeguard",
+          "type": "",
+          "id": "TM20"
+        },
+        {
+          "name": "Dazzling Gleam",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Solar Beam",
+          "type": "",
+          "id": "TM22"
+        },
+        {
+          "name": "Psychic",
+          "type": "",
+          "id": "TM29"
+        },
+        {
+          "name": "Shadow Ball",
+          "type": "",
+          "id": "TM30"
+        },
+        {
+          "name": "Brick Break",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Double Team",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Reflect",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Shock Wave",
+          "type": "",
+          "id": "TM34"
+        },
+        {
+          "name": "Flamethrower",
+          "type": "",
+          "id": "TM35"
+        },
+        {
+          "name": "Fire Blast",
+          "type": "",
+          "id": "TM38"
+        },
+        {
+          "name": "Aerial Ace",
+          "type": "",
+          "id": "TM40"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM42"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM44"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Steel Wing",
+          "type": "",
+          "id": "TM47"
+        },
+        {
+          "name": "Roost",
+          "type": "",
+          "id": "TM51"
+        },
+        {
+          "name": "Fling",
+          "type": "",
+          "id": "TM56"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Drain Punch",
+          "type": "",
+          "id": "TM60"
+        },
+        {
+          "name": "Nasty Plot",
+          "type": "",
+          "id": "TM63"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM68"
+        },
+        {
+          "name": "Flash",
+          "type": "",
+          "id": "TM70"
+        },
+        {
+          "name": "Thunder Wave",
+          "type": "",
+          "id": "TM73"
+        },
+        {
+          "name": "Psych Up",
+          "type": "",
+          "id": "TM77"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "Dream Eater",
+          "type": "",
+          "id": "TM85"
+        },
+        {
+          "name": "Grass Knot",
+          "type": "",
+          "id": "TM86"
+        },
+        {
+          "name": "Swagger",
+          "type": "",
+          "id": "TM87"
+        },
+        {
+          "name": "Pluck",
+          "type": "",
+          "id": "TM88"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TM90"
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "id": "TM94"
+        },
+        {
+          "name": "Defog",
+          "type": "",
+          "id": "TM97"
+        },
+        {
+          "name": "Rock Smash",
+          "type": "",
+          "id": "TM98"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Flamethrower",
+          "type": "",
+          "id": "TR02"
+        },
+        {
+          "name": "Psychic",
+          "type": "",
+          "id": "TR11"
+        },
+        {
+          "name": "Metronome",
+          "type": "",
+          "id": "TR14"
+        },
+        {
+          "name": "Fire Blast",
+          "type": "",
+          "id": "TR15"
+        },
+        {
+          "name": "Amnesia",
+          "type": "",
+          "id": "TR17"
+        },
+        {
+          "name": "Tri Attack",
+          "type": "",
+          "id": "TR19"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Psyshock",
+          "type": "",
+          "id": "TR25"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Baton Pass",
+          "type": "",
+          "id": "TR29"
+        },
+        {
+          "name": "Encore",
+          "type": "",
+          "id": "TR30"
+        },
+        {
+          "name": "Shadow Ball",
+          "type": "",
+          "id": "TR33"
+        },
+        {
+          "name": "Future Sight",
+          "type": "",
+          "id": "TR34"
+        },
+        {
+          "name": "Uproar",
+          "type": "",
+          "id": "TR35"
+        },
+        {
+          "name": "Heat Wave",
+          "type": "",
+          "id": "TR36"
+        },
+        {
+          "name": "Trick",
+          "type": "",
+          "id": "TR38"
+        },
+        {
+          "name": "Hyper Voice",
+          "type": "",
+          "id": "TR42"
+        },
+        {
+          "name": "Aura Sphere",
+          "type": "",
+          "id": "TR56"
+        },
+        {
+          "name": "Nasty Plot",
+          "type": "",
+          "id": "TR68"
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "",
+          "id": "TR69"
+        },
+        {
+          "name": "Grass Knot",
+          "type": "",
+          "id": "TR77"
+        },
+        {
+          "name": "Stored Power",
+          "type": "",
+          "id": "TR82"
+        },
+        {
+          "name": "Ally Switch",
+          "type": "",
+          "id": "TR83"
+        },
+        {
+          "name": "Work Up",
+          "type": "",
+          "id": "TR85"
+        },
+        {
+          "name": "Play Rough",
+          "type": "",
+          "id": "TR90"
+        },
+        {
+          "name": "Dazzling Gleam",
+          "type": "",
+          "id": "TR92"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Present",
+          "type": ""
+        },
+        {
+          "name": "Peck",
+          "type": ""
+        },
+        {
+          "name": "Psycho Shift",
+          "type": ""
+        },
+        {
+          "name": "Extrasensory",
+          "type": ""
+        },
+        {
+          "name": "Morning Sun",
+          "type": ""
+        },
+        {
+          "name": "Aerial AceSWSH Only",
+          "type": ""
+        },
+        {
+          "name": "Future SightBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Stored PowerBDSP Only",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Flare",
+          "type": ""
+        },
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Phantasm",
+          "type": ""
+        },
+        {
+          "name": "Max Airstream",
+          "type": ""
+        },
+        {
+          "name": "Max Starfall",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Rockfall",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Overgrowth",
+          "type": ""
+        },
+        {
+          "name": "Max Steelspike",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Echoed Voice",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Covet",
+          "type": ""
+        },
+        {
+          "name": "Magic Coat",
+          "type": ""
+        },
+        {
+          "name": "Heal Bell",
+          "type": ""
+        },
+        {
+          "name": "Tailwind",
+          "type": ""
+        },
+        {
+          "name": "Endeavor",
+          "type": ""
+        },
+        {
+          "name": "Laser Focus",
+          "type": ""
+        },
+        {
+          "name": "Incinerate",
+          "type": ""
+        },
+        {
+          "name": "Air Cutter",
+          "type": ""
+        },
+        {
+          "name": "Mud-slap",
+          "type": ""
+        },
+        {
+          "name": "Rollout",
+          "type": ""
+        },
+        {
+          "name": "Twister",
+          "type": ""
+        },
+        {
+          "name": "Headbutt",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/togekiss/"
+  }
+}

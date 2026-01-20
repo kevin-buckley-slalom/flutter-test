@@ -1,0 +1,675 @@
+{
+  "Eelektross": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Headbutt",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Spark",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "18",
+              "level_plus": "21"
+            },
+            {
+              "name": "Confuse Ray",
+              "type": "",
+              "level": "21",
+              "level_plus": "24"
+            },
+            {
+              "name": "Discharge",
+              "type": "",
+              "level": "29",
+              "level_plus": "32"
+            },
+            {
+              "name": "Eerie Impulse",
+              "type": "",
+              "level": "33",
+              "level_plus": "36"
+            },
+            {
+              "name": "Liquidation",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Charge",
+              "type": "",
+              "level": "39",
+              "level_plus": "42"
+            },
+            {
+              "name": "Thunderbolt",
+              "type": "",
+              "level": "44",
+              "level_plus": "47"
+            },
+            {
+              "name": "Wild Charge",
+              "type": "",
+              "level": "46",
+              "level_plus": "49"
+            },
+            {
+              "name": "Zap Cannon",
+              "type": "",
+              "level": "48",
+              "level_plus": "51"
+            },
+            {
+              "name": "Super Fang",
+              "type": "",
+              "level": "50",
+              "level_plus": "53"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM002",
+              "name": "Dragon Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Bulk Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM012",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM016",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM021",
+              "name": "Thunder Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM023",
+              "name": "Thunder Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Fire Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM039",
+              "name": "Discharge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM042",
+              "name": "Giga Drain",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Volt Switch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM076",
+              "name": "Liquidation",
+              "type": ""
+            },
+            {
+              "tm_id": "TM078",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM082",
+              "name": "U-turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM084",
+              "name": "Flash Cannon",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM093",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM098",
+              "name": "Waterfall",
+              "type": ""
+            },
+            {
+              "tm_id": "TM101",
+              "name": "Electroweb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM106",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM107",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Comet Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM112",
+              "name": "Acid Spray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM123",
+              "name": "Poison Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM124",
+              "name": "Psychic Fangs",
+              "type": ""
+            },
+            {
+              "tm_id": "TM130",
+              "name": "Charge Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM131",
+              "name": "Drain Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM140",
+              "name": "Muddy Water",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Headbutt",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Thrash",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Acid",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Zap Cannon",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Crush Claw",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Gastro Acid",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Discharge",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Coil",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Wild Charge",
+              "type": "",
+              "level": "5"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM009",
+              "name": "Thunder Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Acid Spray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM014",
+              "name": "Acrobatics",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Confuse Ray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM023",
+              "name": "Charge Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Hex",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Dragon Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM048",
+              "name": "Volt Switch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM060",
+              "name": "U-turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Bulk Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Fire Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM068",
+              "name": "Thunder Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM072",
+              "name": "Electro Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM073",
+              "name": "Drain Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM078",
+              "name": "Dragon Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM081",
+              "name": "Grass Knot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM082",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM084",
+              "name": "Stomping Tantrum",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM089",
+              "name": "Body Press",
+              "type": ""
+            },
+            {
+              "tm_id": "TM093",
+              "name": "Flash Cannon",
+              "type": ""
+            },
+            {
+              "tm_id": "TM096",
+              "name": "Eerie Impulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM110",
+              "name": "Liquidation",
+              "type": ""
+            },
+            {
+              "tm_id": "TM111",
+              "name": "Giga Drain",
+              "type": ""
+            },
+            {
+              "tm_id": "TM115",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM121",
+              "name": "Heavy Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM125",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM126",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM136",
+              "name": "Electric Terrain",
+              "type": ""
+            },
+            {
+              "tm_id": "TM147",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM156",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM166",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM167",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM173",
+              "name": "Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM181",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM183",
+              "name": "Super Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM185",
+              "name": "Lunge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM192",
+              "name": "Focus Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM210",
+              "name": "Supercell Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM211",
+              "name": "Electroweb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM221",
+              "name": "Throat Chop",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/eelektross/"
+  }
+}

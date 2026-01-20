@@ -1,0 +1,688 @@
+{
+  "Umbreon": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Snarl",
+              "type": "",
+              "level": "Evolve",
+              "level_plus": "10"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Double-Edge",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Swift",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Charm",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Wish",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Growl",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Quick Attack",
+              "type": "",
+              "level": "10",
+              "level_plus": "13"
+            },
+            {
+              "name": "Disarming Voice",
+              "type": "",
+              "level": "15",
+              "level_plus": "18"
+            },
+            {
+              "name": "Confuse Ray",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Moonlight",
+              "type": "",
+              "level": "30",
+              "level_plus": "33"
+            },
+            {
+              "name": "Knock Off",
+              "type": "",
+              "level": "35",
+              "level_plus": "38"
+            },
+            {
+              "name": "Dark Pulse",
+              "type": "",
+              "level": "40",
+              "level_plus": "43"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "45",
+              "level_plus": "48"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "50",
+              "level_plus": "53"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM005",
+              "name": "Roar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Toxic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM016",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM071",
+              "name": "Hyper Voice",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Iron Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM090",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM091",
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM115",
+              "name": "Trailblaze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM119",
+              "name": "Ominous Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM121",
+              "name": "Torment",
+              "type": ""
+            },
+            {
+              "tm_id": "TM125",
+              "name": "Mimic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM127",
+              "name": "Dream Eater",
+              "type": ""
+            },
+            {
+              "tm_id": "TM139",
+              "name": "Swagger",
+              "type": ""
+            },
+            {
+              "tm_id": "TM145",
+              "name": "Razor Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM146",
+              "name": "Skull Bash",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Snarl",
+              "type": "",
+              "level": "Evolve"
+            },
+            {
+              "name": "Charm",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Double-Edge",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Growl",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Copycat",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Covet",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Helping Hand",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Swift",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Baton Pass",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Sand Attack",
+              "type": "",
+              "level": "5"
+            },
+            {
+              "name": "Quick Attack",
+              "type": "",
+              "level": "10"
+            },
+            {
+              "name": "Baby-Doll Eyes",
+              "type": "",
+              "level": "15"
+            },
+            {
+              "name": "Confuse Ray",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Assurance",
+              "type": "",
+              "level": "25"
+            },
+            {
+              "name": "Moonlight",
+              "type": "",
+              "level": "30"
+            },
+            {
+              "name": "Guard Swap",
+              "type": "",
+              "level": "35"
+            },
+            {
+              "name": "Dark Pulse",
+              "type": "",
+              "level": "40"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "45"
+            },
+            {
+              "name": "Mean Look",
+              "type": "",
+              "level": "50"
+            },
+            {
+              "name": "Last Resort",
+              "type": "",
+              "level": "55"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM002",
+              "name": "Charm",
+              "type": ""
+            },
+            {
+              "tm_id": "TM003",
+              "name": "Fake Tears",
+              "type": ""
+            },
+            {
+              "tm_id": "TM005",
+              "name": "Mud-Slap",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Confuse Ray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Thief",
+              "type": ""
+            },
+            {
+              "tm_id": "TM020",
+              "name": "Trailblaze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM030",
+              "name": "Snarl",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM041",
+              "name": "Stored Power",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Foul Play",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM082",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM094",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM098",
+              "name": "Skill Swap",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM117",
+              "name": "Hyper Voice",
+              "type": ""
+            },
+            {
+              "tm_id": "TM120",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM129",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM130",
+              "name": "Helping Hand",
+              "type": ""
+            },
+            {
+              "tm_id": "TM132",
+              "name": "Baton Pass",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM172",
+              "name": "Roar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM175",
+              "name": "Toxic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM177",
+              "name": "Spite",
+              "type": ""
+            },
+            {
+              "tm_id": "TM193",
+              "name": "Weather Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM199",
+              "name": "Lash Out",
+              "type": ""
+            },
+            {
+              "tm_id": "TM203",
+              "name": "Psych Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM221",
+              "name": "Throat Chop",
+              "type": ""
+            },
+            {
+              "tm_id": "TM224",
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM227",
+              "name": "Alluring Voice",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Double Kick",
+              "type": ""
+            },
+            {
+              "name": "Curse",
+              "type": ""
+            },
+            {
+              "name": "Flail",
+              "type": ""
+            },
+            {
+              "name": "Mud-Slap",
+              "type": ""
+            },
+            {
+              "name": "Detect",
+              "type": ""
+            },
+            {
+              "name": "Wish",
+              "type": ""
+            },
+            {
+              "name": "Yawn",
+              "type": ""
+            },
+            {
+              "name": "Tickle",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/umbreon/"
+  }
+}

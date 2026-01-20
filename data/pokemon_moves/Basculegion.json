@@ -1,0 +1,658 @@
+{
+  "Basculegion Male": {
+    "gen_9": {
+      "gen_9": {
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Shadow Ball",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Water Gun",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Phantom Force",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "4"
+            },
+            {
+              "name": "Flail",
+              "type": "",
+              "level": "8"
+            },
+            {
+              "name": "Aqua Jet",
+              "type": "",
+              "level": "12"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "16"
+            },
+            {
+              "name": "Scary Face",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Headbutt",
+              "type": "",
+              "level": "24"
+            },
+            {
+              "name": "Soak",
+              "type": "",
+              "level": "28"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "32"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "36"
+            },
+            {
+              "name": "Uproar",
+              "type": "",
+              "level": "40"
+            },
+            {
+              "name": "Wave Crash",
+              "type": "",
+              "level": "44"
+            },
+            {
+              "name": "Thrash",
+              "type": "",
+              "level": "48"
+            },
+            {
+              "name": "Double-Edge",
+              "type": "",
+              "level": "52"
+            },
+            {
+              "name": "Head Smash",
+              "type": "",
+              "level": "56"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM004",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Ice Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Water Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Confuse Ray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Chilling Water",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Hex",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Mud Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM042",
+              "name": "Night Shade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM052",
+              "name": "Snowscape",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic Fangs",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Waterfall",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM110",
+              "name": "Liquidation",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM123",
+              "name": "Surf",
+              "type": ""
+            },
+            {
+              "tm_id": "TM135",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM142",
+              "name": "Hydro Pump",
+              "type": ""
+            },
+            {
+              "tm_id": "TM143",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM151",
+              "name": "Phantom Force",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM156",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM177",
+              "name": "Spite",
+              "type": ""
+            },
+            {
+              "tm_id": "TM191",
+              "name": "Uproar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM196",
+              "name": "Flip Turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM200",
+              "name": "Scale Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM202",
+              "name": "Pain Split",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM205",
+              "name": "Endeavor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM208",
+              "name": "Whirlpool",
+              "type": ""
+            },
+            {
+              "tm_id": "TM209",
+              "name": "Muddy Water",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Endeavor",
+              "type": ""
+            },
+            {
+              "name": "Last Respects",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/basculegion/"
+  },
+  "Basculegion Female": {
+    "gen_9": {
+      "gen_9": {
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Shadow Ball",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tail Whip",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Water Gun",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Phantom Force",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "4"
+            },
+            {
+              "name": "Flail",
+              "type": "",
+              "level": "8"
+            },
+            {
+              "name": "Aqua Jet",
+              "type": "",
+              "level": "12"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "16"
+            },
+            {
+              "name": "Scary Face",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Headbutt",
+              "type": "",
+              "level": "24"
+            },
+            {
+              "name": "Soak",
+              "type": "",
+              "level": "28"
+            },
+            {
+              "name": "Crunch",
+              "type": "",
+              "level": "32"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "36"
+            },
+            {
+              "name": "Uproar",
+              "type": "",
+              "level": "40"
+            },
+            {
+              "name": "Wave Crash",
+              "type": "",
+              "level": "44"
+            },
+            {
+              "name": "Thrash",
+              "type": "",
+              "level": "48"
+            },
+            {
+              "name": "Double-Edge",
+              "type": "",
+              "level": "52"
+            },
+            {
+              "name": "Head Smash",
+              "type": "",
+              "level": "56"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM004",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Ice Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Water Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Confuse Ray",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Chilling Water",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Hex",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Mud Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM042",
+              "name": "Night Shade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM050",
+              "name": "Rain Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM052",
+              "name": "Snowscape",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic Fangs",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Waterfall",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM108",
+              "name": "Crunch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM110",
+              "name": "Liquidation",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM123",
+              "name": "Surf",
+              "type": ""
+            },
+            {
+              "tm_id": "TM135",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM142",
+              "name": "Hydro Pump",
+              "type": ""
+            },
+            {
+              "tm_id": "TM143",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM151",
+              "name": "Phantom Force",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM156",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM177",
+              "name": "Spite",
+              "type": ""
+            },
+            {
+              "tm_id": "TM191",
+              "name": "Uproar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM196",
+              "name": "Flip Turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM200",
+              "name": "Scale Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM202",
+              "name": "Pain Split",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM205",
+              "name": "Endeavor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM208",
+              "name": "Whirlpool",
+              "type": ""
+            },
+            {
+              "tm_id": "TM209",
+              "name": "Muddy Water",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/basculegion/"
+  }
+}

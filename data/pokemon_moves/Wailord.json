@@ -1,0 +1,554 @@
+{
+  "Wailord": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Soak",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Noble Roar",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Splash",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Growl",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Astonish",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Water Gun",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Mist",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Water Pulse",
+          "level": "18",
+          "type": ""
+        },
+        {
+          "name": "Heavy Slam",
+          "level": "21",
+          "type": ""
+        },
+        {
+          "name": "Brine",
+          "level": "24",
+          "type": ""
+        },
+        {
+          "name": "Whirlpool",
+          "level": "27",
+          "type": ""
+        },
+        {
+          "name": "Dive",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Bounce",
+          "level": "33",
+          "type": ""
+        },
+        {
+          "name": "Body Slam",
+          "level": "36",
+          "type": ""
+        },
+        {
+          "name": "Rest",
+          "level": "39",
+          "type": ""
+        },
+        {
+          "name": "Amnesia",
+          "level": "44",
+          "type": ""
+        },
+        {
+          "name": "Hydro Pump",
+          "level": "49",
+          "type": ""
+        },
+        {
+          "name": "Water Spout",
+          "level": "54",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Self-Destruct",
+          "type": "",
+          "id": "TM20"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Icy Wind",
+          "type": "",
+          "id": "TM27"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Hail",
+          "type": "",
+          "id": "TM35"
+        },
+        {
+          "name": "Whirlpool",
+          "type": "",
+          "id": "TM36"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Dive",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Weather Ball",
+          "type": "",
+          "id": "TM46"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM48"
+        },
+        {
+          "name": "Bounce",
+          "type": "",
+          "id": "TM52"
+        },
+        {
+          "name": "Brine",
+          "type": "",
+          "id": "TM55"
+        },
+        {
+          "name": "Avalanche",
+          "type": "",
+          "id": "TM64"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM81"
+        },
+        {
+          "name": "Water Pulse",
+          "type": "",
+          "id": "TM03"
+        },
+        {
+          "name": "Roar",
+          "type": "",
+          "id": "TM05"
+        },
+        {
+          "name": "Hail",
+          "type": "",
+          "id": "TM07"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TM13"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TM14"
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM15"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TM26"
+        },
+        {
+          "name": "Double Team",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM42"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM44"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TM49"
+        },
+        {
+          "name": "Brine",
+          "type": "",
+          "id": "TM55"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM68"
+        },
+        {
+          "name": "Avalanche",
+          "type": "",
+          "id": "TM72"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM83"
+        },
+        {
+          "name": "Swagger",
+          "type": "",
+          "id": "TM87"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TM90"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TM95"
+        },
+        {
+          "name": "Strength",
+          "type": "",
+          "id": "TM96"
+        },
+        {
+          "name": "Rock Smash",
+          "type": "",
+          "id": "TM98"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TM99"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Hydro Pump",
+          "type": "",
+          "id": "TR03"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TR04"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TR05"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TR06"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TR10"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TR16"
+        },
+        {
+          "name": "Amnesia",
+          "type": "",
+          "id": "TR17"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Hyper Voice",
+          "type": "",
+          "id": "TR42"
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "",
+          "id": "TR69"
+        },
+        {
+          "name": "Iron Head",
+          "type": "",
+          "id": "TR74"
+        },
+        {
+          "name": "Heavy Slam",
+          "type": "",
+          "id": "TR79"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TR84"
+        },
+        {
+          "name": "Liquidation",
+          "type": "",
+          "id": "TR98"
+        },
+        {
+          "name": "Body Press",
+          "type": "",
+          "id": "TR99"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Double-Edge",
+          "type": ""
+        },
+        {
+          "name": "Thrash",
+          "type": ""
+        },
+        {
+          "name": "Curse",
+          "type": ""
+        },
+        {
+          "name": "Fissure",
+          "type": ""
+        },
+        {
+          "name": "Tickle",
+          "type": ""
+        },
+        {
+          "name": "Defense Curl",
+          "type": ""
+        },
+        {
+          "name": "Rollout",
+          "type": ""
+        },
+        {
+          "name": "Aqua Ring",
+          "type": ""
+        },
+        {
+          "name": "Soak",
+          "type": ""
+        },
+        {
+          "name": "SnoreBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Body SlamBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Zen HeadbuttBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Clear SmogBDSP Only",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Phantasm",
+          "type": ""
+        },
+        {
+          "name": "Max Hailstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Geyser",
+          "type": ""
+        },
+        {
+          "name": "Max Airstream",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Rockfall",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Steelspike",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Echoed Voice",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Block",
+          "type": ""
+        },
+        {
+          "name": "Headbutt",
+          "type": ""
+        },
+        {
+          "name": "Mimic",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/wailord/"
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "Audino": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Growl",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Disarming Voice",
+              "type": "",
+              "level": "4",
+              "level_plus": "7"
+            },
+            {
+              "name": "Icy Wind",
+              "type": "",
+              "level": "8",
+              "level_plus": "11"
+            },
+            {
+              "name": "Draining Kiss",
+              "type": "",
+              "level": "16",
+              "level_plus": "19"
+            },
+            {
+              "name": "Zen Headbutt",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Amnesia",
+              "type": "",
+              "level": "24",
+              "level_plus": "27"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "32",
+              "level_plus": "35"
+            },
+            {
+              "name": "Wish",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Hyper Voice",
+              "type": "",
+              "level": "40",
+              "level_plus": "43"
+            },
+            {
+              "name": "Double-Edge",
+              "type": "",
+              "level": "48",
+              "level_plus": "51"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM003",
+              "name": "Psyshock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM016",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Power-Up Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM023",
+              "name": "Thunder Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM024",
+              "name": "Ice Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Fire Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM038",
+              "name": "Fire Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM051",
+              "name": "Safeguard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM071",
+              "name": "Hyper Voice",
+              "type": ""
+            },
+            {
+              "tm_id": "TM073",
+              "name": "Surf",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Iron Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM092",
+              "name": "Dazzling Gleam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Work Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM106",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM131",
+              "name": "Drain Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM147",
+              "name": "Tri Attack",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/audino/"
+  },
+  "Audino Mega Audino": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "tm": [
+            {
+              "tm_id": "TM003",
+              "name": "Psyshock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM016",
+              "name": "Light Screen",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Power-Up Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM023",
+              "name": "Thunder Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM024",
+              "name": "Ice Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Dig",
+              "type": ""
+            },
+            {
+              "tm_id": "TM029",
+              "name": "Fire Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM038",
+              "name": "Fire Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Icy Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM051",
+              "name": "Safeguard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM071",
+              "name": "Hyper Voice",
+              "type": ""
+            },
+            {
+              "tm_id": "TM073",
+              "name": "Surf",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Iron Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM092",
+              "name": "Dazzling Gleam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Work Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM106",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM131",
+              "name": "Drain Punch",
+              "type": ""
+            },
+            {
+              "tm_id": "TM147",
+              "name": "Tri Attack",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/audino/"
+  }
+}

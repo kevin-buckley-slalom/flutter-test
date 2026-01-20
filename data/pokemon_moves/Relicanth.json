@@ -1,0 +1,568 @@
+{
+  "Relicanth": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Tackle",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Harden",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Water Gun",
+          "level": "5",
+          "type": ""
+        },
+        {
+          "name": "Ancient Power",
+          "level": "10",
+          "type": ""
+        },
+        {
+          "name": "Yawn",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Dive",
+          "level": "20",
+          "type": ""
+        },
+        {
+          "name": "Take Down",
+          "level": "25",
+          "type": ""
+        },
+        {
+          "name": "Aqua Tail",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Rest",
+          "level": "35",
+          "type": ""
+        },
+        {
+          "name": "Flail",
+          "level": "40",
+          "type": ""
+        },
+        {
+          "name": "Hydro Pump",
+          "level": "45",
+          "type": ""
+        },
+        {
+          "name": "Double-Edge",
+          "level": "50",
+          "type": ""
+        },
+        {
+          "name": "Head Smash",
+          "level": "55",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Safeguard",
+          "type": "",
+          "id": "TM19"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Rock Slide",
+          "type": "",
+          "id": "TM22"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Icy Wind",
+          "type": "",
+          "id": "TM27"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Sandstorm",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Hail",
+          "type": "",
+          "id": "TM35"
+        },
+        {
+          "name": "Whirlpool",
+          "type": "",
+          "id": "TM36"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Dive",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM48"
+        },
+        {
+          "name": "Bounce",
+          "type": "",
+          "id": "TM52"
+        },
+        {
+          "name": "Mud Shot",
+          "type": "",
+          "id": "TM53"
+        },
+        {
+          "name": "Rock Blast",
+          "type": "",
+          "id": "TM54"
+        },
+        {
+          "name": "Brine",
+          "type": "",
+          "id": "TM55"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM81"
+        },
+        {
+          "name": "Stomping Tantrum",
+          "type": "",
+          "id": "TM98"
+        },
+        {
+          "name": "Water Pulse",
+          "type": "",
+          "id": "TM03"
+        },
+        {
+          "name": "Calm Mind",
+          "type": "",
+          "id": "TM04"
+        },
+        {
+          "name": "Hail",
+          "type": "",
+          "id": "TM07"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TM13"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TM14"
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM15"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Safeguard",
+          "type": "",
+          "id": "TM20"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TM26"
+        },
+        {
+          "name": "Double Team",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Sandstorm",
+          "type": "",
+          "id": "TM37"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM42"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM44"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TM49"
+        },
+        {
+          "name": "Brine",
+          "type": "",
+          "id": "TM55"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM68"
+        },
+        {
+          "name": "Rock Polish",
+          "type": "",
+          "id": "TM69"
+        },
+        {
+          "name": "Stone Edge",
+          "type": "",
+          "id": "TM71"
+        },
+        {
+          "name": "Stealth Rock",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Psych Up",
+          "type": "",
+          "id": "TM77"
+        },
+        {
+          "name": "Rock Slide",
+          "type": "",
+          "id": "TM80"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM83"
+        },
+        {
+          "name": "Swagger",
+          "type": "",
+          "id": "TM87"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TM90"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TM95"
+        },
+        {
+          "name": "Rock Smash",
+          "type": "",
+          "id": "TM98"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TM99"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Hydro Pump",
+          "type": "",
+          "id": "TR03"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TR04"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TR05"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TR06"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TR10"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TR16"
+        },
+        {
+          "name": "Amnesia",
+          "type": "",
+          "id": "TR17"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Muddy Water",
+          "type": "",
+          "id": "TR45"
+        },
+        {
+          "name": "Iron Defense",
+          "type": "",
+          "id": "TR46"
+        },
+        {
+          "name": "Calm Mind",
+          "type": "",
+          "id": "TR49"
+        },
+        {
+          "name": "Earth Power",
+          "type": "",
+          "id": "TR67"
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "",
+          "id": "TR69"
+        },
+        {
+          "name": "Stone Edge",
+          "type": "",
+          "id": "TR75"
+        },
+        {
+          "name": "Stealth Rock",
+          "type": "",
+          "id": "TR76"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TR84"
+        },
+        {
+          "name": "Liquidation",
+          "type": "",
+          "id": "TR98"
+        },
+        {
+          "name": "Body Press",
+          "type": "",
+          "id": "TR99"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Mud-Slap",
+          "type": ""
+        },
+        {
+          "name": "Skull Bash",
+          "type": ""
+        },
+        {
+          "name": "AmnesiaBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Aqua TailBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "SnoreBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Muddy WaterBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Mud ShotBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Zen HeadbuttBDSP Only",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Hailstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Geyser",
+          "type": ""
+        },
+        {
+          "name": "Max Airstream",
+          "type": ""
+        },
+        {
+          "name": "Max Wyrmwind",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Rockfall",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Smack Down",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Smack Down",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Headbutt",
+          "type": ""
+        },
+        {
+          "name": "Mimic",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/relicanth/"
+  }
+}

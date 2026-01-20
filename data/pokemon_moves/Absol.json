@@ -1,0 +1,514 @@
+{
+  "Absol": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Snarl",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Phantom Force",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Leer",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Quick Attack",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Confuse Ray",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Shadow Sneak",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Knock Off",
+              "type": "",
+              "level": "10",
+              "level_plus": "13"
+            },
+            {
+              "name": "Detect",
+              "type": "",
+              "level": "15",
+              "level_plus": "18"
+            },
+            {
+              "name": "Swords Dance",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Slash",
+              "type": "",
+              "level": "23",
+              "level_plus": "26"
+            },
+            {
+              "name": "Night Slash",
+              "type": "",
+              "level": "27",
+              "level_plus": "30"
+            },
+            {
+              "name": "Double Team",
+              "type": "",
+              "level": "32",
+              "level_plus": "35"
+            },
+            {
+              "name": "Taunt",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Shadow Claw",
+              "type": "",
+              "level": "40",
+              "level_plus": "43"
+            },
+            {
+              "name": "Focus Energy",
+              "type": "",
+              "level": "43",
+              "level_plus": "46"
+            },
+            {
+              "name": "Air Slash",
+              "type": "",
+              "level": "46",
+              "level_plus": "49"
+            },
+            {
+              "name": "Future Sight",
+              "type": "",
+              "level": "48",
+              "level_plus": "51"
+            },
+            {
+              "name": "Perish Song",
+              "type": "",
+              "level": "54",
+              "level_plus": "57"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM006",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM012",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM020",
+              "name": "Play Rough",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM030",
+              "name": "Swords Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Double Team",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Night Slash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM038",
+              "name": "Fire Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM057",
+              "name": "Will-O-Wisp",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM060",
+              "name": "Future Sight",
+              "type": ""
+            },
+            {
+              "tm_id": "TM061",
+              "name": "Shadow Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Stone Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM081",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM090",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM106",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM107",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM119",
+              "name": "Ominous Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM122",
+              "name": "False Swipe",
+              "type": ""
+            },
+            {
+              "tm_id": "TM145",
+              "name": "Razor Wind",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/absol/"
+  },
+  "Absol Mega Absol": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "tm": [
+            {
+              "tm_id": "TM006",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM008",
+              "name": "Thunder Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM012",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM013",
+              "name": "Ice Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM020",
+              "name": "Play Rough",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM030",
+              "name": "Swords Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Double Team",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM034",
+              "name": "Night Slash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM038",
+              "name": "Fire Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM045",
+              "name": "Knock Off",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM057",
+              "name": "Will-O-Wisp",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM060",
+              "name": "Future Sight",
+              "type": ""
+            },
+            {
+              "tm_id": "TM061",
+              "name": "Shadow Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Stone Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM067",
+              "name": "Thunderbolt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM081",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM090",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "Blizzard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM106",
+              "name": "Thunder",
+              "type": ""
+            },
+            {
+              "tm_id": "TM107",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM119",
+              "name": "Ominous Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM122",
+              "name": "False Swipe",
+              "type": ""
+            },
+            {
+              "tm_id": "TM145",
+              "name": "Razor Wind",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/absol/"
+  }
+}

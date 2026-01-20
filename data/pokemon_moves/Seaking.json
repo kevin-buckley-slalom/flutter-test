@@ -1,0 +1,486 @@
+{
+  "Seaking": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Peck",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Tail Whip",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Supersonic",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Water Pulse",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Horn Attack",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Agility",
+          "level": "20",
+          "type": ""
+        },
+        {
+          "name": "Aqua Ring",
+          "level": "25",
+          "type": ""
+        },
+        {
+          "name": "Flail",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Waterfall",
+          "level": "37",
+          "type": ""
+        },
+        {
+          "name": "Soak",
+          "level": "44",
+          "type": ""
+        },
+        {
+          "name": "Megahorn",
+          "level": "51",
+          "type": ""
+        },
+        {
+          "name": "Horn Drill",
+          "level": "58",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Icy Wind",
+          "type": "",
+          "id": "TM27"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Hail",
+          "type": "",
+          "id": "TM35"
+        },
+        {
+          "name": "Whirlpool",
+          "type": "",
+          "id": "TM36"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Swift",
+          "type": "",
+          "id": "TM40"
+        },
+        {
+          "name": "Dive",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Bounce",
+          "type": "",
+          "id": "TM52"
+        },
+        {
+          "name": "Mud Shot",
+          "type": "",
+          "id": "TM53"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Smart Strike",
+          "type": "",
+          "id": "TM96"
+        },
+        {
+          "name": "Water Pulse",
+          "type": "",
+          "id": "TM03"
+        },
+        {
+          "name": "Hail",
+          "type": "",
+          "id": "TM07"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TM13"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TM14"
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM15"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Double Team",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM42"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM44"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TM49"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM68"
+        },
+        {
+          "name": "Swords Dance",
+          "type": "",
+          "id": "TM75"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "Poison Jab",
+          "type": "",
+          "id": "TM84"
+        },
+        {
+          "name": "Swagger",
+          "type": "",
+          "id": "TM87"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TM90"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TM95"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TM99"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Swords Dance",
+          "type": "",
+          "id": "TR00"
+        },
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Hydro Pump",
+          "type": "",
+          "id": "TR03"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TR04"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TR05"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TR06"
+        },
+        {
+          "name": "Agility",
+          "type": "",
+          "id": "TR12"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TR16"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Megahorn",
+          "type": "",
+          "id": "TR28"
+        },
+        {
+          "name": "Muddy Water",
+          "type": "",
+          "id": "TR45"
+        },
+        {
+          "name": "Poison Jab",
+          "type": "",
+          "id": "TR57"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TR84"
+        },
+        {
+          "name": "Drill Run",
+          "type": "",
+          "id": "TR87"
+        },
+        {
+          "name": "Throat Chop",
+          "type": "",
+          "id": "TR95"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Psybeam",
+          "type": ""
+        },
+        {
+          "name": "Haze",
+          "type": ""
+        },
+        {
+          "name": "Aqua Tail",
+          "type": ""
+        },
+        {
+          "name": "Acupressure",
+          "type": ""
+        },
+        {
+          "name": "Mud-Slap",
+          "type": ""
+        },
+        {
+          "name": "Hydro PumpBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Body SlamBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Mud ShotBDSP Only",
+          "type": ""
+        },
+        {
+          "name": "Skull BashBDSP Only",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Flutterby",
+          "type": ""
+        },
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Hailstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Ooze",
+          "type": ""
+        },
+        {
+          "name": "Max Geyser",
+          "type": ""
+        },
+        {
+          "name": "Max Airstream",
+          "type": ""
+        },
+        {
+          "name": "Max Wyrmwind",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Steelspike",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Quick Attack",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Headbutt",
+          "type": ""
+        },
+        {
+          "name": "Knock Off",
+          "type": ""
+        },
+        {
+          "name": "Fury Cutter",
+          "type": ""
+        },
+        {
+          "name": "Double-edge",
+          "type": ""
+        },
+        {
+          "name": "Mimic",
+          "type": ""
+        },
+        {
+          "name": "Curse",
+          "type": ""
+        },
+        {
+          "name": "Take Down",
+          "type": ""
+        },
+        {
+          "name": "Bubble Beam",
+          "type": ""
+        },
+        {
+          "name": "Water Gun",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/seaking/"
+  }
+}

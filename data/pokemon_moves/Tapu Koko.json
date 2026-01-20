@@ -1,0 +1,419 @@
+{
+  "Tapu Koko": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Quick Attack",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Thunder Shock",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Withdraw",
+          "level": "5",
+          "type": ""
+        },
+        {
+          "name": "Fairy Wind",
+          "level": "10",
+          "type": ""
+        },
+        {
+          "name": "False Swipe",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Spark",
+          "level": "20",
+          "type": ""
+        },
+        {
+          "name": "Shock Wave",
+          "level": "25",
+          "type": ""
+        },
+        {
+          "name": "Charge",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Agility",
+          "level": "35",
+          "type": ""
+        },
+        {
+          "name": "Screech",
+          "level": "40",
+          "type": ""
+        },
+        {
+          "name": "Discharge",
+          "level": "45",
+          "type": ""
+        },
+        {
+          "name": "Mean Look",
+          "level": "50",
+          "type": ""
+        },
+        {
+          "name": "Nature's Madness",
+          "level": "55",
+          "type": ""
+        },
+        {
+          "name": "Wild Charge",
+          "level": "60",
+          "type": ""
+        },
+        {
+          "name": "Brave Bird",
+          "level": "65",
+          "type": ""
+        },
+        {
+          "name": "Power Swap",
+          "level": "70",
+          "type": ""
+        },
+        {
+          "name": "Electric Terrain",
+          "level": "75",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Thunder Punch",
+          "type": "",
+          "id": "TM05"
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "id": "TM06"
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Thunder Wave",
+          "type": "",
+          "id": "TM14"
+        },
+        {
+          "name": "Screech",
+          "type": "",
+          "id": "TM16"
+        },
+        {
+          "name": "Light Screen",
+          "type": "",
+          "id": "TM17"
+        },
+        {
+          "name": "Reflect",
+          "type": "",
+          "id": "TM18"
+        },
+        {
+          "name": "Safeguard",
+          "type": "",
+          "id": "TM19"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Thief",
+          "type": "",
+          "id": "TM23"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Steel Wing",
+          "type": "",
+          "id": "TM30"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Swift",
+          "type": "",
+          "id": "TM40"
+        },
+        {
+          "name": "U-turn",
+          "type": "",
+          "id": "TM56"
+        },
+        {
+          "name": "Assurance",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Power Swap",
+          "type": "",
+          "id": "TM60"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Acrobatics",
+          "type": "",
+          "id": "TM78"
+        },
+        {
+          "name": "Volt Switch",
+          "type": "",
+          "id": "TM80"
+        },
+        {
+          "name": "Electroweb",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "Electric Terrain",
+          "type": "",
+          "id": "TM90"
+        },
+        {
+          "name": "Eerie Impulse",
+          "type": "",
+          "id": "TM93"
+        },
+        {
+          "name": "False Swipe",
+          "type": "",
+          "id": "TM94"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Thunderbolt",
+          "type": "",
+          "id": "TR08"
+        },
+        {
+          "name": "Thunder",
+          "type": "",
+          "id": "TR09"
+        },
+        {
+          "name": "Agility",
+          "type": "",
+          "id": "TR12"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Taunt",
+          "type": "",
+          "id": "TR37"
+        },
+        {
+          "name": "Hyper Voice",
+          "type": "",
+          "id": "TR42"
+        },
+        {
+          "name": "Iron Defense",
+          "type": "",
+          "id": "TR46"
+        },
+        {
+          "name": "Calm Mind",
+          "type": "",
+          "id": "TR49"
+        },
+        {
+          "name": "Brave Bird",
+          "type": "",
+          "id": "TR66"
+        },
+        {
+          "name": "Iron Head",
+          "type": "",
+          "id": "TR74"
+        },
+        {
+          "name": "Grass Knot",
+          "type": "",
+          "id": "TR77"
+        },
+        {
+          "name": "Electro Ball",
+          "type": "",
+          "id": "TR80"
+        },
+        {
+          "name": "Stored Power",
+          "type": "",
+          "id": "TR82"
+        },
+        {
+          "name": "Work Up",
+          "type": "",
+          "id": "TR85"
+        },
+        {
+          "name": "Wild Charge",
+          "type": "",
+          "id": "TR86"
+        },
+        {
+          "name": "Dazzling Gleam",
+          "type": "",
+          "id": "TR92"
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Flutterby",
+          "type": ""
+        },
+        {
+          "name": "Max Lightning",
+          "type": ""
+        },
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Airstream",
+          "type": ""
+        },
+        {
+          "name": "Max Starfall",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Overgrowth",
+          "type": ""
+        },
+        {
+          "name": "Max Steelspike",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Roar",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Roost",
+          "type": ""
+        },
+        {
+          "name": "Double Team",
+          "type": ""
+        },
+        {
+          "name": "Aerial Ace",
+          "type": ""
+        },
+        {
+          "name": "Torment",
+          "type": ""
+        },
+        {
+          "name": "Echoed Voice",
+          "type": ""
+        },
+        {
+          "name": "Psych Up",
+          "type": ""
+        },
+        {
+          "name": "Swagger",
+          "type": ""
+        },
+        {
+          "name": "Nature Power",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Sky Attack",
+          "type": ""
+        },
+        {
+          "name": "Defog",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/tapukoko/"
+  }
+}

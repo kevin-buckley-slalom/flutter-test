@@ -1,0 +1,671 @@
+{
+  "Noivern": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Dragon Pulse",
+              "type": "",
+              "level": "Evolve",
+              "level_plus": "10"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Absorb",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Moonlight",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Gust",
+              "type": "",
+              "level": "4",
+              "level_plus": "7"
+            },
+            {
+              "name": "Supersonic",
+              "type": "",
+              "level": "8",
+              "level_plus": "11"
+            },
+            {
+              "name": "Double Team",
+              "type": "",
+              "level": "12",
+              "level_plus": "15"
+            },
+            {
+              "name": "Wing Attack",
+              "type": "",
+              "level": "16",
+              "level_plus": "19"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Leech Life",
+              "type": "",
+              "level": "24",
+              "level_plus": "27"
+            },
+            {
+              "name": "Whirlwind",
+              "type": "",
+              "level": "28",
+              "level_plus": "31"
+            },
+            {
+              "name": "Super Fang",
+              "type": "",
+              "level": "32",
+              "level_plus": "35"
+            },
+            {
+              "name": "Air Slash",
+              "type": "",
+              "level": "36",
+              "level_plus": "39"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "40",
+              "level_plus": "43"
+            },
+            {
+              "name": "Hurricane",
+              "type": "",
+              "level": "44",
+              "level_plus": "47"
+            },
+            {
+              "name": "Boomburst",
+              "type": "",
+              "level": "52",
+              "level_plus": "55"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM002",
+              "name": "Dragon Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Double Team",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM041",
+              "name": "Water Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM043",
+              "name": "Fly",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM054",
+              "name": "Draco Meteor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM061",
+              "name": "Shadow Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM062",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM063",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM064",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM068",
+              "name": "Heat Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM071",
+              "name": "Hyper Voice",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM075",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM079",
+              "name": "Hurricane",
+              "type": ""
+            },
+            {
+              "tm_id": "TM082",
+              "name": "U-turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Iron Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM090",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM093",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM094",
+              "name": "Whirlwind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM102",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM121",
+              "name": "Torment",
+              "type": ""
+            },
+            {
+              "tm_id": "TM134",
+              "name": "Dual Wingbeat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM143",
+              "name": "Scale Shot",
+              "type": ""
+            },
+            {
+              "tm_id": "TM145",
+              "name": "Razor Wind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM153",
+              "name": "Sky Attack",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Dragon Pulse",
+              "type": "",
+              "level": "Evolve"
+            },
+            {
+              "name": "Gust",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Moonlight",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Tackle",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Absorb",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Supersonic",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Double Team",
+              "type": "",
+              "level": "12"
+            },
+            {
+              "name": "Wing Attack",
+              "type": "",
+              "level": "16"
+            },
+            {
+              "name": "Bite",
+              "type": "",
+              "level": "20"
+            },
+            {
+              "name": "Air Cutter",
+              "type": "",
+              "level": "24"
+            },
+            {
+              "name": "Whirlwind",
+              "type": "",
+              "level": "28"
+            },
+            {
+              "name": "Super Fang",
+              "type": "",
+              "level": "32"
+            },
+            {
+              "name": "Air Slash",
+              "type": "",
+              "level": "36"
+            },
+            {
+              "name": "Screech",
+              "type": "",
+              "level": "40"
+            },
+            {
+              "name": "Roost",
+              "type": "",
+              "level": "44"
+            },
+            {
+              "name": "Tailwind",
+              "type": "",
+              "level": "51"
+            },
+            {
+              "name": "Hurricane",
+              "type": "",
+              "level": "56"
+            },
+            {
+              "name": "Boomburst",
+              "type": "",
+              "level": "62"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM004",
+              "name": "Agility",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM011",
+              "name": "Water Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM014",
+              "name": "Acrobatics",
+              "type": ""
+            },
+            {
+              "tm_id": "TM018",
+              "name": "Thief",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM040",
+              "name": "Air Cutter",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Dragon Tail",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM049",
+              "name": "Sunny Day",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM060",
+              "name": "U-turn",
+              "type": ""
+            },
+            {
+              "tm_id": "TM061",
+              "name": "Shadow Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Air Slash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM078",
+              "name": "Dragon Claw",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM094",
+              "name": "Dark Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Leech Life",
+              "type": ""
+            },
+            {
+              "tm_id": "TM097",
+              "name": "Fly",
+              "type": ""
+            },
+            {
+              "tm_id": "TM100",
+              "name": "Dragon Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM113",
+              "name": "Tailwind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM114",
+              "name": "Shadow Ball",
+              "type": ""
+            },
+            {
+              "tm_id": "TM115",
+              "name": "Dragon Pulse",
+              "type": ""
+            },
+            {
+              "tm_id": "TM117",
+              "name": "Hyper Voice",
+              "type": ""
+            },
+            {
+              "tm_id": "TM118",
+              "name": "Heat Wave",
+              "type": ""
+            },
+            {
+              "tm_id": "TM120",
+              "name": "Psychic",
+              "type": ""
+            },
+            {
+              "tm_id": "TM125",
+              "name": "Flamethrower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM147",
+              "name": "Wild Charge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM156",
+              "name": "Outrage",
+              "type": ""
+            },
+            {
+              "tm_id": "TM158",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM160",
+              "name": "Hurricane",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM168",
+              "name": "Solar Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM169",
+              "name": "Draco Meteor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM183",
+              "name": "Super Fang",
+              "type": ""
+            },
+            {
+              "tm_id": "TM191",
+              "name": "Uproar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM197",
+              "name": "Dual Wingbeat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM222",
+              "name": "Breaking Swipe",
+              "type": ""
+            },
+            {
+              "tm_id": "TM226",
+              "name": "Dragon Cheer",
+              "type": ""
+            },
+            {
+              "tm_id": "TM228",
+              "name": "Psychic Noise",
+              "type": ""
+            }
+          ],
+          "egg_moves": [
+            {
+              "name": "Dragon Rush",
+              "type": ""
+            },
+            {
+              "name": "Switcheroo",
+              "type": ""
+            },
+            {
+              "name": "Defog",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/noivern/"
+  }
+}

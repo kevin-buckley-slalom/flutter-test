@@ -1,0 +1,351 @@
+{
+  "Pheromosa": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Feint",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Rapid Spin",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Leer",
+          "level": "5",
+          "type": ""
+        },
+        {
+          "name": "Quick Guard",
+          "level": "10",
+          "type": ""
+        },
+        {
+          "name": "Bug Bite",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Low Kick",
+          "level": "20",
+          "type": ""
+        },
+        {
+          "name": "Double Kick",
+          "level": "25",
+          "type": ""
+        },
+        {
+          "name": "Triple Kick",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Stomp",
+          "level": "35",
+          "type": ""
+        },
+        {
+          "name": "Agility",
+          "level": "40",
+          "type": ""
+        },
+        {
+          "name": "Lunge",
+          "level": "45",
+          "type": ""
+        },
+        {
+          "name": "Bounce",
+          "level": "50",
+          "type": ""
+        },
+        {
+          "name": "Speed Swap",
+          "level": "55",
+          "type": ""
+        },
+        {
+          "name": "Bug Buzz",
+          "level": "60",
+          "type": ""
+        },
+        {
+          "name": "Quiver Dance",
+          "level": "65",
+          "type": ""
+        },
+        {
+          "name": "High Jump Kick",
+          "level": "70",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Icy Wind",
+          "type": "",
+          "id": "TM27"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Swift",
+          "type": "",
+          "id": "TM40"
+        },
+        {
+          "name": "Brick Break",
+          "type": "",
+          "id": "TM43"
+        },
+        {
+          "name": "Bounce",
+          "type": "",
+          "id": "TM52"
+        },
+        {
+          "name": "U-turn",
+          "type": "",
+          "id": "TM56"
+        },
+        {
+          "name": "Assurance",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Fling",
+          "type": "",
+          "id": "TM59"
+        },
+        {
+          "name": "Speed Swap",
+          "type": "",
+          "id": "TM62"
+        },
+        {
+          "name": "Low Sweep",
+          "type": "",
+          "id": "TM75"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Electroweb",
+          "type": "",
+          "id": "TM82"
+        },
+        {
+          "name": "False Swipe",
+          "type": "",
+          "id": "TM94"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TR05"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TR06"
+        },
+        {
+          "name": "Low Kick",
+          "type": "",
+          "id": "TR07"
+        },
+        {
+          "name": "Agility",
+          "type": "",
+          "id": "TR12"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Outrage",
+          "type": "",
+          "id": "TR24"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Taunt",
+          "type": "",
+          "id": "TR37"
+        },
+        {
+          "name": "Close Combat",
+          "type": "",
+          "id": "TR53"
+        },
+        {
+          "name": "Poison Jab",
+          "type": "",
+          "id": "TR57"
+        },
+        {
+          "name": "Bug Buzz",
+          "type": "",
+          "id": "TR61"
+        },
+        {
+          "name": "Focus Blast",
+          "type": "",
+          "id": "TR64"
+        },
+        {
+          "name": "Foul Play",
+          "type": "",
+          "id": "TR81"
+        },
+        {
+          "name": "Drill Run",
+          "type": "",
+          "id": "TR87"
+        },
+        {
+          "name": "Throat Chop",
+          "type": "",
+          "id": "TR95"
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Flutterby",
+          "type": ""
+        },
+        {
+          "name": "Max Lightning",
+          "type": ""
+        },
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Hailstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Ooze",
+          "type": ""
+        },
+        {
+          "name": "Max Airstream",
+          "type": ""
+        },
+        {
+          "name": "Max Wyrmwind",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Roost",
+          "type": ""
+        },
+        {
+          "name": "Double Team",
+          "type": ""
+        },
+        {
+          "name": "Torment",
+          "type": ""
+        },
+        {
+          "name": "Echoed Voice",
+          "type": ""
+        },
+        {
+          "name": "Swagger",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Block",
+          "type": ""
+        },
+        {
+          "name": "Shock Wave",
+          "type": ""
+        },
+        {
+          "name": "Laser Focus",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/pheromosa/"
+  }
+}

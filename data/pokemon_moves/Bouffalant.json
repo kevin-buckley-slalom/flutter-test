@@ -1,0 +1,440 @@
+{
+  "Bouffalant": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Tackle",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Leer",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Focus Energy",
+          "level": "5",
+          "type": ""
+        },
+        {
+          "name": "Fury Attack",
+          "level": "10",
+          "type": ""
+        },
+        {
+          "name": "Revenge",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Scary Face",
+          "level": "20",
+          "type": ""
+        },
+        {
+          "name": "Horn Attack",
+          "level": "25",
+          "type": ""
+        },
+        {
+          "name": "Reversal",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Throat Chop",
+          "level": "35",
+          "type": ""
+        },
+        {
+          "name": "Head Charge",
+          "level": "40",
+          "type": ""
+        },
+        {
+          "name": "Swords Dance",
+          "level": "45",
+          "type": ""
+        },
+        {
+          "name": "Megahorn",
+          "level": "50",
+          "type": ""
+        },
+        {
+          "name": "Giga Impact",
+          "level": "55",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Rock Slide",
+          "type": "",
+          "id": "TM22"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Scary Face",
+          "type": "",
+          "id": "TM26"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Sunny Day",
+          "type": "",
+          "id": "TM34"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Revenge",
+          "type": "",
+          "id": "TM42"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM48"
+        },
+        {
+          "name": "Mud Shot",
+          "type": "",
+          "id": "TM53"
+        },
+        {
+          "name": "Payback",
+          "type": "",
+          "id": "TM57"
+        },
+        {
+          "name": "Assurance",
+          "type": "",
+          "id": "TM58"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Retaliate",
+          "type": "",
+          "id": "TM79"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM81"
+        },
+        {
+          "name": "Smart Strike",
+          "type": "",
+          "id": "TM96"
+        },
+        {
+          "name": "Stomping Tantrum",
+          "type": "",
+          "id": "TM98"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Swords Dance",
+          "type": "",
+          "id": "TR00"
+        },
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TR04"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TR10"
+        },
+        {
+          "name": "Focus Energy",
+          "type": "",
+          "id": "TR13"
+        },
+        {
+          "name": "Amnesia",
+          "type": "",
+          "id": "TR17"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Reversal",
+          "type": "",
+          "id": "TR21"
+        },
+        {
+          "name": "Outrage",
+          "type": "",
+          "id": "TR24"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Megahorn",
+          "type": "",
+          "id": "TR28"
+        },
+        {
+          "name": "Uproar",
+          "type": "",
+          "id": "TR35"
+        },
+        {
+          "name": "Taunt",
+          "type": "",
+          "id": "TR37"
+        },
+        {
+          "name": "Superpower",
+          "type": "",
+          "id": "TR39"
+        },
+        {
+          "name": "Close Combat",
+          "type": "",
+          "id": "TR53"
+        },
+        {
+          "name": "Poison Jab",
+          "type": "",
+          "id": "TR57"
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "",
+          "id": "TR69"
+        },
+        {
+          "name": "Iron Head",
+          "type": "",
+          "id": "TR74"
+        },
+        {
+          "name": "Stone Edge",
+          "type": "",
+          "id": "TR75"
+        },
+        {
+          "name": "Work Up",
+          "type": "",
+          "id": "TR85"
+        },
+        {
+          "name": "Wild Charge",
+          "type": "",
+          "id": "TR86"
+        },
+        {
+          "name": "High Horsepower",
+          "type": "",
+          "id": "TR94"
+        },
+        {
+          "name": "Throat Chop",
+          "type": "",
+          "id": "TR95"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Belch",
+          "type": ""
+        },
+        {
+          "name": "Headbutt",
+          "type": ""
+        },
+        {
+          "name": "Mud-Slap",
+          "type": ""
+        },
+        {
+          "name": "Skull Bash",
+          "type": ""
+        },
+        {
+          "name": "Stomp",
+          "type": ""
+        },
+        {
+          "name": "Cotton Guard",
+          "type": ""
+        },
+        {
+          "name": "Endeavor",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Flutterby",
+          "type": ""
+        },
+        {
+          "name": "Max Lightning",
+          "type": ""
+        },
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Ooze",
+          "type": ""
+        },
+        {
+          "name": "Max Geyser",
+          "type": ""
+        },
+        {
+          "name": "Max Wyrmwind",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Rockfall",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Steelspike",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Thrash",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Double Team",
+          "type": ""
+        },
+        {
+          "name": "Aerial Ace",
+          "type": ""
+        },
+        {
+          "name": "Swagger",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Double Team",
+          "type": ""
+        },
+        {
+          "name": "Aerial Ace",
+          "type": ""
+        },
+        {
+          "name": "Swagger",
+          "type": ""
+        },
+        {
+          "name": "Rock Smash",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Cut",
+          "type": ""
+        },
+        {
+          "name": "Strength",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/bouffalant/"
+  }
+}

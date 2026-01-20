@@ -1,0 +1,450 @@
+{
+  "Carracosta": {
+    "gen_9": {
+      "level_up": [
+        {
+          "name": "Water Gun",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Withdraw",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Protect",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Aqua Jet",
+          "level": "—",
+          "type": ""
+        },
+        {
+          "name": "Smack Down",
+          "level": "9",
+          "type": ""
+        },
+        {
+          "name": "Ancient Power",
+          "level": "12",
+          "type": ""
+        },
+        {
+          "name": "Bite",
+          "level": "15",
+          "type": ""
+        },
+        {
+          "name": "Wide Guard",
+          "level": "18",
+          "type": ""
+        },
+        {
+          "name": "Brine",
+          "level": "21",
+          "type": ""
+        },
+        {
+          "name": "Rock Slide",
+          "level": "24",
+          "type": ""
+        },
+        {
+          "name": "Crunch",
+          "level": "27",
+          "type": ""
+        },
+        {
+          "name": "Curse",
+          "level": "30",
+          "type": ""
+        },
+        {
+          "name": "Iron Defense",
+          "level": "33",
+          "type": ""
+        },
+        {
+          "name": "Aqua Tail",
+          "level": "36",
+          "type": ""
+        },
+        {
+          "name": "Rain Dance",
+          "level": "41",
+          "type": ""
+        },
+        {
+          "name": "Hydro Pump",
+          "level": "46",
+          "type": ""
+        },
+        {
+          "name": "Shell Smash",
+          "level": "51",
+          "type": ""
+        }
+      ],
+      "tm": [
+        {
+          "name": "Hyper Beam",
+          "type": "",
+          "id": "TM08"
+        },
+        {
+          "name": "Giga Impact",
+          "type": "",
+          "id": "TM09"
+        },
+        {
+          "name": "Dig",
+          "type": "",
+          "id": "TM15"
+        },
+        {
+          "name": "Rest",
+          "type": "",
+          "id": "TM21"
+        },
+        {
+          "name": "Rock Slide",
+          "type": "",
+          "id": "TM22"
+        },
+        {
+          "name": "Snore",
+          "type": "",
+          "id": "TM24"
+        },
+        {
+          "name": "Protect",
+          "type": "",
+          "id": "TM25"
+        },
+        {
+          "name": "Icy Wind",
+          "type": "",
+          "id": "TM27"
+        },
+        {
+          "name": "Attract",
+          "type": "",
+          "id": "TM31"
+        },
+        {
+          "name": "Sandstorm",
+          "type": "",
+          "id": "TM32"
+        },
+        {
+          "name": "Rain Dance",
+          "type": "",
+          "id": "TM33"
+        },
+        {
+          "name": "Whirlpool",
+          "type": "",
+          "id": "TM36"
+        },
+        {
+          "name": "Facade",
+          "type": "",
+          "id": "TM39"
+        },
+        {
+          "name": "Dive",
+          "type": "",
+          "id": "TM45"
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "",
+          "id": "TM48"
+        },
+        {
+          "name": "Mud Shot",
+          "type": "",
+          "id": "TM53"
+        },
+        {
+          "name": "Rock Blast",
+          "type": "",
+          "id": "TM54"
+        },
+        {
+          "name": "Brine",
+          "type": "",
+          "id": "TM55"
+        },
+        {
+          "name": "Guard Swap",
+          "type": "",
+          "id": "TM61"
+        },
+        {
+          "name": "Round",
+          "type": "",
+          "id": "TM76"
+        },
+        {
+          "name": "Bulldoze",
+          "type": "",
+          "id": "TM81"
+        },
+        {
+          "name": "Razor Shell",
+          "type": "",
+          "id": "TM83"
+        }
+      ],
+      "tr": [
+        {
+          "name": "Body Slam",
+          "type": "",
+          "id": "TR01"
+        },
+        {
+          "name": "Hydro Pump",
+          "type": "",
+          "id": "TR03"
+        },
+        {
+          "name": "Surf",
+          "type": "",
+          "id": "TR04"
+        },
+        {
+          "name": "Ice Beam",
+          "type": "",
+          "id": "TR05"
+        },
+        {
+          "name": "Blizzard",
+          "type": "",
+          "id": "TR06"
+        },
+        {
+          "name": "Low Kick",
+          "type": "",
+          "id": "TR07"
+        },
+        {
+          "name": "Earthquake",
+          "type": "",
+          "id": "TR10"
+        },
+        {
+          "name": "Waterfall",
+          "type": "",
+          "id": "TR16"
+        },
+        {
+          "name": "Substitute",
+          "type": "",
+          "id": "TR20"
+        },
+        {
+          "name": "Endure",
+          "type": "",
+          "id": "TR26"
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "",
+          "id": "TR27"
+        },
+        {
+          "name": "Iron Tail",
+          "type": "",
+          "id": "TR31"
+        },
+        {
+          "name": "Crunch",
+          "type": "",
+          "id": "TR32"
+        },
+        {
+          "name": "Superpower",
+          "type": "",
+          "id": "TR39"
+        },
+        {
+          "name": "Muddy Water",
+          "type": "",
+          "id": "TR45"
+        },
+        {
+          "name": "Iron Defense",
+          "type": "",
+          "id": "TR46"
+        },
+        {
+          "name": "Focus Blast",
+          "type": "",
+          "id": "TR64"
+        },
+        {
+          "name": "Earth Power",
+          "type": "",
+          "id": "TR67"
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "",
+          "id": "TR69"
+        },
+        {
+          "name": "Iron Head",
+          "type": "",
+          "id": "TR74"
+        },
+        {
+          "name": "Stone Edge",
+          "type": "",
+          "id": "TR75"
+        },
+        {
+          "name": "Stealth Rock",
+          "type": "",
+          "id": "TR76"
+        },
+        {
+          "name": "Scald",
+          "type": "",
+          "id": "TR84"
+        },
+        {
+          "name": "Liquidation",
+          "type": "",
+          "id": "TR98"
+        }
+      ],
+      "egg_moves": [
+        {
+          "name": "Knock Off",
+          "type": ""
+        },
+        {
+          "name": "Rollout",
+          "type": ""
+        },
+        {
+          "name": "Rock Throw",
+          "type": ""
+        },
+        {
+          "name": "Slam",
+          "type": ""
+        },
+        {
+          "name": "Water Pulse",
+          "type": ""
+        },
+        {
+          "name": "Block",
+          "type": ""
+        }
+      ],
+      "max_moves": [
+        {
+          "name": "Max Strike",
+          "type": ""
+        },
+        {
+          "name": "Max Knuckle",
+          "type": ""
+        },
+        {
+          "name": "Max Hailstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Geyser",
+          "type": ""
+        },
+        {
+          "name": "Max Mindstorm",
+          "type": ""
+        },
+        {
+          "name": "Max Rockfall",
+          "type": ""
+        },
+        {
+          "name": "Max Quake",
+          "type": ""
+        },
+        {
+          "name": "Max Darkness",
+          "type": ""
+        },
+        {
+          "name": "Max Steelspike",
+          "type": ""
+        },
+        {
+          "name": "Max Guard",
+          "type": ""
+        }
+      ],
+      "transfer_only": [
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Double Team",
+          "type": ""
+        },
+        {
+          "name": "Rock Polish",
+          "type": ""
+        },
+        {
+          "name": "Swagger",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Flail",
+          "type": ""
+        },
+        {
+          "name": "Toxic",
+          "type": ""
+        },
+        {
+          "name": "Double Team",
+          "type": ""
+        },
+        {
+          "name": "Rock Polish",
+          "type": ""
+        },
+        {
+          "name": "Swagger",
+          "type": ""
+        },
+        {
+          "name": "Rock Smash",
+          "type": ""
+        },
+        {
+          "name": "Confide",
+          "type": ""
+        },
+        {
+          "name": "Strength",
+          "type": ""
+        }
+      ]
+    },
+    "url": "https://www.serebii.net/pokedex-swsh/carracosta/"
+  }
+}

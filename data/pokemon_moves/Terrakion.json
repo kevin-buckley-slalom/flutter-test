@@ -1,0 +1,597 @@
+{
+  "Terrakion": {
+    "gen_9": {
+      "gen_9": {
+        "Legends: Z-A": {
+          "level_up": [
+            {
+              "name": "Leer",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Quick Attack",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Work Up",
+              "type": "",
+              "level": "—",
+              "level_plus": "10"
+            },
+            {
+              "name": "Rock Throw",
+              "type": "",
+              "level": "7",
+              "level_plus": "10"
+            },
+            {
+              "name": "Body Slam",
+              "type": "",
+              "level": "14",
+              "level_plus": "17"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "20",
+              "level_plus": "23"
+            },
+            {
+              "name": "Heavy Slam",
+              "type": "",
+              "level": "26",
+              "level_plus": "29"
+            },
+            {
+              "name": "Aura Sphere",
+              "type": "",
+              "level": "30",
+              "level_plus": "33"
+            },
+            {
+              "name": "Rock Blast",
+              "type": "",
+              "level": "34",
+              "level_plus": "37"
+            },
+            {
+              "name": "Rock Slide",
+              "type": "",
+              "level": "38",
+              "level_plus": "41"
+            },
+            {
+              "name": "Megahorn",
+              "type": "",
+              "level": "42",
+              "level_plus": "45"
+            },
+            {
+              "name": "Sacred Sword",
+              "type": "",
+              "level": "49",
+              "level_plus": "52"
+            },
+            {
+              "name": "Swords Dance",
+              "type": "",
+              "level": "56",
+              "level_plus": "59"
+            },
+            {
+              "name": "Stone Edge",
+              "type": "",
+              "level": "63",
+              "level_plus": "66"
+            },
+            {
+              "name": "Close Combat",
+              "type": "",
+              "level": "70",
+              "level_plus": "73"
+            },
+            {
+              "name": "Head Smash",
+              "type": "",
+              "level": "78",
+              "level_plus": "81"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM005",
+              "name": "Roar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM010",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM012",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM017",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM022",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM030",
+              "name": "Swords Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM031",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM033",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM035",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM037",
+              "name": "Stealth Rock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM044",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM051",
+              "name": "Safeguard",
+              "type": ""
+            },
+            {
+              "tm_id": "TM052",
+              "name": "Earth Power",
+              "type": ""
+            },
+            {
+              "tm_id": "TM055",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM056",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Stone Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM069",
+              "name": "Earthquake",
+              "type": ""
+            },
+            {
+              "tm_id": "TM077",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM078",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM081",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM095",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM102",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Work Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM107",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM109",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM122",
+              "name": "False Swipe",
+              "type": ""
+            },
+            {
+              "tm_id": "TM146",
+              "name": "Skull Bash",
+              "type": ""
+            }
+          ]
+        },
+        "Scarlet and Violet": {
+          "level_up": [
+            {
+              "name": "Leer",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Quick Attack",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Helping Hand",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Work Up",
+              "type": "",
+              "level": "—"
+            },
+            {
+              "name": "Smack Down",
+              "type": "",
+              "level": "7"
+            },
+            {
+              "name": "Quick Guard",
+              "type": "",
+              "level": "14"
+            },
+            {
+              "name": "Double Kick",
+              "type": "",
+              "level": "21"
+            },
+            {
+              "name": "Retaliate",
+              "type": "",
+              "level": "28"
+            },
+            {
+              "name": "Rock Slide",
+              "type": "",
+              "level": "35"
+            },
+            {
+              "name": "Take Down",
+              "type": "",
+              "level": "42"
+            },
+            {
+              "name": "Sacred Sword",
+              "type": "",
+              "level": "49"
+            },
+            {
+              "name": "Swords Dance",
+              "type": "",
+              "level": "56"
+            },
+            {
+              "name": "Stone Edge",
+              "type": "",
+              "level": "63"
+            },
+            {
+              "name": "Close Combat",
+              "type": "",
+              "level": "70"
+            }
+          ],
+          "tm": [
+            {
+              "tm_id": "TM001",
+              "name": "Take Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM006",
+              "name": "Scary Face",
+              "type": ""
+            },
+            {
+              "tm_id": "TM007",
+              "name": "Protect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM025",
+              "name": "Facade",
+              "type": ""
+            },
+            {
+              "tm_id": "TM027",
+              "name": "Aerial Ace",
+              "type": ""
+            },
+            {
+              "tm_id": "TM028",
+              "name": "Bulldoze",
+              "type": ""
+            },
+            {
+              "tm_id": "TM032",
+              "name": "Swift",
+              "type": ""
+            },
+            {
+              "tm_id": "TM036",
+              "name": "Rock Tomb",
+              "type": ""
+            },
+            {
+              "tm_id": "TM047",
+              "name": "Endure",
+              "type": ""
+            },
+            {
+              "tm_id": "TM051",
+              "name": "Sandstorm",
+              "type": ""
+            },
+            {
+              "tm_id": "TM053",
+              "name": "Smart Strike",
+              "type": ""
+            },
+            {
+              "tm_id": "TM057",
+              "name": "False Swipe",
+              "type": ""
+            },
+            {
+              "tm_id": "TM058",
+              "name": "Brick Break",
+              "type": ""
+            },
+            {
+              "tm_id": "TM059",
+              "name": "Zen Headbutt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM065",
+              "name": "Air Slash",
+              "type": ""
+            },
+            {
+              "tm_id": "TM066",
+              "name": "Body Slam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM070",
+              "name": "Sleep Talk",
+              "type": ""
+            },
+            {
+              "tm_id": "TM074",
+              "name": "Reflect",
+              "type": ""
+            },
+            {
+              "tm_id": "TM076",
+              "name": "Rock Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM083",
+              "name": "Poison Jab",
+              "type": ""
+            },
+            {
+              "tm_id": "TM084",
+              "name": "Stomping Tantrum",
+              "type": ""
+            },
+            {
+              "tm_id": "TM085",
+              "name": "Rest",
+              "type": ""
+            },
+            {
+              "tm_id": "TM086",
+              "name": "Rock Slide",
+              "type": ""
+            },
+            {
+              "tm_id": "TM087",
+              "name": "Taunt",
+              "type": ""
+            },
+            {
+              "tm_id": "TM088",
+              "name": "Swords Dance",
+              "type": ""
+            },
+            {
+              "tm_id": "TM099",
+              "name": "Iron Head",
+              "type": ""
+            },
+            {
+              "tm_id": "TM103",
+              "name": "Substitute",
+              "type": ""
+            },
+            {
+              "tm_id": "TM105",
+              "name": "X-Scissor",
+              "type": ""
+            },
+            {
+              "tm_id": "TM112",
+              "name": "Aura Sphere",
+              "type": ""
+            },
+            {
+              "tm_id": "TM116",
+              "name": "Stealth Rock",
+              "type": ""
+            },
+            {
+              "tm_id": "TM129",
+              "name": "Calm Mind",
+              "type": ""
+            },
+            {
+              "tm_id": "TM130",
+              "name": "Helping Hand",
+              "type": ""
+            },
+            {
+              "tm_id": "TM133",
+              "name": "Earth Power",
+              "type": ""
+            },
+            {
+              "tm_id": "TM134",
+              "name": "Reversal",
+              "type": ""
+            },
+            {
+              "tm_id": "TM149",
+              "name": "Earthquake",
+              "type": ""
+            },
+            {
+              "tm_id": "TM150",
+              "name": "Stone Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM152",
+              "name": "Giga Impact",
+              "type": ""
+            },
+            {
+              "tm_id": "TM158",
+              "name": "Focus Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM163",
+              "name": "Hyper Beam",
+              "type": ""
+            },
+            {
+              "tm_id": "TM167",
+              "name": "Close Combat",
+              "type": ""
+            },
+            {
+              "tm_id": "TM171",
+              "name": "Tera Blast",
+              "type": ""
+            },
+            {
+              "tm_id": "TM172",
+              "name": "Roar",
+              "type": ""
+            },
+            {
+              "tm_id": "TM179",
+              "name": "Smack Down",
+              "type": ""
+            },
+            {
+              "tm_id": "TM186",
+              "name": "High Horsepower",
+              "type": ""
+            },
+            {
+              "tm_id": "TM203",
+              "name": "Psych Up",
+              "type": ""
+            },
+            {
+              "tm_id": "TM204",
+              "name": "Double-Edge",
+              "type": ""
+            },
+            {
+              "tm_id": "TM213",
+              "name": "Coaching",
+              "type": ""
+            },
+            {
+              "tm_id": "TM229",
+              "name": "Upper Hand",
+              "type": ""
+            }
+          ]
+        }
+      }
+    },
+    "url": "https://www.serebii.net/pokedex-sv/terrakion/"
+  }
+}
