@@ -1,351 +1,291 @@
 {
   "Maractus": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Spiky Shield",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Peck",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Absorb",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "After You",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Ingrain",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Growth",
-          "level": "4",
-          "type": ""
-        },
-        {
-          "name": "Mega Drain",
-          "level": "8",
-          "type": ""
-        },
-        {
-          "name": "Leech Seed",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Sucker Punch",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Pin Missile",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Giga Drain",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Sweet Scent",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Synthesis",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Petal Blizzard",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Cotton Spore",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Sunny Day",
-          "level": "44",
-          "type": ""
-        },
-        {
-          "name": "Solar Beam",
-          "level": "48",
-          "type": ""
-        },
-        {
-          "name": "Acupressure",
-          "level": "52",
-          "type": ""
-        },
-        {
-          "name": "Petal Dance",
-          "level": "56",
-          "type": ""
-        },
-        {
-          "name": "Cotton Guard",
-          "level": "60",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Pin Missile",
-          "type": "",
-          "id": "TM07"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Screech",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Weather Ball",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM50"
-        },
-        {
-          "name": "Bounce",
-          "type": "",
-          "id": "TM52"
-        },
-        {
-          "name": "Assurance",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Drain Punch",
-          "type": "",
-          "id": "TM63"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Grassy Terrain",
-          "type": "",
-          "id": "TM88"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Spikes",
-          "type": "",
-          "id": "TR23"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Uproar",
-          "type": "",
-          "id": "TR35"
-        },
-        {
-          "name": "Hyper Voice",
-          "type": "",
-          "id": "TR42"
-        },
-        {
-          "name": "Poison Jab",
-          "type": "",
-          "id": "TR57"
-        },
-        {
-          "name": "Seed Bomb",
-          "type": "",
-          "id": "TR59"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Leaf Storm",
-          "type": "",
-          "id": "TR71"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Throat Chop",
-          "type": "",
-          "id": "TR95"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Worry Seed",
-          "type": ""
-        },
-        {
-          "name": "Wood Hammer",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Aerial Ace",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Nature Power",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Endeavor",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Spiky Shield",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "After You",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ingrain",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Pin Missile",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Petal Blizzard",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Acupressure",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Petal Dance",
+            "type": "",
+            "level": "56"
+          },
+          {
+            "name": "Cotton Guard",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM07",
+            "name": "Pin Missile",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Grassy Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR23",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR71",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Wood Hammer",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/maractus/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/maractus/"
   }
 }

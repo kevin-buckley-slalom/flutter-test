@@ -1,548 +1,1559 @@
 {
   "Arcanine": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Extreme Speed",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Play Rough",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fire Fang",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Flare Blitz",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Howl",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Helping Hand",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Retaliate",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Reversal",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Flame Wheel",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "5"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Double Kick",
-              "type": ""
-            },
-            {
-              "name": "Thrash",
-              "type": ""
-            },
-            {
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "name": "Morning Sun",
-              "type": ""
-            },
-            {
-              "name": "Covet",
-              "type": ""
-            },
-            {
-              "name": "Raging Fury",
-              "type": ""
-            },
-            {
-              "name": "Head Smash",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Extreme Speed",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Extreme Speed",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Burn Up",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flame Wheel",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Retaliate",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Howl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR55",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR97",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          },
+          {
+            "name": "Covet",
+            "type": ""
+          },
+          {
+            "name": "Double Kick",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Scorching Sands",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM05",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Rock Climb",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "special_moves": [
+          {
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Flamethrower",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/arcanine/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Extreme Speed",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Howl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Retaliate",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flame Wheel",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "5"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double Kick",
+            "type": ""
+          },
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          },
+          {
+            "name": "Covet",
+            "type": ""
+          },
+          {
+            "name": "Raging Fury",
+            "type": ""
+          },
+          {
+            "name": "Head Smash",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/arcanine/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/arcanine/"
   },
   "Arcanine Hisuian Arcanine": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Extreme Speed",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Flame Wheel",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fire Fang",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Flare Blitz",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Howl",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Helping Hand",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Reversal",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Retaliate",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Rock Throw",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Rock Slide",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Raging Fury",
-              "type": "",
-              "level": "64"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM009",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Snarl",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Sandstorm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM053",
-              "name": "Smart Strike",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM063",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Rock Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Power Gem",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM118",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM157",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM165",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM167",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM179",
-              "name": "Smack Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM189",
-              "name": "Heat Crash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM207",
-              "name": "Temper Flare",
-              "type": ""
-            },
-            {
-              "tm_id": "TM215",
-              "name": "Scorching Sands",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR55",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR97",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM05",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Rock Climb",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "mastery_level": "9"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "5",
+            "mastery_level": "14"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "9",
+            "mastery_level": "18"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "15",
+            "mastery_level": "25"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "21",
+            "mastery_level": "31"
+          },
+          {
+            "name": "Raging Fury",
+            "type": "",
+            "level": "29",
+            "mastery_level": "40"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "29",
+            "mastery_level": "40"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "37",
+            "mastery_level": "48"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "47",
+            "mastery_level": "59"
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/arcanine/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Extreme Speed",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Flame Wheel",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Howl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Retaliate",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Throw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Raging Fury",
+            "type": "",
+            "level": "64"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM009",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM053",
+            "name": "Smart Strike",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM063",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM118",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM157",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM165",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM167",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM179",
+            "name": "Smack Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM189",
+            "name": "Heat Crash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM207",
+            "name": "Temper Flare",
+            "type": ""
+          },
+          {
+            "tm_id": "TM215",
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/arcanine/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/arcanine/"
   }
 }

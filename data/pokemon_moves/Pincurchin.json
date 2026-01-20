@@ -1,285 +1,540 @@
 {
   "Pincurchin": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Peck",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Thunder Shock",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Water Gun",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Charge",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Fury Attack",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Spark",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Bubble Beam",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Recover",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Curse",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Electric Terrain",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Poison Jab",
-              "type": "",
-              "level": "45"
-            },
-            {
-              "name": "Zing Zap",
-              "type": "",
-              "level": "50"
-            },
-            {
-              "name": "Acupressure",
-              "type": "",
-              "level": "55"
-            },
-            {
-              "name": "Discharge",
-              "type": "",
-              "level": "60"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM188",
-              "name": "Scald",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM209",
-              "name": "Muddy Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM210",
-              "name": "Supercell Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Memento",
-              "type": ""
-            },
-            {
-              "name": "Sucker Punch",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Electric Terrain",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Poison Jab",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Zing Zap",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Acupressure",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM07",
+            "name": "Pin Missile",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR23",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR45",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TR54",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR91",
+            "name": "Venom Drench",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/pincurchin/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Electric Terrain",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Poison Jab",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Zing Zap",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Acupressure",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM188",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM209",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM210",
+            "name": "Supercell Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/pincurchin/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/pincurchin/"
   }
 }

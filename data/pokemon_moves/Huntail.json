@@ -1,282 +1,232 @@
 {
   "Huntail": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Whirlpool",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bite",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Water Gun",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Iron Defense",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Shell Smash",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Screech",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Scary Face",
-          "level": "9",
-          "type": ""
-        },
-        {
-          "name": "Rain Dance",
-          "level": "11",
-          "type": ""
-        },
-        {
-          "name": "Water Pulse",
-          "level": "14",
-          "type": ""
-        },
-        {
-          "name": "Ice Fang",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Brine",
-          "level": "19",
-          "type": ""
-        },
-        {
-          "name": "Sucker Punch",
-          "level": "23",
-          "type": ""
-        },
-        {
-          "name": "Dive",
-          "level": "26",
-          "type": ""
-        },
-        {
-          "name": "Baton Pass",
-          "level": "29",
-          "type": ""
-        },
-        {
-          "name": "Crunch",
-          "level": "34",
-          "type": ""
-        },
-        {
-          "name": "Aqua Tail",
-          "level": "39",
-          "type": ""
-        },
-        {
-          "name": "Coil",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Hydro Pump",
-          "level": "50",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Water Pulse",
-          "type": "",
-          "id": "TM03"
-        },
-        {
-          "name": "Hail",
-          "type": "",
-          "id": "TM07"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TM49"
-        },
-        {
-          "name": "Brine",
-          "type": "",
-          "id": "TM55"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TM95"
-        },
-        {
-          "name": "Waterfall",
-          "type": "",
-          "id": "TM99"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Body Slam",
-          "type": ""
-        },
-        {
-          "name": "Supersonic",
-          "type": ""
-        },
-        {
-          "name": "Confuse Ray",
-          "type": ""
-        },
-        {
-          "name": "Aqua Ring",
-          "type": ""
-        },
-        {
-          "name": "Muddy Water",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Round",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Super Fang",
-          "type": ""
-        },
-        {
-          "name": "Bounce",
-          "type": ""
-        },
-        {
-          "name": "Icy Wind",
-          "type": ""
-        },
-        {
-          "name": "Bind",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        },
-        {
-          "name": "Swift",
-          "type": ""
-        },
-        {
-          "name": "Mud-slap",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Whirlpool",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Shell Smash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "9"
+          },
+          {
+            "name": "Rain Dance",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Ice Fang",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Brine",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Dive",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Aqua Tail",
+            "type": "",
+            "level": "39"
+          },
+          {
+            "name": "Coil",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "name": "Supersonic",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          },
+          {
+            "name": "Muddy Water",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Waterfall",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/huntail/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/huntail/"
   }
 }

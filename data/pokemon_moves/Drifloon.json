@@ -1,336 +1,884 @@
 {
   "Drifloon": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Minimize",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Gust",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Focus Energy",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Payback",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Hex",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Shadow Ball",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Stockpile",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Spit Up",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Swallow",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Self-Destruct",
-              "type": "",
-              "level": "29"
-            },
-            {
-              "name": "Destiny Bond",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Baton Pass",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Tailwind",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Explosion",
-              "type": "",
-              "level": "44"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Psybeam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Imprison",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Skill Swap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Amnesia",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM151",
-              "name": "Phantom Force",
-              "type": ""
-            },
-            {
-              "tm_id": "TM161",
-              "name": "Trick Room",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM174",
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM180",
-              "name": "Gyro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM207",
-              "name": "Temper Flare",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Disable",
-              "type": ""
-            },
-            {
-              "name": "Hypnosis",
-              "type": ""
-            },
-            {
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "name": "Memento",
-              "type": ""
-            },
-            {
-              "name": "Defog",
-              "type": ""
-            },
-            {
-              "name": "Clear Smog",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Minimize",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Payback",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Stockpile",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Swallow",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Spit Up",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Self-Destruct",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Destiny Bond",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Tailwind",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Explosion",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Hypnosis",
+            "type": ""
+          },
+          {
+            "name": "Clear Smog",
+            "type": ""
+          },
+          {
+            "name": "Defog",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM04",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM64",
+            "name": "Explosion",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Recycle",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Defog",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "—",
+            "mastery_level": "9"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "5",
+            "mastery_level": "14"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "9",
+            "mastery_level": "18"
+          },
+          {
+            "name": "Calm Mind",
+            "type": "",
+            "level": "15",
+            "mastery_level": "25"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "21",
+            "mastery_level": "31"
+          },
+          {
+            "name": "Mystical Fire",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Extrasensory",
+            "type": "",
+            "level": "29",
+            "mastery_level": "40"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "37",
+            "mastery_level": "48"
+          },
+          {
+            "name": "Self-Destruct",
+            "type": "",
+            "level": "47",
+            "mastery_level": "59"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Mystical Fire",
+            "type": ""
+          },
+          {
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "name": "Psychic",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/drifloon/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Minimize",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Payback",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Stockpile",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Spit Up",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Swallow",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Self-Destruct",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Destiny Bond",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Tailwind",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Explosion",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Psybeam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM151",
+            "name": "Phantom Force",
+            "type": ""
+          },
+          {
+            "tm_id": "TM161",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM174",
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM180",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM207",
+            "name": "Temper Flare",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Hypnosis",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Defog",
+            "type": ""
+          },
+          {
+            "name": "Clear Smog",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/drifloon/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/drifloon/"
   }
 }

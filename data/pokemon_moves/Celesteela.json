@@ -1,370 +1,294 @@
 {
   "Celesteela": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Absorb",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Wide Guard",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Mega Drain",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Smack Down",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Ingrain",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Autotomize",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Giga Drain",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Flash Cannon",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Metal Sound",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Iron Defense",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Leech Seed",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Heavy Slam",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Double-Edge",
-          "level": "65",
-          "type": ""
-        },
-        {
-          "name": "Skull Bash",
-          "level": "70",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Fly",
-          "type": "",
-          "id": "TM06"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Self-Destruct",
-          "type": "",
-          "id": "TM20"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Acrobatics",
-          "type": "",
-          "id": "TM78"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Air Slash",
-          "type": "",
-          "id": "TM95"
-        },
-        {
-          "name": "Smart Strike",
-          "type": "",
-          "id": "TM96"
-        },
-        {
-          "name": "Brutal Swing",
-          "type": "",
-          "id": "TM97"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TR02"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TR10"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TR15"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Megahorn",
-          "type": "",
-          "id": "TR28"
-        },
-        {
-          "name": "Superpower",
-          "type": "",
-          "id": "TR39"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TR52"
-        },
-        {
-          "name": "Seed Bomb",
-          "type": "",
-          "id": "TR59"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Flash Cannon",
-          "type": "",
-          "id": "TR70"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TR75"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Heavy Slam",
-          "type": "",
-          "id": "TR79"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Flame Charge",
-          "type": ""
-        },
-        {
-          "name": "Explosion",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Block",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        },
-        {
-          "name": "Magnet Rise",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Smack Down",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Ingrain",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Autotomize",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Flash Cannon",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Metal Sound",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Heavy Slam",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "65"
+          },
+          {
+            "name": "Skull Bash",
+            "type": "",
+            "level": "70"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Smart Strike",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR28",
+            "name": "Megahorn",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR79",
+            "name": "Heavy Slam",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Steel Beam",
+            "type": ""
+          },
+          {
+            "name": "Meteor Beam",
+            "type": ""
+          },
+          {
+            "name": "Steel Roller",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/celesteela/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/celesteela/"
   }
 }

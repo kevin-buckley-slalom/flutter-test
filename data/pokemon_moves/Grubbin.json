@@ -1,225 +1,419 @@
 {
   "Grubbin": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Vise Grip",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Mud-Slap",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "String Shot",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Bug Bite",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Spark",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Sticky Web",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "X-Scissor",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Dig",
-              "type": "",
-              "level": "40"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM105",
-              "name": "X-Scissor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM182",
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Harden",
-              "type": ""
-            },
-            {
-              "name": "Discharge",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Vise Grip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mud-Slap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Sticky Web",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "X-Scissor",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Harden",
+            "type": ""
+          },
+          {
+            "name": "Discharge",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/grubbin/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Vise Grip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mud-Slap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Sticky Web",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "X-Scissor",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM105",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM182",
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Harden",
+            "type": ""
+          },
+          {
+            "name": "Discharge",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/grubbin/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/grubbin/"
   }
 }

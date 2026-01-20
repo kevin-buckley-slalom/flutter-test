@@ -1,294 +1,676 @@
 {
   "Yanmega": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Double Team",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Night Slash",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Air Slash",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bug Buzz",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "14"
-            },
-            {
-              "name": "Detect",
-              "type": "",
-              "level": "17"
-            },
-            {
-              "name": "Supersonic",
-              "type": "",
-              "level": "22"
-            },
-            {
-              "name": "Uproar",
-              "type": "",
-              "level": "27"
-            },
-            {
-              "name": "Bug Bite",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Ancient Power",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Feint",
-              "type": "",
-              "level": "38"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "43"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "46"
-            },
-            {
-              "name": "U-turn",
-              "type": "",
-              "level": "49"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Leech Life",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM162",
-              "name": "Bug Buzz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM182",
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM197",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            },
-            {
-              "tm_id": "TM228",
-              "name": "Psychic Noise",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Whirlwind",
-              "type": ""
-            },
-            {
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "name": "Feint",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double Team",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wing Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Double Team",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Detect",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Uproar",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Feint",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "49"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "57"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Whirlwind",
+            "type": ""
+          },
+          {
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "name": "Feint",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM51",
+            "name": "Roost",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Defog",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Silver Wind",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Psychic",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/yanmega/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double Team",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Detect",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Uproar",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Feint",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "49"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM162",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM182",
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM197",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "tm_id": "TM228",
+            "name": "Psychic Noise",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Whirlwind",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Feint",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Hypnosis",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/yanmega/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/yanmega/"
   }
 }

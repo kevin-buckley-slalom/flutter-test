@@ -1,298 +1,547 @@
 {
   "Dodrio": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tri Attack",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Peck",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fury Attack",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Pluck",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Double Hit",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "23"
-            },
-            {
-              "name": "Uproar",
-              "type": "",
-              "level": "26"
-            },
-            {
-              "name": "Acupressure",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Swords Dance",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Drill Peck",
-              "type": "",
-              "level": "38"
-            },
-            {
-              "name": "Endeavor",
-              "type": "",
-              "level": "43"
-            },
-            {
-              "name": "Thrash",
-              "type": "",
-              "level": "50"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Low Kick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Stomping Tantrum",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Drill Run",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM164",
-              "name": "Brave Bird",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM216",
-              "name": "Feather Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Whirlwind",
-              "type": ""
-            },
-            {
-              "name": "Sky Attack",
-              "type": ""
-            },
-            {
-              "name": "Flail",
-              "type": ""
-            },
-            {
-              "name": "Assurance",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Wing Attack",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Pluck",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Double Hit",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Uproar",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Acupressure",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Lunge",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Drill Peck",
+            "type": "",
+            "level": "47"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "56"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Quick Attack",
+            "type": ""
+          },
+          {
+            "name": "Supersonic",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "name": "Assurance",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM12",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Torment",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM51",
+            "name": "Roost",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Pluck",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "Fly",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/dodrio/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Pluck",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Double Hit",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Uproar",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Acupressure",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Drill Peck",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Drill Run",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM164",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM216",
+            "name": "Feather Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Whirlwind",
+            "type": ""
+          },
+          {
+            "name": "Sky Attack",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Assurance",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/dodrio/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/dodrio/"
   }
 }

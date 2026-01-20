@@ -1,296 +1,579 @@
 {
   "Cramorant": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Peck",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Stockpile",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Spit Up",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Swallow",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Water Gun",
-              "type": "",
-              "level": "7"
-            },
-            {
-              "name": "Fury Attack",
-              "type": "",
-              "level": "14"
-            },
-            {
-              "name": "Pluck",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Dive",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Drill Peck",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Amnesia",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Thrash",
-              "type": "",
-              "level": "49"
-            },
-            {
-              "name": "Hydro Pump",
-              "type": "",
-              "level": "56"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Amnesia",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM160",
-              "name": "Hurricane",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM164",
-              "name": "Brave Bird",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM197",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM208",
-              "name": "Whirlpool",
-              "type": ""
-            },
-            {
-              "tm_id": "TM216",
-              "name": "Feather Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Feather Dance",
-              "type": ""
-            },
-            {
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "name": "Roost",
-              "type": ""
-            },
-            {
-              "name": "Aqua Ring",
-              "type": ""
-            },
-            {
-              "name": "Defog",
-              "type": ""
-            },
-            {
-              "name": "Aqua Cutter",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Belch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stockpile",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Swallow",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Spit Up",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Pluck",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Dive",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Drill Peck",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "49"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "56"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR66",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR89",
+            "name": "Hurricane",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Defog",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Feather Dance",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          },
+          {
+            "name": "Roost",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/cramorant/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stockpile",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Spit Up",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Swallow",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Pluck",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Dive",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Drill Peck",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "49"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "56"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM160",
+            "name": "Hurricane",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM164",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM197",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM208",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM216",
+            "name": "Feather Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Feather Dance",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Roost",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          },
+          {
+            "name": "Defog",
+            "type": ""
+          },
+          {
+            "name": "Aqua Cutter",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Belch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/cramorant/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/cramorant/"
   }
 }

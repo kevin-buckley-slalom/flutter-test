@@ -1,383 +1,837 @@
 {
   "Probopass": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tri Attack",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Magnetic Flux",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Magnet Rise",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Gravity",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Block",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Wide Guard",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Iron Defense",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "13"
-            },
-            {
-              "name": "Rest",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Spark",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Rock Slide",
-              "type": "",
-              "level": "22"
-            },
-            {
-              "name": "Power Gem",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Rock Blast",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Discharge",
-              "type": "",
-              "level": "31"
-            },
-            {
-              "name": "Sandstorm",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Earth Power",
-              "type": "",
-              "level": "37"
-            },
-            {
-              "name": "Stone Edge",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Zap Cannon",
-              "type": "",
-              "level": "43"
-            },
-            {
-              "name": "Lock-On",
-              "type": "",
-              "level": "43"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Sandstorm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Fire Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM068",
-              "name": "Thunder Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Ice Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Rock Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Stomping Tantrum",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM089",
-              "name": "Body Press",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Flash Cannon",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Power Gem",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM104",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM121",
-              "name": "Heavy Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM170",
-              "name": "Steel Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM176",
-              "name": "Sand Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM178",
-              "name": "Gravity",
-              "type": ""
-            },
-            {
-              "tm_id": "TM179",
-              "name": "Smack Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM186",
-              "name": "High Horsepower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM210",
-              "name": "Supercell Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM220",
-              "name": "Meteor Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM223",
-              "name": "Metal Sound",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM225",
-              "name": "Hard Press",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "name": "Rollout",
-              "type": ""
-            },
-            {
-              "name": "Head Smash",
-              "type": ""
-            },
-            {
-              "name": "Wide Guard",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Magnetic Flux",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Magnet Rise",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gravity",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Block",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Throw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Block",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Smack Down",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Rest",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Power Gem",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Rock Blast",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Sandstorm",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Stone Edge",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Lock-On",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Zap Cannon",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Body Press",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Rollout",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Block",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM12",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Torment",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM64",
+            "name": "Explosion",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Rock Polish",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM91",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Power Gem",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Flash Cannon",
+            "type": "",
+            "level": "38",
+            "mastery_level": "49"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "name": "Tri Attack",
+            "type": ""
+          },
+          {
+            "name": "Power Shift",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "name": "Steel Beam",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/probopass/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Magnetic Flux",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Magnet Rise",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gravity",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Block",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Rest",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Power Gem",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Rock Blast",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Sandstorm",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Stone Edge",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Zap Cannon",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Lock-On",
+            "type": "",
+            "level": "43"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM068",
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM089",
+            "name": "Body Press",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM104",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM121",
+            "name": "Heavy Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM170",
+            "name": "Steel Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM176",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM178",
+            "name": "Gravity",
+            "type": ""
+          },
+          {
+            "tm_id": "TM179",
+            "name": "Smack Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM186",
+            "name": "High Horsepower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM210",
+            "name": "Supercell Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM220",
+            "name": "Meteor Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM223",
+            "name": "Metal Sound",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM225",
+            "name": "Hard Press",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Rollout",
+            "type": ""
+          },
+          {
+            "name": "Head Smash",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/probopass/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/probopass/"
   }
 }

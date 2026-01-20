@@ -1,443 +1,899 @@
 {
   "Hydreigon": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Dragon Breath",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Focus Energy",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tri Attack",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Double Hit",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Assurance",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Work Up",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Slam",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Scary Face",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Dragon Pulse",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Body Slam",
-              "type": "",
-              "level": "44"
-            },
-            {
-              "name": "Hyper Voice",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Dragon Rush",
-              "type": "",
-              "level": "54"
-            },
-            {
-              "name": "Nasty Plot",
-              "type": "",
-              "level": "60"
-            },
-            {
-              "name": "Outrage",
-              "type": "",
-              "level": "68"
-            },
-            {
-              "name": "Hyper Beam",
-              "type": "",
-              "level": "76"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM009",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Snarl",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Dragon Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Stomping Tantrum",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Flash Cannon",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Dragon Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM118",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM158",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM197",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM199",
-              "name": "Lash Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM200",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM222",
-              "name": "Breaking Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM226",
-              "name": "Dragon Cheer",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Astonish",
-              "type": ""
-            },
-            {
-              "name": "Head Smash",
-              "type": ""
-            },
-            {
-              "name": "Double Hit",
-              "type": ""
-            },
-            {
-              "name": "Belch",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double Hit",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Assurance",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Work Up",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "68"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "76"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Beat Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Breaking Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR19",
+            "name": "Tri Attack",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR51",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double Hit",
+            "type": ""
+          },
+          {
+            "name": "Astonish",
+            "type": ""
+          },
+          {
+            "name": "Head Smash",
+            "type": ""
+          },
+          {
+            "name": "Belch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "name": "Scale Shot",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/hydreigon/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double Hit",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Assurance",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Work Up",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "68"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "76"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM009",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM118",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM158",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM197",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM199",
+            "name": "Lash Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM200",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM222",
+            "name": "Breaking Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM226",
+            "name": "Dragon Cheer",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Astonish",
+            "type": ""
+          },
+          {
+            "name": "Head Smash",
+            "type": ""
+          },
+          {
+            "name": "Double Hit",
+            "type": ""
+          },
+          {
+            "name": "Belch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/hydreigon/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/hydreigon/"
   }
 }

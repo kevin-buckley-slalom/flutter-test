@@ -1,321 +1,676 @@
 {
   "Turtwig": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Withdraw",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "9"
-            },
-            {
-              "name": "Razor Leaf",
-              "type": "",
-              "level": "13"
-            },
-            {
-              "name": "Curse",
-              "type": "",
-              "level": "17"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "29"
-            },
-            {
-              "name": "Synthesis",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "37"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "41"
-            },
-            {
-              "name": "Leaf Storm",
-              "type": "",
-              "level": "45"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM121",
-              "name": "Heavy Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Amnesia",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM146",
-              "name": "Grass Pledge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM176",
-              "name": "Sand Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM179",
-              "name": "Smack Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Thrash",
-              "type": ""
-            },
-            {
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "name": "Growth",
-              "type": ""
-            },
-            {
-              "name": "Stockpile",
-              "type": ""
-            },
-            {
-              "name": "Spit Up",
-              "type": ""
-            },
-            {
-              "name": "Swallow",
-              "type": ""
-            },
-            {
-              "name": "Superpower",
-              "type": ""
-            },
-            {
-              "name": "Tickle",
-              "type": ""
-            },
-            {
-              "name": "Worry Seed",
-              "type": ""
-            },
-            {
-              "name": "Wide Guard",
-              "type": ""
-            },
-            {
-              "name": "Shell Smash",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "45"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Growth",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "name": "Stockpile",
+            "type": ""
+          },
+          {
+            "name": "Swallow",
+            "type": ""
+          },
+          {
+            "name": "Spit Up",
+            "type": ""
+          },
+          {
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "name": "Heavy Slam",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Rock Climb",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Leaf Blade",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "name": "Earth Power",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/turtwig/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "9"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "45"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM121",
+            "name": "Heavy Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM146",
+            "name": "Grass Pledge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM176",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM179",
+            "name": "Smack Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Growth",
+            "type": ""
+          },
+          {
+            "name": "Stockpile",
+            "type": ""
+          },
+          {
+            "name": "Spit Up",
+            "type": ""
+          },
+          {
+            "name": "Swallow",
+            "type": ""
+          },
+          {
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          },
+          {
+            "name": "Shell Smash",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/turtwig/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/turtwig/"
   }
 }

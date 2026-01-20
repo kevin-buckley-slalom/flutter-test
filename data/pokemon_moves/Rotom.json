@@ -1,2267 +1,4333 @@
 {
   "Rotom": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Thunder Shock",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Double Team",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Confuse Ray",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Charge",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Parabolic Charge",
-              "type": "",
-              "level": "15",
-              "level_plus": "18"
-            },
-            {
-              "name": "Parting Shot",
-              "type": "",
-              "level": "17",
-              "level_plus": "20"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Psybeam",
-              "type": "",
-              "level": "23",
-              "level_plus": "26"
-            },
-            {
-              "name": "Eerie Impulse",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Shadow Ball",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Taunt",
-              "type": "",
-              "level": "34",
-              "level_plus": "37"
-            },
-            {
-              "name": "Substitute",
-              "type": "",
-              "level": "40",
-              "level_plus": "43"
-            },
-            {
-              "name": "Light Screen",
-              "type": "",
-              "level": "44",
-              "level_plus": "47"
-            },
-            {
-              "name": "Discharge",
-              "type": "",
-              "level": "50",
-              "level_plus": "53"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Magnet Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "special_moves": [
-            {
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "name": "Leaf Storm",
-              "type": ""
-            }
-          ],
-          "level_up": [
-            {
-              "name": "Double Team",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Thunder Shock",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Confuse Ray",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Charge",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Electro Ball",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Shock Wave",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Hex",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Substitute",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Trick",
-              "type": "",
-              "level": "45"
-            },
-            {
-              "name": "Discharge",
-              "type": "",
-              "level": "50"
-            },
-            {
-              "name": "Uproar",
-              "type": "",
-              "level": "55"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double Team",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Electro Ball",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Shock Wave",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Substitute",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Trick",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Uproar",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          },
+          {
+            "name": "Poltergeist",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "name": "Leaf Storm",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Charge Beam",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Thunder",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "name": "Leaf Storm",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rotom/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Double Team",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Parabolic Charge",
+            "type": "",
+            "level": "15",
+            "level_plus": "18"
+          },
+          {
+            "name": "Parting Shot",
+            "type": "",
+            "level": "17",
+            "level_plus": "20"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "23",
+            "level_plus": "26"
+          },
+          {
+            "name": "Eerie Impulse",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Taunt",
+            "type": "",
+            "level": "34",
+            "level_plus": "37"
+          },
+          {
+            "name": "Substitute",
+            "type": "",
+            "level": "40",
+            "level_plus": "43"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "44",
+            "level_plus": "47"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "50",
+            "level_plus": "53"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Magnet Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "special_moves": [
+          {
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "name": "Leaf Storm",
+            "type": ""
+          }
+        ],
+        "level_up": [
+          {
+            "name": "Double Team",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Electro Ball",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Shock Wave",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Substitute",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Trick",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Uproar",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rotom/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rotom/"
   },
   "Rotom Fan Rotom": {
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Magnet Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Magnet Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rotom/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rotom/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rotom/"
   },
   "Rotom Frost Rotom": {
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Magnet Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Magnet Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rotom/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rotom/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rotom/"
   },
   "Rotom Heat Rotom": {
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Magnet Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Magnet Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rotom/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rotom/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rotom/"
   },
   "Rotom Mow Rotom": {
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Magnet Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Magnet Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rotom/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rotom/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rotom/"
   },
   "Rotom Wash Rotom": {
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Magnet Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Magnet Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rotom/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rotom/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rotom/"
   }
 }

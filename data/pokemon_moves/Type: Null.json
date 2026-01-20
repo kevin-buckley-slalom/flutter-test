@@ -1,309 +1,241 @@
 {
   "Type: Null": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Imprison",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Aerial Ace",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Scary Face",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Double Hit",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Metal Sound",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Crush Claw",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Air Slash",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Tri Attack",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "X-Scissor",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Iron Head",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Take Down",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Double-Edge",
-          "level": "55",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Scary Face",
-          "type": "",
-          "id": "TM26"
-        },
-        {
-          "name": "Icy Wind",
-          "type": "",
-          "id": "TM27"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Hail",
-          "type": "",
-          "id": "TM35"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Imprison",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Shadow Claw",
-          "type": "",
-          "id": "TM65"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Air Slash",
-          "type": "",
-          "id": "TM95"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TR00"
-        },
-        {
-          "name": "Tri Attack",
-          "type": "",
-          "id": "TR19"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Dragon Claw",
-          "type": "",
-          "id": "TR47"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TR60"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Work Up",
-          "type": "",
-          "id": "TR85"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Hailstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Wyrmwind",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Roar",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Flame Charge",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Imprison",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Double Hit",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Metal Sound",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Crush Claw",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Tri Attack",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "X-Scissor",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Iron Head",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR19",
+            "name": "Tri Attack",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR47",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Terrain Pulse",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/type:null/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/type:null/"
   }
 }

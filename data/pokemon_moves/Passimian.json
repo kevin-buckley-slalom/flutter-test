@@ -1,371 +1,741 @@
 {
   "Passimian": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Rock Smash",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Focus Energy",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Beat Up",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Scary Face",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Fling",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Bulk Up",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Thrash",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "45"
-            },
-            {
-              "name": "Close Combat",
-              "type": "",
-              "level": "50"
-            },
-            {
-              "name": "Reversal",
-              "type": "",
-              "level": "55"
-            },
-            {
-              "name": "Giga Impact",
-              "type": "",
-              "level": "60"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Low Kick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Low Sweep",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM064",
-              "name": "Bulk Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Drain Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM158",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM167",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM179",
-              "name": "Smack Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM180",
-              "name": "Gyro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM184",
-              "name": "Vacuum Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM192",
-              "name": "Focus Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM213",
-              "name": "Coaching",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM229",
-              "name": "Upper Hand",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Counter",
-              "type": ""
-            },
-            {
-              "name": "Seismic Toss",
-              "type": ""
-            },
-            {
-              "name": "Quick Attack",
-              "type": ""
-            },
-            {
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "name": "Feint",
-              "type": ""
-            },
-            {
-              "name": "Quick Guard",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Smash",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Beat Up",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Fling",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Bulk Up",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Close Combat",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Giga Impact",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Beat Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Revenge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR48",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR73",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Seismic Toss",
+            "type": ""
+          },
+          {
+            "name": "Vital Throw",
+            "type": ""
+          },
+          {
+            "name": "Quick Guard",
+            "type": ""
+          },
+          {
+            "name": "Quick Attack",
+            "type": ""
+          },
+          {
+            "name": "Feint",
+            "type": ""
+          },
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Coaching",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/passimian/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Smash",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Beat Up",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Fling",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Bulk Up",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Close Combat",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Giga Impact",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM064",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM158",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM167",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM179",
+            "name": "Smack Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM180",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM184",
+            "name": "Vacuum Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM192",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM213",
+            "name": "Coaching",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM229",
+            "name": "Upper Hand",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Seismic Toss",
+            "type": ""
+          },
+          {
+            "name": "Quick Attack",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Feint",
+            "type": ""
+          },
+          {
+            "name": "Quick Guard",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/passimian/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/passimian/"
   }
 }

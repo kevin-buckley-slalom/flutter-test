@@ -1,248 +1,246 @@
 {
   "Furfrou": {
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Tail Whip",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "13",
-              "level_plus": "16"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Cotton Guard",
-              "type": "",
-              "level": "22",
-              "level_plus": "25"
-            },
-            {
-              "name": "Charm",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Snarl",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Hyper Voice",
-              "type": "",
-              "level": "43",
-              "level_plus": "46"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Rock Smash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Iron Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Work Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Mimic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Double Hit",
-              "type": ""
-            },
-            {
-              "tm_id": "TM146",
-              "name": "Skull Bash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Tri Attack",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "13",
+            "level_plus": "16"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Cotton Guard",
+            "type": "",
+            "level": "22",
+            "level_plus": "25"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "43",
+            "level_plus": "46"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Mimic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Double Hit",
+            "type": ""
+          },
+          {
+            "tm_id": "TM146",
+            "name": "Skull Bash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Tri Attack",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/furfrou/"
+    "url_gen9": "https://www.serebii.net/pokedex-sv/furfrou/"
   }
 }

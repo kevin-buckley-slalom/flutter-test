@@ -1,642 +1,621 @@
 {
   "Tangrowth": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Block",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Absorb",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bind",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Stun Spore",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Growth",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Mega Drain",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Vine Whip",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Ancient Power",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Giga Drain",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Sleep Powder",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Slam",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Tickle",
-          "level": "44",
-          "type": ""
-        },
-        {
-          "name": "Power Whip",
-          "level": "48",
-          "type": ""
-        },
-        {
-          "name": "Ingrain",
-          "level": "52",
-          "type": ""
-        },
-        {
-          "name": "Grassy Terrain",
-          "level": "56",
-          "type": ""
-        },
-        {
-          "name": "Absorb",
-          "level": "—10",
-          "type": ""
-        },
-        {
-          "name": "Stun Spore",
-          "level": "615",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "level": "1120",
-          "type": ""
-        },
-        {
-          "name": "Acid Spray",
-          "level": "1524",
-          "type": ""
-        },
-        {
-          "name": "Double Hit",
-          "level": "1828",
-          "type": ""
-        },
-        {
-          "name": "Energy Ball",
-          "level": "2535",
-          "type": ""
-        },
-        {
-          "name": "Ancient Power",
-          "level": "3445",
-          "type": ""
-        },
-        {
-          "name": "Sleep Powder",
-          "level": "4354",
-          "type": ""
-        },
-        {
-          "name": "Sludge Bomb",
-          "level": "5264",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Solar Blade",
-          "type": "",
-          "id": "TM12"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM43"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM50"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Power Swap",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Grassy Terrain",
-          "type": "",
-          "id": "TM88"
-        },
-        {
-          "name": "Brutal Swing",
-          "type": "",
-          "id": "TM97"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        },
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TM26"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Shock Wave",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Aerial Ace",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Focus Blast",
-          "type": "",
-          "id": "TM52"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM66"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TM75"
-        },
-        {
-          "name": "Psych Up",
-          "type": "",
-          "id": "TM77"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM80"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM83"
-        },
-        {
-          "name": "Poison Jab",
-          "type": "",
-          "id": "TM84"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TM86"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Cut",
-          "type": "",
-          "id": "TM93"
-        },
-        {
-          "name": "Strength",
-          "type": "",
-          "id": "TM96"
-        },
-        {
-          "name": "Rock Smash",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TR00"
-        },
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TR10"
-        },
-        {
-          "name": "Amnesia",
-          "type": "",
-          "id": "TR17"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Poison Jab",
-          "type": "",
-          "id": "TR57"
-        },
-        {
-          "name": "Seed Bomb",
-          "type": "",
-          "id": "TR59"
-        },
-        {
-          "name": "Focus Blast",
-          "type": "",
-          "id": "TR64"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Leaf Storm",
-          "type": "",
-          "id": "TR71"
-        },
-        {
-          "name": "Power Whip",
-          "type": "",
-          "id": "TR72"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Confusion",
-          "type": ""
-        },
-        {
-          "name": "Endeavor",
-          "type": ""
-        },
-        {
-          "name": "Flail",
-          "type": ""
-        },
-        {
-          "name": "Leech Seed",
-          "type": ""
-        },
-        {
-          "name": "Nature Power",
-          "type": ""
-        },
-        {
-          "name": "Rage Powder",
-          "type": ""
-        },
-        {
-          "name": "Mega DrainBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "AmnesiaBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Leaf StormBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Power SwapBDSP Only",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Synthesis",
-          "type": ""
-        },
-        {
-          "name": "Pain Split",
-          "type": ""
-        },
-        {
-          "name": "Worry Seed",
-          "type": ""
-        },
-        {
-          "name": "Mud-slap",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Block",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bind",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Vine Whip",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Tickle",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Power Whip",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Ingrain",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": "",
+            "level": "56"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM12",
+            "name": "Solar Blade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Power Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR71",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TR72",
+            "name": "Power Whip",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Confusion",
+            "type": ""
+          },
+          {
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Nature Power",
+            "type": ""
+          },
+          {
+            "name": "Rage Powder",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM84",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Acid Spray",
+            "type": "",
+            "level": "15",
+            "mastery_level": "24"
+          },
+          {
+            "name": "Double Hit",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": "",
+            "level": "52",
+            "mastery_level": "64"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/tangrowth/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/tangrowth/"
   }
 }

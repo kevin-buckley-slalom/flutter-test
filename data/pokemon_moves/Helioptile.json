@@ -1,213 +1,476 @@
 {
   "Helioptile": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Tail Whip",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Thunder Shock",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Swift",
-              "type": "",
-              "level": "15",
-              "level_plus": "18"
-            },
-            {
-              "name": "Parabolic Charge",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Bulldoze",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Volt Switch",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Breaking Swipe",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Morning Sun",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Thunderbolt",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Charge",
-              "type": "",
-              "level": "42",
-              "level_plus": "45"
-            },
-            {
-              "name": "Thunder",
-              "type": "",
-              "level": "50",
-              "level_plus": "53"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM078",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Low Sweep",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Scale Shot",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Mud-Slap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Pound",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Volt Switch",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Parabolic Charge",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Electrify",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Thunder",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Glare",
+            "type": ""
+          },
+          {
+            "name": "Dragon Rush",
+            "type": ""
+          },
+          {
+            "name": "Dragon Tail",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          },
+          {
+            "name": "Scale Shot",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/helioptile/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "15",
+            "level_plus": "18"
+          },
+          {
+            "name": "Parabolic Charge",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Volt Switch",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Breaking Swipe",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Morning Sun",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "42",
+            "level_plus": "45"
+          },
+          {
+            "name": "Thunder",
+            "type": "",
+            "level": "50",
+            "level_plus": "53"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM078",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Scale Shot",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/helioptile/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/helioptile/"
   }
 }

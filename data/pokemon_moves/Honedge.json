@@ -1,177 +1,411 @@
 {
   "Honedge": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Sacred Sword",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Shadow Sneak",
-              "type": "",
-              "level": "4",
-              "level_plus": "7"
-            },
-            {
-              "name": "Aerial Ace",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Metal Sound",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Psycho Cut",
-              "type": "",
-              "level": "22",
-              "level_plus": "25"
-            },
-            {
-              "name": "Shadow Claw",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Iron Defense",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Iron Head",
-              "type": "",
-              "level": "38",
-              "level_plus": "41"
-            },
-            {
-              "name": "Swords Dance",
-              "type": "",
-              "level": "44",
-              "level_plus": "47"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Night Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM080",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Flash Cannon",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Solar Blade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM157",
-              "name": "Steel Beam",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Cutter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Autotomize",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Metal Sound",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Retaliate",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Iron Head",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Power Trick",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Sacred Sword",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM12",
+            "name": "Solar Blade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          },
+          {
+            "name": "Block",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Steel Beam",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/honedge/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Sacred Sword",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "4",
+            "level_plus": "7"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Metal Sound",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Psycho Cut",
+            "type": "",
+            "level": "22",
+            "level_plus": "25"
+          },
+          {
+            "name": "Shadow Claw",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Iron Head",
+            "type": "",
+            "level": "38",
+            "level_plus": "41"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "44",
+            "level_plus": "47"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Night Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM080",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Solar Blade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM157",
+            "name": "Steel Beam",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/honedge/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/honedge/"
   }
 }

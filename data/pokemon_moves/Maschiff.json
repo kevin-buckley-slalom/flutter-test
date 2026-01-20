@@ -1,474 +1,472 @@
 {
   "Maschiff": {
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Lick",
-              "type": "",
-              "level": "4",
-              "level_plus": "7"
-            },
-            {
-              "name": "Snarl",
-              "type": "",
-              "level": "7",
-              "level_plus": "10"
-            },
-            {
-              "name": "Charm",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "14",
-              "level_plus": "17"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "18",
-              "level_plus": "21"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "22",
-              "level_plus": "25"
-            },
-            {
-              "name": "Focus Energy",
-              "type": "",
-              "level": "27",
-              "level_plus": "30"
-            },
-            {
-              "name": "Taunt",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Swagger",
-              "type": "",
-              "level": "35",
-              "level_plus": "38"
-            },
-            {
-              "name": "Bounce",
-              "type": "",
-              "level": "38",
-              "level_plus": "41"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "42",
-              "level_plus": "45"
-            },
-            {
-              "name": "Lunge",
-              "type": "",
-              "level": "45",
-              "level_plus": "48"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "49",
-              "level_plus": "52"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Rock Smash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM139",
-              "name": "Swagger",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Scary Face",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Lick",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Snarl",
-              "type": "",
-              "level": "7"
-            },
-            {
-              "name": "Hone Claws",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "14"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "22"
-            },
-            {
-              "name": "Payback",
-              "type": "",
-              "level": "26"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "31"
-            },
-            {
-              "name": "Swagger",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Reversal",
-              "type": "",
-              "level": "39"
-            },
-            {
-              "name": "Jaw Lock",
-              "type": "",
-              "level": "43"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "49"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM003",
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM009",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Snarl",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM063",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM199",
-              "name": "Lash Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Destiny Bond",
-              "type": ""
-            },
-            {
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "name": "Retaliate",
-              "type": ""
-            },
-            {
-              "name": "Play Rough",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Lick",
+            "type": "",
+            "level": "4",
+            "level_plus": "7"
+          },
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "7",
+            "level_plus": "10"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "14",
+            "level_plus": "17"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "18",
+            "level_plus": "21"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "22",
+            "level_plus": "25"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "27",
+            "level_plus": "30"
+          },
+          {
+            "name": "Taunt",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Swagger",
+            "type": "",
+            "level": "35",
+            "level_plus": "38"
+          },
+          {
+            "name": "Bounce",
+            "type": "",
+            "level": "38",
+            "level_plus": "41"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "42",
+            "level_plus": "45"
+          },
+          {
+            "name": "Lunge",
+            "type": "",
+            "level": "45",
+            "level_plus": "48"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "49",
+            "level_plus": "52"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM139",
+            "name": "Swagger",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Lick",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Hone Claws",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Payback",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Swagger",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "39"
+          },
+          {
+            "name": "Jaw Lock",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "49"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM003",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM009",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM063",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM199",
+            "name": "Lash Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          },
+          {
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "name": "Play Rough",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/maschiff/"
+    "url_gen9": "https://www.serebii.net/pokedex-sv/maschiff/"
   }
 }

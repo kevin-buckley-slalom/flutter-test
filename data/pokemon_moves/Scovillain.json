@@ -1,566 +1,564 @@
 {
   "Scovillain": {
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "Evolve",
-              "level_plus": "10"
-            },
-            {
-              "name": "Spicy Extract",
-              "type": "",
-              "level": "Evolve",
-              "level_plus": "10"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Leafage",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "4",
-              "level_plus": "7"
-            },
-            {
-              "name": "Rollout",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "10",
-              "level_plus": "13"
-            },
-            {
-              "name": "Razor Leaf",
-              "type": "",
-              "level": "13",
-              "level_plus": "16"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Bullet Seed",
-              "type": "",
-              "level": "21",
-              "level_plus": "24"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Zen Headbutt",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Magical Leaf",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Super Fang",
-              "type": "",
-              "level": "35",
-              "level_plus": "38"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "38",
-              "level_plus": "41"
-            },
-            {
-              "name": "Seed Bomb",
-              "type": "",
-              "level": "44",
-              "level_plus": "47"
-            },
-            {
-              "name": "Solar Beam",
-              "type": "",
-              "level": "48",
-              "level_plus": "51"
-            },
-            {
-              "name": "Overheat",
-              "type": "",
-              "level": "48",
-              "level_plus": "51"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM026",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM064",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM104",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Double Hit",
-              "type": ""
-            },
-            {
-              "tm_id": "TM139",
-              "name": "Swagger",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Spicy Extract",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fire Fang",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leafage",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Razor Leaf",
-              "type": "",
-              "level": "13"
-            },
-            {
-              "name": "Sunny Day",
-              "type": "",
-              "level": "17"
-            },
-            {
-              "name": "Bullet Seed",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Zen Headbutt",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Worry Seed",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "38"
-            },
-            {
-              "name": "Seed Bomb",
-              "type": "",
-              "level": "44"
-            },
-            {
-              "name": "Solar Beam",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Overheat",
-              "type": "",
-              "level": "48"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Sandstorm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Stomping Tantrum",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM157",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM183",
-              "name": "Super Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM195",
-              "name": "Burning Jealousy",
-              "type": ""
-            },
-            {
-              "tm_id": "TM199",
-              "name": "Lash Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM207",
-              "name": "Temper Flare",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Leech Seed",
-              "type": ""
-            },
-            {
-              "name": "Rollout",
-              "type": ""
-            },
-            {
-              "name": "Ingrain",
-              "type": ""
-            },
-            {
-              "name": "Worry Seed",
-              "type": ""
-            },
-            {
-              "name": "Rage Powder",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "Evolve",
+            "level_plus": "10"
+          },
+          {
+            "name": "Spicy Extract",
+            "type": "",
+            "level": "Evolve",
+            "level_plus": "10"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "4",
+            "level_plus": "7"
+          },
+          {
+            "name": "Rollout",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "10",
+            "level_plus": "13"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "13",
+            "level_plus": "16"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "21",
+            "level_plus": "24"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Magical Leaf",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Super Fang",
+            "type": "",
+            "level": "35",
+            "level_plus": "38"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "38",
+            "level_plus": "41"
+          },
+          {
+            "name": "Seed Bomb",
+            "type": "",
+            "level": "44",
+            "level_plus": "47"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "48",
+            "level_plus": "51"
+          },
+          {
+            "name": "Overheat",
+            "type": "",
+            "level": "48",
+            "level_plus": "51"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM026",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM064",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM104",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Double Hit",
+            "type": ""
+          },
+          {
+            "tm_id": "TM139",
+            "name": "Swagger",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Spicy Extract",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Seed Bomb",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Overheat",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM157",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM183",
+            "name": "Super Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM195",
+            "name": "Burning Jealousy",
+            "type": ""
+          },
+          {
+            "tm_id": "TM199",
+            "name": "Lash Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM207",
+            "name": "Temper Flare",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Rollout",
+            "type": ""
+          },
+          {
+            "name": "Ingrain",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Rage Powder",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/scovillain/"
+    "url_gen9": "https://www.serebii.net/pokedex-sv/scovillain/"
   }
 }

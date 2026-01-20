@@ -1,377 +1,1010 @@
 {
   "Poliwrath": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Dynamic Punch",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Body Slam",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bubble Beam",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Hypnosis",
-              "type": "",
-              "level": "—"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Low Kick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Low Sweep",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM064",
-              "name": "Bulk Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Ice Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Drain Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Waterfall",
-              "type": ""
-            },
-            {
-              "tm_id": "TM080",
-              "name": "Metronome",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Amnesia",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM158",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM167",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM174",
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM184",
-              "name": "Vacuum Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM186",
-              "name": "High Horsepower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM192",
-              "name": "Focus Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM208",
-              "name": "Whirlpool",
-              "type": ""
-            },
-            {
-              "tm_id": "TM209",
-              "name": "Muddy Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM213",
-              "name": "Coaching",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM229",
-              "name": "Upper Hand",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Mist",
-              "type": ""
-            },
-            {
-              "name": "Splash",
-              "type": ""
-            },
-            {
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "name": "Muddy Water",
-              "type": ""
-            },
-            {
-              "name": "Water Pulse",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Submission",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Submission",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Circle Throw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mind Reader",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dynamic Punch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rain Dance",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Belly Drum",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Pound",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mud Shot",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM04",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR14",
+            "name": "Metronome",
+            "type": ""
+          },
+          {
+            "tm_id": "TR16",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR45",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TR48",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR93",
+            "name": "Darkest Lariat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR94",
+            "name": "High Horsepower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Mist",
+            "type": ""
+          },
+          {
+            "name": "Mind Reader",
+            "type": ""
+          },
+          {
+            "name": "Splash",
+            "type": ""
+          },
+          {
+            "name": "Water Pulse",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Coaching",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM01",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM84",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Rock Climb",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/poliwrath/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Dynamic Punch",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM064",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TM080",
+            "name": "Metronome",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM158",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM167",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM174",
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM184",
+            "name": "Vacuum Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM186",
+            "name": "High Horsepower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM192",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM208",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM209",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM213",
+            "name": "Coaching",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM229",
+            "name": "Upper Hand",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Mist",
+            "type": ""
+          },
+          {
+            "name": "Splash",
+            "type": ""
+          },
+          {
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "name": "Water Pulse",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Pound",
+            "type": ""
+          },
+          {
+            "name": "Double-edge",
+            "type": ""
+          },
+          {
+            "name": "Water Gun",
+            "type": ""
+          },
+          {
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "name": "Belly Drum",
+            "type": ""
+          },
+          {
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "name": "Circle Throw",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/poliwrath/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/poliwrath/"
   }
 }

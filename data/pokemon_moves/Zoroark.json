@@ -1,559 +1,1318 @@
 {
   "Zoroark": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Night Slash",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Scratch",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Torment",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "U-turn",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Hone Claws",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fury Swipes",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Taunt",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Knock Off",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Fake Tears",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Imprison",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Night Daze",
-              "type": "",
-              "level": "46"
-            },
-            {
-              "name": "Nasty Plot",
-              "type": "",
-              "level": "52"
-            },
-            {
-              "name": "Foul Play",
-              "type": "",
-              "level": "58"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Counter",
-              "type": ""
-            },
-            {
-              "name": "Detect",
-              "type": ""
-            },
-            {
-              "name": "Memento",
-              "type": ""
-            },
-            {
-              "name": "Extrasensory",
-              "type": ""
-            },
-            {
-              "name": "Copycat",
-              "type": ""
-            },
-            {
-              "name": "Sucker Punch",
-              "type": ""
-            },
-            {
-              "name": "Comeuppance",
-              "type": ""
-            }
-          ],
-          "special_moves": [
-            {
-              "name": "Happy Hour",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Scratch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Torment",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hone Claws",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Swipes",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Scary Face",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Taunt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Fake Tears",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Imprison",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Night Daze",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Foul Play",
+            "type": "",
+            "level": "58"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Revenge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR07",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Copycat",
+            "type": ""
+          },
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Detect",
+            "type": ""
+          },
+          {
+            "name": "Extrasensory",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Burning Jealousy",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "name": "Lash Out",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "special_moves": [
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "name": "Dark Pulse",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/zoroark/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Scratch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Torment",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hone Claws",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Swipes",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Taunt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Fake Tears",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Imprison",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Night Daze",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Foul Play",
+            "type": "",
+            "level": "58"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Detect",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Extrasensory",
+            "type": ""
+          },
+          {
+            "name": "Copycat",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          },
+          {
+            "name": "Comeuppance",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Happy Hour",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/zoroark/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/zoroark/"
   },
   "Zoroark Hisuian Zoroark": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Shadow Claw",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Scratch",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Torment",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "U-turn",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Hone Claws",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Shadow Sneak",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Curse",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Taunt",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Knock Off",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Spite",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Shadow Ball",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Bitter Malice",
-              "type": "",
-              "level": "46"
-            },
-            {
-              "name": "Nasty Plot",
-              "type": "",
-              "level": "52"
-            },
-            {
-              "name": "Foul Play",
-              "type": "",
-              "level": "58"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM003",
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Low Kick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Snarl",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Low Sweep",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Snowscape",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Imprison",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM151",
-              "name": "Phantom Force",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM158",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM192",
-              "name": "Focus Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM195",
-              "name": "Burning Jealousy",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM199",
-              "name": "Lash Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Revenge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR07",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Bitter Malice",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Shadow Claw",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "40",
+            "mastery_level": "51"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          },
+          {
+            "name": "Extrasensory",
+            "type": "",
+            "level": "52",
+            "mastery_level": "64"
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/zoroark/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Shadow Claw",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Scratch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Torment",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hone Claws",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Taunt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Spite",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Bitter Malice",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Foul Play",
+            "type": "",
+            "level": "58"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM003",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Snowscape",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM151",
+            "name": "Phantom Force",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM158",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM192",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM195",
+            "name": "Burning Jealousy",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM199",
+            "name": "Lash Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/zoroark/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/zoroark/"
   }
 }

@@ -1,237 +1,437 @@
 {
   "Silicobra": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Sand Attack",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Wrap",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Minimize",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Brutal Swing",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Bulldoze",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Glare",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Dig",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Sandstorm",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Slam",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Coil",
-              "type": "",
-              "level": "45"
-            },
-            {
-              "name": "Sand Tomb",
-              "type": "",
-              "level": "50"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM026",
-              "name": "Poison Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Sandstorm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Rock Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Drill Run",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM176",
-              "name": "Sand Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM200",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM215",
-              "name": "Scorching Sands",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "name": "Poison Tail",
-              "type": ""
-            },
-            {
-              "name": "Last Resort",
-              "type": ""
-            },
-            {
-              "name": "Dragon Rush",
-              "type": ""
-            },
-            {
-              "name": "Belch",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Minimize",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Brutal Swing",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Glare",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Sandstorm",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Coil",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Sand Tomb",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR87",
+            "name": "Drill Run",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Dragon Rush",
+            "type": ""
+          },
+          {
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "name": "Last Resort",
+            "type": ""
+          },
+          {
+            "name": "Belch",
+            "type": ""
+          },
+          {
+            "name": "Poison Tail",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "name": "Scale Shot",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/silicobra/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Minimize",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Brutal Swing",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Glare",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Sandstorm",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Coil",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Sand Tomb",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM026",
+            "name": "Poison Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Drill Run",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM176",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM200",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM215",
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "name": "Poison Tail",
+            "type": ""
+          },
+          {
+            "name": "Last Resort",
+            "type": ""
+          },
+          {
+            "name": "Dragon Rush",
+            "type": ""
+          },
+          {
+            "name": "Belch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/silicobra/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/silicobra/"
   }
 }

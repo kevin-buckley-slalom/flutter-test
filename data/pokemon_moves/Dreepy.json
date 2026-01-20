@@ -1,136 +1,266 @@
 {
   "Dreepy": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Infestation",
-              "type": "",
-              "level": "—"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Dragon Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Disable",
-              "type": ""
-            },
-            {
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "name": "Sucker Punch",
-              "type": ""
-            },
-            {
-              "name": "Dragon Tail",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Infestation",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Grudge",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/dreepy/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Infestation",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          },
+          {
+            "name": "Dragon Tail",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/dreepy/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/dreepy/"
   }
 }

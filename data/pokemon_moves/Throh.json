@@ -1,269 +1,569 @@
 {
   "Throh": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Circle Throw",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Focus Energy",
-              "type": "",
-              "level": "5",
-              "level_plus": "8"
-            },
-            {
-              "name": "Brutal Swing",
-              "type": "",
-              "level": "10",
-              "level_plus": "13"
-            },
-            {
-              "name": "Rollout",
-              "type": "",
-              "level": "13",
-              "level_plus": "16"
-            },
-            {
-              "name": "Rock Blast",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Bulk Up",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Low Sweep",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Brick Break",
-              "type": "",
-              "level": "33",
-              "level_plus": "36"
-            },
-            {
-              "name": "Endure",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Amnesia",
-              "type": "",
-              "level": "41",
-              "level_plus": "44"
-            },
-            {
-              "name": "Outrage",
-              "type": "",
-              "level": "43",
-              "level_plus": "46"
-            },
-            {
-              "name": "Storm Throw",
-              "type": "",
-              "level": "52",
-              "level_plus": "55"
-            },
-            {
-              "name": "Dynamic Punch",
-              "type": "",
-              "level": "58",
-              "level_plus": "61"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM004",
-              "name": "Rock Smash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Bulk Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Power-Up Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Thunder Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Ice Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Fire Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM078",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM080",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Work Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Low Sweep",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Circle Throw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Storm Throw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM146",
-              "name": "Skull Bash",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Bind",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Circle Throw",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Revenge",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Bulk Up",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Storm Throw",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Vital Throw",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Seismic Toss",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Endure",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Superpower",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM03",
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM04",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM05",
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Revenge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR07",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR48",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Coaching",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/throh/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Circle Throw",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "5",
+            "level_plus": "8"
+          },
+          {
+            "name": "Brutal Swing",
+            "type": "",
+            "level": "10",
+            "level_plus": "13"
+          },
+          {
+            "name": "Rollout",
+            "type": "",
+            "level": "13",
+            "level_plus": "16"
+          },
+          {
+            "name": "Rock Blast",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Bulk Up",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Low Sweep",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Brick Break",
+            "type": "",
+            "level": "33",
+            "level_plus": "36"
+          },
+          {
+            "name": "Endure",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "41",
+            "level_plus": "44"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "43",
+            "level_plus": "46"
+          },
+          {
+            "name": "Storm Throw",
+            "type": "",
+            "level": "52",
+            "level_plus": "55"
+          },
+          {
+            "name": "Dynamic Punch",
+            "type": "",
+            "level": "58",
+            "level_plus": "61"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM004",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Power-Up Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM078",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM080",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Circle Throw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Storm Throw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM146",
+            "name": "Skull Bash",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/throh/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/throh/"
   }
 }

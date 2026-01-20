@@ -1,526 +1,925 @@
 {
   "Delibird": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Peck",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Icy Wind",
-              "type": "",
-              "level": "15",
-              "level_plus": "18"
-            },
-            {
-              "name": "Aerial Ace",
-              "type": "",
-              "level": "18",
-              "level_plus": "21"
-            },
-            {
-              "name": "Ice Shard",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Air Slash",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Feather Dance",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Ice Punch",
-              "type": "",
-              "level": "35",
-              "level_plus": "38"
-            },
-            {
-              "name": "Freeze-Dry",
-              "type": "",
-              "level": "37",
-              "level_plus": "40"
-            },
-            {
-              "name": "Blizzard",
-              "type": "",
-              "level": "40",
-              "level_plus": "43"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Ice Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM105",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM138",
-              "name": "Frost Breath",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fake Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM144",
-              "name": "Triple Axel",
-              "type": ""
-            },
-            {
-              "tm_id": "TM145",
-              "name": "Razor Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Icicle Spear",
-              "type": ""
-            },
-            {
-              "tm_id": "TM155",
-              "name": "Sheer Cold",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Present",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Drill Peck",
-              "type": "",
-              "level": "25"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM046",
-              "name": "Avalanche",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Snowscape",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Ice Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Drill Run",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Ice Spinner",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM134",
-              "name": "Reversal",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM164",
-              "name": "Brave Bird",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM174",
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM187",
-              "name": "Icicle Spear",
-              "type": ""
-            },
-            {
-              "tm_id": "TM192",
-              "name": "Focus Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM197",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM212",
-              "name": "Triple Axel",
-              "type": ""
-            },
-            {
-              "tm_id": "TM216",
-              "name": "Feather Dance",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Aurora Beam",
-              "type": ""
-            },
-            {
-              "name": "Counter",
-              "type": ""
-            },
-            {
-              "name": "Quick Attack",
-              "type": ""
-            },
-            {
-              "name": "Splash",
-              "type": ""
-            },
-            {
-              "name": "Destiny Bond",
-              "type": ""
-            },
-            {
-              "name": "Rapid Spin",
-              "type": ""
-            },
-            {
-              "name": "Fake Out",
-              "type": ""
-            },
-            {
-              "name": "Memento",
-              "type": ""
-            },
-            {
-              "name": "Ice Shard",
-              "type": ""
-            },
-            {
-              "name": "Freeze-Dry",
-              "type": ""
-            },
-            {
-              "name": "Aurora Veil",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Present",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Drill Peck",
+            "type": "",
+            "level": "25"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM04",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM51",
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM64",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR23",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR34",
+            "name": "Future Sight",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR66",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TR73",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR87",
+            "name": "Drill Run",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Aurora Beam",
+            "type": ""
+          },
+          {
+            "name": "Quick Attack",
+            "type": ""
+          },
+          {
+            "name": "Splash",
+            "type": ""
+          },
+          {
+            "name": "Rapid Spin",
+            "type": ""
+          },
+          {
+            "name": "Ice Shard",
+            "type": ""
+          },
+          {
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "name": "Freeze-Dry",
+            "type": ""
+          },
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          },
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Aurora Veil",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Triple Axel",
+            "type": ""
+          },
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM01",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Recycle",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Pluck",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Defog",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/delibird/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Icy Wind",
+            "type": "",
+            "level": "15",
+            "level_plus": "18"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "18",
+            "level_plus": "21"
+          },
+          {
+            "name": "Ice Shard",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Feather Dance",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Ice Punch",
+            "type": "",
+            "level": "35",
+            "level_plus": "38"
+          },
+          {
+            "name": "Freeze-Dry",
+            "type": "",
+            "level": "37",
+            "level_plus": "40"
+          },
+          {
+            "name": "Blizzard",
+            "type": "",
+            "level": "40",
+            "level_plus": "43"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM105",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM138",
+            "name": "Frost Breath",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM144",
+            "name": "Triple Axel",
+            "type": ""
+          },
+          {
+            "tm_id": "TM145",
+            "name": "Razor Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "tm_id": "TM155",
+            "name": "Sheer Cold",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Present",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Drill Peck",
+            "type": "",
+            "level": "25"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM046",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Snowscape",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Drill Run",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Ice Spinner",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM134",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM164",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM174",
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM187",
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "tm_id": "TM192",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM197",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM212",
+            "name": "Triple Axel",
+            "type": ""
+          },
+          {
+            "tm_id": "TM216",
+            "name": "Feather Dance",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Aurora Beam",
+            "type": ""
+          },
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Quick Attack",
+            "type": ""
+          },
+          {
+            "name": "Splash",
+            "type": ""
+          },
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          },
+          {
+            "name": "Rapid Spin",
+            "type": ""
+          },
+          {
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Ice Shard",
+            "type": ""
+          },
+          {
+            "name": "Freeze-Dry",
+            "type": ""
+          },
+          {
+            "name": "Aurora Veil",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/delibird/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/delibird/"
   }
 }

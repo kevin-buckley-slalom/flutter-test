@@ -1,364 +1,304 @@
 {
   "Stakataka": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Rock Throw",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Protect",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Stomp",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Block",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Rock Slide",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Wide Guard",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Autotomize",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Rock Blast",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Magnet Rise",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Iron Defense",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Iron Head",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Take Down",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Stealth Rock",
-          "level": "65",
-          "type": ""
-        },
-        {
-          "name": "Double-Edge",
-          "level": "70",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Mega Kick",
-          "type": "",
-          "id": "TM01"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Rock Blast",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Trick Room",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Wonder Room",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Magic Room",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Brutal Swing",
-          "type": "",
-          "id": "TM97"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TR10"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Superpower",
-          "type": "",
-          "id": "TR39"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TR40"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TR52"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Flash Cannon",
-          "type": "",
-          "id": "TR70"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TR75"
-        },
-        {
-          "name": "Stealth Rock",
-          "type": "",
-          "id": "TR76"
-        },
-        {
-          "name": "Heavy Slam",
-          "type": "",
-          "id": "TR79"
-        },
-        {
-          "name": "Ally Switch",
-          "type": "",
-          "id": "TR83"
-        },
-        {
-          "name": "Heat Crash",
-          "type": "",
-          "id": "TR88"
-        },
-        {
-          "name": "High Horsepower",
-          "type": "",
-          "id": "TR94"
-        },
-        {
-          "name": "Body Press",
-          "type": "",
-          "id": "TR99"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Smack Down",
-          "type": ""
-        },
-        {
-          "name": "Rock Polish",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        },
-        {
-          "name": "Bind",
-          "type": ""
-        },
-        {
-          "name": "Role Play",
-          "type": ""
-        },
-        {
-          "name": "Recycle",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Throw",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Stomp",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Block",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Autotomize",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Rock Blast",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Magnet Rise",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Iron Head",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Stealth Rock",
+            "type": "",
+            "level": "65"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "70"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR79",
+            "name": "Heavy Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR88",
+            "name": "Heat Crash",
+            "type": ""
+          },
+          {
+            "tm_id": "TR94",
+            "name": "High Horsepower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR99",
+            "name": "Body Press",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Steel Beam",
+            "type": ""
+          },
+          {
+            "name": "Meteor Beam",
+            "type": ""
+          },
+          {
+            "name": "Steel Roller",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/stakataka/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/stakataka/"
   }
 }

@@ -1,540 +1,818 @@
 {
   "Shuppet": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Lick",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Confuse Ray",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Knock Off",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Will-O-Wisp",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Shadow Sneak",
-              "type": "",
-              "level": "19",
-              "level_plus": "22"
-            },
-            {
-              "name": "Shadow Claw",
-              "type": "",
-              "level": "23",
-              "level_plus": "26"
-            },
-            {
-              "name": "Curse",
-              "type": "",
-              "level": "26",
-              "level_plus": "29"
-            },
-            {
-              "name": "Shadow Ball",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Swords Dance",
-              "type": "",
-              "level": "34",
-              "level_plus": "37"
-            },
-            {
-              "name": "Phantom Force",
-              "type": "",
-              "level": "42",
-              "level_plus": "45"
-            },
-            {
-              "name": "Gunk Shot",
-              "type": "",
-              "level": "48",
-              "level_plus": "51"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM063",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Metronome",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Dream Eater",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Night Shade",
-              "type": "",
-              "level": "7"
-            },
-            {
-              "name": "Spite",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Will-O-Wisp",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Shadow Sneak",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Hex",
-              "type": "",
-              "level": "22"
-            },
-            {
-              "name": "Curse",
-              "type": "",
-              "level": "26"
-            },
-            {
-              "name": "Shadow Ball",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Role Play",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Sucker Punch",
-              "type": "",
-              "level": "38"
-            },
-            {
-              "name": "Trick",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Phantom Force",
-              "type": "",
-              "level": "48"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Psybeam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM080",
-              "name": "Metronome",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Imprison",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Skill Swap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM151",
-              "name": "Phantom Force",
-              "type": ""
-            },
-            {
-              "tm_id": "TM161",
-              "name": "Trick Room",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM199",
-              "name": "Lash Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Disable",
-              "type": ""
-            },
-            {
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "name": "Destiny Bond",
-              "type": ""
-            },
-            {
-              "name": "Imprison",
-              "type": ""
-            },
-            {
-              "name": "Gunk Shot",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Night Shade",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Spite",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Will-O-Wisp",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Pain Split",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Role Play",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Grudge",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Trick",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Phantom Force",
+            "type": "",
+            "level": "54"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          },
+          {
+            "name": "Astonish",
+            "type": ""
+          },
+          {
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "name": "Phantom Force",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM04",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM12",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Torment",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM92",
+            "name": "Trick Room",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/shuppet/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Lick",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Will-O-Wisp",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "19",
+            "level_plus": "22"
+          },
+          {
+            "name": "Shadow Claw",
+            "type": "",
+            "level": "23",
+            "level_plus": "26"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "26",
+            "level_plus": "29"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "34",
+            "level_plus": "37"
+          },
+          {
+            "name": "Phantom Force",
+            "type": "",
+            "level": "42",
+            "level_plus": "45"
+          },
+          {
+            "name": "Gunk Shot",
+            "type": "",
+            "level": "48",
+            "level_plus": "51"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM063",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Metronome",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Night Shade",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Spite",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Will-O-Wisp",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Role Play",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Trick",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Phantom Force",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Psybeam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM080",
+            "name": "Metronome",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM151",
+            "name": "Phantom Force",
+            "type": ""
+          },
+          {
+            "tm_id": "TM161",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM199",
+            "name": "Lash Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          },
+          {
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "name": "Gunk Shot",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shuppet/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/shuppet/"
   }
 }

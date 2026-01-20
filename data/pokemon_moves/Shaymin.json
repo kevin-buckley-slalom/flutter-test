@@ -1,466 +1,761 @@
 {
   "Shaymin Land Forme": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Magical Leaf",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Sweet Scent",
-              "type": "",
-              "level": "37"
-            },
-            {
-              "name": "Play Rough",
-              "type": "",
-              "level": "46"
-            },
-            {
-              "name": "Worry Seed",
-              "type": "",
-              "level": "55"
-            },
-            {
-              "name": "Air Slash",
-              "type": "",
-              "level": "64"
-            },
-            {
-              "name": "Energy Ball",
-              "type": "",
-              "level": "73"
-            },
-            {
-              "name": "Sweet Kiss",
-              "type": "",
-              "level": "82"
-            },
-            {
-              "name": "Leaf Storm",
-              "type": "",
-              "level": "91"
-            },
-            {
-              "name": "Seed Flare",
-              "type": "",
-              "level": "100"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM019",
-              "name": "Disarming Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM206",
-              "name": "Petal Blizzard",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Magical Leaf",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Healing Wish",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "64"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "73"
+          },
+          {
+            "name": "Sweet Kiss",
+            "type": "",
+            "level": "82"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "91"
+          },
+          {
+            "name": "Seed Flare",
+            "type": "",
+            "level": "100"
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "—",
+            "mastery_level": "12"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "6",
+            "mastery_level": "17"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "12",
+            "mastery_level": "23"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "19",
+            "mastery_level": "31"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "27",
+            "mastery_level": "39"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "36",
+            "mastery_level": "49"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "46",
+            "mastery_level": "59"
+          },
+          {
+            "name": "Seed Flare",
+            "type": "",
+            "level": "57",
+            "mastery_level": "71"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Baby-doll Eyes",
+            "type": ""
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Psychic",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/shaymin/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Magical Leaf",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "64"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "73"
+          },
+          {
+            "name": "Sweet Kiss",
+            "type": "",
+            "level": "82"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "91"
+          },
+          {
+            "name": "Seed Flare",
+            "type": "",
+            "level": "100"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM019",
+            "name": "Disarming Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM206",
+            "name": "Petal Blizzard",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shaymin/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/shaymin/"
   },
   "Shaymin Sky Forme": {
+    "gen_8": {
+      "Sword and Shield": {},
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": []
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM019",
-              "name": "Disarming Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM206",
-              "name": "Petal Blizzard",
-              "type": ""
-            }
-          ]
-        }
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM019",
+            "name": "Disarming Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM206",
+            "name": "Petal Blizzard",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/shaymin/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shaymin/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/shaymin/"
   }
 }

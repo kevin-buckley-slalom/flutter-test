@@ -1,281 +1,531 @@
 {
   "Polteageist": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Teatime",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Withdraw",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Aromatic Mist",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Strength Sap",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Protect",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Sucker Punch",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Sweet Scent",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Nasty Plot",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Shadow Ball",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Memento",
-              "type": "",
-              "level": "54"
-            },
-            {
-              "name": "Shell Smash",
-              "type": "",
-              "level": "60"
-            },
-            {
-              "name": "Curse",
-              "type": "",
-              "level": "66"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Psybeam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM054",
-              "name": "Psyshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Foul Play",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM080",
-              "name": "Metronome",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Imprison",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Skill Swap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM151",
-              "name": "Phantom Force",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM161",
-              "name": "Trick Room",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM198",
-              "name": "Poltergeist",
-              "type": ""
-            },
-            {
-              "tm_id": "TM202",
-              "name": "Pain Split",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Ally Switch",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Teatime",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Teatime",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Strength Sap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Aromatic Mist",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Aromatherapy",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Memento",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Shell Smash",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "66"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Phantom Force",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR14",
+            "name": "Metronome",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Poltergeist",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/polteageist/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Teatime",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Aromatic Mist",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Strength Sap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Shadow Ball",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Memento",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Shell Smash",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "66"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Psybeam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM054",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM080",
+            "name": "Metronome",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM151",
+            "name": "Phantom Force",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM161",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM198",
+            "name": "Poltergeist",
+            "type": ""
+          },
+          {
+            "tm_id": "TM202",
+            "name": "Pain Split",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/polteageist/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/polteageist/"
   }
 }

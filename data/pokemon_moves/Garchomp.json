@@ -1,1175 +1,2305 @@
 {
   "Garchomp": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "Evolve",
-              "level_plus": "51"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Sand Tomb",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Dragon Breath",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Bulldoze",
-              "type": "",
-              "level": "18",
-              "level_plus": "21"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Dragon Claw",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Dig",
-              "type": "",
-              "level": "42",
-              "level_plus": "45"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "54",
-              "level_plus": "57"
-            },
-            {
-              "name": "Dragon Rush",
-              "type": "",
-              "level": "60",
-              "level_plus": "63"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Dragon Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM019",
-              "name": "Power Gem",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM037",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM054",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM078",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Iron Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Dual Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Scorching Sands",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM145",
-              "name": "Razor Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Vacuum Wave",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Sand Attack",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Dragon Breath",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Sand Tomb",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bulldoze",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "27"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Dragon Claw",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Dig",
-              "type": "",
-              "level": "52"
-            },
-            {
-              "name": "Sandstorm",
-              "type": "",
-              "level": "62"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "72"
-            },
-            {
-              "name": "Dragon Rush",
-              "type": "",
-              "level": "82"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM009",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Metal Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Dragon Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Sandstorm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM078",
-              "name": "Dragon Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Stomping Tantrum",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Power Gem",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM176",
-              "name": "Sand Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM200",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM215",
-              "name": "Scorching Sands",
-              "type": ""
-            },
-            {
-              "tm_id": "TM222",
-              "name": "Breaking Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM226",
-              "name": "Dragon Cheer",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Thrash",
-              "type": ""
-            },
-            {
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "name": "Metal Claw",
-              "type": ""
-            },
-            {
-              "name": "Twister",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dual Chop",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Tomb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Dragon Claw",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Sandstorm",
+            "type": "",
+            "level": "62"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "82"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Breaking Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR47",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR76",
+            "name": "Stealth Rock",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Metal Claw",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Twister",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "name": "Scale Shot",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM02",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM05",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM84",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Rock Climb",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "mastery_level": "9"
+          },
+          {
+            "name": "Twister",
+            "type": "",
+            "level": "5",
+            "mastery_level": "14"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "9",
+            "mastery_level": "18"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "15",
+            "mastery_level": "25"
+          },
+          {
+            "name": "Dragon Claw",
+            "type": "",
+            "level": "21",
+            "mastery_level": "31"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "29",
+            "mastery_level": "40"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "37",
+            "mastery_level": "48"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "47",
+            "mastery_level": "59"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Aqua Tail",
+            "type": ""
+          },
+          {
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/garchomp/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "Evolve",
+            "level_plus": "51"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Sand Tomb",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "18",
+            "level_plus": "21"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Dragon Claw",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "42",
+            "level_plus": "45"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "54",
+            "level_plus": "57"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "60",
+            "level_plus": "63"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM019",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM037",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM054",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM078",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Dual Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM145",
+            "name": "Razor Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Vacuum Wave",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Tomb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bulldoze",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Dragon Claw",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Sandstorm",
+            "type": "",
+            "level": "62"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "82"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM009",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Metal Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM078",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM176",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM200",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM215",
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "tm_id": "TM222",
+            "name": "Breaking Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM226",
+            "name": "Dragon Cheer",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Metal Claw",
+            "type": ""
+          },
+          {
+            "name": "Twister",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/garchomp/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/garchomp/"
   },
   "Garchomp Mega Garchomp": {
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Breaking Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR47",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR76",
+            "name": "Stealth Rock",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM02",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM05",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM84",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Rock Climb",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Dragon Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM019",
-              "name": "Power Gem",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM037",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM054",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM078",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Iron Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Dual Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Scorching Sands",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM145",
-              "name": "Razor Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Vacuum Wave",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM009",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Metal Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Dragon Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Sandstorm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM078",
-              "name": "Dragon Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM084",
-              "name": "Stomping Tantrum",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM099",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Power Gem",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Stealth Rock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM149",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM176",
-              "name": "Sand Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM200",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM215",
-              "name": "Scorching Sands",
-              "type": ""
-            },
-            {
-              "tm_id": "TM222",
-              "name": "Breaking Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM226",
-              "name": "Dragon Cheer",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM019",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM037",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM054",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM078",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Dual Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM145",
+            "name": "Razor Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Vacuum Wave",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM009",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Metal Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM078",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM084",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM099",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM149",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM176",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM200",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM215",
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "tm_id": "TM222",
+            "name": "Breaking Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM226",
+            "name": "Dragon Cheer",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/garchomp/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/garchomp/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/garchomp/"
   }
 }

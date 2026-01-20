@@ -1,501 +1,942 @@
 {
   "Eternatus": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Confuse Ray",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Poison Tail",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Dragon Tail",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Toxic",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Venoshock",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Dragon Dance",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Cross Poison",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Dragon Pulse",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Dynamax Cannon",
-              "type": "",
-              "level": "56"
-            },
-            {
-              "name": "Cosmic Power",
-              "type": "",
-              "level": "64"
-            },
-            {
-              "name": "Recover",
-              "type": "",
-              "level": "72"
-            },
-            {
-              "name": "Hyper Beam",
-              "type": "",
-              "level": "80"
-            },
-            {
-              "name": "Outrage",
-              "type": "",
-              "level": "88"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM026",
-              "name": "Poison Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Dragon Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Flash Cannon",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Dragon Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM178",
-              "name": "Gravity",
-              "type": ""
-            },
-            {
-              "tm_id": "TM214",
-              "name": "Sludge Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM220",
-              "name": "Meteor Beam",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Poison Tail",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Tail",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Venoshock",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Dragon Dance",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Cross Poison",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Dynamax Cannon",
+            "type": "",
+            "level": "56"
+          },
+          {
+            "name": "Cosmic Power",
+            "type": "",
+            "level": "64"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "80"
+          },
+          {
+            "name": "Eternabeam",
+            "type": "",
+            "level": "88"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Cross Poison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM92",
+            "name": "Mystical Fire",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR44",
+            "name": "Cosmic Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR51",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR54",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR91",
+            "name": "Venom Drench",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Meteor Beam",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/eternatus/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Poison Tail",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Tail",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Venoshock",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Dragon Dance",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Cross Poison",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Dynamax Cannon",
+            "type": "",
+            "level": "56"
+          },
+          {
+            "name": "Cosmic Power",
+            "type": "",
+            "level": "64"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "80"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "88"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM026",
+            "name": "Poison Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM178",
+            "name": "Gravity",
+            "type": ""
+          },
+          {
+            "tm_id": "TM214",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM220",
+            "name": "Meteor Beam",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/eternatus/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/eternatus/"
   },
   "Eternatus Eternamax": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM026",
-              "name": "Poison Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Dragon Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Flash Cannon",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Dragon Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM178",
-              "name": "Gravity",
-              "type": ""
-            },
-            {
-              "tm_id": "TM214",
-              "name": "Sludge Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM220",
-              "name": "Meteor Beam",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Cross Poison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM92",
+            "name": "Mystical Fire",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR44",
+            "name": "Cosmic Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR51",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR54",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR91",
+            "name": "Venom Drench",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/eternatus/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM026",
+            "name": "Poison Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Dragon Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM178",
+            "name": "Gravity",
+            "type": ""
+          },
+          {
+            "tm_id": "TM214",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM220",
+            "name": "Meteor Beam",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/eternatus/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/eternatus/"
   }
 }

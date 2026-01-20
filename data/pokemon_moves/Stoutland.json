@@ -1,415 +1,321 @@
 {
   "Stoutland": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Ice Fang",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Fire Fang",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Thunder Fang",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Leer",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Work Up",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bite",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Retaliate",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Baby-Doll Eyes",
-          "level": "19",
-          "type": ""
-        },
-        {
-          "name": "Play Rough",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Crunch",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Take Down",
-          "level": "38",
-          "type": ""
-        },
-        {
-          "name": "Helping Hand",
-          "level": "46",
-          "type": ""
-        },
-        {
-          "name": "Reversal",
-          "level": "54",
-          "type": ""
-        },
-        {
-          "name": "Roar",
-          "level": "62",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "level": "70",
-          "type": ""
-        },
-        {
-          "name": "Giga Impact",
-          "level": "78",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Charm",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Thunder Fang",
-          "type": "",
-          "id": "TM66"
-        },
-        {
-          "name": "Ice Fang",
-          "type": "",
-          "id": "TM67"
-        },
-        {
-          "name": "Fire Fang",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Retaliate",
-          "type": "",
-          "id": "TM79"
-        },
-        {
-          "name": "Snarl",
-          "type": "",
-          "id": "TM85"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TR04"
-        },
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TR09"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Reversal",
-          "type": "",
-          "id": "TR21"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Crunch",
-          "type": "",
-          "id": "TR32"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Uproar",
-          "type": "",
-          "id": "TR35"
-        },
-        {
-          "name": "Superpower",
-          "type": "",
-          "id": "TR39"
-        },
-        {
-          "name": "Hyper Voice",
-          "type": "",
-          "id": "TR42"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Work Up",
-          "type": "",
-          "id": "TR85"
-        },
-        {
-          "name": "Wild Charge",
-          "type": "",
-          "id": "TR86"
-        },
-        {
-          "name": "Play Rough",
-          "type": "",
-          "id": "TR90"
-        },
-        {
-          "name": "Psychic Fangs",
-          "type": "",
-          "id": "TR97"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "After You",
-          "type": ""
-        },
-        {
-          "name": "Howl",
-          "type": ""
-        },
-        {
-          "name": "Lick",
-          "type": ""
-        },
-        {
-          "name": "Mud-Slap",
-          "type": ""
-        },
-        {
-          "name": "Yawn",
-          "type": ""
-        },
-        {
-          "name": "Covet",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Hailstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Geyser",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Aerial Ace",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Sand Attack",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        },
-        {
-          "name": "Rock Smash",
-          "type": ""
-        },
-        {
-          "name": "Strength",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Ice Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Work Up",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Retaliate",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Baby-Doll Eyes",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "62"
+          },
+          {
+            "name": "Last Resort",
+            "type": "",
+            "level": "70"
+          },
+          {
+            "name": "Giga Impact",
+            "type": "",
+            "level": "78"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR97",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "After You",
+            "type": ""
+          },
+          {
+            "name": "Howl",
+            "type": ""
+          },
+          {
+            "name": "Lick",
+            "type": ""
+          },
+          {
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "name": "Yawn",
+            "type": ""
+          },
+          {
+            "name": "Covet",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/stoutland/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/stoutland/"
   }
 }

@@ -1,19 +1,26 @@
 {
   "Unown": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Hidden Power",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Hidden Power",
-          "level": "—10",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Hidden Power",
+            "type": "",
+            "level": "—"
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Hidden Power",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/unown/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/unown/"
   }
 }

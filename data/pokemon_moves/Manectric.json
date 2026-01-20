@@ -1,432 +1,1195 @@
 {
   "Manectric": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Fire Fang",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Thunder Shock",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Spark",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Eerie Impulse",
-              "type": "",
-              "level": "22",
-              "level_plus": "25"
-            },
-            {
-              "name": "Thunder Fang",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Snarl",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Charge",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Thunderbolt",
-              "type": "",
-              "level": "40",
-              "level_plus": "43"
-            },
-            {
-              "name": "Wild Charge",
-              "type": "",
-              "level": "44",
-              "level_plus": "47"
-            },
-            {
-              "name": "Thunder",
-              "type": "",
-              "level": "50",
-              "level_plus": "53"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM145",
-              "name": "Razor Wind",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Howl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Shock Wave",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Thunder Fang",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Wild Charge",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Thunder",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Electric Terrain",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR97",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Switcheroo",
+            "type": ""
+          },
+          {
+            "name": "Spark",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM05",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/manectric/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Eerie Impulse",
+            "type": "",
+            "level": "22",
+            "level_plus": "25"
+          },
+          {
+            "name": "Thunder Fang",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "",
+            "level": "40",
+            "level_plus": "43"
+          },
+          {
+            "name": "Wild Charge",
+            "type": "",
+            "level": "44",
+            "level_plus": "47"
+          },
+          {
+            "name": "Thunder",
+            "type": "",
+            "level": "50",
+            "level_plus": "53"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM145",
+            "name": "Razor Wind",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/manectric/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/manectric/"
   },
   "Manectric Mega Manectric": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM039",
-              "name": "Discharge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM145",
-              "name": "Razor Wind",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR97",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM05",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/manectric/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM039",
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM145",
+            "name": "Razor Wind",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/manectric/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/manectric/"
   }
 }

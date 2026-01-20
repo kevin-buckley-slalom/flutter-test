@@ -1,517 +1,441 @@
 {
   "Shuckle": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Withdraw",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Wrap",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Rollout",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Rock Throw",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Safeguard",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Rest",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Power Split",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Guard Split",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Rock Slide",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Gastro Acid",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Sticky Web",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Power Trick",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Stone Edge",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Shell Smash",
-          "level": "65",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Sand Tomb",
-          "type": "",
-          "id": "TM49"
-        },
-        {
-          "name": "Mud Shot",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Rock Blast",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Venoshock",
-          "type": "",
-          "id": "TM74"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Toxic",
-          "type": "",
-          "id": "TM06"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM20"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TM26"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM37"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Rock Polish",
-          "type": "",
-          "id": "TM69"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TM74"
-        },
-        {
-          "name": "Stealth Rock",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM80"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM83"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Strength",
-          "type": "",
-          "id": "TM96"
-        },
-        {
-          "name": "Rock Smash",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TR10"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Reversal",
-          "type": "",
-          "id": "TR21"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Encore",
-          "type": "",
-          "id": "TR30"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TR52"
-        },
-        {
-          "name": "Earth Power",
-          "type": "",
-          "id": "TR67"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TR75"
-        },
-        {
-          "name": "Stealth Rock",
-          "type": "",
-          "id": "TR76"
-        },
-        {
-          "name": "Sludge Wave",
-          "type": "",
-          "id": "TR78"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Sweet Scent",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Acupressure",
-          "type": ""
-        },
-        {
-          "name": "Acid",
-          "type": ""
-        },
-        {
-          "name": "Final Gambit",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "ToxicSWSH Only",
-          "type": ""
-        },
-        {
-          "name": "Covet",
-          "type": ""
-        },
-        {
-          "name": "Helping HandBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Sand TombBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Mud-SlapBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Rock BlastBDSP Only",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Smack Down",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Bind",
-          "type": ""
-        },
-        {
-          "name": "After You",
-          "type": ""
-        },
-        {
-          "name": "Ancient Power",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rollout",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Rock Throw",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Rest",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Power Split",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Guard Split",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Gastro Acid",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Sticky Web",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Power Trick",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Stone Edge",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Shell Smash",
+            "type": "",
+            "level": "65"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Sweet Scent",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Acupressure",
+            "type": ""
+          },
+          {
+            "name": "Acid",
+            "type": ""
+          },
+          {
+            "name": "Final Gambit",
+            "type": ""
+          },
+          {
+            "name": "Defense Curl",
+            "type": ""
+          },
+          {
+            "name": "Infestation",
+            "type": ""
+          },
+          {
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "name": "Covet",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "name": "Meteor Beam",
+            "type": ""
+          },
+          {
+            "name": "Steel Roller",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Rock Polish",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/shuckle/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shuckle/"
   }
 }

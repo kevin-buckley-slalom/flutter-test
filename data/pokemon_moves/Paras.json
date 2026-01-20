@@ -1,417 +1,345 @@
 {
   "Paras": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Scratch",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Stun Spore",
-          "level": "6",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "level": "6",
-          "type": ""
-        },
-        {
-          "name": "Absorb",
-          "level": "11",
-          "type": ""
-        },
-        {
-          "name": "Fury Cutter",
-          "level": "17",
-          "type": ""
-        },
-        {
-          "name": "Spore",
-          "level": "22",
-          "type": ""
-        },
-        {
-          "name": "Slash",
-          "level": "27",
-          "type": ""
-        },
-        {
-          "name": "Growth",
-          "level": "33",
-          "type": ""
-        },
-        {
-          "name": "Giga Drain",
-          "level": "38",
-          "type": ""
-        },
-        {
-          "name": "Aromatherapy",
-          "level": "43",
-          "type": ""
-        },
-        {
-          "name": "Rage Powder",
-          "level": "49",
-          "type": ""
-        },
-        {
-          "name": "X-Scissor",
-          "level": "54",
-          "type": ""
-        },
-        {
-          "name": "Absorb",
-          "level": "—9",
-          "type": ""
-        },
-        {
-          "name": "Stun Spore",
-          "level": "514",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "level": "918",
-          "type": ""
-        },
-        {
-          "name": "Venoshock",
-          "level": "1525",
-          "type": ""
-        },
-        {
-          "name": "Slash",
-          "level": "2131",
-          "type": ""
-        },
-        {
-          "name": "Spore",
-          "level": "2940",
-          "type": ""
-        },
-        {
-          "name": "X-Scissor",
-          "level": "3748",
-          "type": ""
-        },
-        {
-          "name": "Energy Ball",
-          "level": "4759",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Aerial Ace",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "False Swipe",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TM75"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TM86"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Cut",
-          "type": "",
-          "id": "TM93"
-        },
-        {
-          "name": "Rock Smash",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Screech",
-          "type": ""
-        },
-        {
-          "name": "Counter",
-          "type": ""
-        },
-        {
-          "name": "Psybeam",
-          "type": ""
-        },
-        {
-          "name": "Flail",
-          "type": ""
-        },
-        {
-          "name": "Sweet Scent",
-          "type": ""
-        },
-        {
-          "name": "Metal Claw",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "type": ""
-        },
-        {
-          "name": "Cross Poison",
-          "type": ""
-        },
-        {
-          "name": "Agility",
-          "type": ""
-        },
-        {
-          "name": "Leech Seed",
-          "type": ""
-        },
-        {
-          "name": "Wide Guard",
-          "type": ""
-        },
-        {
-          "name": "Fell Stinger",
-          "type": ""
-        },
-        {
-          "name": "Grassy Terrain",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Sleep Powder",
-          "type": ""
-        },
-        {
-          "name": "Fury Swipes",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Venoshock",
-          "type": ""
-        },
-        {
-          "name": "Leech Life",
-          "type": ""
-        },
-        {
-          "name": "Round",
-          "type": ""
-        },
-        {
-          "name": "Energy Ball",
-          "type": ""
-        },
-        {
-          "name": "Nature Power",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "type": ""
-        },
-        {
-          "name": "Reflect",
-          "type": ""
-        },
-        {
-          "name": "Mega Drain",
-          "type": ""
-        },
-        {
-          "name": "Seed Bomb",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Synthesis",
-          "type": ""
-        },
-        {
-          "name": "Worry Seed",
-          "type": ""
-        },
-        {
-          "name": "After You",
-          "type": ""
-        },
-        {
-          "name": "Hone Claws",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        },
-        {
-          "name": "Body Slam",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "type": ""
-        },
-        {
-          "name": "Body Slam",
-          "type": ""
-        },
-        {
-          "name": "Take Down",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Skull Bash",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Scratch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Fury Cutter",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Spore",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Aromatherapy",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Rage Powder",
+            "type": "",
+            "level": "49"
+          },
+          {
+            "name": "X-Scissor",
+            "type": "",
+            "level": "54"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "name": "Counter",
+            "type": ""
+          },
+          {
+            "name": "Psybeam",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Sweet Scent",
+            "type": ""
+          },
+          {
+            "name": "Metal Claw",
+            "type": ""
+          },
+          {
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "name": "Cross Poison",
+            "type": ""
+          },
+          {
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          },
+          {
+            "name": "Fell Stinger",
+            "type": ""
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—",
+            "mastery_level": "9"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "5",
+            "mastery_level": "14"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "9",
+            "mastery_level": "18"
+          },
+          {
+            "name": "Venoshock",
+            "type": "",
+            "level": "15",
+            "mastery_level": "25"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "21",
+            "mastery_level": "31"
+          },
+          {
+            "name": "Spore",
+            "type": "",
+            "level": "29",
+            "mastery_level": "40"
+          },
+          {
+            "name": "X-Scissor",
+            "type": "",
+            "level": "37",
+            "mastery_level": "48"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "47",
+            "mastery_level": "59"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "name": "X-scissor",
+            "type": ""
+          },
+          {
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/paras/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/paras/"
   }
 }

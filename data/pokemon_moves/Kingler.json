@@ -1,621 +1,491 @@
 {
   "Kingler": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Wide Guard",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Hammer Arm",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Water Gun",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Leer",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Metal Claw",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Mud Shot",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Protect",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Bubble Beam",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Stomp",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Flail",
-          "level": "31",
-          "type": ""
-        },
-        {
-          "name": "Razor Shell",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Slam",
-          "level": "42",
-          "type": ""
-        },
-        {
-          "name": "Swords Dance",
-          "level": "48",
-          "type": ""
-        },
-        {
-          "name": "Crabhammer",
-          "level": "54",
-          "type": ""
-        },
-        {
-          "name": "Guillotine",
-          "level": "60",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Icy Wind",
-          "type": "",
-          "id": "TM27"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Hail",
-          "type": "",
-          "id": "TM35"
-        },
-        {
-          "name": "Whirlpool",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM43"
-        },
-        {
-          "name": "Dive",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Mud Shot",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Brine",
-          "type": "",
-          "id": "TM55"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Razor Shell",
-          "type": "",
-          "id": "TM83"
-        },
-        {
-          "name": "False Swipe",
-          "type": "",
-          "id": "TM94"
-        },
-        {
-          "name": "Brutal Swing",
-          "type": "",
-          "id": "TM97"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        },
-        {
-          "name": "Water Pulse",
-          "type": "",
-          "id": "TM03"
-        },
-        {
-          "name": "Hail",
-          "type": "",
-          "id": "TM07"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TM49"
-        },
-        {
-          "name": "False Swipe",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Brine",
-          "type": "",
-          "id": "TM55"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TM75"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM80"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Cut",
-          "type": "",
-          "id": "TM93"
-        },
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TM95"
-        },
-        {
-          "name": "Strength",
-          "type": "",
-          "id": "TM96"
-        },
-        {
-          "name": "Rock Smash",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TR00"
-        },
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Hydro Pump",
-          "type": "",
-          "id": "TR03"
-        },
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TR04"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TR05"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TR06"
-        },
-        {
-          "name": "Agility",
-          "type": "",
-          "id": "TR12"
-        },
-        {
-          "name": "Amnesia",
-          "type": "",
-          "id": "TR17"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Superpower",
-          "type": "",
-          "id": "TR39"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TR60"
-        },
-        {
-          "name": "Ally Switch",
-          "type": "",
-          "id": "TR83"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TR84"
-        },
-        {
-          "name": "High Horsepower",
-          "type": "",
-          "id": "TR94"
-        },
-        {
-          "name": "Liquidation",
-          "type": "",
-          "id": "TR98"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Ancient Power",
-          "type": ""
-        },
-        {
-          "name": "Hammer Arm",
-          "type": ""
-        },
-        {
-          "name": "Slash",
-          "type": ""
-        },
-        {
-          "name": "Night Slash",
-          "type": ""
-        },
-        {
-          "name": "HazeBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "AmnesiaBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "FlailBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "SlamBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "TickleBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "AgilityBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Ally SwitchBDSP Only",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Hailstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Geyser",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Vise Grip",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Quash",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "type": ""
-        },
-        {
-          "name": "Hone Claws",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Quash",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Fury Cutter",
-          "type": ""
-        },
-        {
-          "name": "Mud-slap",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "type": ""
-        },
-        {
-          "name": "Take Down",
-          "type": ""
-        },
-        {
-          "name": "Skull Bash",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hammer Arm",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Metal Claw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mud Shot",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Stomp",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Flail",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Razor Shell",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Crabhammer",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Guillotine",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Razor Shell",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR94",
+            "name": "High Horsepower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Ancient Power",
+            "type": ""
+          },
+          {
+            "name": "Hammer Arm",
+            "type": ""
+          },
+          {
+            "name": "Slash",
+            "type": ""
+          },
+          {
+            "name": "Night Slash",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/kingler/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/kingler/"
   }
 }

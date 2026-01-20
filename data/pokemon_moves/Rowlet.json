@@ -1,302 +1,630 @@
 {
   "Rowlet": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leafage",
-              "type": "",
-              "level": "3"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "6"
-            },
-            {
-              "name": "Peck",
-              "type": "",
-              "level": "9"
-            },
-            {
-              "name": "Shadow Sneak",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Razor Leaf",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Synthesis",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Pluck",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Nasty Plot",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Sucker Punch",
-              "type": "",
-              "level": "27"
-            },
-            {
-              "name": "Leaf Blade",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Feather Dance",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Brave Bird",
-              "type": "",
-              "level": "36"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM040",
-              "name": "Air Cutter",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM146",
-              "name": "Grass Pledge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM164",
-              "name": "Brave Bird",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM174",
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM197",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM216",
-              "name": "Feather Dance",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "name": "Roost",
-              "type": ""
-            },
-            {
-              "name": "Defog",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "3"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "9"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Pluck",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Leaf Blade",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Feather Dance",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Brave Bird",
+            "type": "",
+            "level": "36"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR50",
+            "name": "Leaf Blade",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR66",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Defog",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Double Team",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Grass Pledge",
+            "type": ""
+          },
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Roost",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Magical Leaf",
+            "type": "",
+            "level": "21",
+            "mastery_level": "31"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Leaf Blade",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "name": "Shadow Claw",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/rowlet/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "3"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "9"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Pluck",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Leaf Blade",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Feather Dance",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Brave Bird",
+            "type": "",
+            "level": "36"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM040",
+            "name": "Air Cutter",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM146",
+            "name": "Grass Pledge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM164",
+            "name": "Brave Bird",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM174",
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM197",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM216",
+            "name": "Feather Dance",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Roost",
+            "type": ""
+          },
+          {
+            "name": "Defog",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/rowlet/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/rowlet/"
   }
 }

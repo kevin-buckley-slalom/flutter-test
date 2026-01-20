@@ -1,417 +1,325 @@
 {
   "Togedemaru": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Nuzzle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Charge",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Thunder Shock",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Fell Stinger",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Spark",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Pin Missile",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Magnet Rise",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Zing Zap",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Discharge",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Electric Terrain",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Wild Charge",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Spiky Shield",
-          "level": "60",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Pin Missile",
-          "type": "",
-          "id": "TM07"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Bounce",
-          "type": "",
-          "id": "TM52"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Assurance",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Volt Switch",
-          "type": "",
-          "id": "TM80"
-        },
-        {
-          "name": "Electroweb",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Electric Terrain",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Eerie Impulse",
-          "type": "",
-          "id": "TM93"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TR09"
-        },
-        {
-          "name": "Agility",
-          "type": "",
-          "id": "TR12"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Reversal",
-          "type": "",
-          "id": "TR21"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Encore",
-          "type": "",
-          "id": "TR30"
-        },
-        {
-          "name": "Iron Tail",
-          "type": "",
-          "id": "TR31"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TR52"
-        },
-        {
-          "name": "Poison Jab",
-          "type": "",
-          "id": "TR57"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Electro Ball",
-          "type": "",
-          "id": "TR80"
-        },
-        {
-          "name": "Work Up",
-          "type": "",
-          "id": "TR85"
-        },
-        {
-          "name": "Wild Charge",
-          "type": "",
-          "id": "TR86"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Present",
-          "type": ""
-        },
-        {
-          "name": "Wish",
-          "type": ""
-        },
-        {
-          "name": "Fake Out",
-          "type": ""
-        },
-        {
-          "name": "Tickle",
-          "type": ""
-        },
-        {
-          "name": "Flail",
-          "type": ""
-        },
-        {
-          "name": "Disarming Voice",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Rollout",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Charge Beam",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Covet",
-          "type": ""
-        },
-        {
-          "name": "Super Fang",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        },
-        {
-          "name": "Role Play",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        },
-        {
-          "name": "After You",
-          "type": ""
-        },
-        {
-          "name": "Endeavor",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Nuzzle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Defense Curl",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Fell Stinger",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Pin Missile",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Magnet Rise",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Zing Zap",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Electric Terrain",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Wild Charge",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Spiky Shield",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM07",
+            "name": "Pin Missile",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Present",
+            "type": ""
+          },
+          {
+            "name": "Wish",
+            "type": ""
+          },
+          {
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Disarming Voice",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Steel Beam",
+            "type": ""
+          },
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          },
+          {
+            "name": "Steel Roller",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/togedemaru/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/togedemaru/"
   }
 }

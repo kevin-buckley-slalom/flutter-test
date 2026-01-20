@@ -1,327 +1,764 @@
 {
   "Castform": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Water Gun",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Ember",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Powder Snow",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Rain Dance",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Sunny Day",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Hail",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Weather Ball",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Hydro Pump",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Fire Blast",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Blizzard",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Hurricane",
-          "level": "45",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Water Pulse",
-          "type": "",
-          "id": "TM03"
-        },
-        {
-          "name": "Hail",
-          "type": "",
-          "id": "TM07"
-        },
-        {
-          "name": "Work Up",
-          "type": "",
-          "id": "TM10"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TM30"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Shock Wave",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TM35"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM37"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TM38"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TM49"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Avalanche",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM73"
-        },
-        {
-          "name": "Psych Up",
-          "type": "",
-          "id": "TM77"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Future Sight",
-          "type": ""
-        },
-        {
-          "name": "Disable",
-          "type": ""
-        },
-        {
-          "name": "Amnesia",
-          "type": ""
-        },
-        {
-          "name": "Hex",
-          "type": ""
-        },
-        {
-          "name": "Clear Smog",
-          "type": ""
-        },
-        {
-          "name": "Reflect Type",
-          "type": ""
-        },
-        {
-          "name": "Guard Swap",
-          "type": ""
-        },
-        {
-          "name": "Cosmic Power",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Round",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        },
-        {
-          "name": "Icy Wind",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        },
-        {
-          "name": "Tailwind",
-          "type": ""
-        },
-        {
-          "name": "Defog",
-          "type": ""
-        },
-        {
-          "name": "Incinerate",
-          "type": ""
-        },
-        {
-          "name": "Retaliate",
-          "type": ""
-        },
-        {
-          "name": "Swift",
-          "type": ""
-        },
-        {
-          "name": "Body Slam",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Powder Snow",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Rain Dance",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Hail",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Weather Ball",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Fire Blast",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Blizzard",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Hurricane",
+            "type": "",
+            "level": "45"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Future Sight",
+            "type": ""
+          },
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "name": "Clear Smog",
+            "type": ""
+          },
+          {
+            "name": "Reflect Type",
+            "type": ""
+          },
+          {
+            "name": "Guard Swap",
+            "type": ""
+          },
+          {
+            "name": "Cosmic Power",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/castform/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/castform/"
+  },
+  "Castform Rainy Form": {
+    "gen_8": {
+      "Sword and Shield": {},
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/castform/"
+  },
+  "Castform Snowy Form": {
+    "gen_8": {
+      "Sword and Shield": {},
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/castform/"
+  },
+  "Castform Sunny Form": {
+    "gen_8": {
+      "Sword and Shield": {},
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/castform/"
   }
 }

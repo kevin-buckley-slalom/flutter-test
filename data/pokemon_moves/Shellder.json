@@ -1,253 +1,604 @@
 {
   "Shellder": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Water Gun",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Withdraw",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Ice Shard",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Whirlpool",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Supersonic",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Aurora Beam",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Protect",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Razor Shell",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Iron Defense",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Ice Beam",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Shell Smash",
-              "type": "",
-              "level": "44"
-            },
-            {
-              "name": "Hydro Pump",
-              "type": "",
-              "level": "48"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM046",
-              "name": "Avalanche",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Snowscape",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Rock Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Waterfall",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM104",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Ice Spinner",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM187",
-              "name": "Icicle Spear",
-              "type": ""
-            },
-            {
-              "tm_id": "TM208",
-              "name": "Whirlpool",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Bubble Beam",
-              "type": ""
-            },
-            {
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "name": "Aqua Ring",
-              "type": ""
-            },
-            {
-              "name": "Life Dew",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Ice Shard",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Whirlpool",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Aurora Beam",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Razor Shell",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Ice Beam",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Shell Smash",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM51",
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM64",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Razor Shell",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR19",
+            "name": "Tri Attack",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Bubble Beam",
+            "type": ""
+          },
+          {
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          },
+          {
+            "name": "Life Dew",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM64",
+            "name": "Explosion",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/shellder/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Ice Shard",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Whirlpool",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Aurora Beam",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Razor Shell",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Ice Beam",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Shell Smash",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM046",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Snowscape",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM104",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Ice Spinner",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM187",
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "tm_id": "TM208",
+            "name": "Whirlpool",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Bubble Beam",
+            "type": ""
+          },
+          {
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          },
+          {
+            "name": "Life Dew",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shellder/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/shellder/"
   }
 }

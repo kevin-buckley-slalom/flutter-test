@@ -1,589 +1,587 @@
 {
   "Pyroar": {
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Overheat",
-              "type": "",
-              "level": "Evolve",
-              "level_plus": "38"
-            },
-            {
-              "name": "Hyper Beam",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Roar",
-              "type": "",
-              "level": "6",
-              "level_plus": "9"
-            },
-            {
-              "name": "Work Up",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "11",
-              "level_plus": "14"
-            },
-            {
-              "name": "Snarl",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Fire Fang",
-              "type": "",
-              "level": "23",
-              "level_plus": "26"
-            },
-            {
-              "name": "Earth Power",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Hyper Voice",
-              "type": "",
-              "level": "42",
-              "level_plus": "45"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM064",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM068",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM086",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Work Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM104",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Psychic Fangs",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Hyper Beam",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Work Up",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "11"
-            },
-            {
-              "name": "Noble Roar",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Fire Fang",
-              "type": "",
-              "level": "23"
-            },
-            {
-              "name": "Endeavor",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Echoed Voice",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Flamethrower",
-              "type": "",
-              "level": "38"
-            },
-            {
-              "name": "Crunch",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Hyper Voice",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Incinerate",
-              "type": "",
-              "level": "51"
-            },
-            {
-              "name": "Overheat",
-              "type": "",
-              "level": "57"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM009",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Bulldoze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Snarl",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM063",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM118",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM157",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM165",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM195",
-              "name": "Burning Jealousy",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM207",
-              "name": "Temper Flare",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "name": "Yawn",
-              "type": ""
-            },
-            {
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "name": "Entrainment",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Overheat",
+            "type": "",
+            "level": "Evolve",
+            "level_plus": "38"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "6",
+            "level_plus": "9"
+          },
+          {
+            "name": "Work Up",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "11",
+            "level_plus": "14"
+          },
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "23",
+            "level_plus": "26"
+          },
+          {
+            "name": "Earth Power",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "42",
+            "level_plus": "45"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM064",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM068",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM086",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM104",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Work Up",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Noble Roar",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Fire Fang",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Echoed Voice",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Flamethrower",
+            "type": "",
+            "level": "38"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Incinerate",
+            "type": "",
+            "level": "51"
+          },
+          {
+            "name": "Overheat",
+            "type": "",
+            "level": "57"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM009",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM063",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM118",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM157",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM165",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM195",
+            "name": "Burning Jealousy",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM207",
+            "name": "Temper Flare",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "name": "Yawn",
+            "type": ""
+          },
+          {
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "name": "Entrainment",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/pyroar/"
+    "url_gen9": "https://www.serebii.net/pokedex-sv/pyroar/"
   }
 }

@@ -1,348 +1,909 @@
 {
   "Tentacruel": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Wrap",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Poison Sting",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Acid",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Water Gun",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Reflect Type",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Supersonic",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Water Pulse",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Bubble Beam",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Hex",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Acid Armor",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Poison Jab",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Surf",
-              "type": "",
-              "level": "46"
-            },
-            {
-              "name": "Sludge Wave",
-              "type": "",
-              "level": "52"
-            },
-            {
-              "name": "Hydro Pump",
-              "type": "",
-              "level": "58"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Acid Spray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Hex",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM110",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM174",
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM181",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM196",
-              "name": "Flip Turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM208",
-              "name": "Whirlpool",
-              "type": ""
-            },
-            {
-              "tm_id": "TM209",
-              "name": "Muddy Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM214",
-              "name": "Sludge Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            },
-            {
-              "tm_id": "TM221",
-              "name": "Throat Chop",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Aurora Beam",
-              "type": ""
-            },
-            {
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "name": "Rapid Spin",
-              "type": ""
-            },
-            {
-              "name": "Mirror Coat",
-              "type": ""
-            },
-            {
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "name": "Tickle",
-              "type": ""
-            },
-            {
-              "name": "Acupressure",
-              "type": ""
-            },
-            {
-              "name": "Aqua Ring",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Reflect Type",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Acid Armor",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Poison Jab",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Surf",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Sludge Wave",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "58"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Cross Poison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR16",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR45",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TR54",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR91",
+            "name": "Venom Drench",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Acupressure",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          },
+          {
+            "name": "Aurora Beam",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Mirror Coat",
+            "type": ""
+          },
+          {
+            "name": "Rapid Spin",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Corrosive Gas",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM84",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Waterfall",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Bubble",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Poison Jab",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Acid Armor",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Ice Beam",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/tentacruel/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Reflect Type",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Hex",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Acid Armor",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Poison Jab",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Surf",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Sludge Wave",
+            "type": "",
+            "level": "52"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "58"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Acid Spray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM110",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM174",
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM181",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM196",
+            "name": "Flip Turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM208",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM209",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM214",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "tm_id": "TM221",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Aurora Beam",
+            "type": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Rapid Spin",
+            "type": ""
+          },
+          {
+            "name": "Mirror Coat",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Acupressure",
+            "type": ""
+          },
+          {
+            "name": "Aqua Ring",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/tentacruel/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/tentacruel/"
   }
 }

@@ -1,279 +1,543 @@
 {
   "Cutiefly": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fairy Wind",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Stun Spore",
-              "type": "",
-              "level": "6"
-            },
-            {
-              "name": "Sweet Scent",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Draining Kiss",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Struggle Bug",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Covet",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Switcheroo",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Dazzling Gleam",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Bug Buzz",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Quiver Dance",
-              "type": "",
-              "level": "54"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM003",
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM037",
-              "name": "Draining Kiss",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Imprison",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Leech Life",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Skill Swap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Trick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM131",
-              "name": "Pollen Puff",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM162",
-              "name": "Bug Buzz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM182",
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Sticky Web",
-              "type": ""
-            },
-            {
-              "name": "Moonblast",
-              "type": ""
-            },
-            {
-              "name": "Aromatic Mist",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Draining Kiss",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Aromatherapy",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Switcheroo",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Quiver Dance",
+            "type": "",
+            "level": "54"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Speed Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Draining Kiss",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Moonblast",
+            "type": ""
+          },
+          {
+            "name": "Sticky Web",
+            "type": ""
+          },
+          {
+            "name": "Aromatic Mist",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/cutiefly/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Draining Kiss",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Covet",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Switcheroo",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Quiver Dance",
+            "type": "",
+            "level": "54"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM003",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM037",
+            "name": "Draining Kiss",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM131",
+            "name": "Pollen Puff",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM162",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM182",
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Sticky Web",
+            "type": ""
+          },
+          {
+            "name": "Moonblast",
+            "type": ""
+          },
+          {
+            "name": "Aromatic Mist",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/cutiefly/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/cutiefly/"
   }
 }

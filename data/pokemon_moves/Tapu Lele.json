@@ -1,392 +1,310 @@
 {
   "Tapu Lele": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Astonish",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Withdraw",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Aromatherapy",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Draining Kiss",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Psybeam",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Flatter",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Aromatic Mist",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Sweet Scent",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Extrasensory",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Psyshock",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Mean Look",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Nature's Madness",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Moonblast",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Tickle",
-          "level": "65",
-          "type": ""
-        },
-        {
-          "name": "Skill Swap",
-          "level": "70",
-          "type": ""
-        },
-        {
-          "name": "Psychic Terrain",
-          "level": "75",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Charm",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Power Swap",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Guard Swap",
-          "type": "",
-          "id": "TM61"
-        },
-        {
-          "name": "Speed Swap",
-          "type": "",
-          "id": "TM62"
-        },
-        {
-          "name": "Psycho Cut",
-          "type": "",
-          "id": "TM69"
-        },
-        {
-          "name": "Wonder Room",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Magic Room",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Draining Kiss",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Psychic Terrain",
-          "type": "",
-          "id": "TM91"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TR09"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TR11"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Psyshock",
-          "type": "",
-          "id": "TR25"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Future Sight",
-          "type": "",
-          "id": "TR34"
-        },
-        {
-          "name": "Taunt",
-          "type": "",
-          "id": "TR37"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TR40"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TR49"
-        },
-        {
-          "name": "Focus Blast",
-          "type": "",
-          "id": "TR64"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Stored Power",
-          "type": "",
-          "id": "TR82"
-        },
-        {
-          "name": "Ally Switch",
-          "type": "",
-          "id": "TR83"
-        },
-        {
-          "name": "Play Rough",
-          "type": "",
-          "id": "TR90"
-        },
-        {
-          "name": "Dazzling Gleam",
-          "type": "",
-          "id": "TR92"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Torment",
-          "type": ""
-        },
-        {
-          "name": "Echoed Voice",
-          "type": ""
-        },
-        {
-          "name": "Charge Beam",
-          "type": ""
-        },
-        {
-          "name": "Psych Up",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Nature Power",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Aromatherapy",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Draining Kiss",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Flatter",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Aromatic Mist",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Extrasensory",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Psyshock",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Mean Look",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Nature's Madness",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Tickle",
+            "type": "",
+            "level": "65"
+          },
+          {
+            "name": "Skill Swap",
+            "type": "",
+            "level": "70"
+          },
+          {
+            "name": "Psychic Terrain",
+            "type": "",
+            "level": "75"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Power Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Guard Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Speed Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Draining Kiss",
+            "type": ""
+          },
+          {
+            "tm_id": "TM91",
+            "name": "Psychic Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR34",
+            "name": "Future Sight",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/tapulele/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/tapulele/"
   }
 }

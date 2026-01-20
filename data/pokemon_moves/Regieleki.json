@@ -1,235 +1,475 @@
 {
   "Regieleki": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Thunder Shock",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Rapid Spin",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Electroweb",
-              "type": "",
-              "level": "6"
-            },
-            {
-              "name": "Ancient Power",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Shock Wave",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Extreme Speed",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Thunder Cage",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Thunderbolt",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Magnet Rise",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Thrash",
-              "type": "",
-              "level": "54"
-            },
-            {
-              "name": "Lock-On",
-              "type": "",
-              "level": "60"
-            },
-            {
-              "name": "Zap Cannon",
-              "type": "",
-              "level": "66"
-            },
-            {
-              "name": "Hyper Beam",
-              "type": "",
-              "level": "72"
-            },
-            {
-              "name": "Explosion",
-              "type": "",
-              "level": "78"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Eerie Impulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM136",
-              "name": "Electric Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM173",
-              "name": "Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM210",
-              "name": "Supercell Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rapid Spin",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Electroweb",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Shock Wave",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Extreme Speed",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Thunder Cage",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Magnet Rise",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Lock-On",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Zap Cannon",
+            "type": "",
+            "level": "66"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Explosion",
+            "type": "",
+            "level": "78"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/regieleki/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rapid Spin",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Electroweb",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Ancient Power",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Shock Wave",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Extreme Speed",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Thunder Cage",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Thunderbolt",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Magnet Rise",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Lock-On",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Zap Cannon",
+            "type": "",
+            "level": "66"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Explosion",
+            "type": "",
+            "level": "78"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Eerie Impulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM136",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM173",
+            "name": "Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM210",
+            "name": "Supercell Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/regieleki/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/regieleki/"
   }
 }

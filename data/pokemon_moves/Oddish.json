@@ -1,253 +1,599 @@
 {
   "Oddish": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Acid",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Sweet Scent",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Poison Powder",
-              "type": "",
-              "level": "14"
-            },
-            {
-              "name": "Stun Spore",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Sleep Powder",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Toxic",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Moonblast",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Grassy Terrain",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Moonlight",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Petal Dance",
-              "type": "",
-              "level": "40"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Acid Spray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Leech Seed",
-              "type": ""
-            },
-            {
-              "name": "Razor Leaf",
-              "type": ""
-            },
-            {
-              "name": "Flail",
-              "type": ""
-            },
-            {
-              "name": "Synthesis",
-              "type": ""
-            },
-            {
-              "name": "Ingrain",
-              "type": ""
-            },
-            {
-              "name": "Teeter Dance",
-              "type": ""
-            },
-            {
-              "name": "Tickle",
-              "type": ""
-            },
-            {
-              "name": "After You",
-              "type": ""
-            },
-            {
-              "name": "Strength Sap",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Moonlight",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Petal Dance",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Grassy Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Razor Leaf",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Synthesis",
+            "type": ""
+          },
+          {
+            "name": "Ingrain",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Teeter Dance",
+            "type": ""
+          },
+          {
+            "name": "Nature Power",
+            "type": ""
+          },
+          {
+            "name": "After You",
+            "type": ""
+          },
+          {
+            "name": "Strength Sap",
+            "type": ""
+          },
+          {
+            "name": "Leech Seed",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/oddish/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Moonlight",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Petal Dance",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Acid Spray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Razor Leaf",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Synthesis",
+            "type": ""
+          },
+          {
+            "name": "Ingrain",
+            "type": ""
+          },
+          {
+            "name": "Teeter Dance",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "After You",
+            "type": ""
+          },
+          {
+            "name": "Strength Sap",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/oddish/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/oddish/"
   }
 }

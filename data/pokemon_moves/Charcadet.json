@@ -1,309 +1,307 @@
 {
   "Charcadet": {
     "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Smokescreen",
-              "type": "",
-              "level": "8",
-              "level_plus": "11"
-            },
-            {
-              "name": "Confuse Ray",
-              "type": "",
-              "level": "10",
-              "level_plus": "13"
-            },
-            {
-              "name": "Fire Spin",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Will-O-Wisp",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Flame Charge",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Lava Plume",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM068",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM104",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Clear Smog",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Fire Spin",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Will-O-Wisp",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Night Shade",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Flame Charge",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Incinerate",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Lava Plume",
-              "type": "",
-              "level": "32"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM118",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM157",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM165",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM177",
-              "name": "Spite",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Disable",
-              "type": ""
-            },
-            {
-              "name": "Spite",
-              "type": ""
-            },
-            {
-              "name": "Destiny Bond",
-              "type": ""
-            }
-          ],
-          "special_moves": [
-            {
-              "name": "Celebrate",
-              "type": ""
-            }
-          ]
-        }
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Smokescreen",
+            "type": "",
+            "level": "8",
+            "level_plus": "11"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "10",
+            "level_plus": "13"
+          },
+          {
+            "name": "Fire Spin",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Will-O-Wisp",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Flame Charge",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Lava Plume",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM068",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM104",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Clear Smog",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Fire Spin",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Will-O-Wisp",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Night Shade",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Flame Charge",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Incinerate",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Lava Plume",
+            "type": "",
+            "level": "32"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM118",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM157",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM165",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM177",
+            "name": "Spite",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "name": "Destiny Bond",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Celebrate",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/charcadet/"
+    "url_gen9": "https://www.serebii.net/pokedex-sv/charcadet/"
   }
 }

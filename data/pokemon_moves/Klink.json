@@ -1,255 +1,199 @@
 {
   "Klink": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Thunder Shock",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Vise Grip",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bind",
-          "level": "4",
-          "type": ""
-        },
-        {
-          "name": "Charge",
-          "level": "8",
-          "type": ""
-        },
-        {
-          "name": "Charge Beam",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Metal Sound",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Autotomize",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Discharge",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Screech",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Gear Grind",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Lock-On",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Shift Gear",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Zap Cannon",
-          "level": "44",
-          "type": ""
-        },
-        {
-          "name": "Hyper Beam",
-          "level": "48",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Screech",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Assurance",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Volt Switch",
-          "type": "",
-          "id": "TM80"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Uproar",
-          "type": "",
-          "id": "TR35"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Power Gem",
-          "type": "",
-          "id": "TR63"
-        },
-        {
-          "name": "Flash Cannon",
-          "type": "",
-          "id": "TR70"
-        },
-        {
-          "name": "Wild Charge",
-          "type": "",
-          "id": "TR86"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Rock Polish",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        },
-        {
-          "name": "Magnet Rise",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        },
-        {
-          "name": "Recycle",
-          "type": ""
-        },
-        {
-          "name": "Rock Smash",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Thunder Shock",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Vise Grip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bind",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Charge Beam",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Metal Sound",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Autotomize",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Gear Grind",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Lock-On",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Shift Gear",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Zap Cannon",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR63",
+            "name": "Power Gem",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Steel Beam",
+            "type": ""
+          },
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          },
+          {
+            "name": "Steel Roller",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/klink/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/klink/"
   }
 }

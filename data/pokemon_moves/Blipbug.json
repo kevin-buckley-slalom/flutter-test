@@ -1,42 +1,34 @@
 {
   "Blipbug": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Struggle Bug",
-          "level": "—",
-          "type": ""
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Supersonic",
-          "type": ""
-        },
-        {
-          "name": "Sticky Web",
-          "type": ""
-        },
-        {
-          "name": "Recover",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Infestation",
+            "type": ""
+          },
+          {
+            "name": "Supersonic",
+            "type": ""
+          },
+          {
+            "name": "Sticky Web",
+            "type": ""
+          },
+          {
+            "name": "Recover",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/blipbug/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/blipbug/"
   }
 }

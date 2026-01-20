@@ -1,52 +1,43 @@
 {
   "Cascoon": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Harden",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Iron Defense",
-          "level": "Evolve15",
-          "type": ""
-        },
-        {
-          "name": "Poison Sting",
-          "level": "—10",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "615",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Bug Bite",
-          "type": ""
-        },
-        {
-          "name": "Iron Defense",
-          "type": ""
-        },
-        {
-          "name": "Electroweb",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "Evolve",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/cascoon/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/cascoon/"
   }
 }

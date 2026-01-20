@@ -1,290 +1,604 @@
 {
   "Liepard": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Snarl",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Mimic",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Fake Out",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Lick",
-              "type": "",
-              "level": "9",
-              "level_plus": "12"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Torment",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Fake Tears",
-              "type": "",
-              "level": "19",
-              "level_plus": "22"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "26",
-              "level_plus": "29"
-            },
-            {
-              "name": "Nasty Plot",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Night Slash",
-              "type": "",
-              "level": "38",
-              "level_plus": "41"
-            },
-            {
-              "name": "Parting Shot",
-              "type": "",
-              "level": "44",
-              "level_plus": "47"
-            },
-            {
-              "name": "Play Rough",
-              "type": "",
-              "level": "52",
-              "level_plus": "55"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Fire Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Ice Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Thunder Fang",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Crunch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Night Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "X-Scissor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Nasty Plot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Iron Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM116",
-              "name": "Pay Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM121",
-              "name": "Torment",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Psychic Fangs",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Mimic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Double Hit",
-              "type": ""
-            },
-            {
-              "tm_id": "TM139",
-              "name": "Swagger",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fake Out",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "First Impression",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Scratch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fake Out",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Swipes",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Torment",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Assurance",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Hone Claws",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "52"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM02",
+            "name": "Pay Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR73",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Yawn",
+            "type": ""
+          },
+          {
+            "name": "Covet",
+            "type": ""
+          },
+          {
+            "name": "Copycat",
+            "type": ""
+          },
+          {
+            "name": "Slash",
+            "type": ""
+          },
+          {
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "name": "Quick Attack",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Burning Jealousy",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "name": "Lash Out",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/liepard/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Snarl",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Mimic",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Fake Out",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Lick",
+            "type": "",
+            "level": "9",
+            "level_plus": "12"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Torment",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Fake Tears",
+            "type": "",
+            "level": "19",
+            "level_plus": "22"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "26",
+            "level_plus": "29"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "38",
+            "level_plus": "41"
+          },
+          {
+            "name": "Parting Shot",
+            "type": "",
+            "level": "44",
+            "level_plus": "47"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "52",
+            "level_plus": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Ice Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Night Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM116",
+            "name": "Pay Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM121",
+            "name": "Torment",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Psychic Fangs",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Mimic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Double Hit",
+            "type": ""
+          },
+          {
+            "tm_id": "TM139",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "First Impression",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/liepard/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/liepard/"
   }
 }

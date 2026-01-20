@@ -1,324 +1,589 @@
 {
   "Hoppip": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Splash",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tail Whip",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "6"
-            },
-            {
-              "name": "Fairy Wind",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Poison Powder",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Stun Spore",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Sleep Powder",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Bullet Seed",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Synthesis",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "22"
-            },
-            {
-              "name": "Acrobatics",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Cotton Spore",
-              "type": "",
-              "level": "27"
-            },
-            {
-              "name": "U-turn",
-              "type": "",
-              "level": "29"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Bounce",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Memento",
-              "type": "",
-              "level": "38"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Tailwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM131",
-              "name": "Pollen Puff",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "name": "Worry Seed",
-              "type": ""
-            },
-            {
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "name": "Switcheroo",
-              "type": ""
-            },
-            {
-              "name": "Rage Powder",
-              "type": ""
-            },
-            {
-              "name": "Cotton Guard",
-              "type": ""
-            },
-            {
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "name": "Strength Sap",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Splash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Acrobatics",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Rage Powder",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Bounce",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Memento",
+            "type": "",
+            "level": "49"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Confusion",
+            "type": ""
+          },
+          {
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "name": "Aromatherapy",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Cotton Guard",
+            "type": ""
+          },
+          {
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "name": "Strength Sap",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/hoppip/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Splash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Acrobatics",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "U-turn",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Bounce",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Memento",
+            "type": "",
+            "level": "38"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM131",
+            "name": "Pollen Puff",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "name": "Switcheroo",
+            "type": ""
+          },
+          {
+            "name": "Rage Powder",
+            "type": ""
+          },
+          {
+            "name": "Cotton Guard",
+            "type": ""
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "name": "Strength Sap",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/hoppip/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/hoppip/"
   }
 }

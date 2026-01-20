@@ -1,365 +1,339 @@
 {
   "Orbeetle": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Reflect",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Light Screen",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confuse Ray",
-          "level": "4",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "level": "8",
-          "type": ""
-        },
-        {
-          "name": "Agility",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Psybeam",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Hypnosis",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Ally Switch",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Bug Buzz",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Mirror Coat",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Psychic",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "After You",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Calm Mind",
-          "level": "44",
-          "type": ""
-        },
-        {
-          "name": "Psychic Terrain",
-          "level": "48",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Imprison",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Power Swap",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Guard Swap",
-          "type": "",
-          "id": "TM61"
-        },
-        {
-          "name": "Psycho Cut",
-          "type": "",
-          "id": "TM69"
-        },
-        {
-          "name": "Trick Room",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Wonder Room",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Magic Room",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Psychic Terrain",
-          "type": "",
-          "id": "TM91"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TR11"
-        },
-        {
-          "name": "Agility",
-          "type": "",
-          "id": "TR12"
-        },
-        {
-          "name": "Leech Life",
-          "type": "",
-          "id": "TR18"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Psyshock",
-          "type": "",
-          "id": "TR25"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Baton Pass",
-          "type": "",
-          "id": "TR29"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Future Sight",
-          "type": "",
-          "id": "TR34"
-        },
-        {
-          "name": "Trick",
-          "type": "",
-          "id": "TR38"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TR40"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TR49"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TR61"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Stored Power",
-          "type": "",
-          "id": "TR82"
-        },
-        {
-          "name": "Ally Switch",
-          "type": "",
-          "id": "TR83"
-        },
-        {
-          "name": "Body Press",
-          "type": "",
-          "id": "TR99"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Supersonic",
-          "type": ""
-        },
-        {
-          "name": "Sticky Web",
-          "type": ""
-        },
-        {
-          "name": "Recover",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Reflect",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Magic Coat",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Ally Switch",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Mirror Coat",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Psychic",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "After You",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Calm Mind",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Psychic Terrain",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Power Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Guard Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM91",
+            "name": "Psychic Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR34",
+            "name": "Future Sight",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR99",
+            "name": "Body Press",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Infestation",
+            "type": ""
+          },
+          {
+            "name": "Supersonic",
+            "type": ""
+          },
+          {
+            "name": "Sticky Web",
+            "type": ""
+          },
+          {
+            "name": "Recover",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Expanding Force",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/orbeetle/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/orbeetle/"
   }
 }

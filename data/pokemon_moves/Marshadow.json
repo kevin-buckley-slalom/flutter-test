@@ -1,289 +1,667 @@
 {
   "Marshadow": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Fire Punch",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Ice Punch",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Thunder Punch",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Shadow Sneak",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Power-Up Punch",
-              "type": "",
-              "level": "14",
-              "level_plus": "17"
-            },
-            {
-              "name": "Shadow Punch",
-              "type": "",
-              "level": "18",
-              "level_plus": "21"
-            },
-            {
-              "name": "Mach Punch",
-              "type": "",
-              "level": "24",
-              "level_plus": "27"
-            },
-            {
-              "name": "Brutal Swing",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Aura Sphere",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Dual Chop",
-              "type": "",
-              "level": "40",
-              "level_plus": "43"
-            },
-            {
-              "name": "Drain Punch",
-              "type": "",
-              "level": "54",
-              "level_plus": "57"
-            },
-            {
-              "name": "Phantom Force",
-              "type": "",
-              "level": "64",
-              "level_plus": "67"
-            },
-            {
-              "name": "Spectral Thief",
-              "type": "",
-              "level": "72",
-              "level_plus": "75"
-            },
-            {
-              "name": "Close Combat",
-              "type": "",
-              "level": "80",
-              "level_plus": "83"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM006",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Bulk Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Power-Up Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Thunder Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Ice Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM029",
-              "name": "Fire Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Knock Off",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Stone Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Work Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM108",
-              "name": "Comet Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM113",
-              "name": "Low Sweep",
-              "type": ""
-            },
-            {
-              "tm_id": "TM118",
-              "name": "Shadow Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Ominous Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM131",
-              "name": "Drain Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Blaze Kick",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Dual Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM150",
-              "name": "Vacuum Wave",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Thunder Punch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fire Punch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ice Punch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Copycat",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Feint",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Counter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Role Play",
+            "type": "",
+            "level": "9"
+          },
+          {
+            "name": "Shadow Punch",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Force Palm",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Assurance",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Drain Punch",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Psych Up",
+            "type": "",
+            "level": "63"
+          },
+          {
+            "name": "Spectral Thief",
+            "type": "",
+            "level": "72"
+          },
+          {
+            "name": "Laser Focus",
+            "type": "",
+            "level": "81"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "90"
+          },
+          {
+            "name": "Close Combat",
+            "type": "",
+            "level": "99"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM03",
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM04",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM05",
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Revenge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Phantom Force",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR07",
+            "name": "Low Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR41",
+            "name": "Blaze Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR48",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR56",
+            "name": "Aura Sphere",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR81",
+            "name": "Foul Play",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Coaching",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "name": "Poltergeist",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/marshadow/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Fire Punch",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Ice Punch",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Thunder Punch",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Shadow Sneak",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Power-Up Punch",
+            "type": "",
+            "level": "14",
+            "level_plus": "17"
+          },
+          {
+            "name": "Shadow Punch",
+            "type": "",
+            "level": "18",
+            "level_plus": "21"
+          },
+          {
+            "name": "Mach Punch",
+            "type": "",
+            "level": "24",
+            "level_plus": "27"
+          },
+          {
+            "name": "Brutal Swing",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Aura Sphere",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Dual Chop",
+            "type": "",
+            "level": "40",
+            "level_plus": "43"
+          },
+          {
+            "name": "Drain Punch",
+            "type": "",
+            "level": "54",
+            "level_plus": "57"
+          },
+          {
+            "name": "Phantom Force",
+            "type": "",
+            "level": "64",
+            "level_plus": "67"
+          },
+          {
+            "name": "Spectral Thief",
+            "type": "",
+            "level": "72",
+            "level_plus": "75"
+          },
+          {
+            "name": "Close Combat",
+            "type": "",
+            "level": "80",
+            "level_plus": "83"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM006",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Power-Up Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM029",
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM108",
+            "name": "Comet Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM113",
+            "name": "Low Sweep",
+            "type": ""
+          },
+          {
+            "tm_id": "TM118",
+            "name": "Shadow Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM131",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Blaze Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Dual Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM150",
+            "name": "Vacuum Wave",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/marshadow/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/marshadow/"
   }
 }

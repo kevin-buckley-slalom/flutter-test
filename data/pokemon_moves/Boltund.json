@@ -1,304 +1,278 @@
 {
   "Boltund": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Electrify",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tail Whip",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Nuzzle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bite",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Roar",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Spark",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Charm",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Crunch",
-          "level": "34",
-          "type": ""
-        },
-        {
-          "name": "Charge",
-          "level": "41",
-          "type": ""
-        },
-        {
-          "name": "Wild Charge",
-          "level": "48",
-          "type": ""
-        },
-        {
-          "name": "Play Rough",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Electric Terrain",
-          "level": "62",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Charm",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Thunder Fang",
-          "type": "",
-          "id": "TM66"
-        },
-        {
-          "name": "Fire Fang",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Volt Switch",
-          "type": "",
-          "id": "TM80"
-        },
-        {
-          "name": "Snarl",
-          "type": "",
-          "id": "TM85"
-        },
-        {
-          "name": "Electric Terrain",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Eerie Impulse",
-          "type": "",
-          "id": "TM93"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TR09"
-        },
-        {
-          "name": "Agility",
-          "type": "",
-          "id": "TR12"
-        },
-        {
-          "name": "Focus Energy",
-          "type": "",
-          "id": "TR13"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Crunch",
-          "type": "",
-          "id": "TR32"
-        },
-        {
-          "name": "Uproar",
-          "type": "",
-          "id": "TR35"
-        },
-        {
-          "name": "Hyper Voice",
-          "type": "",
-          "id": "TR42"
-        },
-        {
-          "name": "Bulk Up",
-          "type": "",
-          "id": "TR48"
-        },
-        {
-          "name": "Electro Ball",
-          "type": "",
-          "id": "TR80"
-        },
-        {
-          "name": "Wild Charge",
-          "type": "",
-          "id": "TR86"
-        },
-        {
-          "name": "Play Rough",
-          "type": "",
-          "id": "TR90"
-        },
-        {
-          "name": "Psychic Fangs",
-          "type": "",
-          "id": "TR97"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Double-Edge",
-          "type": ""
-        },
-        {
-          "name": "Sand Attack",
-          "type": ""
-        },
-        {
-          "name": "Flame Charge",
-          "type": ""
-        },
-        {
-          "name": "Discharge",
-          "type": ""
-        },
-        {
-          "name": "Howl",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Electrify",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Nuzzle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Roar",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Spark",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Charge",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Wild Charge",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Electric Terrain",
+            "type": "",
+            "level": "62"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Thunder Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Fire Fang",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Electric Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Eerie Impulse",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR48",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR97",
+            "name": "Psychic Fangs",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Sand Attack",
+            "type": ""
+          },
+          {
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "name": "Discharge",
+            "type": ""
+          },
+          {
+            "name": "Howl",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/boltund/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/boltund/"
   }
 }

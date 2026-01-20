@@ -1,612 +1,1101 @@
 {
   "Sylveon": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Swift",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Charm",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Wish",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Tail Whip",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "10",
-              "level_plus": "13"
-            },
-            {
-              "name": "Disarming Voice",
-              "type": "",
-              "level": "15",
-              "level_plus": "18"
-            },
-            {
-              "name": "Light Screen",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Draining Kiss",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Dazzling Gleam",
-              "type": "",
-              "level": "35",
-              "level_plus": "38"
-            },
-            {
-              "name": "Hyper Voice",
-              "type": "",
-              "level": "40",
-              "level_plus": "43"
-            },
-            {
-              "name": "Fake Tears",
-              "type": "",
-              "level": "45",
-              "level_plus": "48"
-            },
-            {
-              "name": "Moonblast",
-              "type": "",
-              "level": "50",
-              "level_plus": "53"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM003",
-              "name": "Psyshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM028",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM031",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM063",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Iron Tail",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM092",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Mimic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM146",
-              "name": "Skull Bash",
-              "type": ""
-            }
-          ]
-        },
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Disarming Voice",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Baton Pass",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tail Whip",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Bite",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Copycat",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Covet",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Charm",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Helping Hand",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Sand Attack",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Quick Attack",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Baby-Doll Eyes",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Swift",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Light Screen",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Draining Kiss",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Misty Terrain",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Skill Swap",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Psych Up",
-              "type": "",
-              "level": "45"
-            },
-            {
-              "name": "Moonblast",
-              "type": "",
-              "level": "50"
-            },
-            {
-              "name": "Last Resort",
-              "type": "",
-              "level": "55"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM003",
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "tm_id": "TM005",
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM019",
-              "name": "Disarming Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM037",
-              "name": "Draining Kiss",
-              "type": ""
-            },
-            {
-              "tm_id": "TM041",
-              "name": "Stored Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM054",
-              "name": "Psyshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Dig",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Reflect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Skill Swap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM114",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM117",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM127",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM139",
-              "name": "Misty Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM172",
-              "name": "Roar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM201",
-              "name": "Misty Explosion",
-              "type": ""
-            },
-            {
-              "tm_id": "TM203",
-              "name": "Psych Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM227",
-              "name": "Alluring Voice",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Double Kick",
-              "type": ""
-            },
-            {
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "name": "Flail",
-              "type": ""
-            },
-            {
-              "name": "Mud-Slap",
-              "type": ""
-            },
-            {
-              "name": "Detect",
-              "type": ""
-            },
-            {
-              "name": "Wish",
-              "type": ""
-            },
-            {
-              "name": "Yawn",
-              "type": ""
-            },
-            {
-              "name": "Tickle",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Disarming Voice",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Disarming Voice",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Covet",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Copycat",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Baby-Doll Eyes",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Draining Kiss",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Misty Terrain",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Skill Swap",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Psych Up",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Last Resort",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM02",
+            "name": "Pay Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM79",
+            "name": "Retaliate",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Draining Kiss",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "Misty Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM92",
+            "name": "Mystical Fire",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Yawn",
+            "type": ""
+          },
+          {
+            "name": "Detect",
+            "type": ""
+          },
+          {
+            "name": "Double Kick",
+            "type": ""
+          },
+          {
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "name": "Wish",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Misty Explosion",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "Evolve",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Baby-Doll Eyes",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Mimic",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Calm Mind",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Baby-doll Eyes",
+            "type": ""
+          },
+          {
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "name": "Mystical Fire",
+            "type": ""
+          },
+          {
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/sylveon/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Wish",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "10",
+            "level_plus": "13"
+          },
+          {
+            "name": "Disarming Voice",
+            "type": "",
+            "level": "15",
+            "level_plus": "18"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Draining Kiss",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": "",
+            "level": "35",
+            "level_plus": "38"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "40",
+            "level_plus": "43"
+          },
+          {
+            "name": "Fake Tears",
+            "type": "",
+            "level": "45",
+            "level_plus": "48"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "50",
+            "level_plus": "53"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM003",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM028",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM031",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM063",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM092",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Mimic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM146",
+            "name": "Skull Bash",
+            "type": ""
+          }
+        ]
+      },
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Disarming Voice",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Copycat",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Covet",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Baby-Doll Eyes",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Draining Kiss",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Misty Terrain",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Skill Swap",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Psych Up",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Last Resort",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM003",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM005",
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM019",
+            "name": "Disarming Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM037",
+            "name": "Draining Kiss",
+            "type": ""
+          },
+          {
+            "tm_id": "TM041",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM054",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM114",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM117",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM127",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM139",
+            "name": "Misty Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM172",
+            "name": "Roar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM201",
+            "name": "Misty Explosion",
+            "type": ""
+          },
+          {
+            "tm_id": "TM203",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM227",
+            "name": "Alluring Voice",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double Kick",
+            "type": ""
+          },
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Mud-Slap",
+            "type": ""
+          },
+          {
+            "name": "Detect",
+            "type": ""
+          },
+          {
+            "name": "Wish",
+            "type": ""
+          },
+          {
+            "name": "Yawn",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/sylveon/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/sylveon/"
   }
 }

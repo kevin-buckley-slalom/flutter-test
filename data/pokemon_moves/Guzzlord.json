@@ -1,409 +1,353 @@
 {
   "Guzzlord": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Bite",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Dragon Tail",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Swallow",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Stockpile",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Stomp",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Stomping Tantrum",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Wide Guard",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Crunch",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Body Slam",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Gastro Acid",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Hammer Arm",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Heavy Slam",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Dragon Rush",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Belch",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Thrash",
-          "level": "65",
-          "type": ""
-        },
-        {
-          "name": "Giga Impact",
-          "level": "70",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Mega Punch",
-          "type": "",
-          "id": "TM00"
-        },
-        {
-          "name": "Mega Kick",
-          "type": "",
-          "id": "TM01"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM43"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Drain Punch",
-          "type": "",
-          "id": "TM63"
-        },
-        {
-          "name": "Shadow Claw",
-          "type": "",
-          "id": "TM65"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Snarl",
-          "type": "",
-          "id": "TM85"
-        },
-        {
-          "name": "Brutal Swing",
-          "type": "",
-          "id": "TM97"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TR02"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TR10"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TR15"
-        },
-        {
-          "name": "Amnesia",
-          "type": "",
-          "id": "TR17"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Outrage",
-          "type": "",
-          "id": "TR24"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Iron Tail",
-          "type": "",
-          "id": "TR31"
-        },
-        {
-          "name": "Crunch",
-          "type": "",
-          "id": "TR32"
-        },
-        {
-          "name": "Heat Wave",
-          "type": "",
-          "id": "TR36"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Dragon Claw",
-          "type": "",
-          "id": "TR47"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TR52"
-        },
-        {
-          "name": "Poison Jab",
-          "type": "",
-          "id": "TR57"
-        },
-        {
-          "name": "Dark Pulse",
-          "type": "",
-          "id": "TR58"
-        },
-        {
-          "name": "Dragon Pulse",
-          "type": "",
-          "id": "TR62"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TR75"
-        },
-        {
-          "name": "Sludge Wave",
-          "type": "",
-          "id": "TR78"
-        },
-        {
-          "name": "Heavy Slam",
-          "type": "",
-          "id": "TR79"
-        },
-        {
-          "name": "Heat Crash",
-          "type": "",
-          "id": "TR88"
-        },
-        {
-          "name": "High Horsepower",
-          "type": "",
-          "id": "TR94"
-        },
-        {
-          "name": "Body Press",
-          "type": "",
-          "id": "TR99"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Wyrmwind",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Smack Down",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Dual Chop",
-          "type": ""
-        },
-        {
-          "name": "Magnet Rise",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Tail",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Swallow",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Stockpile",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Knock Off",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Stomp",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Stomping Tantrum",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Wide Guard",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Gastro Acid",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Hammer Arm",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Heavy Slam",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Belch",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Thrash",
+            "type": "",
+            "level": "65"
+          },
+          {
+            "name": "Giga Impact",
+            "type": "",
+            "level": "70"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR47",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR79",
+            "name": "Heavy Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR88",
+            "name": "Heat Crash",
+            "type": ""
+          },
+          {
+            "tm_id": "TR94",
+            "name": "High Horsepower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR99",
+            "name": "Body Press",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Corrosive Gas",
+            "type": ""
+          },
+          {
+            "name": "Lash Out",
+            "type": ""
+          },
+          {
+            "name": "Steel Roller",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/guzzlord/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/guzzlord/"
   }
 }

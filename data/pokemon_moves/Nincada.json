@@ -1,355 +1,287 @@
 {
   "Nincada": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Sand Attack",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Scratch",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "False Swipe",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Mud-Slap",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Absorb",
-          "level": "21",
-          "type": ""
-        },
-        {
-          "name": "Metal Claw",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Fury Swipes",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Mind Reader",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Dig",
-          "level": "40",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "False Swipe",
-          "type": "",
-          "id": "TM94"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TM30"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM37"
-        },
-        {
-          "name": "Aerial Ace",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "False Swipe",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TM62"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Cut",
-          "type": "",
-          "id": "TM93"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Leech Life",
-          "type": "",
-          "id": "TR18"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TR60"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TR61"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Gust",
-          "type": ""
-        },
-        {
-          "name": "Night Slash",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "type": ""
-        },
-        {
-          "name": "Final Gambit",
-          "type": ""
-        },
-        {
-          "name": "Flail",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Spite",
-          "type": ""
-        },
-        {
-          "name": "Hone Claws",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "type": ""
-        },
-        {
-          "name": "Fury Cutter",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Scratch",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "False Swipe",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Mud-Slap",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Metal Claw",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Fury Swipes",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Mind Reader",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Dig",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Gust",
+            "type": ""
+          },
+          {
+            "name": "Night Slash",
+            "type": ""
+          },
+          {
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "name": "Final Gambit",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/nincada/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/nincada/"
   }
 }

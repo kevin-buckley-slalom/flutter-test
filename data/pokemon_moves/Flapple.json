@@ -1,308 +1,584 @@
 {
   "Flapple": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Wing Attack",
-              "type": "",
-              "level": "Evolve"
-            },
-            {
-              "name": "Astonish",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Twister",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Withdraw",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Recycle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Acid Spray",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Acrobatics",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Protect",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Dragon Breath",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Dragon Dance",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Dragon Pulse",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Grav Apple",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Iron Defense",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Fly",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Dragon Rush",
-              "type": "",
-              "level": "44"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Scary Face",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Acid Spray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Aerial Ace",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM065",
-              "name": "Air Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM097",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Dragon Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM104",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM115",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM121",
-              "name": "Heavy Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM156",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM169",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM197",
-              "name": "Dual Wingbeat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Defense Curl",
-              "type": ""
-            },
-            {
-              "name": "Rollout",
-              "type": ""
-            },
-            {
-              "name": "Recycle",
-              "type": ""
-            },
-            {
-              "name": "Sucker Punch",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Wing Attack",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Wing Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Recycle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Twister",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid Spray",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Acrobatics",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Dragon Dance",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Grav Apple",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Fly",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR51",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR79",
+            "name": "Heavy Slam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          },
+          {
+            "name": "Rollout",
+            "type": ""
+          },
+          {
+            "name": "Defense Curl",
+            "type": ""
+          },
+          {
+            "name": "Recycle",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/flapple/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Wing Attack",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Twister",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Recycle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid Spray",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Acrobatics",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Dragon Dance",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Grav Apple",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Fly",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Scary Face",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Acid Spray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM065",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM097",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM104",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM115",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM121",
+            "name": "Heavy Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM156",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM169",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM197",
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Defense Curl",
+            "type": ""
+          },
+          {
+            "name": "Rollout",
+            "type": ""
+          },
+          {
+            "name": "Recycle",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/flapple/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/flapple/"
   }
 }

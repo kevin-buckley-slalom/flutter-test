@@ -1,316 +1,708 @@
 {
   "Golisopod": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "First Impression",
-              "type": "",
-              "level": "Evolve",
-              "level_plus": "33"
-            },
-            {
-              "name": "Harden",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Rollout",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Rock Smash",
-              "type": "",
-              "level": "4",
-              "level_plus": "7"
-            },
-            {
-              "name": "Mud Shot",
-              "type": "",
-              "level": "12",
-              "level_plus": "15"
-            },
-            {
-              "name": "Aqua Jet",
-              "type": "",
-              "level": "16",
-              "level_plus": "19"
-            },
-            {
-              "name": "Iron Defense",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Metal Claw",
-              "type": "",
-              "level": "22",
-              "level_plus": "25"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "26",
-              "level_plus": "29"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Drill Run",
-              "type": "",
-              "level": "30",
-              "level_plus": "33"
-            },
-            {
-              "name": "Leech Life",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Iron Head",
-              "type": "",
-              "level": "36",
-              "level_plus": "39"
-            },
-            {
-              "name": "Pin Missile",
-              "type": "",
-              "level": "42",
-              "level_plus": "45"
-            },
-            {
-              "name": "Swords Dance",
-              "type": "",
-              "level": "48",
-              "level_plus": "51"
-            },
-            {
-              "name": "Liquidation",
-              "type": "",
-              "level": "53",
-              "level_plus": "56"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM004",
-              "name": "Rock Smash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM010",
-              "name": "Brick Break",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Bulk Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM030",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Night Slash",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM036",
-              "name": "Rock Tomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM046",
-              "name": "Mud Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM053",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM058",
-              "name": "Iron Head",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM076",
-              "name": "Liquidation",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM080",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "X-Scissor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM090",
-              "name": "Dark Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Waterfall",
-              "type": ""
-            },
-            {
-              "tm_id": "TM100",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM105",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Close Combat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Double Hit",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Dual Chop",
-              "type": ""
-            },
-            {
-              "tm_id": "TM140",
-              "name": "Muddy Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "First Impression",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Scald",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "First Impression",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "First Impression",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sand Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Defense Curl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Spite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Smash",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Fury Cutter",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mud Shot",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Razor Shell",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Pin Missile",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Liquidation",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM07",
+            "name": "Pin Missile",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Razor Shell",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR16",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR23",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR45",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR48",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR53",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR87",
+            "name": "Drill Run",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Metal Claw",
+            "type": ""
+          },
+          {
+            "name": "Wide Guard",
+            "type": ""
+          },
+          {
+            "name": "Harden",
+            "type": ""
+          },
+          {
+            "name": "Aqua Jet",
+            "type": ""
+          },
+          {
+            "name": "Rollout",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/golisopod/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "First Impression",
+            "type": "",
+            "level": "Evolve",
+            "level_plus": "33"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Rollout",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Rock Smash",
+            "type": "",
+            "level": "4",
+            "level_plus": "7"
+          },
+          {
+            "name": "Mud Shot",
+            "type": "",
+            "level": "12",
+            "level_plus": "15"
+          },
+          {
+            "name": "Aqua Jet",
+            "type": "",
+            "level": "16",
+            "level_plus": "19"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Metal Claw",
+            "type": "",
+            "level": "22",
+            "level_plus": "25"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "26",
+            "level_plus": "29"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Drill Run",
+            "type": "",
+            "level": "30",
+            "level_plus": "33"
+          },
+          {
+            "name": "Leech Life",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Iron Head",
+            "type": "",
+            "level": "36",
+            "level_plus": "39"
+          },
+          {
+            "name": "Pin Missile",
+            "type": "",
+            "level": "42",
+            "level_plus": "45"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "48",
+            "level_plus": "51"
+          },
+          {
+            "name": "Liquidation",
+            "type": "",
+            "level": "53",
+            "level_plus": "56"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM004",
+            "name": "Rock Smash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM010",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Bulk Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM030",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Night Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM036",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM046",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM053",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM058",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM076",
+            "name": "Liquidation",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM080",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM090",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TM100",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM105",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Close Combat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Double Hit",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Dual Chop",
+            "type": ""
+          },
+          {
+            "tm_id": "TM140",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "First Impression",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Scald",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/golisopod/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/golisopod/"
   }
 }

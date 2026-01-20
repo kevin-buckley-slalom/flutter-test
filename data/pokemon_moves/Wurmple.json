@@ -1,49 +1,47 @@
 {
   "Wurmple": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Poison Sting",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Poison Sting",
-          "level": "—10",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "615",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Electroweb",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "15"
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/wurmple/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/wurmple/"
   }
 }

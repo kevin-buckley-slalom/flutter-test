@@ -1,694 +1,610 @@
 {
   "Solrock": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Flare Blitz",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Morning Sun",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Rock Throw",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Hypnosis",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Rock Polish",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Rock Slide",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Zen Headbutt",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Cosmic Power",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Psychic",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Stone Edge",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Solar Beam",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Wonder Room",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Explosion",
-          "level": "50",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Fire Spin",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Self-Destruct",
-          "type": "",
-          "id": "TM20"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Will-O-Wisp",
-          "type": "",
-          "id": "TM38"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Weather Ball",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Sand Tomb",
-          "type": "",
-          "id": "TM49"
-        },
-        {
-          "name": "Rock Blast",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Power Swap",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Trick Room",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Wonder Room",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Acrobatics",
-          "type": "",
-          "id": "TM78"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM81"
-        },
-        {
-          "name": "Psychic Terrain",
-          "type": "",
-          "id": "TM91"
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": "",
-          "id": "TM98"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TM04"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM20"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TM26"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TM30"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TM35"
-        },
-        {
-          "name": "Sandstorm",
-          "type": "",
-          "id": "TM37"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TM38"
-        },
-        {
-          "name": "Rock Tomb",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TM48"
-        },
-        {
-          "name": "Overheat",
-          "type": "",
-          "id": "TM50"
-        },
-        {
-          "name": "Charge Beam",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Will-O-Wisp",
-          "type": "",
-          "id": "TM61"
-        },
-        {
-          "name": "Explosion",
-          "type": "",
-          "id": "TM64"
-        },
-        {
-          "name": "Recycle",
-          "type": "",
-          "id": "TM67"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Rock Polish",
-          "type": "",
-          "id": "TM69"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TM74"
-        },
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TM75"
-        },
-        {
-          "name": "Stealth Rock",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Psych Up",
-          "type": "",
-          "id": "TM77"
-        },
-        {
-          "name": "Rock Slide",
-          "type": "",
-          "id": "TM80"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Bulldoze",
-          "type": "",
-          "id": "TM83"
-        },
-        {
-          "name": "Dream Eater",
-          "type": "",
-          "id": "TM85"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TM86"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Trick Room",
-          "type": "",
-          "id": "TM92"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TR00"
-        },
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TR02"
-        },
-        {
-          "name": "Earthquake",
-          "type": "",
-          "id": "TR10"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TR11"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TR15"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Psyshock",
-          "type": "",
-          "id": "TR25"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Baton Pass",
-          "type": "",
-          "id": "TR29"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Heat Wave",
-          "type": "",
-          "id": "TR36"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TR40"
-        },
-        {
-          "name": "Overheat",
-          "type": "",
-          "id": "TR43"
-        },
-        {
-          "name": "Cosmic Power",
-          "type": "",
-          "id": "TR44"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TR49"
-        },
-        {
-          "name": "Gyro Ball",
-          "type": "",
-          "id": "TR52"
-        },
-        {
-          "name": "Flare Blitz",
-          "type": "",
-          "id": "TR55"
-        },
-        {
-          "name": "Earth Power",
-          "type": "",
-          "id": "TR67"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Iron Head",
-          "type": "",
-          "id": "TR74"
-        },
-        {
-          "name": "Stone Edge",
-          "type": "",
-          "id": "TR75"
-        },
-        {
-          "name": "Stealth Rock",
-          "type": "",
-          "id": "TR76"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Stored Power",
-          "type": "",
-          "id": "TR82"
-        },
-        {
-          "name": "Ally Switch",
-          "type": "",
-          "id": "TR83"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Smack Down",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        },
-        {
-          "name": "Pain Split",
-          "type": ""
-        },
-        {
-          "name": "Laser Focus",
-          "type": ""
-        },
-        {
-          "name": "Incinerate",
-          "type": ""
-        },
-        {
-          "name": "Ancient Power",
-          "type": ""
-        },
-        {
-          "name": "Rollout",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Morning Sun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Throw",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Rock Polish",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Rock Slide",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Cosmic Power",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Psychic",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Stone Edge",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Wonder Room",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Explosion",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Self-Destruct",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Sand Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Power Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM91",
+            "name": "Psychic Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR44",
+            "name": "Cosmic Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR52",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR55",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR67",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR74",
+            "name": "Iron Head",
+            "type": ""
+          },
+          {
+            "tm_id": "TR75",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Meteor Beam",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM04",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM26",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Sandstorm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Rock Tomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM64",
+            "name": "Explosion",
+            "type": ""
+          },
+          {
+            "tm_id": "TM67",
+            "name": "Recycle",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Rock Polish",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Stone Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Gyro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Stealth Rock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM83",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM92",
+            "name": "Trick Room",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/solrock/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/solrock/"
   }
 }

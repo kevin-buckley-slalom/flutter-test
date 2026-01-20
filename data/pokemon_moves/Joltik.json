@@ -1,267 +1,533 @@
 {
   "Joltik": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fury Cutter",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Electroweb",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Bug Bite",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "String Shot",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Thunder Wave",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Electro Ball",
-              "type": "",
-              "level": "20"
-            },
-            {
-              "name": "Agility",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Sucker Punch",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Slash",
-              "type": "",
-              "level": "32"
-            },
-            {
-              "name": "Discharge",
-              "type": "",
-              "level": "37"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "40"
-            },
-            {
-              "name": "Gastro Acid",
-              "type": "",
-              "level": "44"
-            },
-            {
-              "name": "Bug Buzz",
-              "type": "",
-              "level": "48"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM023",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM048",
-              "name": "Volt Switch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM072",
-              "name": "Electro Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM082",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM083",
-              "name": "Poison Jab",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Leech Life",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM105",
-              "name": "X-Scissor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM126",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM162",
-              "name": "Bug Buzz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM166",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM182",
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM211",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Poison Sting",
-              "type": ""
-            },
-            {
-              "name": "Double Team",
-              "type": ""
-            },
-            {
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "name": "Infestation",
-              "type": ""
-            },
-            {
-              "name": "Lunge",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Cutter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Electroweb",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Electro Ball",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Gastro Acid",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM07",
+            "name": "Pin Missile",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Speed Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Cross Poison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM80",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR12",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR80",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Poison Sting",
+            "type": ""
+          },
+          {
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "name": "Infestation",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Rising Voltage",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/joltik/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Cutter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Electroweb",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Thunder Wave",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Electro Ball",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Sucker Punch",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Slash",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Discharge",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Gastro Acid",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM023",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM048",
+            "name": "Volt Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM072",
+            "name": "Electro Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM082",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM083",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM105",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM126",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM162",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM166",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM182",
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM211",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Poison Sting",
+            "type": ""
+          },
+          {
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "name": "Infestation",
+            "type": ""
+          },
+          {
+            "name": "Lunge",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/joltik/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/joltik/"
   }
 }

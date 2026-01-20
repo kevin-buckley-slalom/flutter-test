@@ -1,685 +1,631 @@
 {
   "Octillery": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Octazooka",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Octazooka",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Gunk Shot",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Rock Blast",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Helping Hand",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Water Gun",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Wrap",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Water Pulse",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Focus Energy",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Psybeam",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Aurora Beam",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Bubble Beam",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Lock-On",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Bullet Seed",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Ice Beam",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Hydro Pump",
-          "level": "42",
-          "type": ""
-        },
-        {
-          "name": "Soak",
-          "level": "48",
-          "type": ""
-        },
-        {
-          "name": "Hyper Beam",
-          "level": "54",
-          "type": ""
-        },
-        {
-          "name": "Octazooka",
-          "level": "Evolve28",
-          "type": ""
-        },
-        {
-          "name": "Bubble",
-          "level": "—10",
-          "type": ""
-        },
-        {
-          "name": "Acid Spray",
-          "level": "615",
-          "type": ""
-        },
-        {
-          "name": "Charge Beam",
-          "level": "1120",
-          "type": ""
-        },
-        {
-          "name": "Water Pulse",
-          "level": "1828",
-          "type": ""
-        },
-        {
-          "name": "Ice Beam",
-          "level": "2535",
-          "type": ""
-        },
-        {
-          "name": "Hydro Pump",
-          "level": "3445",
-          "type": ""
-        },
-        {
-          "name": "Hyper Beam",
-          "level": "4354",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Screech",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Icy Wind",
-          "type": "",
-          "id": "TM27"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Whirlpool",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Dive",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM50"
-        },
-        {
-          "name": "Bounce",
-          "type": "",
-          "id": "TM52"
-        },
-        {
-          "name": "Mud Shot",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Rock Blast",
-          "type": "",
-          "id": "TM54"
-        },
-        {
-          "name": "Brine",
-          "type": "",
-          "id": "TM55"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Assurance",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Water Pulse",
-          "type": "",
-          "id": "TM03"
-        },
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TM35"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TM38"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TM49"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Brine",
-          "type": "",
-          "id": "TM55"
-        },
-        {
-          "name": "Charge Beam",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM66"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM73"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Flash Cannon",
-          "type": "",
-          "id": "TM91"
-        },
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TM95"
-        },
-        {
-          "name": "Waterfall",
-          "type": "",
-          "id": "TM99"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TR02"
-        },
-        {
-          "name": "Hydro Pump",
-          "type": "",
-          "id": "TR03"
-        },
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TR04"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TR05"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TR06"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TR11"
-        },
-        {
-          "name": "Focus Energy",
-          "type": "",
-          "id": "TR13"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TR15"
-        },
-        {
-          "name": "Waterfall",
-          "type": "",
-          "id": "TR16"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Seed Bomb",
-          "type": "",
-          "id": "TR59"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Flash Cannon",
-          "type": "",
-          "id": "TR70"
-        },
-        {
-          "name": "Gunk Shot",
-          "type": "",
-          "id": "TR73"
-        },
-        {
-          "name": "Sludge Wave",
-          "type": "",
-          "id": "TR78"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TR84"
-        },
-        {
-          "name": "Liquidation",
-          "type": "",
-          "id": "TR98"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Octazooka",
-          "type": ""
-        },
-        {
-          "name": "Supersonic",
-          "type": ""
-        },
-        {
-          "name": "Haze",
-          "type": ""
-        },
-        {
-          "name": "Flail",
-          "type": ""
-        },
-        {
-          "name": "Water Spout",
-          "type": ""
-        },
-        {
-          "name": "Acid Spray",
-          "type": ""
-        },
-        {
-          "name": "Aurora BeamBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "ScreechBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Rock BlastBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "SnoreBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "Mud ShotBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "SwiftBDSP Only",
-          "type": ""
-        },
-        {
-          "name": "EntrainmentBDSP Only",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Hailstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Geyser",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Smack Down",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Bind",
-          "type": ""
-        },
-        {
-          "name": "Incinerate",
-          "type": ""
-        },
-        {
-          "name": "Mud-slap",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Seismic Toss",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Octazooka",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Octazooka",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gunk Shot",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rock Blast",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Aurora Beam",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Bubble Beam",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Lock-On",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Ice Beam",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Soak",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "54"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "Rock Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR16",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR73",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR98",
+            "name": "Liquidation",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Octazooka",
+            "type": ""
+          },
+          {
+            "name": "Supersonic",
+            "type": ""
+          },
+          {
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "name": "Flail",
+            "type": ""
+          },
+          {
+            "name": "Water Spout",
+            "type": ""
+          },
+          {
+            "name": "Acid Spray",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM49",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM91",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Waterfall",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Octazooka",
+            "type": "",
+            "level": "Evolve",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Bubble",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Acid Spray",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Charge Beam",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Ice Beam",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Hyper Beam",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "name": "Psychic",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/octillery/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/octillery/"
   }
 }

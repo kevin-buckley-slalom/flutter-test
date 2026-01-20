@@ -1,325 +1,702 @@
 {
   "Drampa": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Leer",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Twister",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Protect",
-              "type": "",
-              "level": "5",
-              "level_plus": "8"
-            },
-            {
-              "name": "Glare",
-              "type": "",
-              "level": "10",
-              "level_plus": "13"
-            },
-            {
-              "name": "Safeguard",
-              "type": "",
-              "level": "15",
-              "level_plus": "18"
-            },
-            {
-              "name": "Dragon Breath",
-              "type": "",
-              "level": "20",
-              "level_plus": "23"
-            },
-            {
-              "name": "Icy Wind",
-              "type": "",
-              "level": "25",
-              "level_plus": "28"
-            },
-            {
-              "name": "Body Slam",
-              "type": "",
-              "level": "28",
-              "level_plus": "31"
-            },
-            {
-              "name": "Amnesia",
-              "type": "",
-              "level": "32",
-              "level_plus": "35"
-            },
-            {
-              "name": "Dragon Pulse",
-              "type": "",
-              "level": "35",
-              "level_plus": "38"
-            },
-            {
-              "name": "Light Screen",
-              "type": "",
-              "level": "40",
-              "level_plus": "43"
-            },
-            {
-              "name": "Fly",
-              "type": "",
-              "level": "44",
-              "level_plus": "47"
-            },
-            {
-              "name": "Hyper Voice",
-              "type": "",
-              "level": "50",
-              "level_plus": "53"
-            },
-            {
-              "name": "Outrage",
-              "type": "",
-              "level": "54",
-              "level_plus": "57"
-            },
-            {
-              "name": "Dragon Rush",
-              "type": "",
-              "level": "56",
-              "level_plus": "59"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Dragon Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM006",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM008",
-              "name": "Thunder Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM012",
-              "name": "Rock Slide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Play Rough",
-              "type": ""
-            },
-            {
-              "tm_id": "TM026",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM027",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM035",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fly",
-              "type": ""
-            },
-            {
-              "tm_id": "TM044",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM051",
-              "name": "Safeguard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM054",
-              "name": "Draco Meteor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM055",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM061",
-              "name": "Shadow Claw",
-              "type": ""
-            },
-            {
-              "tm_id": "TM062",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM064",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM067",
-              "name": "Thunderbolt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM068",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM069",
-              "name": "Earthquake",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Hyper Voice",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM074",
-              "name": "Shadow Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Dragon Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Hurricane",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM093",
-              "name": "Outrage",
-              "type": ""
-            },
-            {
-              "tm_id": "TM094",
-              "name": "Whirlwind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM096",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Focus Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Work Up",
-              "type": ""
-            },
-            {
-              "tm_id": "TM105",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Thunder",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Charge Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Scale Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM145",
-              "name": "Razor Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Tri Attack",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Play Nice",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Echoed Voice",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Twister",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Glare",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Extrasensory",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Fly",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM81",
+            "name": "Bulldoze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Stomping Tantrum",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Breaking Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR10",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR39",
+            "name": "Superpower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR47",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR51",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR89",
+            "name": "Hurricane",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Dragon Rush",
+            "type": ""
+          },
+          {
+            "name": "Mist",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "name": "Lash Out",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/drampa/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Leer",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Twister",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "5",
+            "level_plus": "8"
+          },
+          {
+            "name": "Glare",
+            "type": "",
+            "level": "10",
+            "level_plus": "13"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "15",
+            "level_plus": "18"
+          },
+          {
+            "name": "Dragon Breath",
+            "type": "",
+            "level": "20",
+            "level_plus": "23"
+          },
+          {
+            "name": "Icy Wind",
+            "type": "",
+            "level": "25",
+            "level_plus": "28"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "28",
+            "level_plus": "31"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "32",
+            "level_plus": "35"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "35",
+            "level_plus": "38"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "40",
+            "level_plus": "43"
+          },
+          {
+            "name": "Fly",
+            "type": "",
+            "level": "44",
+            "level_plus": "47"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "50",
+            "level_plus": "53"
+          },
+          {
+            "name": "Outrage",
+            "type": "",
+            "level": "54",
+            "level_plus": "57"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "56",
+            "level_plus": "59"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM006",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM008",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM012",
+            "name": "Rock Slide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TM026",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM027",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM035",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM044",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM051",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM054",
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM055",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM061",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM062",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM064",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM067",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM068",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM069",
+            "name": "Earthquake",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM074",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Hurricane",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM093",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TM094",
+            "name": "Whirlwind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM096",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM105",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Scale Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM145",
+            "name": "Razor Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Tri Attack",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/drampa/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/drampa/"
   }
 }

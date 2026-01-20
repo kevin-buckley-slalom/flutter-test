@@ -1,427 +1,339 @@
 {
   "Sigilyph": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Gust",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Hypnosis",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Air Cutter",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Psybeam",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Whirlwind",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Cosmic Power",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Air Slash",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Psychic",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Tailwind",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Light Screen",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Reflect",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Sky Attack",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Skill Swap",
-          "level": "60",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Fly",
-          "type": "",
-          "id": "TM06"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Icy Wind",
-          "type": "",
-          "id": "TM27"
-        },
-        {
-          "name": "Steel Wing",
-          "type": "",
-          "id": "TM30"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Imprison",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Power Swap",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Speed Swap",
-          "type": "",
-          "id": "TM62"
-        },
-        {
-          "name": "Psycho Cut",
-          "type": "",
-          "id": "TM69"
-        },
-        {
-          "name": "Trick Room",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Magic Room",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Air Slash",
-          "type": "",
-          "id": "TM95"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TR05"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TR11"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Psyshock",
-          "type": "",
-          "id": "TR25"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Future Sight",
-          "type": "",
-          "id": "TR34"
-        },
-        {
-          "name": "Heat Wave",
-          "type": "",
-          "id": "TR36"
-        },
-        {
-          "name": "Trick",
-          "type": "",
-          "id": "TR38"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TR40"
-        },
-        {
-          "name": "Cosmic Power",
-          "type": "",
-          "id": "TR44"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TR49"
-        },
-        {
-          "name": "Dark Pulse",
-          "type": "",
-          "id": "TR58"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Flash Cannon",
-          "type": "",
-          "id": "TR70"
-        },
-        {
-          "name": "Stored Power",
-          "type": "",
-          "id": "TR82"
-        },
-        {
-          "name": "Dazzling Gleam",
-          "type": "",
-          "id": "TR92"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Psycho Shift",
-          "type": ""
-        },
-        {
-          "name": "Ancient Power",
-          "type": ""
-        },
-        {
-          "name": "Roost",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Hailstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Smack Down",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Aerial Ace",
-          "type": ""
-        },
-        {
-          "name": "Charge Beam",
-          "type": ""
-        },
-        {
-          "name": "Psych Up",
-          "type": ""
-        },
-        {
-          "name": "Dream Eater",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        },
-        {
-          "name": "Defog",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Gravity",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Hypnosis",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Air Cutter",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Whirlwind",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Cosmic Power",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Psychic",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Tailwind",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Reflect",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Sky Attack",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Skill Swap",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Steel Wing",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Imprison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Power Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Speed Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR34",
+            "name": "Future Sight",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR44",
+            "name": "Cosmic Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR70",
+            "name": "Flash Cannon",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Psycho Shift",
+            "type": ""
+          },
+          {
+            "name": "Ancient Power",
+            "type": ""
+          },
+          {
+            "name": "Roost",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "name": "Expanding Force",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/sigilyph/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/sigilyph/"
   }
 }

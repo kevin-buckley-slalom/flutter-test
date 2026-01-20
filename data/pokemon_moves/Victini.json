@@ -1,511 +1,415 @@
 {
   "Victini": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "V-create",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Quick Attack",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Flame Charge",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Focus Energy",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Work Up",
-          "level": "7",
-          "type": ""
-        },
-        {
-          "name": "Incinerate",
-          "level": "14",
-          "type": ""
-        },
-        {
-          "name": "Stored Power",
-          "level": "21",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Endure",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Zen Headbutt",
-          "level": "42",
-          "type": ""
-        },
-        {
-          "name": "Inferno",
-          "level": "49",
-          "type": ""
-        },
-        {
-          "name": "Reversal",
-          "level": "56",
-          "type": ""
-        },
-        {
-          "name": "Searing Shot",
-          "level": "63",
-          "type": ""
-        },
-        {
-          "name": "Double-Edge",
-          "level": "70",
-          "type": ""
-        },
-        {
-          "name": "Flare Blitz",
-          "level": "77",
-          "type": ""
-        },
-        {
-          "name": "Overheat",
-          "level": "84",
-          "type": ""
-        },
-        {
-          "name": "Final Gambit",
-          "level": "91",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Mega Punch",
-          "type": "",
-          "id": "TM00"
-        },
-        {
-          "name": "Mega Kick",
-          "type": "",
-          "id": "TM01"
-        },
-        {
-          "name": "Fire Punch",
-          "type": "",
-          "id": "TM03"
-        },
-        {
-          "name": "Thunder Punch",
-          "type": "",
-          "id": "TM05"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Fire Spin",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Will-O-Wisp",
-          "type": "",
-          "id": "TM38"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM43"
-        },
-        {
-          "name": "Bounce",
-          "type": "",
-          "id": "TM52"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Power Swap",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Guard Swap",
-          "type": "",
-          "id": "TM61"
-        },
-        {
-          "name": "Speed Swap",
-          "type": "",
-          "id": "TM62"
-        },
-        {
-          "name": "Trick Room",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Mystical Fire",
-          "type": "",
-          "id": "TM92"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TR02"
-        },
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TR09"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TR11"
-        },
-        {
-          "name": "Focus Energy",
-          "type": "",
-          "id": "TR13"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TR15"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Reversal",
-          "type": "",
-          "id": "TR21"
-        },
-        {
-          "name": "Psyshock",
-          "type": "",
-          "id": "TR25"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Baton Pass",
-          "type": "",
-          "id": "TR29"
-        },
-        {
-          "name": "Encore",
-          "type": "",
-          "id": "TR30"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Future Sight",
-          "type": "",
-          "id": "TR34"
-        },
-        {
-          "name": "Uproar",
-          "type": "",
-          "id": "TR35"
-        },
-        {
-          "name": "Heat Wave",
-          "type": "",
-          "id": "TR36"
-        },
-        {
-          "name": "Taunt",
-          "type": "",
-          "id": "TR37"
-        },
-        {
-          "name": "Trick",
-          "type": "",
-          "id": "TR38"
-        },
-        {
-          "name": "Skill Swap",
-          "type": "",
-          "id": "TR40"
-        },
-        {
-          "name": "Blaze Kick",
-          "type": "",
-          "id": "TR41"
-        },
-        {
-          "name": "Overheat",
-          "type": "",
-          "id": "TR43"
-        },
-        {
-          "name": "Flare Blitz",
-          "type": "",
-          "id": "TR55"
-        },
-        {
-          "name": "Focus Blast",
-          "type": "",
-          "id": "TR64"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": "",
-          "id": "TR69"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Stored Power",
-          "type": "",
-          "id": "TR82"
-        },
-        {
-          "name": "Work Up",
-          "type": "",
-          "id": "TR85"
-        },
-        {
-          "name": "Wild Charge",
-          "type": "",
-          "id": "TR86"
-        },
-        {
-          "name": "Dazzling Gleam",
-          "type": "",
-          "id": "TR92"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Charge Beam",
-          "type": ""
-        },
-        {
-          "name": "Psych Up",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        },
-        {
-          "name": "Role Play",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        },
-        {
-          "name": "Laser Focus",
-          "type": ""
-        },
-        {
-          "name": "Rock Smash",
-          "type": ""
-        },
-        {
-          "name": "Power-up Punch",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "V-create",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Quick Attack",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flame Charge",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Focus Energy",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Work Up",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Incinerate",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Stored Power",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Endure",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Inferno",
+            "type": "",
+            "level": "49"
+          },
+          {
+            "name": "Reversal",
+            "type": "",
+            "level": "56"
+          },
+          {
+            "name": "Searing Shot",
+            "type": "",
+            "level": "63"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "70"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "77"
+          },
+          {
+            "name": "Overheat",
+            "type": "",
+            "level": "84"
+          },
+          {
+            "name": "Final Gambit",
+            "type": "",
+            "level": "91"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM00",
+            "name": "Mega Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM01",
+            "name": "Mega Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TM03",
+            "name": "Fire Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM05",
+            "name": "Thunder Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM52",
+            "name": "Bounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Power Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Guard Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Speed Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Trick Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM92",
+            "name": "Mystical Fire",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR09",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR13",
+            "name": "Focus Energy",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR21",
+            "name": "Reversal",
+            "type": ""
+          },
+          {
+            "tm_id": "TR25",
+            "name": "Psyshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR34",
+            "name": "Future Sight",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR40",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TR41",
+            "name": "Blaze Kick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR55",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR64",
+            "name": "Focus Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR85",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "name": "Expanding Force",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/victini/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/victini/"
   }
 }

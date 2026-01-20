@@ -1,248 +1,449 @@
 {
   "Shroomish": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Stun Spore",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "8"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Poison Powder",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "26"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "29"
-            },
-            {
-              "name": "Toxic",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Seed Bomb",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Spore",
-              "type": "",
-              "level": "40"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM003",
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM057",
-              "name": "False Swipe",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM073",
-              "name": "Drain Punch",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM102",
-              "name": "Gunk Shot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "name": "Worry Seed",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Seed Bomb",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Spore",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Seed Bomb",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM54",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/shroomish/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Seed Bomb",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Spore",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM003",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM057",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM073",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM102",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shroomish/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/shroomish/"
   }
 }

@@ -1,278 +1,522 @@
 {
   "Larvesta": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Ember",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "String Shot",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Flame Charge",
-              "type": "",
-              "level": "6"
-            },
-            {
-              "name": "Struggle Bug",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Flame Wheel",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Screech",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Leech Life",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Bug Buzz",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "48"
-            },
-            {
-              "name": "Amnesia",
-              "type": "",
-              "level": "54"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "60"
-            },
-            {
-              "name": "Flare Blitz",
-              "type": "",
-              "level": "66"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM014",
-              "name": "Acrobatics",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM024",
-              "name": "Fire Spin",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM038",
-              "name": "Flame Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM060",
-              "name": "U-turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Leech Life",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM107",
-              "name": "Will-O-Wisp",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM118",
-              "name": "Heat Wave",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM125",
-              "name": "Flamethrower",
-              "type": ""
-            },
-            {
-              "tm_id": "TM128",
-              "name": "Amnesia",
-              "type": ""
-            },
-            {
-              "tm_id": "TM129",
-              "name": "Calm Mind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM141",
-              "name": "Fire Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM147",
-              "name": "Wild Charge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM157",
-              "name": "Overheat",
-              "type": ""
-            },
-            {
-              "tm_id": "TM162",
-              "name": "Bug Buzz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM165",
-              "name": "Flare Blitz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM182",
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Thrash",
-              "type": ""
-            },
-            {
-              "name": "Absorb",
-              "type": ""
-            },
-            {
-              "name": "Harden",
-              "type": ""
-            },
-            {
-              "name": "Morning Sun",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flame Charge",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Flame Wheel",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Leech Life",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "66"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM38",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR11",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR43",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR55",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR69",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR86",
+            "name": "Wild Charge",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Harden",
+            "type": ""
+          },
+          {
+            "name": "Absorb",
+            "type": ""
+          },
+          {
+            "name": "Thrash",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/larvesta/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Flame Charge",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Flame Wheel",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Screech",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Leech Life",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "48"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "54"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Flare Blitz",
+            "type": "",
+            "level": "66"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM014",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM024",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM038",
+            "name": "Flame Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM060",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM107",
+            "name": "Will-O-Wisp",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM118",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM125",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TM128",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TM129",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM141",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM147",
+            "name": "Wild Charge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM157",
+            "name": "Overheat",
+            "type": ""
+          },
+          {
+            "tm_id": "TM162",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM165",
+            "name": "Flare Blitz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM182",
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Thrash",
+            "type": ""
+          },
+          {
+            "name": "Absorb",
+            "type": ""
+          },
+          {
+            "name": "Harden",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/larvesta/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/larvesta/"
   }
 }

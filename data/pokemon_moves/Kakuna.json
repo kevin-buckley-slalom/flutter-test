@@ -1,48 +1,63 @@
 {
   "Kakuna": {
-    "gen_9": {
-      "gen_9": {
-        "Legends: Z-A": {
-          "level_up": [
-            {
-              "name": "Poison Sting",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "String Shot",
-              "type": "",
-              "level": "—",
-              "level_plus": "10"
-            },
-            {
-              "name": "Harden",
-              "type": "",
-              "level": "7",
-              "level_plus": "10"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM080",
-              "name": "Iron Defense",
-              "type": ""
-            },
-            {
-              "tm_id": "TM101",
-              "name": "Electroweb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM109",
-              "name": "Facade",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/kakuna/"
+    "gen_9": {
+      "Legends: Z-A": {
+        "level_up": [
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "—",
+            "level_plus": "10"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "7",
+            "level_plus": "10"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM080",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TM101",
+            "name": "Electroweb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM109",
+            "name": "Facade",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/kakuna/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/kakuna/"
   }
 }

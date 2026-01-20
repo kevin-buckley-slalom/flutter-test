@@ -1,280 +1,224 @@
 {
   "Shelmet": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Absorb",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Protect",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Acid",
-          "level": "4",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "level": "8",
-          "type": ""
-        },
-        {
-          "name": "Mega Drain",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Yawn",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Acid Armor",
-          "level": "24",
-          "type": ""
-        },
-        {
-          "name": "Giga Drain",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Guard Swap",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Body Slam",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Recover",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Bug Buzz",
-          "level": "44",
-          "type": ""
-        },
-        {
-          "name": "Final Gambit",
-          "level": "48",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Mud Shot",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Guard Swap",
-          "type": "",
-          "id": "TM61"
-        },
-        {
-          "name": "Venoshock",
-          "type": "",
-          "id": "TM74"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Body Slam",
-          "type": "",
-          "id": "TR01"
-        },
-        {
-          "name": "Leech Life",
-          "type": "",
-          "id": "TR18"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Spikes",
-          "type": "",
-          "id": "TR23"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Baton Pass",
-          "type": "",
-          "id": "TR29"
-        },
-        {
-          "name": "Encore",
-          "type": "",
-          "id": "TR30"
-        },
-        {
-          "name": "Toxic Spikes",
-          "type": "",
-          "id": "TR54"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TR61"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Double-Edge",
-          "type": ""
-        },
-        {
-          "name": "Guard Split",
-          "type": ""
-        },
-        {
-          "name": "Mind Reader",
-          "type": ""
-        },
-        {
-          "name": "Feint",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Mud-slap",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "type": ""
-        },
-        {
-          "name": "Gastro Acid",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Yawn",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Acid Armor",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Guard Swap",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Body Slam",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "44"
+          },
+          {
+            "name": "Final Gambit",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Mud Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Guard Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR01",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR23",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR54",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "name": "Guard Split",
+            "type": ""
+          },
+          {
+            "name": "Mind Reader",
+            "type": ""
+          },
+          {
+            "name": "Feint",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/shelmet/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/shelmet/"
   }
 }

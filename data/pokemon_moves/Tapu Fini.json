@@ -1,401 +1,315 @@
 {
   "Tapu Fini": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Disarming Voice",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Water Gun",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Withdraw",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Mist",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Haze",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Aqua Ring",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Water Pulse",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Brine",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Defog",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Heal Pulse",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Surf",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Muddy Water",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Mean Look",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Nature's Madness",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Moonblast",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Hydro Pump",
-          "level": "65",
-          "type": ""
-        },
-        {
-          "name": "Soak",
-          "level": "70",
-          "type": ""
-        },
-        {
-          "name": "Misty Terrain",
-          "level": "75",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Ice Punch",
-          "type": "",
-          "id": "TM04"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Icy Wind",
-          "type": "",
-          "id": "TM27"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Whirlpool",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Dive",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Brine",
-          "type": "",
-          "id": "TM55"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM59"
-        },
-        {
-          "name": "Guard Swap",
-          "type": "",
-          "id": "TM61"
-        },
-        {
-          "name": "Wonder Room",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Magic Room",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Draining Kiss",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Misty Terrain",
-          "type": "",
-          "id": "TM89"
-        },
-        {
-          "name": "Smart Strike",
-          "type": "",
-          "id": "TM96"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Hydro Pump",
-          "type": "",
-          "id": "TR03"
-        },
-        {
-          "name": "Surf",
-          "type": "",
-          "id": "TR04"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TR05"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TR06"
-        },
-        {
-          "name": "Waterfall",
-          "type": "",
-          "id": "TR16"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TR33"
-        },
-        {
-          "name": "Taunt",
-          "type": "",
-          "id": "TR37"
-        },
-        {
-          "name": "Trick",
-          "type": "",
-          "id": "TR38"
-        },
-        {
-          "name": "Muddy Water",
-          "type": "",
-          "id": "TR45"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TR49"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Stored Power",
-          "type": "",
-          "id": "TR82"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TR84"
-        },
-        {
-          "name": "Play Rough",
-          "type": "",
-          "id": "TR90"
-        },
-        {
-          "name": "Dazzling Gleam",
-          "type": "",
-          "id": "TR92"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Hailstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Geyser",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Torment",
-          "type": ""
-        },
-        {
-          "name": "Echoed Voice",
-          "type": ""
-        },
-        {
-          "name": "Psych Up",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Nature Power",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Gravity",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Disarming Voice",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Withdraw",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Mist",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Haze",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Aqua Ring",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Water Pulse",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Brine",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Defog",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Heal Pulse",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Surf",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Muddy Water",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Mean Look",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Nature's Madness",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Hydro Pump",
+            "type": "",
+            "level": "65"
+          },
+          {
+            "name": "Soak",
+            "type": "",
+            "level": "70"
+          },
+          {
+            "name": "Misty Terrain",
+            "type": "",
+            "level": "75"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM04",
+            "name": "Ice Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM27",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Dive",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM59",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM61",
+            "name": "Guard Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Draining Kiss",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "Misty Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Smart Strike",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR03",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TR04",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TR05",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR06",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TR16",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR33",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR38",
+            "name": "Trick",
+            "type": ""
+          },
+          {
+            "tm_id": "TR45",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR82",
+            "name": "Stored Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR90",
+            "name": "Play Rough",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/tapufini/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/tapufini/"
   }
 }

@@ -1,51 +1,82 @@
 {
-  "Burmy": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Protect",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "level": "—10",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Electroweb",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        }
-      ]
+  "Burmy Plant Cloak": {
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "20"
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/burmy/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/burmy/"
+  },
+  "Burmy Sandy Cloak": {
+    "gen_8": {
+      "Sword and Shield": {},
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/burmy/"
+  },
+  "Burmy Trash Cloak": {
+    "gen_8": {
+      "Sword and Shield": {},
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {}
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/burmy/"
   }
 }

@@ -1,324 +1,250 @@
 {
   "Ledyba": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Supersonic",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Swift",
-          "level": "8",
-          "type": ""
-        },
-        {
-          "name": "Light Screen",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Reflect",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Safeguard",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Mach Punch",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Roost",
-          "level": "19",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "level": "22",
-          "type": ""
-        },
-        {
-          "name": "Baton Pass",
-          "level": "26",
-          "type": ""
-        },
-        {
-          "name": "Agility",
-          "level": "29",
-          "type": ""
-        },
-        {
-          "name": "Bug Buzz",
-          "level": "33",
-          "type": ""
-        },
-        {
-          "name": "Air Slash",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Double-Edge",
-          "level": "40",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Focus Punch",
-          "type": "",
-          "id": "TM01"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM20"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Aerial Ace",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Roost",
-          "type": "",
-          "id": "TM51"
-        },
-        {
-          "name": "Fling",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Drain Punch",
-          "type": "",
-          "id": "TM60"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TM62"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TM75"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM89"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Psybeam",
-          "type": ""
-        },
-        {
-          "name": "Screech",
-          "type": ""
-        },
-        {
-          "name": "Encore",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "type": ""
-        },
-        {
-          "name": "Tailwind",
-          "type": ""
-        },
-        {
-          "name": "Counter",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Round",
-          "type": ""
-        },
-        {
-          "name": "Acrobatics",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Uproar",
-          "type": ""
-        },
-        {
-          "name": "Thunder Punch",
-          "type": ""
-        },
-        {
-          "name": "Ice Punch",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        },
-        {
-          "name": "Power-up Punch",
-          "type": ""
-        },
-        {
-          "name": "Air Cutter",
-          "type": ""
-        },
-        {
-          "name": "Rollout",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "type": ""
-        },
-        {
-          "name": "Mega Punch",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Dynamic Punch",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "type": ""
-        },
-        {
-          "name": "Sweet Scent",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Swift",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Reflect",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Mach Punch",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Roost",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "26"
+          },
+          {
+            "name": "Agility",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "40"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Psybeam",
+            "type": ""
+          },
+          {
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "name": "Tailwind",
+            "type": ""
+          },
+          {
+            "name": "Counter",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM01",
+            "name": "Focus Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM51",
+            "name": "Roost",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM60",
+            "name": "Drain Punch",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/ledyba/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/ledyba/"
   }
 }

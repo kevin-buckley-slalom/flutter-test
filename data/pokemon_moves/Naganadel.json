@@ -1,437 +1,369 @@
 {
   "Naganadel": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Air Cutter",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Air Cutter",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Air Slash",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Dragon Pulse",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Peck",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Growl",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Helping Hand",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Acid",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Fury Attack",
-          "level": "7",
-          "type": ""
-        },
-        {
-          "name": "Fell Stinger",
-          "level": "14",
-          "type": ""
-        },
-        {
-          "name": "Charm",
-          "level": "21",
-          "type": ""
-        },
-        {
-          "name": "Venoshock",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Venom Drench",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Nasty Plot",
-          "level": "42",
-          "type": ""
-        },
-        {
-          "name": "Poison Jab",
-          "level": "49",
-          "type": ""
-        },
-        {
-          "name": "Gastro Acid",
-          "level": "56",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "level": "63",
-          "type": ""
-        },
-        {
-          "name": "Dragon Rush",
-          "level": "70",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Fly",
-          "type": "",
-          "id": "TM06"
-        },
-        {
-          "name": "Pin Missile",
-          "type": "",
-          "id": "TM07"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Charm",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Swift",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM56"
-        },
-        {
-          "name": "Assurance",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Shadow Claw",
-          "type": "",
-          "id": "TM65"
-        },
-        {
-          "name": "Cross Poison",
-          "type": "",
-          "id": "TM73"
-        },
-        {
-          "name": "Venoshock",
-          "type": "",
-          "id": "TM74"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Hex",
-          "type": "",
-          "id": "TM77"
-        },
-        {
-          "name": "Acrobatics",
-          "type": "",
-          "id": "TM78"
-        },
-        {
-          "name": "Snarl",
-          "type": "",
-          "id": "TM85"
-        },
-        {
-          "name": "Air Slash",
-          "type": "",
-          "id": "TM95"
-        },
-        {
-          "name": "Smart Strike",
-          "type": "",
-          "id": "TM96"
-        },
-        {
-          "name": "Breaking Swipe",
-          "type": "",
-          "id": "TM99"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Flamethrower",
-          "type": "",
-          "id": "TR02"
-        },
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TR08"
-        },
-        {
-          "name": "Fire Blast",
-          "type": "",
-          "id": "TR15"
-        },
-        {
-          "name": "Leech Life",
-          "type": "",
-          "id": "TR18"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Spikes",
-          "type": "",
-          "id": "TR23"
-        },
-        {
-          "name": "Outrage",
-          "type": "",
-          "id": "TR24"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Iron Tail",
-          "type": "",
-          "id": "TR31"
-        },
-        {
-          "name": "Uproar",
-          "type": "",
-          "id": "TR35"
-        },
-        {
-          "name": "Heat Wave",
-          "type": "",
-          "id": "TR36"
-        },
-        {
-          "name": "Dragon Claw",
-          "type": "",
-          "id": "TR47"
-        },
-        {
-          "name": "Dragon Dance",
-          "type": "",
-          "id": "TR51"
-        },
-        {
-          "name": "Toxic Spikes",
-          "type": "",
-          "id": "TR54"
-        },
-        {
-          "name": "Poison Jab",
-          "type": "",
-          "id": "TR57"
-        },
-        {
-          "name": "Dark Pulse",
-          "type": "",
-          "id": "TR58"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TR60"
-        },
-        {
-          "name": "Dragon Pulse",
-          "type": "",
-          "id": "TR62"
-        },
-        {
-          "name": "Nasty Plot",
-          "type": "",
-          "id": "TR68"
-        },
-        {
-          "name": "Gunk Shot",
-          "type": "",
-          "id": "TR73"
-        },
-        {
-          "name": "Sludge Wave",
-          "type": "",
-          "id": "TR78"
-        },
-        {
-          "name": "Ally Switch",
-          "type": "",
-          "id": "TR83"
-        },
-        {
-          "name": "Venom Drench",
-          "type": "",
-          "id": "TR91"
-        },
-        {
-          "name": "Throat Chop",
-          "type": "",
-          "id": "TR95"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Wyrmwind",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Aerial Ace",
-          "type": ""
-        },
-        {
-          "name": "Echoed Voice",
-          "type": ""
-        },
-        {
-          "name": "Dragon Tail",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Tailwind",
-          "type": ""
-        },
-        {
-          "name": "Sky Attack",
-          "type": ""
-        },
-        {
-          "name": "Shock Wave",
-          "type": ""
-        },
-        {
-          "name": "Laser Focus",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Air Cutter",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Air Cutter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Air Slash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Dragon Pulse",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Peck",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Acid",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Attack",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Fell Stinger",
+            "type": "",
+            "level": "14"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Venoshock",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Venom Drench",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Nasty Plot",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Poison Jab",
+            "type": "",
+            "level": "49"
+          },
+          {
+            "name": "Gastro Acid",
+            "type": "",
+            "level": "56"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "63"
+          },
+          {
+            "name": "Dragon Rush",
+            "type": "",
+            "level": "70"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Fly",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Pin Missile",
+            "type": ""
+          },
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Assurance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM65",
+            "name": "Shadow Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Cross Poison",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Hex",
+            "type": ""
+          },
+          {
+            "tm_id": "TM78",
+            "name": "Acrobatics",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Snarl",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Smart Strike",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Breaking Swipe",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR02",
+            "name": "Flamethrower",
+            "type": ""
+          },
+          {
+            "tm_id": "TR08",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR15",
+            "name": "Fire Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR23",
+            "name": "Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR24",
+            "name": "Outrage",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR31",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TR35",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR47",
+            "name": "Dragon Claw",
+            "type": ""
+          },
+          {
+            "tm_id": "TR51",
+            "name": "Dragon Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR54",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TR57",
+            "name": "Poison Jab",
+            "type": ""
+          },
+          {
+            "tm_id": "TR58",
+            "name": "Dark Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          },
+          {
+            "tm_id": "TR62",
+            "name": "Dragon Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TR68",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR73",
+            "name": "Gunk Shot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR78",
+            "name": "Sludge Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR83",
+            "name": "Ally Switch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR91",
+            "name": "Venom Drench",
+            "type": ""
+          },
+          {
+            "tm_id": "TR95",
+            "name": "Throat Chop",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Draco Meteor",
+            "type": ""
+          },
+          {
+            "name": "Dual Wingbeat",
+            "type": ""
+          },
+          {
+            "name": "Scale Shot",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/naganadel/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/naganadel/"
   }
 }

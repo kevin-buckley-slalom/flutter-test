@@ -1,294 +1,488 @@
 {
   "Venonat": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Disable",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Supersonic",
-              "type": "",
-              "level": "5"
-            },
-            {
-              "name": "Confusion",
-              "type": "",
-              "level": "11"
-            },
-            {
-              "name": "Poison Powder",
-              "type": "",
-              "level": "13"
-            },
-            {
-              "name": "Psybeam",
-              "type": "",
-              "level": "17"
-            },
-            {
-              "name": "Stun Spore",
-              "type": "",
-              "level": "23"
-            },
-            {
-              "name": "Bug Buzz",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Sleep Powder",
-              "type": "",
-              "level": "29"
-            },
-            {
-              "name": "Leech Life",
-              "type": "",
-              "level": "35"
-            },
-            {
-              "name": "Zen Headbutt",
-              "type": "",
-              "level": "37"
-            },
-            {
-              "name": "Poison Fang",
-              "type": "",
-              "level": "41"
-            },
-            {
-              "name": "Psychic",
-              "type": "",
-              "level": "47"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM004",
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM013",
-              "name": "Acid Spray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM015",
-              "name": "Struggle Bug",
-              "type": ""
-            },
-            {
-              "tm_id": "TM016",
-              "name": "Psybeam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM017",
-              "name": "Confuse Ray",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM021",
-              "name": "Pounce",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM042",
-              "name": "Night Shade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM045",
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM059",
-              "name": "Zen Headbutt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM091",
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "tm_id": "TM095",
-              "name": "Leech Life",
-              "type": ""
-            },
-            {
-              "tm_id": "TM098",
-              "name": "Skill Swap",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM120",
-              "name": "Psychic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM132",
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM162",
-              "name": "Bug Buzz",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM175",
-              "name": "Toxic",
-              "type": ""
-            },
-            {
-              "tm_id": "TM182",
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "tm_id": "TM185",
-              "name": "Lunge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM219",
-              "name": "Skitter Smack",
-              "type": ""
-            },
-            {
-              "tm_id": "TM228",
-              "name": "Psychic Noise",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Agility",
-              "type": ""
-            },
-            {
-              "name": "Screech",
-              "type": ""
-            },
-            {
-              "name": "Baton Pass",
-              "type": ""
-            },
-            {
-              "name": "Morning Sun",
-              "type": ""
-            },
-            {
-              "name": "Toxic Spikes",
-              "type": ""
-            },
-            {
-              "name": "Bug Bite",
-              "type": ""
-            },
-            {
-              "name": "Venoshock",
-              "type": ""
-            },
-            {
-              "name": "Rage Powder",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Disable",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Struggle Bug",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Leech Life",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Poison Fang",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Psychic",
+            "type": "",
+            "level": "47"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          },
+          {
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "name": "Rage Powder",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM48",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/venonat/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Disable",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Supersonic",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "29"
+          },
+          {
+            "name": "Leech Life",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Poison Fang",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Psychic",
+            "type": "",
+            "level": "47"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM004",
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM013",
+            "name": "Acid Spray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM015",
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "tm_id": "TM016",
+            "name": "Psybeam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM017",
+            "name": "Confuse Ray",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM021",
+            "name": "Pounce",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM042",
+            "name": "Night Shade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM045",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM059",
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM091",
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "tm_id": "TM095",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TM098",
+            "name": "Skill Swap",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM120",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM132",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM162",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM175",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM182",
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "tm_id": "TM185",
+            "name": "Lunge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM219",
+            "name": "Skitter Smack",
+            "type": ""
+          },
+          {
+            "tm_id": "TM228",
+            "name": "Psychic Noise",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Agility",
+            "type": ""
+          },
+          {
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          },
+          {
+            "name": "Toxic Spikes",
+            "type": ""
+          },
+          {
+            "name": "Bug Bite",
+            "type": ""
+          },
+          {
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "name": "Rage Powder",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/venonat/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/venonat/"
   }
 }

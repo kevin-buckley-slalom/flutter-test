@@ -1,344 +1,345 @@
 {
   "Dustox": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Gust",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Gust",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Poison Sting",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Moonlight",
-          "level": "17",
-          "type": ""
-        },
-        {
-          "name": "Venoshock",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Psybeam",
-          "level": "22",
-          "type": ""
-        },
-        {
-          "name": "Leech Life",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Light Screen",
-          "level": "27",
-          "type": ""
-        },
-        {
-          "name": "Whirlwind",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Bug Buzz",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Protect",
-          "level": "37",
-          "type": ""
-        },
-        {
-          "name": "Quiver Dance",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Confusion",
-          "level": "Evolve15",
-          "type": ""
-        },
-        {
-          "name": "Poison Sting",
-          "level": "—10",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "615",
-          "type": ""
-        },
-        {
-          "name": "Iron Defense",
-          "level": "615",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "level": "1120",
-          "type": ""
-        },
-        {
-          "name": "Silver Wind",
-          "level": "1828",
-          "type": ""
-        },
-        {
-          "name": "Venoshock",
-          "level": "2535",
-          "type": ""
-        },
-        {
-          "name": "Extrasensory",
-          "level": "3445",
-          "type": ""
-        },
-        {
-          "name": "Bug Buzz",
-          "level": "4354",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Toxic",
-          "type": "",
-          "id": "TM06"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Psychic",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TM30"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TM36"
-        },
-        {
-          "name": "Aerial Ace",
-          "type": "",
-          "id": "TM40"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Thief",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Roost",
-          "type": "",
-          "id": "TM51"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TM53"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TM62"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "U-turn",
-          "type": "",
-          "id": "TM89"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Defog",
-          "type": "",
-          "id": "TM97"
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Round",
-          "type": ""
-        },
-        {
-          "name": "Acrobatics",
-          "type": ""
-        },
-        {
-          "name": "Infestation",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Electroweb",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        },
-        {
-          "name": "Tailwind",
-          "type": ""
-        },
-        {
-          "name": "Laser Focus",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "type": ""
-        },
-        {
-          "name": "Air Cutter",
-          "type": ""
-        },
-        {
-          "name": "Swift",
-          "type": ""
-        },
-        {
-          "name": "Twister",
-          "type": ""
-        },
-        {
-          "name": "Double-edge",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Gust",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Moonlight",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Venoshock",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Psybeam",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Leech Life",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Light Screen",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Whirlwind",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Protect",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Quiver Dance",
+            "type": "",
+            "level": "40"
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM06",
+            "name": "Toxic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Psychic",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM51",
+            "name": "Roost",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM62",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "U-turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Defog",
+            "type": ""
+          }
+        ]
+      },
+      "Pokémon Legends: Arceus": {
+        "level_up": [
+          {
+            "name": "Confusion",
+            "type": "",
+            "level": "Evolve",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Poison Sting",
+            "type": "",
+            "level": "—",
+            "mastery_level": "10"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Iron Defense",
+            "type": "",
+            "level": "6",
+            "mastery_level": "15"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "11",
+            "mastery_level": "20"
+          },
+          {
+            "name": "Silver Wind",
+            "type": "",
+            "level": "18",
+            "mastery_level": "28"
+          },
+          {
+            "name": "Venoshock",
+            "type": "",
+            "level": "25",
+            "mastery_level": "35"
+          },
+          {
+            "name": "Extrasensory",
+            "type": "",
+            "level": "34",
+            "mastery_level": "45"
+          },
+          {
+            "name": "Bug Buzz",
+            "type": "",
+            "level": "43",
+            "mastery_level": "54"
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "Aerial Ace",
+            "type": ""
+          },
+          {
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "name": "Ominous Wind",
+            "type": ""
+          },
+          {
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "name": "Psychic",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/dustox/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/dustox/"
   }
 }

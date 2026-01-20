@@ -1,57 +1,35 @@
 {
   "Metapod": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Harden",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Electroweb",
-          "type": "",
-          "id": "TM82"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Harden",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/metapod/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/metapod/"
   }
 }

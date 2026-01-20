@@ -1,112 +1,104 @@
 {
   "Wobbuffet": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Counter",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Mirror Coat",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Safeguard",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Destiny Bond",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Splash",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Charm",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Encore",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Amnesia",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Counter",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Mirror Coat",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Safeguard",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Destiny Bond",
-          "level": "—",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Charm",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM20"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Amnesia",
-          "type": "",
-          "id": "TR17"
-        },
-        {
-          "name": "Encore",
-          "type": "",
-          "id": "TR30"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Counter",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Mirror Coat",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Destiny Bond",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Splash",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Encore",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Amnesia",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Counter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Mirror Coat",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Destiny Bond",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/wobbuffet/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/wobbuffet/"
   }
 }

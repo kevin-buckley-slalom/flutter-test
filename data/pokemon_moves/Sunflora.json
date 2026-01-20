@@ -1,301 +1,568 @@
 {
   "Sunflora": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Pound",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Tackle",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Ingrain",
-              "type": "",
-              "level": "4"
-            },
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "7"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "10"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "13"
-            },
-            {
-              "name": "Razor Leaf",
-              "type": "",
-              "level": "16"
-            },
-            {
-              "name": "Worry Seed",
-              "type": "",
-              "level": "19"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "22"
-            },
-            {
-              "name": "Bullet Seed",
-              "type": "",
-              "level": "25"
-            },
-            {
-              "name": "Petal Dance",
-              "type": "",
-              "level": "28"
-            },
-            {
-              "name": "Solar Beam",
-              "type": "",
-              "level": "31"
-            },
-            {
-              "name": "Double-Edge",
-              "type": "",
-              "level": "34"
-            },
-            {
-              "name": "Sunny Day",
-              "type": "",
-              "level": "39"
-            },
-            {
-              "name": "Leaf Storm",
-              "type": "",
-              "level": "43"
-            },
-            {
-              "name": "Petal Blizzard",
-              "type": "",
-              "level": "50"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM020",
-              "name": "Trailblaze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM033",
-              "name": "Magical Leaf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM056",
-              "name": "Bullet Seed",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM075",
-              "name": "Light Screen",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM088",
-              "name": "Swords Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM133",
-              "name": "Earth Power",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM148",
-              "name": "Sludge Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM152",
-              "name": "Giga Impact",
-              "type": ""
-            },
-            {
-              "tm_id": "TM159",
-              "name": "Leaf Storm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM163",
-              "name": "Hyper Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            },
-            {
-              "tm_id": "TM206",
-              "name": "Petal Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Leech Seed",
-              "type": ""
-            },
-            {
-              "name": "Curse",
-              "type": ""
-            },
-            {
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "name": "Morning Sun",
-              "type": ""
-            },
-            {
-              "name": "Ingrain",
-              "type": ""
-            },
-            {
-              "name": "Grassy Terrain",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Flower Shield",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Pound",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Seed Bomb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ingrain",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Petal Dance",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Petal Blizzard",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Nature Power",
+            "type": ""
+          },
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "name": "Ingrain",
+            "type": ""
+          },
+          {
+            "name": "Sweet Scent",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM36",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM53",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM75",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM93",
+            "name": "Cut",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/sunflora/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Pound",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Ingrain",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Worry Seed",
+            "type": "",
+            "level": "19"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "22"
+          },
+          {
+            "name": "Bullet Seed",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Petal Dance",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "39"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Petal Blizzard",
+            "type": "",
+            "level": "50"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM020",
+            "name": "Trailblaze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM033",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM056",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM075",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM088",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM133",
+            "name": "Earth Power",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM148",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM152",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM159",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM163",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          },
+          {
+            "tm_id": "TM206",
+            "name": "Petal Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Curse",
+            "type": ""
+          },
+          {
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "name": "Morning Sun",
+            "type": ""
+          },
+          {
+            "name": "Ingrain",
+            "type": ""
+          },
+          {
+            "name": "Grassy Terrain",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/sunflora/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/sunflora/"
   }
 }

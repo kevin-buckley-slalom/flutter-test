@@ -1,266 +1,206 @@
 {
   "Kartana": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Fury Cutter",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Vacuum Wave",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Razor Leaf",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "False Swipe",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Cut",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Air Cutter",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Aerial Ace",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Detect",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Night Slash",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Synthesis",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Laser Focus",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Defog",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Leaf Blade",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Sacred Sword",
-          "level": "60",
-          "type": ""
-        },
-        {
-          "name": "Swords Dance",
-          "level": "65",
-          "type": ""
-        },
-        {
-          "name": "Guillotine",
-          "level": "70",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Solar Blade",
-          "type": "",
-          "id": "TM12"
-        },
-        {
-          "name": "Screech",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Brick Break",
-          "type": "",
-          "id": "TM43"
-        },
-        {
-          "name": "Psycho Cut",
-          "type": "",
-          "id": "TM69"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "False Swipe",
-          "type": "",
-          "id": "TM94"
-        },
-        {
-          "name": "Air Slash",
-          "type": "",
-          "id": "TM95"
-        },
-        {
-          "name": "Smart Strike",
-          "type": "",
-          "id": "TM96"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Swords Dance",
-          "type": "",
-          "id": "TR00"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Iron Defense",
-          "type": "",
-          "id": "TR46"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TR49"
-        },
-        {
-          "name": "Leaf Blade",
-          "type": "",
-          "id": "TR50"
-        },
-        {
-          "name": "X-Scissor",
-          "type": "",
-          "id": "TR60"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Airstream",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Steelspike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        },
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Tailwind",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Fury Cutter",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Vacuum Wave",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "False Swipe",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Cut",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Air Cutter",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Aerial Ace",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Detect",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Night Slash",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Laser Focus",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Defog",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Leaf Blade",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Sacred Sword",
+            "type": "",
+            "level": "60"
+          },
+          {
+            "name": "Swords Dance",
+            "type": "",
+            "level": "65"
+          },
+          {
+            "name": "Guillotine",
+            "type": "",
+            "level": "70"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM12",
+            "name": "Solar Blade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM43",
+            "name": "Brick Break",
+            "type": ""
+          },
+          {
+            "tm_id": "TM69",
+            "name": "Psycho Cut",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM94",
+            "name": "False Swipe",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Air Slash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Smart Strike",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR00",
+            "name": "Swords Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR46",
+            "name": "Iron Defense",
+            "type": ""
+          },
+          {
+            "tm_id": "TR49",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TR50",
+            "name": "Leaf Blade",
+            "type": ""
+          },
+          {
+            "tm_id": "TR60",
+            "name": "X-Scissor",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Steel Beam",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/kartana/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/kartana/"
   }
 }

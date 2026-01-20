@@ -1,221 +1,183 @@
 {
   "Pyukumuku": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Baton Pass",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Harden",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Helping Hand",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Taunt",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Safeguard",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Counter",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Purify",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Curse",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Gastro Acid",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Pain Split",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Recover",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Soak",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Toxic",
-          "level": "55",
-          "type": ""
-        },
-        {
-          "name": "Memento",
-          "level": "60",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Screech",
-          "type": "",
-          "id": "TM16"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Reflect",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM33"
-        },
-        {
-          "name": "Hail",
-          "type": "",
-          "id": "TM35"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Baton Pass",
-          "type": "",
-          "id": "TR29"
-        },
-        {
-          "name": "Taunt",
-          "type": "",
-          "id": "TR37"
-        },
-        {
-          "name": "Venom Drench",
-          "type": "",
-          "id": "TR91"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Tickle",
-          "type": ""
-        },
-        {
-          "name": "Spite",
-          "type": ""
-        },
-        {
-          "name": "Mirror Coat",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Knuckle",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Quash",
-          "type": ""
-        },
-        {
-          "name": "Psych Up",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Block",
-          "type": ""
-        },
-        {
-          "name": "Recycle",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Baton Pass",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Harden",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Taunt",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Counter",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Purify",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Curse",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Gastro Acid",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Pain Split",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Recover",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Soak",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Toxic",
+            "type": "",
+            "level": "55"
+          },
+          {
+            "name": "Memento",
+            "type": "",
+            "level": "60"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM16",
+            "name": "Screech",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Reflect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM33",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM35",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR29",
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR91",
+            "name": "Venom Drench",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Spite",
+            "type": ""
+          },
+          {
+            "name": "Mirror Coat",
+            "type": ""
+          },
+          {
+            "name": "Swagger",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/pyukumuku/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/pyukumuku/"
   }
 }

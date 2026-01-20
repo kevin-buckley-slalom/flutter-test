@@ -1,63 +1,33 @@
 {
   "Caterpie": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "level": "9",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Electroweb",
-          "type": "",
-          "id": "TM82"
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Lightning",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Tackle",
-          "type": ""
-        },
-        {
-          "name": "String Shot",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "String Shot",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "9"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM82",
+            "name": "Electroweb",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/caterpie/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/caterpie/"
   }
 }

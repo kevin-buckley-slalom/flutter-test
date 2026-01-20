@@ -1,242 +1,494 @@
 {
   "Cottonee": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Helping Hand",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Absorb",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Fairy Wind",
-              "type": "",
-              "level": "3"
-            },
-            {
-              "name": "Stun Spore",
-              "type": "",
-              "level": "6"
-            },
-            {
-              "name": "Mega Drain",
-              "type": "",
-              "level": "12"
-            },
-            {
-              "name": "Razor Leaf",
-              "type": "",
-              "level": "15"
-            },
-            {
-              "name": "Growth",
-              "type": "",
-              "level": "18"
-            },
-            {
-              "name": "Poison Powder",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Giga Drain",
-              "type": "",
-              "level": "24"
-            },
-            {
-              "name": "Charm",
-              "type": "",
-              "level": "27"
-            },
-            {
-              "name": "Leech Seed",
-              "type": "",
-              "level": "30"
-            },
-            {
-              "name": "Cotton Spore",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Energy Ball",
-              "type": "",
-              "level": "36"
-            },
-            {
-              "name": "Sunny Day",
-              "type": "",
-              "level": "39"
-            },
-            {
-              "name": "Endeavor",
-              "type": "",
-              "level": "42"
-            },
-            {
-              "name": "Cotton Guard",
-              "type": "",
-              "level": "45"
-            },
-            {
-              "name": "Solar Beam",
-              "type": "",
-              "level": "48"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM003",
-              "name": "Fake Tears",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM032",
-              "name": "Swift",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM049",
-              "name": "Sunny Day",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM071",
-              "name": "Seed Bomb",
-              "type": ""
-            },
-            {
-              "tm_id": "TM079",
-              "name": "Dazzling Gleam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM081",
-              "name": "Grass Knot",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM087",
-              "name": "Taunt",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM111",
-              "name": "Giga Drain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM119",
-              "name": "Energy Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM137",
-              "name": "Grassy Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM139",
-              "name": "Misty Terrain",
-              "type": ""
-            },
-            {
-              "tm_id": "TM168",
-              "name": "Solar Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM194",
-              "name": "Grassy Glide",
-              "type": ""
-            },
-            {
-              "tm_id": "TM205",
-              "name": "Endeavor",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Beat Up",
-              "type": ""
-            },
-            {
-              "name": "Memento",
-              "type": ""
-            },
-            {
-              "name": "Tickle",
-              "type": ""
-            },
-            {
-              "name": "Worry Seed",
-              "type": ""
-            },
-            {
-              "name": "Switcheroo",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "3"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "39"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Cotton Guard",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM37",
+            "name": "Beat Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM40",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM47",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM89",
+            "name": "Misty Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR30",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TR37",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Switcheroo",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Nature Power",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/cottonee/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Helping Hand",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fairy Wind",
+            "type": "",
+            "level": "3"
+          },
+          {
+            "name": "Stun Spore",
+            "type": "",
+            "level": "6"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Growth",
+            "type": "",
+            "level": "18"
+          },
+          {
+            "name": "Poison Powder",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "24"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Leech Seed",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Energy Ball",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Sunny Day",
+            "type": "",
+            "level": "39"
+          },
+          {
+            "name": "Endeavor",
+            "type": "",
+            "level": "42"
+          },
+          {
+            "name": "Cotton Guard",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Solar Beam",
+            "type": "",
+            "level": "48"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM003",
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM032",
+            "name": "Swift",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM049",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM071",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TM079",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM081",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM087",
+            "name": "Taunt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM111",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM119",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM137",
+            "name": "Grassy Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM139",
+            "name": "Misty Terrain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM168",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM194",
+            "name": "Grassy Glide",
+            "type": ""
+          },
+          {
+            "tm_id": "TM205",
+            "name": "Endeavor",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Beat Up",
+            "type": ""
+          },
+          {
+            "name": "Memento",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Switcheroo",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/cottonee/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/cottonee/"
   }
 }

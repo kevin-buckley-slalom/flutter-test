@@ -1,297 +1,223 @@
 {
   "Morelull": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Absorb",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Astonish",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Confuse Ray",
-          "level": "4",
-          "type": ""
-        },
-        {
-          "name": "Ingrain",
-          "level": "8",
-          "type": ""
-        },
-        {
-          "name": "Mega Drain",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Sleep Powder",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Moonlight",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Strength Sap",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Giga Drain",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Dazzling Gleam",
-          "level": "32",
-          "type": ""
-        },
-        {
-          "name": "Spore",
-          "level": "36",
-          "type": ""
-        },
-        {
-          "name": "Moonblast",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Dream Eater",
-          "level": "44",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM19"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Wonder Room",
-          "type": "",
-          "id": "TM71"
-        },
-        {
-          "name": "Magic Room",
-          "type": "",
-          "id": "TM72"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Draining Kiss",
-          "type": "",
-          "id": "TM87"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Amnesia",
-          "type": "",
-          "id": "TR17"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Sludge Bomb",
-          "type": "",
-          "id": "TR22"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Seed Bomb",
-          "type": "",
-          "id": "TR59"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Dazzling Gleam",
-          "type": "",
-          "id": "TR92"
-        },
-        {
-          "name": "Pollen Puff",
-          "type": "",
-          "id": "TR96"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Poison Powder",
-          "type": ""
-        },
-        {
-          "name": "Stun Spore",
-          "type": ""
-        },
-        {
-          "name": "Growth",
-          "type": ""
-        },
-        {
-          "name": "Leech Seed",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Phantasm",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Starfall",
-          "type": ""
-        },
-        {
-          "name": "Max Mindstorm",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Double Team",
-          "type": ""
-        },
-        {
-          "name": "Swagger",
-          "type": ""
-        },
-        {
-          "name": "Nature Power",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Magic Coat",
-          "type": ""
-        },
-        {
-          "name": "Synthesis",
-          "type": ""
-        },
-        {
-          "name": "Worry Seed",
-          "type": ""
-        },
-        {
-          "name": "After You",
-          "type": ""
-        },
-        {
-          "name": "Recycle",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Absorb",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Astonish",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Confuse Ray",
+            "type": "",
+            "level": "4"
+          },
+          {
+            "name": "Ingrain",
+            "type": "",
+            "level": "8"
+          },
+          {
+            "name": "Mega Drain",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Sleep Powder",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Moonlight",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Strength Sap",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Giga Drain",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Dazzling Gleam",
+            "type": "",
+            "level": "32"
+          },
+          {
+            "name": "Spore",
+            "type": "",
+            "level": "36"
+          },
+          {
+            "name": "Moonblast",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Dream Eater",
+            "type": "",
+            "level": "44"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM19",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM71",
+            "name": "Wonder Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM72",
+            "name": "Magic Room",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Draining Kiss",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR17",
+            "name": "Amnesia",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR22",
+            "name": "Sludge Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR92",
+            "name": "Dazzling Gleam",
+            "type": ""
+          },
+          {
+            "tm_id": "TR96",
+            "name": "Pollen Puff",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Poison Powder",
+            "type": ""
+          },
+          {
+            "name": "Stun Spore",
+            "type": ""
+          },
+          {
+            "name": "Growth",
+            "type": ""
+          },
+          {
+            "name": "Leech Seed",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/morelull/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/morelull/"
   }
 }

@@ -1,238 +1,214 @@
 {
   "Sizzlipede": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Ember",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Smokescreen",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Wrap",
-          "level": "5",
-          "type": ""
-        },
-        {
-          "name": "Bite",
-          "level": "10",
-          "type": ""
-        },
-        {
-          "name": "Flame Wheel",
-          "level": "15",
-          "type": ""
-        },
-        {
-          "name": "Bug Bite",
-          "level": "20",
-          "type": ""
-        },
-        {
-          "name": "Coil",
-          "level": "25",
-          "type": ""
-        },
-        {
-          "name": "Slam",
-          "level": "30",
-          "type": ""
-        },
-        {
-          "name": "Fire Spin",
-          "level": "35",
-          "type": ""
-        },
-        {
-          "name": "Crunch",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Fire Lash",
-          "level": "45",
-          "type": ""
-        },
-        {
-          "name": "Lunge",
-          "level": "50",
-          "type": ""
-        },
-        {
-          "name": "Burn Up",
-          "level": "55",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Fire Spin",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Venoshock",
-          "type": "",
-          "id": "TM74"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Brutal Swing",
-          "type": "",
-          "id": "TM97"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Leech Life",
-          "type": "",
-          "id": "TR18"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Crunch",
-          "type": "",
-          "id": "TR32"
-        },
-        {
-          "name": "Heat Wave",
-          "type": "",
-          "id": "TR36"
-        },
-        {
-          "name": "Bug Buzz",
-          "type": "",
-          "id": "TR61"
-        },
-        {
-          "name": "Power Whip",
-          "type": "",
-          "id": "TR72"
-        },
-        {
-          "name": "Scald",
-          "type": "",
-          "id": "TR84"
-        },
-        {
-          "name": "Heat Crash",
-          "type": "",
-          "id": "TR88"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Knock Off",
-          "type": ""
-        },
-        {
-          "name": "Struggle Bug",
-          "type": ""
-        },
-        {
-          "name": "Rollout",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flare",
-          "type": ""
-        },
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Ooze",
-          "type": ""
-        },
-        {
-          "name": "Max Geyser",
-          "type": ""
-        },
-        {
-          "name": "Max Rockfall",
-          "type": ""
-        },
-        {
-          "name": "Max Quake",
-          "type": ""
-        },
-        {
-          "name": "Max Darkness",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Ember",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Smokescreen",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Wrap",
+            "type": "",
+            "level": "5"
+          },
+          {
+            "name": "Bite",
+            "type": "",
+            "level": "10"
+          },
+          {
+            "name": "Flame Wheel",
+            "type": "",
+            "level": "15"
+          },
+          {
+            "name": "Bug Bite",
+            "type": "",
+            "level": "20"
+          },
+          {
+            "name": "Coil",
+            "type": "",
+            "level": "25"
+          },
+          {
+            "name": "Slam",
+            "type": "",
+            "level": "30"
+          },
+          {
+            "name": "Fire Spin",
+            "type": "",
+            "level": "35"
+          },
+          {
+            "name": "Crunch",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Fire Lash",
+            "type": "",
+            "level": "45"
+          },
+          {
+            "name": "Lunge",
+            "type": "",
+            "level": "50"
+          },
+          {
+            "name": "Burn Up",
+            "type": "",
+            "level": "55"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM13",
+            "name": "Fire Spin",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM74",
+            "name": "Venoshock",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM97",
+            "name": "Brutal Swing",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR18",
+            "name": "Leech Life",
+            "type": ""
+          },
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR32",
+            "name": "Crunch",
+            "type": ""
+          },
+          {
+            "tm_id": "TR36",
+            "name": "Heat Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TR61",
+            "name": "Bug Buzz",
+            "type": ""
+          },
+          {
+            "tm_id": "TR72",
+            "name": "Power Whip",
+            "type": ""
+          },
+          {
+            "tm_id": "TR84",
+            "name": "Scald",
+            "type": ""
+          },
+          {
+            "tm_id": "TR88",
+            "name": "Heat Crash",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Knock Off",
+            "type": ""
+          },
+          {
+            "name": "Struggle Bug",
+            "type": ""
+          },
+          {
+            "name": "Rollout",
+            "type": ""
+          },
+          {
+            "name": "Defense Curl",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Scorching Sands",
+            "type": ""
+          },
+          {
+            "name": "Skitter Smack",
+            "type": ""
+          }
+        ],
+        "special_moves": [
+          {
+            "name": "X-Scissor",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/sizzlipede/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/sizzlipede/"
   }
 }

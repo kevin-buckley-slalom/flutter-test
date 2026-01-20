@@ -1,262 +1,252 @@
 {
   "Eldegoss": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Cotton Spore",
-          "level": "Evolve",
-          "type": ""
-        },
-        {
-          "name": "Cotton Spore",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Leafage",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Sing",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Rapid Spin",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Sweet Scent",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Razor Leaf",
-          "level": "12",
-          "type": ""
-        },
-        {
-          "name": "Round",
-          "level": "16",
-          "type": ""
-        },
-        {
-          "name": "Leaf Tornado",
-          "level": "23",
-          "type": ""
-        },
-        {
-          "name": "Synthesis",
-          "level": "28",
-          "type": ""
-        },
-        {
-          "name": "Hyper Voice",
-          "level": "34",
-          "type": ""
-        },
-        {
-          "name": "Aromatherapy",
-          "level": "40",
-          "type": ""
-        },
-        {
-          "name": "Leaf Storm",
-          "level": "46",
-          "type": ""
-        },
-        {
-          "name": "Cotton Guard",
-          "level": "52",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM08"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM09"
-        },
-        {
-          "name": "Magical Leaf",
-          "type": "",
-          "id": "TM10"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Light Screen",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM21"
-        },
-        {
-          "name": "Snore",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Giga Drain",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Charm",
-          "type": "",
-          "id": "TM29"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM31"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM39"
-        },
-        {
-          "name": "Helping Hand",
-          "type": "",
-          "id": "TM41"
-        },
-        {
-          "name": "Weather Ball",
-          "type": "",
-          "id": "TM46"
-        },
-        {
-          "name": "Bullet Seed",
-          "type": "",
-          "id": "TM50"
-        },
-        {
-          "name": "Round",
-          "type": "",
-          "id": "TM76"
-        },
-        {
-          "name": "Grassy Terrain",
-          "type": "",
-          "id": "TM88"
-        }
-      ],
-      "tr": [
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TR20"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TR26"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TR27"
-        },
-        {
-          "name": "Hyper Voice",
-          "type": "",
-          "id": "TR42"
-        },
-        {
-          "name": "Seed Bomb",
-          "type": "",
-          "id": "TR59"
-        },
-        {
-          "name": "Energy Ball",
-          "type": "",
-          "id": "TR65"
-        },
-        {
-          "name": "Leaf Storm",
-          "type": "",
-          "id": "TR71"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TR77"
-        },
-        {
-          "name": "Pollen Puff",
-          "type": "",
-          "id": "TR96"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Growth",
-          "type": ""
-        },
-        {
-          "name": "Leech Seed",
-          "type": ""
-        },
-        {
-          "name": "Worry Seed",
-          "type": ""
-        },
-        {
-          "name": "Poison Powder",
-          "type": ""
-        },
-        {
-          "name": "Stun Spore",
-          "type": ""
-        },
-        {
-          "name": "Sleep Powder",
-          "type": ""
-        }
-      ],
-      "max_moves": [
-        {
-          "name": "Max Flutterby",
-          "type": ""
-        },
-        {
-          "name": "Max Strike",
-          "type": ""
-        },
-        {
-          "name": "Max Overgrowth",
-          "type": ""
-        },
-        {
-          "name": "Max Guard",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "Evolve"
+          },
+          {
+            "name": "Cotton Spore",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Leafage",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sing",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Rapid Spin",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sweet Scent",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Razor Leaf",
+            "type": "",
+            "level": "12"
+          },
+          {
+            "name": "Round",
+            "type": "",
+            "level": "16"
+          },
+          {
+            "name": "Leaf Tornado",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Synthesis",
+            "type": "",
+            "level": "28"
+          },
+          {
+            "name": "Hyper Voice",
+            "type": "",
+            "level": "34"
+          },
+          {
+            "name": "Aromatherapy",
+            "type": "",
+            "level": "40"
+          },
+          {
+            "name": "Leaf Storm",
+            "type": "",
+            "level": "46"
+          },
+          {
+            "name": "Cotton Guard",
+            "type": "",
+            "level": "52"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM08",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM09",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Magical Leaf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Light Screen",
+            "type": ""
+          },
+          {
+            "tm_id": "TM21",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Snore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Giga Drain",
+            "type": ""
+          },
+          {
+            "tm_id": "TM29",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM31",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM39",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM41",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM50",
+            "name": "Bullet Seed",
+            "type": ""
+          },
+          {
+            "tm_id": "TM76",
+            "name": "Round",
+            "type": ""
+          },
+          {
+            "tm_id": "TM88",
+            "name": "Grassy Terrain",
+            "type": ""
+          }
+        ],
+        "tr": [
+          {
+            "tm_id": "TR20",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TR26",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TR27",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TR42",
+            "name": "Hyper Voice",
+            "type": ""
+          },
+          {
+            "tm_id": "TR59",
+            "name": "Seed Bomb",
+            "type": ""
+          },
+          {
+            "tm_id": "TR65",
+            "name": "Energy Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TR71",
+            "name": "Leaf Storm",
+            "type": ""
+          },
+          {
+            "tm_id": "TR77",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TR96",
+            "name": "Pollen Puff",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Growth",
+            "type": ""
+          },
+          {
+            "name": "Leech Seed",
+            "type": ""
+          },
+          {
+            "name": "Worry Seed",
+            "type": ""
+          },
+          {
+            "name": "Poison Powder",
+            "type": ""
+          },
+          {
+            "name": "Stun Spore",
+            "type": ""
+          },
+          {
+            "name": "Sleep Powder",
+            "type": ""
+          }
+        ],
+        "tutor_attacks": [
+          {
+            "name": "Grassy Glide",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/eldegoss/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/eldegoss/"
   }
 }

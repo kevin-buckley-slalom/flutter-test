@@ -1,400 +1,330 @@
 {
   "Delcatty": {
-    "gen_9": {
-      "level_up": [
-        {
-          "name": "Fake Out",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Sing",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Attract",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Growl",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tail Whip",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Tackle",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Disarming Voice",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Fury Swipes",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Copycat",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Payback",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Charm",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Facade",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Covet",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Heal Bell",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Double-Edge",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Baby-Doll Eyes",
-          "level": "—",
-          "type": ""
-        },
-        {
-          "name": "Play Rough",
-          "level": "—",
-          "type": ""
-        }
-      ],
-      "tm": [
-        {
-          "name": "Water Pulse",
-          "type": "",
-          "id": "TM03"
-        },
-        {
-          "name": "Calm Mind",
-          "type": "",
-          "id": "TM04"
-        },
-        {
-          "name": "Work Up",
-          "type": "",
-          "id": "TM10"
-        },
-        {
-          "name": "Sunny Day",
-          "type": "",
-          "id": "TM11"
-        },
-        {
-          "name": "Ice Beam",
-          "type": "",
-          "id": "TM13"
-        },
-        {
-          "name": "Blizzard",
-          "type": "",
-          "id": "TM14"
-        },
-        {
-          "name": "Hyper Beam",
-          "type": "",
-          "id": "TM15"
-        },
-        {
-          "name": "Protect",
-          "type": "",
-          "id": "TM17"
-        },
-        {
-          "name": "Rain Dance",
-          "type": "",
-          "id": "TM18"
-        },
-        {
-          "name": "Safeguard",
-          "type": "",
-          "id": "TM20"
-        },
-        {
-          "name": "Solar Beam",
-          "type": "",
-          "id": "TM22"
-        },
-        {
-          "name": "Iron Tail",
-          "type": "",
-          "id": "TM23"
-        },
-        {
-          "name": "Thunderbolt",
-          "type": "",
-          "id": "TM24"
-        },
-        {
-          "name": "Thunder",
-          "type": "",
-          "id": "TM25"
-        },
-        {
-          "name": "Dig",
-          "type": "",
-          "id": "TM28"
-        },
-        {
-          "name": "Shadow Ball",
-          "type": "",
-          "id": "TM30"
-        },
-        {
-          "name": "Double Team",
-          "type": "",
-          "id": "TM32"
-        },
-        {
-          "name": "Shock Wave",
-          "type": "",
-          "id": "TM34"
-        },
-        {
-          "name": "Facade",
-          "type": "",
-          "id": "TM42"
-        },
-        {
-          "name": "Rest",
-          "type": "",
-          "id": "TM44"
-        },
-        {
-          "name": "Attract",
-          "type": "",
-          "id": "TM45"
-        },
-        {
-          "name": "Charge Beam",
-          "type": "",
-          "id": "TM57"
-        },
-        {
-          "name": "Endure",
-          "type": "",
-          "id": "TM58"
-        },
-        {
-          "name": "Nasty Plot",
-          "type": "",
-          "id": "TM63"
-        },
-        {
-          "name": "Payback",
-          "type": "",
-          "id": "TM66"
-        },
-        {
-          "name": "Giga Impact",
-          "type": "",
-          "id": "TM68"
-        },
-        {
-          "name": "Flash",
-          "type": "",
-          "id": "TM70"
-        },
-        {
-          "name": "Thunder Wave",
-          "type": "",
-          "id": "TM73"
-        },
-        {
-          "name": "Psych Up",
-          "type": "",
-          "id": "TM77"
-        },
-        {
-          "name": "Sleep Talk",
-          "type": "",
-          "id": "TM82"
-        },
-        {
-          "name": "Dream Eater",
-          "type": "",
-          "id": "TM85"
-        },
-        {
-          "name": "Grass Knot",
-          "type": "",
-          "id": "TM86"
-        },
-        {
-          "name": "Swagger",
-          "type": "",
-          "id": "TM87"
-        },
-        {
-          "name": "Substitute",
-          "type": "",
-          "id": "TM90"
-        },
-        {
-          "name": "Strength",
-          "type": "",
-          "id": "TM96"
-        },
-        {
-          "name": "Rock Smash",
-          "type": "",
-          "id": "TM98"
-        }
-      ],
-      "egg_moves": [
-        {
-          "name": "Helping Hand",
-          "type": ""
-        },
-        {
-          "name": "Uproar",
-          "type": ""
-        },
-        {
-          "name": "Fake Tears",
-          "type": ""
-        },
-        {
-          "name": "Wish",
-          "type": ""
-        },
-        {
-          "name": "Baton Pass",
-          "type": ""
-        },
-        {
-          "name": "Tickle",
-          "type": ""
-        },
-        {
-          "name": "Last Resort",
-          "type": ""
-        },
-        {
-          "name": "Fake Out",
-          "type": ""
-        },
-        {
-          "name": "Zen Headbutt",
-          "type": ""
-        },
-        {
-          "name": "Sucker Punch",
-          "type": ""
-        },
-        {
-          "name": "Simple Beam",
-          "type": ""
-        },
-        {
-          "name": "Cosmic Power",
-          "type": ""
-        }
-      ],
-      "transfer_only": [
-        {
-          "name": "Toxic",
-          "type": ""
-        },
-        {
-          "name": "Round",
-          "type": ""
-        },
-        {
-          "name": "Echoed Voice",
-          "type": ""
-        },
-        {
-          "name": "Wild Charge",
-          "type": ""
-        },
-        {
-          "name": "Confide",
-          "type": ""
-        },
-        {
-          "name": "Icy Wind",
-          "type": ""
-        },
-        {
-          "name": "Hyper Voice",
-          "type": ""
-        },
-        {
-          "name": "Snore",
-          "type": ""
-        },
-        {
-          "name": "Stomping Tantrum",
-          "type": ""
-        },
-        {
-          "name": "Laser Focus",
-          "type": ""
-        },
-        {
-          "name": "Retaliate",
-          "type": ""
-        },
-        {
-          "name": "Swift",
-          "type": ""
-        },
-        {
-          "name": "Mud-slap",
-          "type": ""
-        },
-        {
-          "name": "Rollout",
-          "type": ""
-        },
-        {
-          "name": "Headbutt",
-          "type": ""
-        },
-        {
-          "name": "Body Slam",
-          "type": ""
-        },
-        {
-          "name": "Mimic",
-          "type": ""
-        },
-        {
-          "name": "Defense Curl",
-          "type": ""
-        }
-      ]
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Fake Out",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Sing",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Attract",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tail Whip",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Tackle",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Disarming Voice",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Fury Swipes",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Copycat",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Payback",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Facade",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Covet",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Heal Bell",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Double-Edge",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Baby-Doll Eyes",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Play Rough",
+            "type": "",
+            "level": "—"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "name": "Fake Tears",
+            "type": ""
+          },
+          {
+            "name": "Wish",
+            "type": ""
+          },
+          {
+            "name": "Baton Pass",
+            "type": ""
+          },
+          {
+            "name": "Tickle",
+            "type": ""
+          },
+          {
+            "name": "Last Resort",
+            "type": ""
+          },
+          {
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "name": "Zen Headbutt",
+            "type": ""
+          },
+          {
+            "name": "Sucker Punch",
+            "type": ""
+          },
+          {
+            "name": "Simple Beam",
+            "type": ""
+          },
+          {
+            "name": "Cosmic Power",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM04",
+            "name": "Calm Mind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM10",
+            "name": "Work Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM11",
+            "name": "Sunny Day",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM15",
+            "name": "Hyper Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM22",
+            "name": "Solar Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM24",
+            "name": "Thunderbolt",
+            "type": ""
+          },
+          {
+            "tm_id": "TM25",
+            "name": "Thunder",
+            "type": ""
+          },
+          {
+            "tm_id": "TM28",
+            "name": "Dig",
+            "type": ""
+          },
+          {
+            "tm_id": "TM30",
+            "name": "Shadow Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM34",
+            "name": "Shock Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM57",
+            "name": "Charge Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM63",
+            "name": "Nasty Plot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM66",
+            "name": "Payback",
+            "type": ""
+          },
+          {
+            "tm_id": "TM68",
+            "name": "Giga Impact",
+            "type": ""
+          },
+          {
+            "tm_id": "TM70",
+            "name": "Flash",
+            "type": ""
+          },
+          {
+            "tm_id": "TM73",
+            "name": "Thunder Wave",
+            "type": ""
+          },
+          {
+            "tm_id": "TM77",
+            "name": "Psych Up",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM85",
+            "name": "Dream Eater",
+            "type": ""
+          },
+          {
+            "tm_id": "TM86",
+            "name": "Grass Knot",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM96",
+            "name": "Strength",
+            "type": ""
+          },
+          {
+            "tm_id": "TM98",
+            "name": "Rock Smash",
+            "type": ""
+          }
+        ]
+      }
     },
-    "url": "https://www.serebii.net/pokedex-swsh/delcatty/"
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/delcatty/"
   }
 }

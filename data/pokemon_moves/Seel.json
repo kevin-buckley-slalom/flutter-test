@@ -1,332 +1,585 @@
 {
   "Seel": {
-    "gen_9": {
-      "gen_9": {
-        "Scarlet and Violet": {
-          "level_up": [
-            {
-              "name": "Headbutt",
-              "type": "",
-              "level": "—"
-            },
-            {
-              "name": "Growl",
-              "type": "",
-              "level": "3"
-            },
-            {
-              "name": "Charm",
-              "type": "",
-              "level": "7"
-            },
-            {
-              "name": "Icy Wind",
-              "type": "",
-              "level": "11"
-            },
-            {
-              "name": "Encore",
-              "type": "",
-              "level": "13"
-            },
-            {
-              "name": "Ice Shard",
-              "type": "",
-              "level": "17"
-            },
-            {
-              "name": "Rest",
-              "type": "",
-              "level": "21"
-            },
-            {
-              "name": "Aqua Ring",
-              "type": "",
-              "level": "23"
-            },
-            {
-              "name": "Aurora Beam",
-              "type": "",
-              "level": "27"
-            },
-            {
-              "name": "Aqua Jet",
-              "type": "",
-              "level": "31"
-            },
-            {
-              "name": "Brine",
-              "type": "",
-              "level": "33"
-            },
-            {
-              "name": "Take Down",
-              "type": "",
-              "level": "37"
-            },
-            {
-              "name": "Dive",
-              "type": "",
-              "level": "41"
-            },
-            {
-              "name": "Aqua Tail",
-              "type": "",
-              "level": "43"
-            },
-            {
-              "name": "Ice Beam",
-              "type": "",
-              "level": "47"
-            },
-            {
-              "name": "Safeguard",
-              "type": "",
-              "level": "51"
-            },
-            {
-              "name": "Snowscape",
-              "type": "",
-              "level": "53"
-            }
-          ],
-          "tm": [
-            {
-              "tm_id": "TM001",
-              "name": "Take Down",
-              "type": ""
-            },
-            {
-              "tm_id": "TM002",
-              "name": "Charm",
-              "type": ""
-            },
-            {
-              "tm_id": "TM007",
-              "name": "Protect",
-              "type": ""
-            },
-            {
-              "tm_id": "TM011",
-              "name": "Water Pulse",
-              "type": ""
-            },
-            {
-              "tm_id": "TM018",
-              "name": "Thief",
-              "type": ""
-            },
-            {
-              "tm_id": "TM022",
-              "name": "Chilling Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM025",
-              "name": "Facade",
-              "type": ""
-            },
-            {
-              "tm_id": "TM034",
-              "name": "Icy Wind",
-              "type": ""
-            },
-            {
-              "tm_id": "TM043",
-              "name": "Fling",
-              "type": ""
-            },
-            {
-              "tm_id": "TM046",
-              "name": "Avalanche",
-              "type": ""
-            },
-            {
-              "tm_id": "TM047",
-              "name": "Endure",
-              "type": ""
-            },
-            {
-              "tm_id": "TM050",
-              "name": "Rain Dance",
-              "type": ""
-            },
-            {
-              "tm_id": "TM052",
-              "name": "Snowscape",
-              "type": ""
-            },
-            {
-              "tm_id": "TM053",
-              "name": "Smart Strike",
-              "type": ""
-            },
-            {
-              "tm_id": "TM066",
-              "name": "Body Slam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM070",
-              "name": "Sleep Talk",
-              "type": ""
-            },
-            {
-              "tm_id": "TM077",
-              "name": "Waterfall",
-              "type": ""
-            },
-            {
-              "tm_id": "TM085",
-              "name": "Rest",
-              "type": ""
-            },
-            {
-              "tm_id": "TM103",
-              "name": "Substitute",
-              "type": ""
-            },
-            {
-              "tm_id": "TM106",
-              "name": "Drill Run",
-              "type": ""
-            },
-            {
-              "tm_id": "TM122",
-              "name": "Encore",
-              "type": ""
-            },
-            {
-              "tm_id": "TM123",
-              "name": "Surf",
-              "type": ""
-            },
-            {
-              "tm_id": "TM124",
-              "name": "Ice Spinner",
-              "type": ""
-            },
-            {
-              "tm_id": "TM130",
-              "name": "Helping Hand",
-              "type": ""
-            },
-            {
-              "tm_id": "TM135",
-              "name": "Ice Beam",
-              "type": ""
-            },
-            {
-              "tm_id": "TM142",
-              "name": "Hydro Pump",
-              "type": ""
-            },
-            {
-              "tm_id": "TM143",
-              "name": "Blizzard",
-              "type": ""
-            },
-            {
-              "tm_id": "TM171",
-              "name": "Tera Blast",
-              "type": ""
-            },
-            {
-              "tm_id": "TM174",
-              "name": "Haze",
-              "type": ""
-            },
-            {
-              "tm_id": "TM187",
-              "name": "Icicle Spear",
-              "type": ""
-            },
-            {
-              "tm_id": "TM191",
-              "name": "Uproar",
-              "type": ""
-            },
-            {
-              "tm_id": "TM193",
-              "name": "Weather Ball",
-              "type": ""
-            },
-            {
-              "tm_id": "TM196",
-              "name": "Flip Turn",
-              "type": ""
-            },
-            {
-              "tm_id": "TM204",
-              "name": "Double-Edge",
-              "type": ""
-            },
-            {
-              "tm_id": "TM208",
-              "name": "Whirlpool",
-              "type": ""
-            },
-            {
-              "tm_id": "TM209",
-              "name": "Muddy Water",
-              "type": ""
-            },
-            {
-              "tm_id": "TM212",
-              "name": "Triple Axel",
-              "type": ""
-            },
-            {
-              "tm_id": "TM224",
-              "name": "Curse",
-              "type": ""
-            }
-          ],
-          "egg_moves": [
-            {
-              "name": "Horn Drill",
-              "type": ""
-            },
-            {
-              "name": "Disable",
-              "type": ""
-            },
-            {
-              "name": "Lick",
-              "type": ""
-            },
-            {
-              "name": "Perish Song",
-              "type": ""
-            },
-            {
-              "name": "Fake Out",
-              "type": ""
-            },
-            {
-              "name": "Stockpile",
-              "type": ""
-            },
-            {
-              "name": "Spit Up",
-              "type": ""
-            },
-            {
-              "name": "Swallow",
-              "type": ""
-            },
-            {
-              "name": "Entrainment",
-              "type": ""
-            },
-            {
-              "name": "Belch",
-              "type": ""
-            }
-          ]
-        }
+    "gen_8": {
+      "Sword and Shield": {
+        "level_up": [
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "3"
+          },
+          {
+            "name": "Water Gun",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Icy Wind",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Encore",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Ice Shard",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Rest",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Aqua Ring",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Aurora Beam",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Aqua Jet",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Brine",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Dive",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Aqua Tail",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Ice Beam",
+            "type": "",
+            "level": "47"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "51"
+          },
+          {
+            "name": "Hail",
+            "type": "",
+            "level": "53"
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Lick",
+            "type": ""
+          },
+          {
+            "name": "Perish Song",
+            "type": ""
+          },
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Horn Drill",
+            "type": ""
+          },
+          {
+            "name": "Slam",
+            "type": ""
+          },
+          {
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "name": "Stockpile",
+            "type": ""
+          },
+          {
+            "name": "Swallow",
+            "type": ""
+          },
+          {
+            "name": "Spit Up",
+            "type": ""
+          },
+          {
+            "name": "Belch",
+            "type": ""
+          },
+          {
+            "name": "Entrainment",
+            "type": ""
+          }
+        ]
+      },
+      "Brilliant Diamond and Shining Pearl": {
+        "tm": [
+          {
+            "tm_id": "TM03",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM07",
+            "name": "Hail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM13",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM14",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM17",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM18",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM20",
+            "name": "Safeguard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM23",
+            "name": "Iron Tail",
+            "type": ""
+          },
+          {
+            "tm_id": "TM32",
+            "name": "Double Team",
+            "type": ""
+          },
+          {
+            "tm_id": "TM42",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM44",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM45",
+            "name": "Attract",
+            "type": ""
+          },
+          {
+            "tm_id": "TM46",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM55",
+            "name": "Brine",
+            "type": ""
+          },
+          {
+            "tm_id": "TM56",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM58",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM82",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM87",
+            "name": "Swagger",
+            "type": ""
+          },
+          {
+            "tm_id": "TM90",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM95",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM99",
+            "name": "Waterfall",
+            "type": ""
+          }
+        ]
       }
     },
-    "url": "https://www.serebii.net/pokedex-sv/seel/"
+    "gen_9": {
+      "Scarlet and Violet": {
+        "level_up": [
+          {
+            "name": "Headbutt",
+            "type": "",
+            "level": "—"
+          },
+          {
+            "name": "Growl",
+            "type": "",
+            "level": "3"
+          },
+          {
+            "name": "Charm",
+            "type": "",
+            "level": "7"
+          },
+          {
+            "name": "Icy Wind",
+            "type": "",
+            "level": "11"
+          },
+          {
+            "name": "Encore",
+            "type": "",
+            "level": "13"
+          },
+          {
+            "name": "Ice Shard",
+            "type": "",
+            "level": "17"
+          },
+          {
+            "name": "Rest",
+            "type": "",
+            "level": "21"
+          },
+          {
+            "name": "Aqua Ring",
+            "type": "",
+            "level": "23"
+          },
+          {
+            "name": "Aurora Beam",
+            "type": "",
+            "level": "27"
+          },
+          {
+            "name": "Aqua Jet",
+            "type": "",
+            "level": "31"
+          },
+          {
+            "name": "Brine",
+            "type": "",
+            "level": "33"
+          },
+          {
+            "name": "Take Down",
+            "type": "",
+            "level": "37"
+          },
+          {
+            "name": "Dive",
+            "type": "",
+            "level": "41"
+          },
+          {
+            "name": "Aqua Tail",
+            "type": "",
+            "level": "43"
+          },
+          {
+            "name": "Ice Beam",
+            "type": "",
+            "level": "47"
+          },
+          {
+            "name": "Safeguard",
+            "type": "",
+            "level": "51"
+          },
+          {
+            "name": "Snowscape",
+            "type": "",
+            "level": "53"
+          }
+        ],
+        "tm": [
+          {
+            "tm_id": "TM001",
+            "name": "Take Down",
+            "type": ""
+          },
+          {
+            "tm_id": "TM002",
+            "name": "Charm",
+            "type": ""
+          },
+          {
+            "tm_id": "TM007",
+            "name": "Protect",
+            "type": ""
+          },
+          {
+            "tm_id": "TM011",
+            "name": "Water Pulse",
+            "type": ""
+          },
+          {
+            "tm_id": "TM018",
+            "name": "Thief",
+            "type": ""
+          },
+          {
+            "tm_id": "TM022",
+            "name": "Chilling Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM025",
+            "name": "Facade",
+            "type": ""
+          },
+          {
+            "tm_id": "TM034",
+            "name": "Icy Wind",
+            "type": ""
+          },
+          {
+            "tm_id": "TM043",
+            "name": "Fling",
+            "type": ""
+          },
+          {
+            "tm_id": "TM046",
+            "name": "Avalanche",
+            "type": ""
+          },
+          {
+            "tm_id": "TM047",
+            "name": "Endure",
+            "type": ""
+          },
+          {
+            "tm_id": "TM050",
+            "name": "Rain Dance",
+            "type": ""
+          },
+          {
+            "tm_id": "TM052",
+            "name": "Snowscape",
+            "type": ""
+          },
+          {
+            "tm_id": "TM053",
+            "name": "Smart Strike",
+            "type": ""
+          },
+          {
+            "tm_id": "TM066",
+            "name": "Body Slam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM070",
+            "name": "Sleep Talk",
+            "type": ""
+          },
+          {
+            "tm_id": "TM077",
+            "name": "Waterfall",
+            "type": ""
+          },
+          {
+            "tm_id": "TM085",
+            "name": "Rest",
+            "type": ""
+          },
+          {
+            "tm_id": "TM103",
+            "name": "Substitute",
+            "type": ""
+          },
+          {
+            "tm_id": "TM106",
+            "name": "Drill Run",
+            "type": ""
+          },
+          {
+            "tm_id": "TM122",
+            "name": "Encore",
+            "type": ""
+          },
+          {
+            "tm_id": "TM123",
+            "name": "Surf",
+            "type": ""
+          },
+          {
+            "tm_id": "TM124",
+            "name": "Ice Spinner",
+            "type": ""
+          },
+          {
+            "tm_id": "TM130",
+            "name": "Helping Hand",
+            "type": ""
+          },
+          {
+            "tm_id": "TM135",
+            "name": "Ice Beam",
+            "type": ""
+          },
+          {
+            "tm_id": "TM142",
+            "name": "Hydro Pump",
+            "type": ""
+          },
+          {
+            "tm_id": "TM143",
+            "name": "Blizzard",
+            "type": ""
+          },
+          {
+            "tm_id": "TM171",
+            "name": "Tera Blast",
+            "type": ""
+          },
+          {
+            "tm_id": "TM174",
+            "name": "Haze",
+            "type": ""
+          },
+          {
+            "tm_id": "TM187",
+            "name": "Icicle Spear",
+            "type": ""
+          },
+          {
+            "tm_id": "TM191",
+            "name": "Uproar",
+            "type": ""
+          },
+          {
+            "tm_id": "TM193",
+            "name": "Weather Ball",
+            "type": ""
+          },
+          {
+            "tm_id": "TM196",
+            "name": "Flip Turn",
+            "type": ""
+          },
+          {
+            "tm_id": "TM204",
+            "name": "Double-Edge",
+            "type": ""
+          },
+          {
+            "tm_id": "TM208",
+            "name": "Whirlpool",
+            "type": ""
+          },
+          {
+            "tm_id": "TM209",
+            "name": "Muddy Water",
+            "type": ""
+          },
+          {
+            "tm_id": "TM212",
+            "name": "Triple Axel",
+            "type": ""
+          },
+          {
+            "tm_id": "TM224",
+            "name": "Curse",
+            "type": ""
+          }
+        ],
+        "egg_moves": [
+          {
+            "name": "Horn Drill",
+            "type": ""
+          },
+          {
+            "name": "Disable",
+            "type": ""
+          },
+          {
+            "name": "Lick",
+            "type": ""
+          },
+          {
+            "name": "Perish Song",
+            "type": ""
+          },
+          {
+            "name": "Fake Out",
+            "type": ""
+          },
+          {
+            "name": "Stockpile",
+            "type": ""
+          },
+          {
+            "name": "Spit Up",
+            "type": ""
+          },
+          {
+            "name": "Swallow",
+            "type": ""
+          },
+          {
+            "name": "Entrainment",
+            "type": ""
+          },
+          {
+            "name": "Belch",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "url_gen8": "https://www.serebii.net/pokedex-swsh/seel/",
+    "url_gen9": "https://www.serebii.net/pokedex-sv/seel/"
   }
 }
