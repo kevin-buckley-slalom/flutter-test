@@ -45,8 +45,8 @@ class GlassmorphicContainer extends StatelessWidget {
     // Default color based on theme
     final defaultColor = color ?? 
         (isDark 
-            ? Colors.white.withOpacity(opacity)
-            : Colors.white.withOpacity(opacity));
+        ? Colors.white.withValues(alpha: opacity)
+        : Colors.white.withValues(alpha: opacity));
     
     // Default gradient for depth
     final defaultGradient = gradient ??
@@ -55,14 +55,14 @@ class GlassmorphicContainer extends StatelessWidget {
           end: Alignment.bottomRight,
           colors: [
             defaultColor,
-            defaultColor.withOpacity(opacity * 0.5),
+            defaultColor.withValues(alpha: opacity * 0.5),
           ],
         );
 
     // Default border for depth
     final defaultBorder = border ??
         Border.all(
-          color: Colors.white.withOpacity(0.2),
+          color: Colors.white.withValues(alpha: 0.2),
           width: 1.5,
         );
 
@@ -70,7 +70,7 @@ class GlassmorphicContainer extends StatelessWidget {
     final defaultShadow = boxShadow ??
         [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withValues(alpha: 0.1),
             blurRadius: 5,
             offset: const Offset(0, 2),
           ),

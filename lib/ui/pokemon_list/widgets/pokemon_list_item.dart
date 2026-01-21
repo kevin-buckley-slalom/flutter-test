@@ -2,7 +2,6 @@ import 'package:championdex/ui/shared/pokemon_image.dart';
 import 'package:flutter/material.dart';
 import '../../../app/theme/type_colors.dart';
 import '../../../data/models/pokemon.dart';
-import '../../shared/placeholder_image.dart';
 import '../../shared/flat_card.dart';
 
 class PokemonListItem extends StatelessWidget {
@@ -35,7 +34,7 @@ class PokemonListItem extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
-                  color: theme.colorScheme.primary.withOpacity(0.08),
+                  color: theme.colorScheme.primary.withValues(alpha: 0.08),
                 ),
                 child: PokemonImage(imagePath: pokemon.imagePath, imagePathLarge: pokemon.imagePathLarge, size: 80, useLarge: false),
               ),
@@ -77,7 +76,7 @@ class PokemonListItem extends StatelessWidget {
                         vertical: 2,
                       ),
                       decoration: BoxDecoration(
-                        color: theme.colorScheme.secondary.withOpacity(0.15),
+                        color: theme.colorScheme.secondary.withValues(alpha: 0.15),
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Text(
@@ -133,7 +132,7 @@ class PokemonListItem extends StatelessWidget {
                 Text(
                   _getStatLabel(),
                   style: theme.textTheme.labelSmall?.copyWith(
-                    color: theme.colorScheme.onSurface.withOpacity(0.5),
+                    color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
                   ),
                 ),
                 const SizedBox(height: 4),

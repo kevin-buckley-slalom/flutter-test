@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../ui/ability_detail/ability_detail_view.dart';
 import 'theme/app_theme.dart';
 
 class App extends StatelessWidget {
@@ -14,6 +15,12 @@ class App extends StatelessWidget {
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
       home: home,
+      routes: {
+        '/ability-detail': (context) {
+          final abilityName = ModalRoute.of(context)?.settings.arguments as String?;
+          return AbilityDetailView(abilityName: abilityName ?? 'Unknown');
+        },
+      },
       debugShowCheckedModeBanner: false,
     );
   }

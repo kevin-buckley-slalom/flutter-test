@@ -45,8 +45,8 @@ class FlatCard extends StatelessWidget {
     final defaultBorder = border ??
         Border.all(
           color: isDark
-              ? Colors.white.withOpacity(0.08)
-              : Colors.black.withOpacity(0.08),
+              ? Colors.white.withValues(alpha: 0.08)
+              : Colors.black.withValues(alpha: 0.08),
           width: 1.0,
         );
 
@@ -63,7 +63,7 @@ class FlatCard extends StatelessWidget {
         border: defaultBorder,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.08),
+            color: Colors.black.withValues(alpha: 0.08),
             blurRadius: elevation * 2,
             offset: Offset(0, elevation * 0.5),
           ),

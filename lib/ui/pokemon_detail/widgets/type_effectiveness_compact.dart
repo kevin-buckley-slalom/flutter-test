@@ -115,8 +115,8 @@ class TypeEffectivenessCompact extends StatelessWidget {
               borderRadius: BorderRadius.circular(4),
               border: Border.all(
                 color: theme.brightness == Brightness.dark
-                    ? Colors.white.withOpacity(0.15)
-                    : Colors.black.withOpacity(0.2),
+                    ? Colors.white.withValues(alpha: 0.15)
+                    : Colors.black.withValues(alpha: 0.2),
               ),
             ),
             child: Center(
@@ -141,8 +141,8 @@ class TypeEffectivenessCompact extends StatelessWidget {
               borderRadius: BorderRadius.circular(4),
               border: Border.all(
                 color: theme.brightness == Brightness.dark
-                    ? Colors.white.withOpacity(0.15)
-                    : Colors.black.withOpacity(0.2),
+                    ? Colors.white.withValues(alpha: 0.15)
+                    : Colors.black.withValues(alpha: 0.2),
               ),
             ),
             child: Center(

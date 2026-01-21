@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'app/app.dart';
+import 'data/repositories/ability_repository.dart';
 import 'data/repositories/pokemon_repository.dart';
+import 'data/services/ability_data_service.dart';
 import 'data/services/pokemon_data_service.dart';
 import 'ui/pokemon_list/pokemon_list_view.dart';
 import 'ui/pokemon_list/pokemon_list_view_model.dart';
@@ -22,6 +24,9 @@ class ChampionDexApp extends StatelessWidget {
         pokemonRepositoryProvider.overrideWithValue(
           PokemonRepository(PokemonDataService()),
         ),
+        abilityRepositoryProvider.overrideWithValue(
+          AbilityRepository(abilityDataService: AbilityDataService()),
+        ),
       ],
       child: const App(
         home: PokemonListView(),
@@ -29,4 +34,9 @@ class ChampionDexApp extends StatelessWidget {
     );
   }
 }
+
+
+final abilityRepositoryProvider = Provider((ref) {
+  return AbilityRepository(abilityDataService: AbilityDataService());
+});
 

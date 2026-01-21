@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   /// Clean, minimal background color for light theme
@@ -44,10 +45,17 @@ class AppTheme {
       error: Color(0xFFB71C1C),
     );
 
+    final textTheme = GoogleFonts.latoTextTheme().apply(
+      bodyColor: colorScheme.onSurface,
+      displayColor: colorScheme.onSurface,
+    );
+
     return ThemeData(
       useMaterial3: true,
       colorScheme: colorScheme,
       scaffoldBackgroundColor: lightBackground,
+      fontFamily: GoogleFonts.lato().fontFamily,
+      textTheme: textTheme,
       cardTheme: CardThemeData(
         elevation: 1,
         shape: RoundedRectangleBorder(
@@ -61,11 +69,16 @@ class AppTheme {
         backgroundColor: colorScheme.primary,
         surfaceTintColor: Colors.transparent,
         foregroundColor: colorScheme.onPrimary,
-        titleTextStyle: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-          color: colorScheme.onPrimary,
-        ),
+        titleTextStyle: textTheme.titleLarge?.copyWith(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: colorScheme.onPrimary,
+            ) ??
+            TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: colorScheme.onPrimary,
+            ),
         iconTheme: IconThemeData(color: colorScheme.onPrimary),
       ),
     );
@@ -88,10 +101,17 @@ class AppTheme {
       error: Color(0xFFEF5350),
     );
 
+    final textTheme = GoogleFonts.latoTextTheme().apply(
+      bodyColor: colorScheme.onSurface,
+      displayColor: colorScheme.onSurface,
+    );
+
     return ThemeData(
       useMaterial3: true,
       colorScheme: colorScheme,
       scaffoldBackgroundColor: darkBackground,
+      fontFamily: GoogleFonts.lato().fontFamily,
+      textTheme: textTheme,
       cardTheme: CardThemeData(
         elevation: 1,
         shape: RoundedRectangleBorder(
@@ -105,14 +125,18 @@ class AppTheme {
         backgroundColor: colorScheme.primary,
         surfaceTintColor: Colors.transparent,
         foregroundColor: colorScheme.onPrimary,
-        titleTextStyle: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-          color: colorScheme.onPrimary,
-        ),
+        titleTextStyle: textTheme.titleLarge?.copyWith(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: colorScheme.onPrimary,
+            ) ??
+            TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: colorScheme.onPrimary,
+            ),
         iconTheme: IconThemeData(color: colorScheme.onPrimary),
       ),
     );
   }
 }
-

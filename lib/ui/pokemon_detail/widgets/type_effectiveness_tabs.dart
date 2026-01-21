@@ -60,12 +60,12 @@ class _TypeEffectivenessTabsState extends State<TypeEffectivenessTabs>
             controller: _tabController,
             labelColor: theme.colorScheme.primary,
             unselectedLabelColor:
-                theme.colorScheme.onSurface.withOpacity(0.6),
+                theme.colorScheme.onSurface.withValues(alpha: 0.6),
             labelPadding: const EdgeInsets.symmetric(horizontal: 8),
             indicatorSize: TabBarIndicatorSize.tab,
             indicator: BoxDecoration(
               borderRadius: BorderRadius.circular(12),
-              color: theme.colorScheme.primary.withOpacity(0.1),
+              color: theme.colorScheme.primary.withValues(alpha: 0.1),
             ),
             dividerColor: Colors.transparent,
             tabs: [
@@ -106,20 +106,38 @@ class _TypeEffectivenessTabsState extends State<TypeEffectivenessTabs>
         AnimatedSize(
           duration: const Duration(milliseconds: 300),
           curve: Curves.easeInOut,
-          child: _buildTabContent(),
+          alignment: Alignment.topCenter,
+          child: AnimatedSwitcher(
+            duration: const Duration(milliseconds: 200),
+            switchInCurve: Curves.easeOut,
+            switchOutCurve: Curves.easeIn,
+            layoutBuilder: (currentChild, previousChildren) {
+              return Stack(
+                alignment: Alignment.topCenter,
+                children: <Widget>[
+                  ...previousChildren,
+                  if (currentChild != null) currentChild,
+                ],
+              );
+            },
+            child: _buildSwitchableContent(),
+          ),
         ),
       ],
     );
   }
 
-  Widget _buildTabContent() {
+  Widget _buildSwitchableContent() {
     final currentIndex = _tabController.index;
 
     if (currentIndex == 0) {
       // Defensive tab
-      return TypeEffectivenessCompact(
-        defensiveEffectiveness:
-            widget.defensiveTypeEffectiveness.effectivenessMap,
+      return KeyedSubtree(
+        key: const ValueKey('defense'),
+        child: TypeEffectivenessCompact(
+          defensiveEffectiveness:
+              widget.defensiveTypeEffectiveness.effectivenessMap,
+        ),
       );
     } else {
       // Offensive tabs
@@ -127,8 +145,11 @@ class _TypeEffectivenessTabsState extends State<TypeEffectivenessTabs>
       final type = widget.pokemon.types[typeIndex];
       final offensiveMap = widget.offensiveTypeEffectiveness[type];
 
-      return TypeEffectivenessCompact(
-        offensiveEffectiveness: offensiveMap,
+      return KeyedSubtree(
+        key: ValueKey('offense_$type'),
+        child: TypeEffectivenessCompact(
+          offensiveEffectiveness: offensiveMap,
+        ),
       );
     }
   }

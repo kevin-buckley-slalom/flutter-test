@@ -12,6 +12,8 @@ class Pokemon {
   final String? imageShinyPath;
   final String? imagePathLarge;
   final String? imageShinyPathLarge;
+  final List<String> regularAbilities;
+  final List<String> hiddenAbilities;
 
   Pokemon({
     required this.number,
@@ -25,9 +27,21 @@ class Pokemon {
     this.imageShinyPath,
     this.imagePathLarge,
     this.imageShinyPathLarge,
+    this.regularAbilities = const [],
+    this.hiddenAbilities = const [],
   });
 
   factory Pokemon.fromJson(Map<String, dynamic> json) {
+    List<String> parseAbilityList(Map<String, dynamic>? abilities, String key) {
+      final value = abilities?[key];
+      if (value is List) {
+        return value.whereType<String>().toList();
+      }
+      return const [];
+    }
+
+    final abilities = json['abilities'] as Map<String, dynamic>?;
+
     return Pokemon(
       number: json['number'] as int,
       name: json['name'] as String,
@@ -40,6 +54,8 @@ class Pokemon {
       imageShinyPath: json['image_shiny'] as String?,
       imagePathLarge: json['image_large'] as String?,
       imageShinyPathLarge: json['image_shiny_large'] as String?,
+      regularAbilities: parseAbilityList(abilities, 'regular'),
+      hiddenAbilities: parseAbilityList(abilities, 'hidden'),
     );
   }
 
@@ -54,11 +70,17 @@ class Pokemon {
       'stats': stats.toJson(),
       'image': imagePath,
       'image_shiny': imageShinyPath,
+      'image_large': imagePathLarge,
+      'image_shiny_large': imageShinyPathLarge,
+      'abilities': {
+        'regular': regularAbilities,
+        'hidden': hiddenAbilities,
+      },
     };
   }
 
   String get displayName => variant != null ? '$variant $baseName' : name;
-  
+
   bool get isBaseForm => variant == null;
 }
 

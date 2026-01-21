@@ -131,7 +131,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                       Text(
                         _sortAscending ? 'Asc' : 'Desc',
                         style: theme.textTheme.bodyMedium?.copyWith(
-                          color: theme.colorScheme.onSurface.withOpacity(0.6),
+                          color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
                         ),
                       ),
                       const SizedBox(width: 4),
@@ -189,7 +189,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                           child: Ink(
                             decoration: BoxDecoration(
                               color: _sortField == field
-                                  ? theme.colorScheme.primary.withOpacity(0.08)
+                                  ? theme.colorScheme.primary.withValues(alpha: 0.08)
                                   : Colors.transparent,
                               borderRadius: BorderRadius.circular(12),
                             ),
@@ -270,7 +270,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                 decoration: BoxDecoration(
                   border: Border(
                     bottom: BorderSide(
-                      color: theme.colorScheme.onSurface.withOpacity(0.1),
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.1),
                       width: 1,
                     ),
                   ),
@@ -283,7 +283,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                       decoration: InputDecoration(
                         hintText: 'Search by name, variant, or type...',
                         hintStyle: TextStyle(
-                          color: theme.colorScheme.onSurface.withOpacity(0.5),
+                          color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
                         ),
                         prefixIcon: Icon(
                           Icons.search,
@@ -293,7 +293,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                             ? IconButton(
                                 icon: Icon(
                                   Icons.clear,
-                                  color: theme.colorScheme.onSurface.withOpacity(0.5),
+                                  color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
                                 ),
                                 onPressed: () {
                                   _searchController.clear();
@@ -306,13 +306,13 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                           borderSide: BorderSide(
-                            color: theme.colorScheme.onSurface.withOpacity(0.2),
+                            color: theme.colorScheme.onSurface.withValues(alpha: 0.2),
                           ),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                           borderSide: BorderSide(
-                            color: theme.colorScheme.onSurface.withOpacity(0.2),
+                            color: theme.colorScheme.onSurface.withValues(alpha: 0.2),
                           ),
                         ),
                         focusedBorder: OutlineInputBorder(
@@ -343,7 +343,7 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                                 ? 'No Pokemon found'
                                 : 'No Pokemon match "$_searchQuery"',
                             style: theme.textTheme.bodyLarge?.copyWith(
-                              color: theme.colorScheme.onSurface.withOpacity(0.6),
+                              color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
                             ),
                             textAlign: TextAlign.center,
                           ),

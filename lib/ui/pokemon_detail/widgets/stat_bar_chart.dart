@@ -89,13 +89,13 @@ class StatBarChart extends StatelessWidget {
                   height: 20,
                   decoration: BoxDecoration(
                     color: theme.brightness == Brightness.dark
-                        ? Colors.white.withOpacity(0.1)
-                        : Colors.black.withOpacity(0.08),
+                        ? Colors.white.withValues(alpha: 0.1)
+                        : Colors.black.withValues(alpha: 0.08),
                     borderRadius: BorderRadius.circular(8),
                     border: Border.all(
                       color: theme.brightness == Brightness.dark
-                          ? Colors.white.withOpacity(0.15)
-                          : Colors.black.withOpacity(0.1),
+                          ? Colors.white.withValues(alpha: 0.15)
+                          : Colors.black.withValues(alpha: 0.1),
                     ),
                   ),
                 ),
@@ -107,10 +107,10 @@ class StatBarChart extends StatelessWidget {
                       color: barColor,
                       borderRadius: BorderRadius.circular(8),
                       border: Border.all(
-                      color: theme.brightness == Brightness.dark
-                          ? Colors.white.withOpacity(0.15)
-                          : Colors.black.withOpacity(0.1),
-                    ),
+                        color: theme.brightness == Brightness.dark
+                            ? Colors.white.withValues(alpha: 0.15)
+                            : Colors.black.withValues(alpha: 0.1),
+                      ),
                     ),
                   ),
                 ),

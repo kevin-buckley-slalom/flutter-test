@@ -64,10 +64,21 @@ class PokemonDataService {
   }
 
   Pokemon? getByName(String name) {
-    if (_pokemonByName == null) {
+    if (_pokemonList == null || _pokemonByName == null) {
       throw StateError('Data not loaded. Call loadData() first.');
     }
-    return _pokemonByName![name.toLowerCase()];
+
+    final lower = name.toLowerCase();
+
+    // Prefer the full entries from the main list (includes abilities)
+    for (final pokemon in _pokemonList!) {
+      if (pokemon.name.toLowerCase() == lower || pokemon.baseName.toLowerCase() == lower) {
+        return pokemon;
+      }
+    }
+
+    // Fallback to the by-name map if present
+    return _pokemonByName![lower];
   }
 
   List<Pokemon> getByBaseName(String baseName) {
