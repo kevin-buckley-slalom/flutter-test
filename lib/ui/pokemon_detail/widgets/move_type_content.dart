@@ -1,3 +1,4 @@
+import 'package:championdex/ui/pokemon_detail/widgets/move_category_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:championdex/data/models/move.dart';
@@ -65,19 +66,6 @@ class _MoveListItem extends ConsumerWidget {
     required this.moveDetailsProvider,
   });
 
-  IconData _getCategoryIcon(String category) {
-    switch (category) {
-      case 'Physical':
-        return Icons.fitness_center;
-      case 'Special':
-        return Icons.flash_on;
-      case 'Status':
-        return Icons.priority_high;
-      default:
-        return Icons.help;
-    }
-  }
-
   Color _getCategoryColor(BuildContext context, String category) {
     switch (category) {
       case 'Physical':
@@ -131,7 +119,6 @@ class _MoveListItem extends ConsumerWidget {
       data: (moveData) {
         if (moveData == null) return const SizedBox.shrink();
 
-        final categoryColor = _getCategoryColor(context, moveData.category);
         final learnColor = _getLearnTypeColor(context, move.learnType);
         final learnMethodText = _formatLearnMethod();
         final dividerColor = theme.colorScheme.outlineVariant.withValues(alpha: 0.3);
@@ -161,14 +148,10 @@ class _MoveListItem extends ConsumerWidget {
                           children: [
                             // Fixed width for category icon
                             SizedBox(
-                              width: 32,
+                              width: 50,
                               child: Tooltip(
                                 message: moveData.category,
-                                child: Icon(
-                                  _getCategoryIcon(moveData.category),
-                                  size: 20,
-                                  color: categoryColor,
-                                ),
+                                child: MoveCategoryIcon(category: moveData.category.toLowerCase()),
                               ),
                             ),
                             const SizedBox(width: 8),
