@@ -22,7 +22,7 @@ class ParallaxScrollContainer extends StatefulWidget {
     required this.contentChild,
     this.contentBackgroundColor,
     this.contentBorderRadius,
-    this.parallaxRatio = 0.20,
+    this.parallaxRatio = 0.2,
   });
 
   @override
@@ -57,14 +57,18 @@ class _ParallaxScrollContainerState extends State<ParallaxScrollContainer> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    // Calculate extra height needed for parallax offset
+    // This prevents white space from appearing at the top when scrolling
+    final maxParallaxOffset = widget.backgroundHeight * widget.parallaxRatio;
+    final extendedBackgroundHeight = widget.backgroundHeight + maxParallaxOffset;
 
     return Stack(
       children: [
         // Background layer with parallax effect
         Transform.translate(
-          offset: Offset(0, _scrollOffset * widget.parallaxRatio),
+          offset: Offset(0, -maxParallaxOffset + (_scrollOffset * widget.parallaxRatio)),
           child: Container(
-            height: widget.backgroundHeight,
+            height: extendedBackgroundHeight,
             decoration: BoxDecoration(
               color: theme.colorScheme.surface,
             ),

@@ -41,15 +41,37 @@ class PokemonDetailView extends StatelessWidget {
         ),
         backgroundChild: Stack(
           children: [
-            // Background gradient for hero area
+            // Backdrop image
+            Positioned.fill(
+              child: Image.asset(
+                'assets/images/backdrops/grass.png',
+                fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) {
+                  // Fallback to gradient if backdrop fails to load
+                  return Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                        colors: [
+                          theme.colorScheme.primary.withValues(alpha: 0.1),
+                          theme.colorScheme.secondary.withValues(alpha: 0.1),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+            // Semi-transparent overlay for better contrast
             Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
                   colors: [
-                    theme.colorScheme.primary.withValues(alpha: 0.1),
-                    theme.colorScheme.secondary.withValues(alpha: 0.1),
+                    Colors.black.withValues(alpha: 0.1),
+                    Colors.black.withValues(alpha: 0.3),
                   ],
                 ),
               ),
