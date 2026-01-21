@@ -21,7 +21,7 @@ class PokemonMoveDataService {
 
     try {
       final jsonString = await rootBundle
-          .loadString('assets/data/pokemon_moves/$baseName.json');
+          .loadString('assets/data/pokemon_moves/${baseName.replaceAll(":", "")}.json');
       final Map<String, dynamic> jsonData = jsonDecode(jsonString);
       _moveCache[baseName] = jsonData;
       return jsonData;
