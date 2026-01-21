@@ -12,6 +12,7 @@ class Pokemon {
   final String? imageShinyPath;
   final String? imagePathLarge;
   final String? imageShinyPathLarge;
+  final String? backdropPath;
   final List<String> regularAbilities;
   final List<String> hiddenAbilities;
 
@@ -27,6 +28,7 @@ class Pokemon {
     this.imageShinyPath,
     this.imagePathLarge,
     this.imageShinyPathLarge,
+    this.backdropPath,
     this.regularAbilities = const [],
     this.hiddenAbilities = const [],
   });
@@ -54,6 +56,7 @@ class Pokemon {
       imageShinyPath: json['image_shiny'] as String?,
       imagePathLarge: json['image_large'] as String?,
       imageShinyPathLarge: json['image_shiny_large'] as String?,
+      backdropPath: json['backdrop'] as String?,
       regularAbilities: parseAbilityList(abilities, 'regular'),
       hiddenAbilities: parseAbilityList(abilities, 'hidden'),
     );

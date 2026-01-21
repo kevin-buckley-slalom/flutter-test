@@ -24,6 +24,7 @@ class PokemonImage extends StatelessWidget {
         height: size,
         cacheWidth: (size * 2).toInt(),
         cacheHeight: (size * 2).toInt(),
+        gaplessPlayback: true,
         errorBuilder: (context, error, stackTrace) {
           // Fallback to icon if placeholder fails to load
           return Icon(
@@ -41,6 +42,7 @@ class PokemonImage extends StatelessWidget {
       height: size,
       cacheWidth: (size * 2).toInt(),
       cacheHeight: (size * 2).toInt(),
+      gaplessPlayback: true,
       errorBuilder: (context, error, stackTrace) {
         // Fallback to placeholder if image fails to load
         return Image.asset(
@@ -49,6 +51,7 @@ class PokemonImage extends StatelessWidget {
           height: size,
           cacheWidth: (size * 2).toInt(),
           cacheHeight: (size * 2).toInt(),
+          gaplessPlayback: true,
           errorBuilder: (context, error, stackTrace) {
             // Final fallback to icon
             return Icon(

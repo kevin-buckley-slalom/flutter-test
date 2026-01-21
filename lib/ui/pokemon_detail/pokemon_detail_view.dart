@@ -11,18 +11,21 @@ import 'widgets/type_effectiveness_tabs.dart';
 
 class PokemonDetailView extends StatelessWidget {
   final Pokemon pokemon;
+  late final PokemonDetailViewModel _viewModel;
 
-  const PokemonDetailView({
+  PokemonDetailView({
     super.key,
     required this.pokemon,
-  });
+  }) {
+    _viewModel = PokemonDetailViewModel.fromPokemon(pokemon);
+  }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final viewModel = PokemonDetailViewModel.fromPokemon(pokemon);
 
     return Scaffold(
+      backgroundColor: theme.colorScheme.surface,
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
@@ -44,8 +47,10 @@ class PokemonDetailView extends StatelessWidget {
             // Backdrop image
             Positioned.fill(
               child: Image.asset(
-                'assets/images/backdrops/grass.png',
+                'assets/images/backdrops/${pokemon.backdropPath}',
                 fit: BoxFit.cover,
+                cacheWidth: 600,
+                cacheHeight: 400,
                 errorBuilder: (context, error, stackTrace) {
                   // Fallback to gradient if backdrop fails to load
                   return Container(
@@ -230,8 +235,8 @@ class PokemonDetailView extends StatelessWidget {
                 borderRadius: BorderRadius.circular(16),
                 child: TypeEffectivenessTabs(
                   pokemon: pokemon,
-                  defensiveTypeEffectiveness: viewModel.defensiveTypeEffectiveness,
-                  offensiveTypeEffectiveness: viewModel.offensiveTypeEffectiveness,
+                  defensiveTypeEffectiveness: _viewModel.defensiveTypeEffectiveness,
+                  offensiveTypeEffectiveness: _viewModel.offensiveTypeEffectiveness,
                 ),
               ),
 
@@ -335,6 +340,8 @@ class _AbilitiesCard extends StatelessWidget {
             ),
     );
   }
+
+  static final _abilitiesCardCache = <String, Widget>{};
 }
 
 class _AbilityGroupTitle extends StatelessWidget {
