@@ -37,8 +37,9 @@ class PokemonDetailView extends StatelessWidget {
         scrolledUnderElevation: 0,
       ),
       body: ParallaxScrollContainer(
-        backgroundHeight: 280,
-        contentBackgroundColor: theme.colorScheme.surface,
+        backgroundHeight: 400,
+        contentOffsetTop: 225,
+        contentBackgroundColor: Colors.transparent,
         contentBorderRadius: const BorderRadius.vertical(
           top: Radius.circular(28),
         ),
@@ -50,7 +51,7 @@ class PokemonDetailView extends StatelessWidget {
                 'assets/images/backdrops/${pokemon.backdropPath}',
                 fit: BoxFit.cover,
                 cacheWidth: 600,
-                cacheHeight: 400,
+                cacheHeight: 500,
                 errorBuilder: (context, error, stackTrace) {
                   // Fallback to gradient if backdrop fails to load
                   return Container(
@@ -81,188 +82,224 @@ class PokemonDetailView extends StatelessWidget {
                 ),
               ),
             ),
-            // Hero image centered in background
-            Center(
-              child: Hero(
-                tag: 'pokemon-image-${pokemon.number}-${pokemon.variant ?? 'base'}',
-                child: PokemonImage(imagePath: pokemon.imagePath, imagePathLarge: pokemon.imagePathLarge, size: 200, useLarge: true),
-              ),
-            ),
+
           ],
         ),
-        contentChild: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Pokemon number badge
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 6,
-                ),
+        contentChild: Stack(
+          clipBehavior: Clip.none,
+          children: [
+              // Card content
+              DecoratedBox(
                 decoration: BoxDecoration(
-                  color: theme.colorScheme.primary.withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(
+                    color: theme.brightness == Brightness.dark
+                        ? Colors.black
+                        : Colors.white,
+                    width: 2
+                  ),
+                  borderRadius: const BorderRadius.vertical(
+                    top: Radius.circular(28),
+                    bottom: Radius.circular(28)
+                  ),
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.center,
+                    stops: theme.brightness == Brightness.dark ? const [0, 0.15, 0.25] : const [0, 0.10, 0.15],
+                    colors: [
+                      theme.colorScheme.surface.withValues(alpha: 0.5),
+                      theme.colorScheme.surface.withValues(alpha: 0.9),
+                      theme.colorScheme.surface,
+                    ],
+                  ),
                 ),
-                child: Text(
-                  '#${pokemon.number.toString().padLeft(3, '0')}',
-                  style: TextStyle(
-                    fontSize: 14,
+                child: Padding(
+                  padding: const EdgeInsets.all(24),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // Top row with spacer for image and name
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          // Spacer for image width
+                          const SizedBox(width: 190),
+                          // Name and number column
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                // Pokemon base name
+                                FittedBox(
+                                  fit: BoxFit.scaleDown,
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    pokemon.baseName,
+                                    style: theme.textTheme.headlineLarge?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                
+                                const SizedBox(height: 8),
+                                
+                                // Form name (variant)
+                                if (pokemon.variant != null) ...[
+                                  Text(
+                                    pokemon.variant!,
+                                    style: theme.textTheme.titleMedium?.copyWith(
+                                      color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 8),
+                                ],
+                                
+                                // Pokemon number
+                                Text(
+                                  '#${pokemon.number.toString().padLeft(3, '0')}',
+                                  style: theme.textTheme.titleMedium?.copyWith(
+                                    color: theme.colorScheme.primary,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                      // Types row
+                      const SizedBox(height: 20),
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: pokemon.types
+                            .map((type) => TypeChip(type: type))
+                            .toList(),
+                      ),
+
+                      // Abilities
+                      const SizedBox(height: 28),
+                      Text(
+                        'Abilities',
+                        style: theme.textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      _AbilitiesCard(
+                        regularAbilities: pokemon.regularAbilities,
+                        hiddenAbilities: pokemon.hiddenAbilities,
+                      ),
+
+                // Base Stats
+                const SizedBox(height: 32),
+                Text(
+                  'Base Stats',
+                  style: theme.textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.bold,
-                    color: theme.colorScheme.primary,
                   ),
                 ),
-              ),
-
-              const SizedBox(height: 16),
-
-              // Variant badge
-              if (pokemon.variant != null) ...[
+                const SizedBox(height: 12),
                 FlatCard(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 6,
-                  ),
-                  backgroundColor:
-                      theme.colorScheme.secondary.withValues(alpha: 0.1),
+                  padding: const EdgeInsets.all(16),
+                  elevation: 1,
                   borderRadius: BorderRadius.circular(16),
-                  elevation: 0,
-                  child: Text(
-                    pokemon.variant!,
-                    style: theme.textTheme.bodyMedium?.copyWith(
-                      color: theme.colorScheme.secondary,
-                      fontWeight: FontWeight.w600,
-                    ),
+                  child: Column(
+                    children: [
+                      StatBarChart(
+                        statName: 'hp',
+                        value: pokemon.stats.hp,
+                      ),
+                      StatBarChart(
+                        statName: 'attack',
+                        value: pokemon.stats.attack,
+                      ),
+                      StatBarChart(
+                        statName: 'defense',
+                        value: pokemon.stats.defense,
+                      ),
+                      StatBarChart(
+                        statName: 'sp_atk',
+                        value: pokemon.stats.spAtk,
+                      ),
+                      StatBarChart(
+                        statName: 'sp_def',
+                        value: pokemon.stats.spDef,
+                      ),
+                      StatBarChart(
+                        statName: 'speed',
+                        value: pokemon.stats.speed,
+                      ),
+                      StatBarChart(
+                        statName: 'BST',
+                        value: pokemon.stats.total,
+                        isTotal: true,
+                      ),
+                    ],
                   ),
                 ),
-                const SizedBox(height: 16),
-              ],
 
-              // Generation
-              const SizedBox(height: 12),
-              Text(
-                'Generation ${pokemon.generation}',
-                style: theme.textTheme.bodyMedium?.copyWith(
-                  color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                // Type Effectiveness
+                const SizedBox(height: 28),
+                Text(
+                  'Type Effectiveness',
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
+                const SizedBox(height: 12),
+                FlatCard(
+                  padding: const EdgeInsets.all(16),
+                  elevation: 1,
+                  borderRadius: BorderRadius.circular(16),
+                  child: TypeEffectivenessTabs(
+                    pokemon: pokemon,
+                    defensiveTypeEffectiveness:
+                        _viewModel.defensiveTypeEffectiveness,
+                    offensiveTypeEffectiveness:
+                        _viewModel.offensiveTypeEffectiveness,
+                  ),
+                ),
 
-              // Types
-              const SizedBox(height: 20),
-              Wrap(
-                spacing: 8,
-                runSpacing: 8,
-                children: pokemon.types
-                    .map((type) => TypeChip(type: type))
-                    .toList(),
-              ),
+                // Moves
+                const SizedBox(height: 28),
+                Text(
+                  'Moves',
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                FlatCard(
+                  padding: const EdgeInsets.all(16),
+                  elevation: 1,
+                  borderRadius: BorderRadius.circular(16),
+                  child: MovesCard(
+                    baseName: pokemon.baseName,
+                    variant: pokemon.name,
+                  ),
+                ),
 
-              // Abilities
-              const SizedBox(height: 28),
-              Text(
-                'Abilities',
-                style: theme.textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
+                const SizedBox(height: 32),
+                    ],
+                  ),
                 ),
               ),
-              const SizedBox(height: 12),
-              _AbilitiesCard(
-                regularAbilities: pokemon.regularAbilities,
-                hiddenAbilities: pokemon.hiddenAbilities,
-              ),
-
-              // Base Stats
-              const SizedBox(height: 32),
-              Text(
-                'Base Stats',
-                style: theme.textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
+              // Pokemon image positioned absolutely (appears on top)
+              Positioned(
+                top: -100,
+                left: 14,
+                child: Hero(
+                  tag: 'pokemon-image-${pokemon.number}-${pokemon.variant ?? 'base'}',
+                  child: PokemonImage(
+                    imagePath: pokemon.imagePath,
+                    imagePathLarge: pokemon.imagePathLarge,
+                    size: 200,
+                    useLarge: true,
+                  ),
                 ),
               ),
-              const SizedBox(height: 12),
-              FlatCard(
-                padding: const EdgeInsets.all(16),
-                elevation: 1,
-                borderRadius: BorderRadius.circular(16),
-                child: Column(
-                  children: [
-                    StatBarChart(
-                      statName: 'hp',
-                      value: pokemon.stats.hp,
-                    ),
-                    StatBarChart(
-                      statName: 'attack',
-                      value: pokemon.stats.attack,
-                    ),
-                    StatBarChart(
-                      statName: 'defense',
-                      value: pokemon.stats.defense,
-                    ),
-                    StatBarChart(
-                      statName: 'sp_atk',
-                      value: pokemon.stats.spAtk,
-                    ),
-                    StatBarChart(
-                      statName: 'sp_def',
-                      value: pokemon.stats.spDef,
-                    ),
-                    StatBarChart(
-                      statName: 'speed',
-                      value: pokemon.stats.speed,
-                    ),
-                    StatBarChart(
-                      statName: 'BST',
-                      value: pokemon.stats.total,
-                      isTotal: true,
-                    ),
-                  ],
-                ),
-              ),
-
-              // Type Effectiveness
-              const SizedBox(height: 28),
-              Text(
-                'Type Effectiveness',
-                style: theme.textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 12),
-              FlatCard(
-                padding: const EdgeInsets.all(16),
-                elevation: 1,
-                borderRadius: BorderRadius.circular(16),
-                child: TypeEffectivenessTabs(
-                  pokemon: pokemon,
-                  defensiveTypeEffectiveness: _viewModel.defensiveTypeEffectiveness,
-                  offensiveTypeEffectiveness: _viewModel.offensiveTypeEffectiveness,
-                ),
-              ),
-
-              // Moves
-              const SizedBox(height: 28),
-              Text(
-                'Moves',
-                style: theme.textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 12),
-              FlatCard(
-                padding: const EdgeInsets.all(16),
-                elevation: 1,
-                borderRadius: BorderRadius.circular(16),
-                child: MovesCard(
-                  baseName: pokemon.baseName,
-                  variant: pokemon.name,
-                ),
-              ),
-
-              const SizedBox(height: 32),
             ],
           ),
-        ),
       ),
     );
   }
@@ -287,7 +324,11 @@ class _AbilitiesCard extends StatelessWidget {
       color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
     );
 
-    Widget buildColumn({required String title, required List<String> abilities, required Color color}) {
+    Widget buildColumn({
+      required String title,
+      required List<String> abilities,
+      required Color color,
+    }) {
       if (abilities.isEmpty) {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -304,10 +345,12 @@ class _AbilitiesCard extends StatelessWidget {
         children: [
           _AbilityGroupTitle(title),
           const SizedBox(height: 8),
-          ...abilities.map((ability) => _AbilityListItem(
-            ability: ability,
-            color: color,
-          )),
+          ...abilities.map(
+            (ability) => _AbilityListItem(
+              ability: ability,
+              color: color,
+            ),
+          ),
         ],
       );
     }
@@ -340,8 +383,6 @@ class _AbilitiesCard extends StatelessWidget {
             ),
     );
   }
-
-  static final _abilitiesCardCache = <String, Widget>{};
 }
 
 class _AbilityGroupTitle extends StatelessWidget {
@@ -380,7 +421,7 @@ class _AbilityListItemState extends State<_AbilityListItem> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       child: Material(

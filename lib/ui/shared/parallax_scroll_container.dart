@@ -14,6 +14,7 @@ class ParallaxScrollContainer extends StatefulWidget {
   final Color? contentBackgroundColor;
   final BorderRadius? contentBorderRadius;
   final double parallaxRatio;
+  final double contentOffsetTop;
 
   const ParallaxScrollContainer({
     super.key,
@@ -23,6 +24,7 @@ class ParallaxScrollContainer extends StatefulWidget {
     this.contentBackgroundColor,
     this.contentBorderRadius,
     this.parallaxRatio = 0.2,
+    this.contentOffsetTop = 0,
   });
 
   @override
@@ -79,10 +81,11 @@ class _ParallaxScrollContainerState extends State<ParallaxScrollContainer> {
         // Content layer on top with smooth scrolling
         SingleChildScrollView(
           controller: _scrollController,
+          physics: const ClampingScrollPhysics(),
           child: Column(
             children: [
-              // Spacer to allow background to show initially
-              SizedBox(height: widget.backgroundHeight),
+              // Spacer to allow background to show initially, minus the overlap offset
+              SizedBox(height: widget.backgroundHeight - widget.contentOffsetTop),
 
               // Main content card
               Container(
@@ -97,6 +100,8 @@ class _ParallaxScrollContainerState extends State<ParallaxScrollContainer> {
                 ),
                 child: widget.contentChild,
               ),
+              // Bottom padding to prevent over-scrolling
+              SizedBox(height: MediaQuery.of(context).padding.bottom + 16),
             ],
           ),
         ),
