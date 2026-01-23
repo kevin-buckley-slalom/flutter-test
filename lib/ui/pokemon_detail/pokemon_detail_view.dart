@@ -70,18 +70,18 @@ class PokemonDetailView extends StatelessWidget {
               ),
             ),
             // Semi-transparent overlay for better contrast
-            Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [
-                    Colors.black.withValues(alpha: 0.1),
-                    Colors.black.withValues(alpha: 0.3),
-                  ],
-                ),
-              ),
-            ),
+            // Container(
+            //   decoration: BoxDecoration(
+            //     gradient: LinearGradient(
+            //       begin: Alignment.topCenter,
+            //       end: Alignment.bottomCenter,
+            //       colors: [
+            //         Colors.black.withValues(alpha: 0.1),
+            //         Colors.black.withValues(alpha: 0.3),
+            //       ],
+            //     ),
+            //   ),
+            // ),
 
           ],
         ),
