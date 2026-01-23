@@ -33,12 +33,42 @@ def map_image_assets(pokemon_data, image_assets):
         else:
             print(f"Could not find image for {base_name} (variant: {variant})")
 
+def copy_image_to_large():
+    for p in pokemon_data:
+        if "image" in p and "image_large" not in p:
+            p["image_large"] = p["image"]
+            print(f'Copied image to image_large for {p.get("base_name")}')
+            
+        if "image_shiny" in p and "image_shiny_large" not in p:
+            p["image_shiny_large"] = p["image_shiny"]
+            print(f'Copied image_shiny to image_shiny_large for {p.get("base_name")}')
+    
 if __name__ == "__main__":
-    map_image_assets(pokemon_data, image_assets)
-    list_missing = [p for p in pokemon_data if "image_large" not in p]
-    if list_missing:
-        print("\nPokemon without mapped images:")
-        for p in list_missing:
-            print(f"- {p.get('base_name')} (variant: {p.get('variant')})")
-    with open(pokemon_json_file, "w", encoding="utf-8") as f:
-        json.dump(pokemon_data, f, indent=2, ensure_ascii=False)
+    # map_image_assets(pokemon_data, image_assets)
+    copy_image_to_large()
+    list_missing = [p for p in pokemon_data if "image" not in p]
+    list_missing_shiny = [p for p in pokemon_data if "image_shiny" not in p]
+    list_missing_large = [p for p in pokemon_data if "image_large" not in p]
+    list_missing_shiny_large = [p for p in pokemon_data if "image_shiny_large" not in p]
+
+    print("\nPokemon without mapped images:")
+    for p in list_missing:
+        print(f"- {p.get('base_name')} (variant: {p.get('variant')})")
+    print("\nPokemon without mapped shiny images:")
+    for p in list_missing_shiny:
+        print(f"- {p.get('base_name')} (variant: {p.get('variant')})")
+    print("\nPokemon without mapped large images:")
+    for p in list_missing_large:
+        print(f"- {p.get('base_name')} (variant: {p.get('variant')})")
+    print("\nPokemon without mapped shiny large images:")
+    for p in list_missing_shiny_large:
+        print(f"- {p.get('base_name')} (variant: {p.get('variant')})")
+
+    # if list_missing:
+    #     print("\nPokemon without mapped images:")
+    #     for p in list_missing:
+    #         print(f"- {p.get('base_name')} (variant: {p.get('variant')})")
+    if all((not list_missing, not list_missing_shiny, not list_missing_large, not list_missing_shiny_large)):
+        print("✅ All pokemon have images mapped!")
+        with open(pokemon_json_file, "w", encoding="utf-8") as f:
+            json.dump(pokemon_data, f, indent=2, ensure_ascii=False)

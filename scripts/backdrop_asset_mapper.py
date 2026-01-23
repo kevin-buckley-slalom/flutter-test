@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 assets_dir = Path(__file__).parent.parent / "assets" / "images" / "backdrops"
-pokemon_json_file = Path(__file__).parent.parent / "assets" / "data" / "pokemon.json"
+pokemon_json_file = Path(__file__).parent.parent / "data" / "pokemon.json"
 
 with open(pokemon_json_file, "r", encoding="utf-8") as f:
     pokemon_data = json.load(f)
