@@ -1707,8 +1707,8 @@
       "sp_def": 40,
       "speed": 41
     },
-    "image": "nidoran-f.png",
-    "image_shiny": "nidoran-f_shiny.png",
+    "image": "nidoran_f.png",
+    "image_shiny": "nidoran_f_shiny.png",
     "abilities": {
       "regular": [
         "Poison Point",
@@ -1729,8 +1729,8 @@
       "male": 0.0,
       "female": 100.0
     },
-    "image_large": "nidoran-f.png",
-    "image_shiny_large": "nidoran-f_shiny.png"
+    "image_large": "nidoran_f.png",
+    "image_shiny_large": "nidoran_f_shiny.png"
   },
   {
     "number": 30,
@@ -1837,8 +1837,8 @@
       "sp_def": 40,
       "speed": 50
     },
-    "image": "nidoran-m.png",
-    "image_shiny": "nidoran-m_shiny.png",
+    "image": "nidoran_m.png",
+    "image_shiny": "nidoran_m_shiny.png",
     "abilities": {
       "regular": [
         "Poison Point",
@@ -1859,8 +1859,8 @@
       "male": 100.0,
       "female": 0.0
     },
-    "image_large": "nidoran-m.png",
-    "image_shiny_large": "nidoran-m_shiny.png"
+    "image_large": "nidoran_m.png",
+    "image_shiny_large": "nidoran_m_shiny.png"
   },
   {
     "number": 33,
@@ -13484,8 +13484,8 @@
     },
     "image": "ho_oh.png",
     "image_shiny": "ho_oh_shiny.png",
-    "image_large": "ho-oh.png",
-    "image_shiny_large": "ho-oh_shiny.png",
+    "image_large": "ho_oh.png",
+    "image_shiny_large": "ho_oh_shiny.png",
     "abilities": {
       "regular": [
         "Pressure"
@@ -22879,8 +22879,8 @@
       "sp_def": 90,
       "speed": 60
     },
-    "image": "mime jr..png",
-    "image_shiny": "mime jr._shiny.png",
+    "image": "mime_jr.png",
+    "image_shiny": "mime_jr_shiny.png",
     "abilities": {
       "regular": [
         "Filter",
@@ -22901,8 +22901,8 @@
       "male": 50.0,
       "female": 50.0
     },
-    "image_large": "mime jr..png",
-    "image_shiny_large": "mime jr._shiny.png"
+    "image_large": "mime_jr.png",
+    "image_shiny_large": "mime_jr_shiny.png"
   },
   {
     "number": 440,
@@ -24510,8 +24510,8 @@
     },
     "image": "porygon_z.png",
     "image_shiny": "porygon_z_shiny.png",
-    "image_large": "porygon-z.png",
-    "image_shiny_large": "porygon-z_shiny.png",
+    "image_large": "porygon_z.png",
+    "image_shiny_large": "porygon_z_shiny.png",
     "abilities": {
       "regular": [
         "Adaptability",
@@ -36738,7 +36738,7 @@
     "image": "zygarde_complete_forme.png",
     "image_shiny": "zygarde_complete_forme_shiny.png",
     "image_large": "zygarde_complete_forme.png",
-    "image_shiny_large": null,
+    "image_shiny_large": "zygarde_complete_forme_shiny.png",
     "abilities": {
       "regular": [
         "Power Construct"
@@ -39830,8 +39830,8 @@
     },
     "image": "jangmo_o.png",
     "image_shiny": "jangmo_o_shiny.png",
-    "image_large": "jangmo-o.png",
-    "image_shiny_large": "jangmo-o_shiny.png",
+    "image_large": "jangmo_o.png",
+    "image_shiny_large": "jangmo_o_shiny.png",
     "abilities": {
       "regular": [
         "Bulletproof",
@@ -39874,8 +39874,8 @@
     },
     "image": "hakamo_o.png",
     "image_shiny": "hakamo_o_shiny.png",
-    "image_large": "hakamo-o.png",
-    "image_shiny_large": "hakamo-o_shiny.png",
+    "image_large": "hakamo_o.png",
+    "image_shiny_large": "hakamo_o_shiny.png",
     "abilities": {
       "regular": [
         "Bulletproof",
@@ -39918,8 +39918,8 @@
     },
     "image": "kommo_o.png",
     "image_shiny": "kommo_o_shiny.png",
-    "image_large": "kommo-o.png",
-    "image_shiny_large": "kommo-o_shiny.png",
+    "image_large": "kommo_o.png",
+    "image_shiny_large": "kommo_o_shiny.png",
     "abilities": {
       "regular": [
         "Bulletproof",
@@ -39960,8 +39960,8 @@
       "sp_def": 75,
       "speed": 130
     },
-    "image": "tapu koko.png",
-    "image_shiny": "tapu koko_shiny.png",
+    "image": "tapu_koko.png",
+    "image_shiny": "tapu_koko_shiny.png",
     "abilities": {
       "regular": [
         "Electric Surge"
@@ -39977,8 +39977,8 @@
     "height_metric": "1.8m",
     "weight_imperial": "45.2lbs",
     "weight_metric": "20.5kg",
-    "image_large": "tapu koko.png",
-    "image_shiny_large": "tapu koko_shiny.png"
+    "image_large": "tapu_koko.png",
+    "image_shiny_large": "tapu_koko_shiny.png"
   },
   {
     "number": 786,
@@ -39999,8 +39999,8 @@
       "sp_def": 115,
       "speed": 95
     },
-    "image": "tapu lele.png",
-    "image_shiny": "tapu lele_shiny.png",
+    "image": "tapu_lele.png",
+    "image_shiny": "tapu_lele_shiny.png",
     "abilities": {
       "regular": [
         "Psychic Surge"
@@ -40016,8 +40016,8 @@
     "height_metric": "1.2m",
     "weight_imperial": "41.0lbs",
     "weight_metric": "18.6kg",
-    "image_large": "tapu lele.png",
-    "image_shiny_large": "tapu lele_shiny.png"
+    "image_large": "tapu_lele.png",
+    "image_shiny_large": "tapu_lele_shiny.png"
   },
   {
     "number": 787,
@@ -40038,8 +40038,8 @@
       "sp_def": 95,
       "speed": 75
     },
-    "image": "tapu bulu.png",
-    "image_shiny": "tapu bulu_shiny.png",
+    "image": "tapu_bulu.png",
+    "image_shiny": "tapu_bulu_shiny.png",
     "abilities": {
       "regular": [
         "Grassy Surge"
@@ -40055,8 +40055,8 @@
     "height_metric": "1.9m",
     "weight_imperial": "100.3lbs",
     "weight_metric": "45.5kg",
-    "image_large": "tapu bulu.png",
-    "image_shiny_large": "tapu bulu_shiny.png"
+    "image_large": "tapu_bulu.png",
+    "image_shiny_large": "tapu_bulu_shiny.png"
   },
   {
     "number": 788,
@@ -40077,8 +40077,8 @@
       "sp_def": 130,
       "speed": 85
     },
-    "image": "tapu fini.png",
-    "image_shiny": "tapu fini_shiny.png",
+    "image": "tapu_fini.png",
+    "image_shiny": "tapu_fini_shiny.png",
     "abilities": {
       "regular": [
         "Misty Surge"
@@ -40094,8 +40094,8 @@
     "height_metric": "1.3m",
     "weight_imperial": "46.7lbs",
     "weight_metric": "21.2kg",
-    "image_large": "tapu fini.png",
-    "image_shiny_large": "tapu fini_shiny.png"
+    "image_large": "tapu_fini.png",
+    "image_shiny_large": "tapu_fini_shiny.png"
   },
   {
     "number": 789,
@@ -43396,8 +43396,8 @@
       "sp_def": 82,
       "speed": 65
     },
-    "image": "sirfetch'd.png",
-    "image_shiny": "sirfetch'd_shiny.png",
+    "image": "sirfetchd.png",
+    "image_shiny": "sirfetchd_shiny.png",
     "abilities": {
       "regular": [
         "Steadfast"
@@ -43417,8 +43417,8 @@
       "male": 50.0,
       "female": 50.0
     },
-    "image_large": "sirfetch'd.png",
-    "image_shiny_large": "sirfetch'd_shiny.png"
+    "image_large": "sirfetchd.png",
+    "image_shiny_large": "sirfetchd_shiny.png"
   },
   {
     "number": 866,
@@ -43439,8 +43439,8 @@
       "sp_def": 100,
       "speed": 70
     },
-    "image": "mr. rime.png",
-    "image_shiny": "mr. rime_shiny.png",
+    "image": "mr_rime.png",
+    "image_shiny": "mr_rime_shiny.png",
     "abilities": {
       "regular": [
         "Screen Cleaner",
@@ -43461,8 +43461,8 @@
       "male": 50.0,
       "female": 50.0
     },
-    "image_large": "mr. rime.png",
-    "image_shiny_large": "mr. rime_shiny.png"
+    "image_large": "mr_rime.png",
+    "image_shiny_large": "mr_rime_shiny.png"
   },
   {
     "number": 867,
@@ -49281,8 +49281,8 @@
       "sp_def": 53,
       "speed": 87
     },
-    "image": "great tusk.png",
-    "image_shiny": "great tusk_shiny.png",
+    "image": "great_tusk.png",
+    "image_shiny": "great_tusk_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -49296,8 +49296,8 @@
     "height_metric": "2.2m",
     "weight_imperial": "705.5lbs",
     "weight_metric": "320kg",
-    "image_large": "great tusk.png",
-    "image_shiny_large": "great tusk_shiny.png"
+    "image_large": "great_tusk.png",
+    "image_shiny_large": "great_tusk_shiny.png"
   },
   {
     "number": 985,
@@ -49318,8 +49318,8 @@
       "sp_def": 115,
       "speed": 111
     },
-    "image": "scream tail.png",
-    "image_shiny": "scream tail_shiny.png",
+    "image": "scream_tail.png",
+    "image_shiny": "scream_tail_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -49333,8 +49333,8 @@
     "height_metric": "1.2m",
     "weight_imperial": "17.6lbs",
     "weight_metric": "8kg",
-    "image_large": "scream tail.png",
-    "image_shiny_large": "scream tail_shiny.png"
+    "image_large": "scream_tail.png",
+    "image_shiny_large": "scream_tail_shiny.png"
   },
   {
     "number": 986,
@@ -49355,8 +49355,8 @@
       "sp_def": 99,
       "speed": 55
     },
-    "image": "brute bonnet.png",
-    "image_shiny": "brute bonnet_shiny.png",
+    "image": "brute_bonnet.png",
+    "image_shiny": "brute_bonnet_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -49370,8 +49370,8 @@
     "height_metric": "1.2m",
     "weight_imperial": "46.3lbs",
     "weight_metric": "21kg",
-    "image_large": "brute bonnet.png",
-    "image_shiny_large": "brute bonnet_shiny.png"
+    "image_large": "brute_bonnet.png",
+    "image_shiny_large": "brute_bonnet_shiny.png"
   },
   {
     "number": 987,
@@ -49392,8 +49392,8 @@
       "sp_def": 135,
       "speed": 135
     },
-    "image": "flutter mane.png",
-    "image_shiny": "flutter mane_shiny.png",
+    "image": "flutter_mane.png",
+    "image_shiny": "flutter_mane_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -49407,8 +49407,8 @@
     "height_metric": "1.4m",
     "weight_imperial": "8.8lbs",
     "weight_metric": "4kg",
-    "image_large": "flutter mane.png",
-    "image_shiny_large": "flutter mane_shiny.png"
+    "image_large": "flutter_mane.png",
+    "image_shiny_large": "flutter_mane_shiny.png"
   },
   {
     "number": 988,
@@ -49429,8 +49429,8 @@
       "sp_def": 105,
       "speed": 81
     },
-    "image": "slither wing.png",
-    "image_shiny": "slither wing_shiny.png",
+    "image": "slither_wing.png",
+    "image_shiny": "slither_wing_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -49444,8 +49444,8 @@
     "height_metric": "3.2m",
     "weight_imperial": "202.8lbs",
     "weight_metric": "92kg",
-    "image_large": "slither wing.png",
-    "image_shiny_large": "slither wing_shiny.png"
+    "image_large": "slither_wing.png",
+    "image_shiny_large": "slither_wing_shiny.png"
   },
   {
     "number": 989,
@@ -49466,8 +49466,8 @@
       "sp_def": 85,
       "speed": 101
     },
-    "image": "sandy shocks.png",
-    "image_shiny": "sandy shocks_shiny.png",
+    "image": "sandy_shocks.png",
+    "image_shiny": "sandy_shocks_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -49481,8 +49481,8 @@
     "height_metric": "2.3m",
     "weight_imperial": "132.3lbs",
     "weight_metric": "60kg",
-    "image_large": "sandy shocks.png",
-    "image_shiny_large": "sandy shocks_shiny.png"
+    "image_large": "sandy_shocks.png",
+    "image_shiny_large": "sandy_shocks_shiny.png"
   },
   {
     "number": 990,
@@ -49503,8 +49503,8 @@
       "sp_def": 70,
       "speed": 106
     },
-    "image": "iron treads.png",
-    "image_shiny": "iron treads_shiny.png",
+    "image": "iron_treads.png",
+    "image_shiny": "iron_treads_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -49518,8 +49518,8 @@
     "height_metric": "0.9m",
     "weight_imperial": "529.1lbs",
     "weight_metric": "240kg",
-    "image_large": "iron treads.png",
-    "image_shiny_large": "iron treads_shiny.png"
+    "image_large": "iron_treads.png",
+    "image_shiny_large": "iron_treads_shiny.png"
   },
   {
     "number": 991,
@@ -49540,8 +49540,8 @@
       "sp_def": 60,
       "speed": 136
     },
-    "image": "iron bundle.png",
-    "image_shiny": "iron bundle_shiny.png",
+    "image": "iron_bundle.png",
+    "image_shiny": "iron_bundle_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -49555,8 +49555,8 @@
     "height_metric": "0.6m",
     "weight_imperial": "24.3lbs",
     "weight_metric": "11kg",
-    "image_large": "iron bundle.png",
-    "image_shiny_large": "iron bundle_shiny.png"
+    "image_large": "iron_bundle.png",
+    "image_shiny_large": "iron_bundle_shiny.png"
   },
   {
     "number": 992,
@@ -49577,8 +49577,8 @@
       "sp_def": 68,
       "speed": 50
     },
-    "image": "iron hands.png",
-    "image_shiny": "iron hands_shiny.png",
+    "image": "iron_hands.png",
+    "image_shiny": "iron_hands_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -49592,8 +49592,8 @@
     "height_metric": "1.8m",
     "weight_imperial": "839.3lbs",
     "weight_metric": "380.7kg",
-    "image_large": "iron hands.png",
-    "image_shiny_large": "iron hands_shiny.png"
+    "image_large": "iron_hands.png",
+    "image_shiny_large": "iron_hands_shiny.png"
   },
   {
     "number": 993,
@@ -49614,8 +49614,8 @@
       "sp_def": 80,
       "speed": 108
     },
-    "image": "iron jugulis.png",
-    "image_shiny": "iron jugulis_shiny.png",
+    "image": "iron_jugulis.png",
+    "image_shiny": "iron_jugulis_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -49629,8 +49629,8 @@
     "height_metric": "1.3m",
     "weight_imperial": "244.7lbs",
     "weight_metric": "111kg",
-    "image_large": "iron jugulis.png",
-    "image_shiny_large": "iron jugulis_shiny.png"
+    "image_large": "iron_jugulis.png",
+    "image_shiny_large": "iron_jugulis_shiny.png"
   },
   {
     "number": 994,
@@ -49651,8 +49651,8 @@
       "sp_def": 110,
       "speed": 110
     },
-    "image": "iron moth.png",
-    "image_shiny": "iron moth_shiny.png",
+    "image": "iron_moth.png",
+    "image_shiny": "iron_moth_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -49666,8 +49666,8 @@
     "height_metric": "1.2m",
     "weight_imperial": "79.4lbs",
     "weight_metric": "36kg",
-    "image_large": "iron moth.png",
-    "image_shiny_large": "iron moth_shiny.png"
+    "image_large": "iron_moth.png",
+    "image_shiny_large": "iron_moth_shiny.png"
   },
   {
     "number": 995,
@@ -49688,8 +49688,8 @@
       "sp_def": 84,
       "speed": 72
     },
-    "image": "iron thorns.png",
-    "image_shiny": "iron thorns_shiny.png",
+    "image": "iron_thorns.png",
+    "image_shiny": "iron_thorns_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -49703,8 +49703,8 @@
     "height_metric": "1.6m",
     "weight_imperial": "668.0lbs",
     "weight_metric": "303kg",
-    "image_large": "iron thorns.png",
-    "image_shiny_large": "iron thorns_shiny.png"
+    "image_large": "iron_thorns.png",
+    "image_shiny_large": "iron_thorns_shiny.png"
   },
   {
     "number": 996,
@@ -50111,8 +50111,8 @@
       "sp_def": 101,
       "speed": 119
     },
-    "image": "roaring moon.png",
-    "image_shiny": "roaring moon_shiny.png",
+    "image": "roaring_moon.png",
+    "image_shiny": "roaring_moon_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -50126,8 +50126,8 @@
     "height_metric": "2m",
     "weight_imperial": "837.7lbs",
     "weight_metric": "380kg",
-    "image_large": "roaring moon.png",
-    "image_shiny_large": "roaring moon_shiny.png"
+    "image_large": "roaring_moon.png",
+    "image_shiny_large": "roaring_moon_shiny.png"
   },
   {
     "number": 1006,
@@ -50148,8 +50148,8 @@
       "sp_def": 60,
       "speed": 116
     },
-    "image": "iron valiant.png",
-    "image_shiny": "iron valiant_shiny.png",
+    "image": "iron_valiant.png",
+    "image_shiny": "iron_valiant_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -50163,8 +50163,8 @@
     "height_metric": "1.4m",
     "weight_imperial": "77.2lbs",
     "weight_metric": "35kg",
-    "image_large": "iron valiant.png",
-    "image_shiny_large": "iron valiant_shiny.png"
+    "image_large": "iron_valiant.png",
+    "image_shiny_large": "iron_valiant_shiny.png"
   },
   {
     "number": 1007,
@@ -50259,8 +50259,8 @@
       "sp_def": 83,
       "speed": 109
     },
-    "image": "walking wake.png",
-    "image_shiny": "walking wake_shiny.png",
+    "image": "walking_wake.png",
+    "image_shiny": "walking_wake_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -50274,8 +50274,8 @@
     "height_metric": "3.5m",
     "weight_imperial": "617.3lbs",
     "weight_metric": "280kg",
-    "image_large": "walking wake.png",
-    "image_shiny_large": "walking wake_shiny.png"
+    "image_large": "walking_wake.png",
+    "image_shiny_large": "walking_wake_shiny.png"
   },
   {
     "number": 1010,
@@ -50296,8 +50296,8 @@
       "sp_def": 108,
       "speed": 104
     },
-    "image": "iron leaves.png",
-    "image_shiny": "iron leaves_shiny.png",
+    "image": "iron_leaves.png",
+    "image_shiny": "iron_leaves_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -50311,8 +50311,8 @@
     "height_metric": "1.5m",
     "weight_imperial": "275.6lbs",
     "weight_metric": "125kg",
-    "image_large": "iron leaves.png",
-    "image_shiny_large": "iron leaves_shiny.png"
+    "image_large": "iron_leaves.png",
+    "image_shiny_large": "iron_leaves_shiny.png"
   },
   {
     "number": 1011,
@@ -50848,8 +50848,8 @@
       "sp_def": 93,
       "speed": 91
     },
-    "image": "gouging fire.png",
-    "image_shiny": "gouging fire_shiny.png",
+    "image": "gouging_fire.png",
+    "image_shiny": "gouging_fire_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -50863,8 +50863,8 @@
     "height_metric": "3.5m",
     "weight_imperial": "1300.7lbs",
     "weight_metric": "590kg",
-    "image_large": "gouging fire.png",
-    "image_shiny_large": "gouging fire_shiny.png"
+    "image_large": "gouging_fire.png",
+    "image_shiny_large": "gouging_fire_shiny.png"
   },
   {
     "number": 1021,
@@ -50885,8 +50885,8 @@
       "sp_def": 89,
       "speed": 75
     },
-    "image": "raging bolt.png",
-    "image_shiny": "raging bolt_shiny.png",
+    "image": "raging_bolt.png",
+    "image_shiny": "raging_bolt_shiny.png",
     "abilities": {
       "regular": [
         "Protosynthesis"
@@ -50900,8 +50900,8 @@
     "height_metric": "5.2m",
     "weight_imperial": "1058.2lbs",
     "weight_metric": "480kg",
-    "image_large": "raging bolt.png",
-    "image_shiny_large": "raging bolt_shiny.png"
+    "image_large": "raging_bolt.png",
+    "image_shiny_large": "raging_bolt_shiny.png"
   },
   {
     "number": 1022,
@@ -50922,8 +50922,8 @@
       "sp_def": 108,
       "speed": 124
     },
-    "image": "iron boulder.png",
-    "image_shiny": "iron boulder_shiny.png",
+    "image": "iron_boulder.png",
+    "image_shiny": "iron_boulder_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -50937,8 +50937,8 @@
     "height_metric": "1.5m",
     "weight_imperial": "358.2lbs",
     "weight_metric": "162.5kg",
-    "image_large": "iron boulder.png",
-    "image_shiny_large": "iron boulder_shiny.png"
+    "image_large": "iron_boulder.png",
+    "image_shiny_large": "iron_boulder_shiny.png"
   },
   {
     "number": 1023,
@@ -50959,8 +50959,8 @@
       "sp_def": 108,
       "speed": 98
     },
-    "image": "iron crown.png",
-    "image_shiny": "iron crown_shiny.png",
+    "image": "iron_crown.png",
+    "image_shiny": "iron_crown_shiny.png",
     "abilities": {
       "regular": [
         "Quark Drive"
@@ -50974,8 +50974,8 @@
     "height_metric": "1.6m",
     "weight_imperial": "343.9lbs",
     "weight_metric": "156kg",
-    "image_large": "iron crown.png",
-    "image_shiny_large": "iron crown_shiny.png"
+    "image_large": "iron_crown.png",
+    "image_shiny_large": "iron_crown_shiny.png"
   },
   {
     "number": 1024,
@@ -51019,46 +51019,6 @@
   },
   {
     "number": 1024,
-    "name": "Terapagos Stellar Form",
-    "base_name": "Terapagos",
-    "variant": "Stellar Form",
-    "generation": 9,
-    "types": [
-      "Normal"
-    ],
-    "stats": {
-      "total": 700,
-      "hp": 160,
-      "attack": 105,
-      "defense": 110,
-      "sp_atk": 130,
-      "sp_def": 110,
-      "speed": 85
-    },
-    "image": "terapagos_stellar_form.png",
-    "image_shiny": null,
-    "abilities": {
-      "regular": [
-        "Teraform Zero"
-      ],
-      "hidden": []
-    },
-    "backdrop": "grass.png",
-    "classification": "Tera Pokémon",
-    "capture_rate": 255,
-    "height_imperial": "5'07\"",
-    "height_metric": "1.7m",
-    "weight_imperial": "169.8lbs",
-    "weight_metric": "77kg",
-    "gender_ratio": {
-      "male": 50.0,
-      "female": 50.0
-    },
-    "image_large": "terapagos_stellar_form.png",
-    "image_shiny_large": null
-  },
-  {
-    "number": 1024,
     "name": "Terapagos Terastal Form",
     "base_name": "Terapagos",
     "variant": "Terastal Form",
@@ -51096,6 +51056,46 @@
     },
     "image_large": "terapagos_terastal_form.png",
     "image_shiny_large": "terapagos_terastal_form_shiny.png"
+  },
+  {
+    "number": 1024,
+    "name": "Terapagos Stellar Form",
+    "base_name": "Terapagos",
+    "variant": "Stellar Form",
+    "generation": 9,
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "total": 700,
+      "hp": 160,
+      "attack": 105,
+      "defense": 110,
+      "sp_atk": 130,
+      "sp_def": 110,
+      "speed": 85
+    },
+    "image": "terapagos_stellar_form.png",
+    "image_shiny": "terapagos_stellar_form_shiny.png",
+    "abilities": {
+      "regular": [
+        "Teraform Zero"
+      ],
+      "hidden": []
+    },
+    "backdrop": "grass.png",
+    "classification": "Tera Pokémon",
+    "capture_rate": 255,
+    "height_imperial": "5'07\"",
+    "height_metric": "1.7m",
+    "weight_imperial": "169.8lbs",
+    "weight_metric": "77kg",
+    "gender_ratio": {
+      "male": 50.0,
+      "female": 50.0
+    },
+    "image_large": "terapagos_stellar_form.png",
+    "image_shiny_large": "terapagos_stellar_form_shiny.png"
   },
   {
     "number": 1025,
