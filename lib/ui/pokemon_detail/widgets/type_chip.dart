@@ -16,18 +16,22 @@ class TypeChip extends StatelessWidget {
     final typeColor = TypeColors.getColor(type);
     final textColor = TypeColors.getTextColor(type);
 
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      decoration: BoxDecoration(
-        color: typeColor,
-        borderRadius: BorderRadius.circular(7),
-      ),
-      child: Text(
-        type,
-        style: TextStyle(
-          color: textColor,
-          fontSize: fontSize ?? 14,
-          fontWeight: FontWeight.w600,
+    return SizedBox(
+      width: 85, // Fixed width for consistent size
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        decoration: BoxDecoration(
+          color: typeColor,
+          borderRadius: BorderRadius.circular(7),
+        ),
+        child: Text(
+          type,
+          textAlign: TextAlign.center, // Center the text
+          style: TextStyle(
+            color: textColor,
+            fontSize: fontSize ?? 14,
+            fontWeight: FontWeight.w600,
+          ),
         ),
       ),
     );

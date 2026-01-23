@@ -117,13 +117,27 @@ class PokemonDetailView extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // Top row with spacer for image and name
+                      // Two columns: left with types under image, right with name info
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          // Spacer for image width
-                          const SizedBox(width: 190),
-                          // Name and number column
+                          // Left column: types
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                const SizedBox(height: 100),
+                                Wrap(
+                                  spacing: 6,
+                                  runSpacing: 8,
+                                  children: pokemon.types
+                                      .map((type) => TypeChip(type: type))
+                                      .toList(),
+                                ),
+                              ],
+                            ),
+                          ),
+                          // Right column: name, variant, number
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -165,15 +179,6 @@ class PokemonDetailView extends StatelessWidget {
                             ),
                           ),
                         ],
-                      ),
-                      // Types row
-                      const SizedBox(height: 20),
-                      Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
-                        children: pokemon.types
-                            .map((type) => TypeChip(type: type))
-                            .toList(),
                       ),
 
                       // Abilities
@@ -287,7 +292,7 @@ class PokemonDetailView extends StatelessWidget {
               // Pokemon image positioned absolutely (appears on top)
               Positioned(
                 top: -100,
-                left: 14,
+                left: 10,
                 child: Hero(
                   tag: 'pokemon-image-${pokemon.number}-${pokemon.variant ?? 'base'}',
                   child: PokemonImage(

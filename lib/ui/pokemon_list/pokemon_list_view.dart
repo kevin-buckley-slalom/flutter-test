@@ -349,30 +349,34 @@ class _PokemonListViewState extends ConsumerState<PokemonListView> {
                           ),
                         ),
                       )
-                    : ListView.separated(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 16,
-                          vertical: 12,
-                        ),
-                        itemCount: sortedList.length,
-                        separatorBuilder: (context, index) =>
-                            const SizedBox(height: 10),
-                        itemBuilder: (context, index) {
-                          final pokemon = sortedList[index];
-                          return PokemonListItem(
-                            pokemon: pokemon,
-                            onTap: () {
-                              Navigator.of(context).push(
-                                MaterialPageRoute(
-                                  builder: (context) => PokemonDetailView(
-                                    pokemon: pokemon,
+                    : Scrollbar(
+                        thickness: 16, // Even thicker scrollbar for mobile visibility
+                        radius: const Radius.circular(8),
+                        child: ListView.separated(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 12,
+                          ),
+                          itemCount: sortedList.length,
+                          separatorBuilder: (context, index) =>
+                              const SizedBox(height: 10),
+                          itemBuilder: (context, index) {
+                            final pokemon = sortedList[index];
+                            return PokemonListItem(
+                              pokemon: pokemon,
+                              onTap: () {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => PokemonDetailView(
+                                      pokemon: pokemon,
+                                    ),
                                   ),
-                                ),
-                              );
-                            },
-                            statField: ['hp', 'attack', 'defense', 'spAtk', 'spDef', 'speed', 'bst'].contains(_sortField) ? _sortField : null,
-                          );
-                        },
+                                );
+                              },
+                              statField: ['hp', 'attack', 'defense', 'spAtk', 'spDef', 'speed', 'bst'].contains(_sortField) ? _sortField : null,
+                            );
+                          },
+                        ),
                       ),
               ),
             ],
