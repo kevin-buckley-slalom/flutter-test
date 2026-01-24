@@ -215,10 +215,10 @@ class _GameSelectorAndMovesContent extends ConsumerWidget {
   List<String> _getSortedGames(List<String> games) {
     final order = [
       'Legends: Z-A',
-      'Scarlet & Violet',
-      'Sword & Shield',
+      'Scarlet and Violet',
+      'Sword and Shield',
       'Legends Arceus',
-      'BDSP',
+      'Brilliant Diamond and Shining Pearl',
     ];
     final sorted = <String>[];
     for (final game in order) {

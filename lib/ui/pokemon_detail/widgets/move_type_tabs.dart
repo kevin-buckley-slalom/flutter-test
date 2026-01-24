@@ -17,7 +17,7 @@ class MoveTypeTabs extends StatefulWidget {
 }
 
 class _MoveTypeTabsState extends State<MoveTypeTabs>
-    with SingleTickerProviderStateMixin {
+  with TickerProviderStateMixin {
   late TabController _tabController;
 
   int _initialIndex() {

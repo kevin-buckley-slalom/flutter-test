@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/models/ability.dart';
+import '../../data/models/pokemon.dart';
 import '../../data/services/ability_data_service.dart';
 import '../pokemon_detail/pokemon_detail_view.dart';
 import '../pokemon_list/pokemon_list_view_model.dart';
 import '../shared/flat_card.dart';
+import '../shared/pokemon_image.dart';
 
 final abilityByNameProvider = FutureProvider.family<Ability?, String>((ref, abilityName) async {
   final abilityService = AbilityDataService();
@@ -67,15 +69,29 @@ class AbilityDetailView extends ConsumerWidget {
 
         return _AbilityDetailContent(
           ability: ability,
+          pokemonRepository: ref.read(pokemonRepositoryProvider),
           onPokemonTap: (pokemonName) async {
-            // Look up pokemon and navigate
+            // Look up pokemon and navigate with robust fallbacks
             final pokemonRepository = ref.read(pokemonRepositoryProvider);
             await pokemonRepository.initialize();
-            final pokemon = pokemonRepository.byName(pokemonName);
+
+            Pokemon? pokemon = pokemonRepository.byName(pokemonName);
+            if (pokemon == null) {
+              final allPokemon = pokemonRepository.all();
+              pokemon = allPokemon.cast<Pokemon?>().firstWhere(
+                (p) => p?.variant?.toLowerCase() == pokemonName.toLowerCase(),
+                orElse: () => null,
+              );
+            }
+            if (pokemon == null) {
+              final byBase = pokemonRepository.byBaseName(pokemonName);
+              if (byBase.isNotEmpty) pokemon = byBase.first;
+            }
+
             if (pokemon != null && context.mounted) {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => PokemonDetailView(pokemon: pokemon),
+                  builder: (context) => PokemonDetailView(pokemon: pokemon!),
                 ),
               );
             }
@@ -86,20 +102,67 @@ class AbilityDetailView extends ConsumerWidget {
   }
 }
 
-class _AbilityDetailContent extends StatelessWidget {
+class _AbilityDetailContent extends StatefulWidget {
   final Ability ability;
   final Function(String) onPokemonTap;
+  final dynamic pokemonRepository;
 
   const _AbilityDetailContent({
     required this.ability,
     required this.onPokemonTap,
+    required this.pokemonRepository,
   });
+
+  @override
+  State<_AbilityDetailContent> createState() => _AbilityDetailContentState();
+}
+
+class _AbilityDetailContentState extends State<_AbilityDetailContent> {
+  bool _isInitialized = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializeRepository();
+  }
+
+  Future<void> _initializeRepository() async {
+    await widget.pokemonRepository.initialize();
+    if (mounted) {
+      setState(() {
+        _isInitialized = true;
+      });
+    }
+  }
+
+  Pokemon? _getPokemon(String pokemonName) {
+    if (!_isInitialized) return null;
+    
+    // Try to find Pokemon by checking name, variant, and base_name in order
+    // 1. First try exact name match (most specific)
+    var pokemon = widget.pokemonRepository.byName(pokemonName);
+    if (pokemon != null) return pokemon;
+    
+    // 2. Then try to find by variant (e.g., "Hisuian" matches pokemon.variant == "Hisuian")
+    final allPokemon = widget.pokemonRepository.all();
+    pokemon = allPokemon.cast<Pokemon?>().firstWhere(
+      (p) => p?.variant?.toLowerCase() == pokemonName.toLowerCase(),
+      orElse: () => null,
+    );
+    if (pokemon != null) return pokemon;
+    
+    // 3. Finally try base_name (least specific)
+    final byBaseName = widget.pokemonRepository.byBaseName(pokemonName);
+    if (byBaseName.isNotEmpty) return byBaseName.first;
+    
+    return null;
+  }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final regularPokemonList = ability.regularPokemon.toList()..sort();
-    final hiddenPokemonList = ability.hiddenPokemon.toList()..sort();
+    final regularPokemonList = widget.ability.regularPokemon.toList()..sort();
+    final hiddenPokemonList = widget.ability.hiddenPokemon.toList()..sort();
     final hasAnyPokemon = regularPokemonList.isNotEmpty || hiddenPokemonList.isNotEmpty;
 
     return Scaffold(
@@ -121,7 +184,7 @@ class _AbilityDetailContent extends StatelessWidget {
             children: [
               // Ability Title
               Text(
-                ability.name,
+                widget.ability.name,
                 style: theme.textTheme.displayMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
@@ -145,7 +208,7 @@ class _AbilityDetailContent extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      ability.effect.isEmpty ? 'No description available' : ability.effect,
+                      widget.ability.effect.isEmpty ? 'No description available' : widget.ability.effect,
                       style: theme.textTheme.bodyMedium?.copyWith(
                         height: 1.6,
                       ),
@@ -186,11 +249,13 @@ class _AbilityDetailContent extends StatelessWidget {
                     itemCount: regularPokemonList.length,
                     itemBuilder: (context, index) {
                       final pokemonName = regularPokemonList[index];
+                      final pokemon = _getPokemon(pokemonName);
                       return _PokemonAbilityRow(
                         pokemonName: pokemonName,
+                        pokemon: pokemon,
                         isRegular: true,
                         isHidden: false,
-                        onTap: () => onPokemonTap(pokemonName),
+                        onTap: () => widget.onPokemonTap(pokemonName),
                       );
                     },
                   ),
@@ -212,11 +277,13 @@ class _AbilityDetailContent extends StatelessWidget {
                     itemCount: hiddenPokemonList.length,
                     itemBuilder: (context, index) {
                       final pokemonName = hiddenPokemonList[index];
+                      final pokemon = _getPokemon(pokemonName);
                       return _PokemonAbilityRow(
                         pokemonName: pokemonName,
+                        pokemon: pokemon,
                         isRegular: false,
                         isHidden: true,
-                        onTap: () => onPokemonTap(pokemonName),
+                        onTap: () => widget.onPokemonTap(pokemonName),
                       );
                     },
                   ),
@@ -234,12 +301,14 @@ class _AbilityDetailContent extends StatelessWidget {
 
 class _PokemonAbilityRow extends StatefulWidget {
   final String pokemonName;
+  final Pokemon? pokemon;
   final bool isRegular;
   final bool isHidden;
   final VoidCallback onTap;
 
   const _PokemonAbilityRow({
     required this.pokemonName,
+    required this.pokemon,
     required this.isRegular,
     required this.isHidden,
     required this.onTap,
@@ -285,18 +354,28 @@ class _PokemonAbilityRowState extends State<_PokemonAbilityRow> {
             ),
             child: Row(
               children: [
-                // Pokemon image placeholder
-                Container(
-                  width: 48,
-                  height: 48,
-                  decoration: BoxDecoration(
-                    color: theme.colorScheme.primary.withValues(alpha: 0.1),
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Icon(
-                    Icons.image_not_supported_outlined,
-                    color: theme.colorScheme.primary.withValues(alpha: 0.5),
-                    size: 24,
+                // Pokemon image
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(8),
+                  child: Container(
+                    width: 48,
+                    height: 48,
+                    decoration: BoxDecoration(
+                      color: theme.colorScheme.primary.withValues(alpha: 0.1),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: widget.pokemon != null
+                        ? PokemonImage(
+                            imagePath: widget.pokemon!.imagePath,
+                            imagePathLarge: widget.pokemon!.imagePathLarge,
+                            size: 48,
+                            useLarge: false,
+                          )
+                        : Icon(
+                            Icons.image_not_supported_outlined,
+                            color: theme.colorScheme.primary.withValues(alpha: 0.5),
+                            size: 24,
+                          ),
                   ),
                 ),
 

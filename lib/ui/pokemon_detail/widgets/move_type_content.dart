@@ -124,195 +124,204 @@ class _MoveListItem extends ConsumerWidget {
         final dividerColor = theme.colorScheme.outlineVariant.withValues(alpha: 0.3);
         final dividerColorLight = theme.colorScheme.onSurface.withValues(alpha: 0.2);
 
-        return Container(
-          decoration: BoxDecoration(
-            color: theme.colorScheme.surface,
-            border: Border.all(
-              color: theme.colorScheme.outlineVariant.withValues(alpha: 0.2),
-              width: 1,
+        return InkWell(
+          onTap: () {
+            Navigator.of(context).pushNamed(
+              '/move-detail',
+              arguments: move.name,
+            );
+          },
+          borderRadius: BorderRadius.circular(8),
+          child: Container(
+            decoration: BoxDecoration(
+              color: theme.colorScheme.surface,
+              border: Border.all(
+                color: theme.colorScheme.outlineVariant.withValues(alpha: 0.2),
+                width: 1,
+              ),
+              borderRadius: BorderRadius.circular(8),
             ),
-            borderRadius: BorderRadius.circular(8),
-          ),
-          child: IntrinsicHeight(
-            child: Row(
-              children: [
-                // Left section: Icon, name, and stats
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      // Top row: Category icon + Move name
-                      Padding(
-                        padding: const EdgeInsets.all(12),
-                        child: Row(
-                          children: [
-                            // Fixed width for category icon
-                            SizedBox(
-                              width: 50,
-                              child: Tooltip(
-                                message: moveData.category,
-                                child: MoveCategoryIcon(category: moveData.category.toLowerCase()),
-                              ),
-                            ),
-                            const SizedBox(width: 8),
-                            // Move name - emphasized and bold
-                            Expanded(
-                              child: Text(
-                                move.name,
-                                style: theme.textTheme.bodyLarge?.copyWith(
-                                  fontWeight: FontWeight.bold,
+            child: IntrinsicHeight(
+              child: Row(
+                children: [
+                  // Left section: Icon, name, and stats
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        // Top row: Category icon + Move name
+                        Padding(
+                          padding: const EdgeInsets.all(12),
+                          child: Row(
+                            children: [
+                              // Fixed width for category icon
+                              SizedBox(
+                                width: 50,
+                                child: Tooltip(
+                                  message: moveData.category,
+                                  child: MoveCategoryIcon(category: moveData.category.toLowerCase()),
                                 ),
                               ),
-                            ),
-                          ],
+                              const SizedBox(width: 8),
+                              // Move name - emphasized and bold
+                              Expanded(
+                                child: Text(
+                                  move.name,
+                                  style: theme.textTheme.bodyLarge?.copyWith(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                      // Divider between name and stats
-                      Divider(
-                        height: 1,
-                        color: dividerColor,
-                        thickness: 1,
-                        indent: 8,
-                        endIndent: 8,
-                      ),
-                      // Stats table: Power, Accuracy, PP
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 12),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            // Power column
-                            Expanded(
-                              flex: 5,
-                              child: Container(
-                                margin: const EdgeInsets.symmetric(horizontal: 6),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      'Power',
-                                      style: theme.textTheme.labelMedium?.copyWith(
-                                        color: theme.colorScheme.onSurfaceVariant,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 8),
-                                    Text(
-                                      moveData.power?.toString() ?? '—',
-                                      style: theme.textTheme.bodyMedium?.copyWith(
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                            // Vertical divider
-                            Container(
-                              width: 1,
-                              height: 45,
-                              color: dividerColorLight,
-                            ),
-                            // Accuracy column
-                            Expanded(
-                              flex: 6,
-                              child: Container(
-                                margin: const EdgeInsets.symmetric(horizontal: 8),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      'Accuracy',
-                                      style: theme.textTheme.labelMedium?.copyWith(
-                                        color: theme.colorScheme.onSurfaceVariant,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 8),
-                                    Text(
-                                      moveData.accuracy?.toString() ?? '—',
-                                      style: theme.textTheme.bodyMedium?.copyWith(
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                            // Vertical divider
-                            Container(
-                              width: 1,
-                              height: 45,
-                              color: dividerColorLight,
-                            ),
-                            // PP column
-                            Expanded(
-                              flex: 5,
-                              child: Container(
-                                margin: const EdgeInsets.symmetric(horizontal: 6),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      'PP',
-                                      style: theme.textTheme.labelMedium?.copyWith(
-                                        color: theme.colorScheme.onSurfaceVariant,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 8),
-                                    Text(
-                                      '${moveData.pp} - ${(moveData.pp * 1.6).toStringAsFixed(0)}',
-                                      style: theme.textTheme.bodyMedium?.copyWith(
-                                        fontWeight: FontWeight.w500,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ],
+                        // Divider between name and stats
+                        Divider(
+                          height: 1,
+                          color: dividerColor,
+                          thickness: 1,
+                          indent: 8,
+                          endIndent: 8,
                         ),
-                      ),
-                    ],
-                  ),
-                ),
-                // Right section: Learn method badge
-                Container(
-                  margin: const EdgeInsetsDirectional.symmetric(horizontal: 0, vertical: 12),
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    border: Border(
-                      left: BorderSide(
-                        color: theme.colorScheme.outlineVariant.withValues(alpha: 0.2),
-                        width: 1,
-                      ),
+                        // Stats table: Power, Accuracy, PP
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 12),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              // Power column
+                              Expanded(
+                                flex: 5,
+                                child: Container(
+                                  margin: const EdgeInsets.symmetric(horizontal: 6),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'Power',
+                                        style: theme.textTheme.labelMedium?.copyWith(
+                                          color: theme.colorScheme.onSurfaceVariant,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 8),
+                                      Text(
+                                        moveData.power?.toString() ?? '—',
+                                        style: theme.textTheme.bodyMedium?.copyWith(
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              // Vertical divider
+                              Container(
+                                width: 1,
+                                height: 45,
+                                color: dividerColorLight,
+                              ),
+                              // Accuracy column
+                              Expanded(
+                                flex: 6,
+                                child: Container(
+                                  margin: const EdgeInsets.symmetric(horizontal: 8),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'Accuracy',
+                                        style: theme.textTheme.labelMedium?.copyWith(
+                                          color: theme.colorScheme.onSurfaceVariant,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 8),
+                                      Text(
+                                        moveData.accuracy?.toString() ?? '—',
+                                        style: theme.textTheme.bodyMedium?.copyWith(
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              // Vertical divider
+                              Container(
+                                width: 1,
+                                height: 45,
+                                color: dividerColorLight,
+                              ),
+                              // PP column
+                              Expanded(
+                                flex: 5,
+                                child: Container(
+                                  margin: const EdgeInsets.symmetric(horizontal: 6),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'PP',
+                                        style: theme.textTheme.labelMedium?.copyWith(
+                                          color: theme.colorScheme.onSurfaceVariant,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 8),
+                                      Text(
+                                        '${moveData.pp} - ${(moveData.pp * 1.6).toStringAsFixed(0)}',
+                                        style: theme.textTheme.bodyMedium?.copyWith(
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                  child: Align(
-                    alignment: Alignment.center,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: learnColor.withValues(alpha: 0.1),
-                        borderRadius: BorderRadius.circular(6),
-                        border: Border.all(
-                          color: learnColor.withValues(alpha: 0.5),
-                          width: 0.5,
-                        ),
-                      ),
-                      child: Text(
-                        learnMethodText,
-                        style: theme.textTheme.labelSmall?.copyWith(
-                          color: learnColor,
-                          fontWeight: FontWeight.w600,
-                          fontSize: 11,
+                  // Right section: Learn method badge
+                  Container(
+                    margin: const EdgeInsetsDirectional.symmetric(horizontal: 0, vertical: 12),
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      border: Border(
+                        left: BorderSide(
+                          color: theme.colorScheme.outlineVariant.withValues(alpha: 0.2),
+                          width: 1,
                         ),
                       ),
                     ),
+                    child: Align(
+                      alignment: Alignment.center,
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                        decoration: BoxDecoration(
+                          color: learnColor.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(6),
+                          border: Border.all(
+                            color: learnColor.withValues(alpha: 0.5),
+                            width: 0.5,
+                          ),
+                        ),
+                        child: Text(
+                          learnMethodText,
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: learnColor,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 11,
+                          ),
+                        ),
+                      ),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         );

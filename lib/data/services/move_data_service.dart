@@ -24,7 +24,9 @@ class MoveDataService {
       jsonData.forEach((moveName, moveJson) {
         if (moveJson is Map<String, dynamic>) {
           try {
-            _moveCache![moveName] = Move.fromJson(moveJson);
+            // Add the move name to the json object before creating the Move
+            final moveDataWithName = {...moveJson, 'name': moveName};
+            _moveCache![moveName] = Move.fromJson(moveDataWithName);
           } catch (e) {
             // Skip malformed move entries
           }

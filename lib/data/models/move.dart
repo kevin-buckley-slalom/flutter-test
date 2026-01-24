@@ -5,7 +5,12 @@ class Move {
   final int? power;
   final int? accuracy;
   final int pp;
+  final int? maxPp;
   final String effect;
+  final String? detailedEffect;
+  final int? effectChance;
+  final bool makesContact;
+  final String? targets;
   final int generation;
 
   Move({
@@ -15,7 +20,12 @@ class Move {
     required this.power,
     required this.accuracy,
     required this.pp,
+    this.maxPp,
     required this.effect,
+    this.detailedEffect,
+    this.effectChance,
+    required this.makesContact,
+    this.targets,
     required this.generation,
   });
 
@@ -27,7 +37,12 @@ class Move {
       power: json['power'] as int?,
       accuracy: json['accuracy'] as int?,
       pp: json['pp'] as int? ?? 0,
+      maxPp: json['max_pp'] as int?,
       effect: json['effect'] as String? ?? '',
+      detailedEffect: json['detailed_effect'] as String?,
+      effectChance: json['effect_chance'] as int?,
+      makesContact: json['makes_contact'] as bool? ?? false,
+      targets: json['targets'] as String? ?? 'Unknown',
       generation: json['generation'] as int? ?? 0,
     );
   }
@@ -39,7 +54,12 @@ class Move {
     'power': power,
     'accuracy': accuracy,
     'pp': pp,
+    'max_pp': maxPp,
     'effect': effect,
+    'detailed_effect': detailedEffect,
+    'effect_chance': effectChance,
+    'makes_contact': makesContact,
+    'targets': targets,
     'generation': generation,
   };
 }

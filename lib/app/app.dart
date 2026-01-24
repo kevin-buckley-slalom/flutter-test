@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../ui/ability_detail/ability_detail_view.dart';
+import '../ui/move_detail/move_detail_view.dart';
 import 'theme/app_theme.dart';
 
 class App extends StatelessWidget {
@@ -19,6 +20,10 @@ class App extends StatelessWidget {
         '/ability-detail': (context) {
           final abilityName = ModalRoute.of(context)?.settings.arguments as String?;
           return AbilityDetailView(abilityName: abilityName ?? 'Unknown');
+        },
+        '/move-detail': (context) {
+          final moveName = ModalRoute.of(context)?.settings.arguments as String?;
+          return MoveDetailView(moveName: moveName ?? 'Unknown');
         },
       },
       debugShowCheckedModeBanner: false,

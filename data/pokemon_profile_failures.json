@@ -1,0 +1,741 @@
+{
+  "failed": [],
+  "errors": [],
+  "validation_issues": [
+    {
+      "base_name": "Togetic",
+      "validation_failures": {
+        "Togetic": {
+          "capture_rate": "Invalid: '2\\'00\"0.6m'",
+          "height_imperial": "Invalid format: 'Standard2\\'00\"0.6m Min1\\'07\"0.48m Max2\\'04\"0.72m Alpha4\\'04\"1.32m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/togetic/"
+    },
+    {
+      "base_name": "Mareep",
+      "validation_failures": {
+        "Mareep": {
+          "capture_rate": "Invalid: '235 (SV)204 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/mareep/"
+    },
+    {
+      "base_name": "Slowking",
+      "validation_failures": {
+        "Slowking": {
+          "height_imperial": "Invalid format: '6\\'07\" / 5\\'11\"'",
+          "height_metric": "Invalid format: '2m / 1.8m'"
+        },
+        "Slowking Galarian Slowking": {
+          "height_imperial": "Invalid format: '6\\'07\" / 5\\'11\"'",
+          "height_metric": "Invalid format: '2m / 1.8m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/slowking/"
+    },
+    {
+      "base_name": "Unown",
+      "validation_failures": {
+        "Unown": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha2\\'09\"0.85m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/unown/"
+    },
+    {
+      "base_name": "Qwilfish",
+      "validation_failures": {
+        "Qwilfish": {
+          "height_imperial": "Invalid format: '1\\'08\" / 1\\'08\"'",
+          "height_metric": "Invalid format: '0.5m / 0.5m'"
+        },
+        "Qwilfish Hisuian Qwilfish": {
+          "height_imperial": "Invalid format: '1\\'08\" / 1\\'08\"'",
+          "height_metric": "Invalid format: '0.5m / 0.5m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/qwilfish/"
+    },
+    {
+      "base_name": "Remoraid",
+      "validation_failures": {
+        "Remoraid": {
+          "capture_rate": "Invalid: '2\\'00\"0.6m'",
+          "height_imperial": "Invalid format: 'Standard2\\'00\"0.6m Min1\\'07\"0.48m Max2\\'04\"0.72m Alpha4\\'06\"1.38m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/remoraid/"
+    },
+    {
+      "base_name": "Octillery",
+      "validation_failures": {
+        "Octillery": {
+          "capture_rate": "Invalid: '2\\'11\"0.9m'",
+          "height_imperial": "Invalid format: 'Standard2\\'11\"0.9m Min2\\'04\"0.72m Max3\\'07\"1.08m Alpha7\\'05\"2.25m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/octillery/"
+    },
+    {
+      "base_name": "Mantine",
+      "validation_failures": {
+        "Mantine": {
+          "capture_rate": "Invalid: '6\\'11\"2.1m'",
+          "height_imperial": "Invalid format: 'Standard6\\'11\"2.1m Min5\\'06\"1.68m Max8\\'03\"2.52m Alpha17\\'03\"5.25m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/mantine/"
+    },
+    {
+      "base_name": "Wurmple",
+      "validation_failures": {
+        "Wurmple": {
+          "capture_rate": "Invalid: '1\\'00\"0.3m'",
+          "height_imperial": "Invalid format: 'Standard1\\'00\"0.3m Min0\\'09\"0.24m Max1\\'02\"0.36m Alpha4\\'04\"1.32m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/wurmple/"
+    },
+    {
+      "base_name": "Silcoon",
+      "validation_failures": {
+        "Silcoon": {
+          "capture_rate": "Invalid: '2\\'00\"0.6m'",
+          "height_imperial": "Invalid format: 'Standard2\\'00\"0.6m Min1\\'07\"0.48m Max2\\'04\"0.72m Alpha5\\'04\"1.62m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/silcoon/"
+    },
+    {
+      "base_name": "Beautifly",
+      "validation_failures": {
+        "Beautifly": {
+          "capture_rate": "Invalid: '3\\'03\"1m'",
+          "height_imperial": "Invalid format: 'Standard3\\'03\"1m Min2\\'07\"0.8m Max3\\'11\"1.2m Alpha6\\'07\"2m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/beautifly/"
+    },
+    {
+      "base_name": "Cascoon",
+      "validation_failures": {
+        "Cascoon": {
+          "capture_rate": "Invalid: '2\\'04\"0.7m'",
+          "height_imperial": "Invalid format: 'Standard2\\'04\"0.7m Min1\\'10\"0.56m Max2\\'09\"0.84m Alpha5\\'09\"1.75m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/cascoon/"
+    },
+    {
+      "base_name": "Dustox",
+      "validation_failures": {
+        "Dustox": {
+          "capture_rate": "Invalid: '3\\'11\"1.2m'",
+          "height_imperial": "Invalid format: 'Standard3\\'11\"1.2m Min3\\'02\"0.96m Max4\\'09\"1.44m Alpha7\\'06\"2.28m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/dustox/"
+    },
+    {
+      "base_name": "Sableye",
+      "validation_failures": {
+        "Sableye": {
+          "capture_rate": "Invalid: '45 (SV)90 (Legends: Z-A)'"
+        },
+        "Sableye Mega Sableye": {
+          "capture_rate": "Invalid: '45 (SV)90 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/sableye/"
+    },
+    {
+      "base_name": "Numel",
+      "validation_failures": {
+        "Numel": {
+          "capture_rate": "Invalid: '255 (SV)250 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/numel/"
+    },
+    {
+      "base_name": "Swablu",
+      "validation_failures": {
+        "Swablu": {
+          "capture_rate": "Invalid: '255 (SV)250 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/swablu/"
+    },
+    {
+      "base_name": "Spheal",
+      "validation_failures": {
+        "Spheal": {
+          "capture_rate": "Invalid: '2\\'07\"0.8m'",
+          "height_imperial": "Invalid format: 'Standard2\\'07\"0.8m Min2\\'01\"0.64m Max3\\'02\"0.96m Alpha3\\'07\"1.08m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/spheal/"
+    },
+    {
+      "base_name": "Sealeo",
+      "validation_failures": {
+        "Sealeo": {
+          "capture_rate": "Invalid: '3\\'07\"1.1m'",
+          "height_imperial": "Invalid format: 'Standard3\\'07\"1.1m Min2\\'11\"0.88m Max4\\'04\"1.32m Alpha5\\'01\"1.54m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/sealeo/"
+    },
+    {
+      "base_name": "Walrein",
+      "validation_failures": {
+        "Walrein": {
+          "capture_rate": "Invalid: '4\\'07\"1.4m'",
+          "height_imperial": "Invalid format: 'Standard4\\'07\"1.4m Min3\\'08\"1.12m Max5\\'06\"1.68m Alpha7\\'01\"2.17m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/walrein/"
+    },
+    {
+      "base_name": "Beldum",
+      "validation_failures": {
+        "Beldum": {
+          "capture_rate": "Invalid: '3 (SV)20 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/beldum/"
+    },
+    {
+      "base_name": "Metang",
+      "validation_failures": {
+        "Metang": {
+          "capture_rate": "Invalid: '3 (SV)20 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/metang/"
+    },
+    {
+      "base_name": "Metagross",
+      "validation_failures": {
+        "Metagross": {
+          "capture_rate": "Invalid: '3 (SV)20 (Legends: Z-A)'"
+        },
+        "Metagross Mega Metagross": {
+          "capture_rate": "Invalid: '3 (SV)20 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/metagross/"
+    },
+    {
+      "base_name": "Latias",
+      "validation_failures": {
+        "Latias": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Latias Mega Latias": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/latias/"
+    },
+    {
+      "base_name": "Latios",
+      "validation_failures": {
+        "Latios": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Latios Mega Latios": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/latios/"
+    },
+    {
+      "base_name": "Kyogre",
+      "validation_failures": {
+        "Kyogre": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Kyogre Primal Kyogre": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/kyogre/"
+    },
+    {
+      "base_name": "Groudon",
+      "validation_failures": {
+        "Groudon": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Groudon Primal Groudon": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/groudon/"
+    },
+    {
+      "base_name": "Rayquaza",
+      "validation_failures": {
+        "Rayquaza": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Rayquaza Mega Rayquaza": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/rayquaza/"
+    },
+    {
+      "base_name": "Bidoof",
+      "validation_failures": {
+        "Bidoof": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha4\\'11\"1.5m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/bidoof/"
+    },
+    {
+      "base_name": "Bibarel",
+      "validation_failures": {
+        "Bibarel": {
+          "capture_rate": "Invalid: '3\\'03\"1m'",
+          "height_imperial": "Invalid format: 'Standard3\\'03\"1m Min2\\'07\"0.8m Max3\\'11\"1.2m Alpha6\\'07\"2m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/bibarel/"
+    },
+    {
+      "base_name": "Burmy",
+      "validation_failures": {
+        "Burmy Plant Cloak": {
+          "capture_rate": "Invalid: '0\\'08\"0.2m'",
+          "height_imperial": "Invalid format: 'Standard0\\'08\"0.2m Min0\\'06\"0.16m Max0\\'09\"0.24m Alpha3\\'03\"1m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        },
+        "Burmy Sandy Cloak": {
+          "capture_rate": "Invalid: '0\\'08\"0.2m'",
+          "height_imperial": "Invalid format: 'Standard0\\'08\"0.2m Min0\\'06\"0.16m Max0\\'09\"0.24m Alpha3\\'03\"1m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        },
+        "Burmy Trash Cloak": {
+          "capture_rate": "Invalid: '0\\'08\"0.2m'",
+          "height_imperial": "Invalid format: 'Standard0\\'08\"0.2m Min0\\'06\"0.16m Max0\\'09\"0.24m Alpha3\\'03\"1m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/burmy/"
+    },
+    {
+      "base_name": "Wormadam",
+      "validation_failures": {
+        "Wormadam Plant Cloak": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha5\\'09\"1.75m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        },
+        "Wormadam Sandy Cloak": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha5\\'09\"1.75m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        },
+        "Wormadam Trash Cloak": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha5\\'09\"1.75m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/wormadam/"
+    },
+    {
+      "base_name": "Mothim",
+      "validation_failures": {
+        "Mothim": {
+          "capture_rate": "Invalid: '2\\'11\"0.9m'",
+          "height_imperial": "Invalid format: 'Standard2\\'11\"0.9m Min2\\'04\"0.72m Max3\\'07\"1.08m Alpha6\\'02\"1.89m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/mothim/"
+    },
+    {
+      "base_name": "Cherubi",
+      "validation_failures": {
+        "Cherubi": {
+          "capture_rate": "Invalid: '1\\'04\"0.4m'",
+          "height_imperial": "Invalid format: 'Standard1\\'04\"0.4m Min1\\'01\"0.32m Max1\\'07\"0.48m Alpha2\\'07\"0.8m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/cherubi/"
+    },
+    {
+      "base_name": "Cherrim",
+      "validation_failures": {
+        "Cherrim": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha4\\'01\"1.25m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/cherrim/"
+    },
+    {
+      "base_name": "Glameow",
+      "validation_failures": {
+        "Glameow": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha4\\'01\"1.25m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/glameow/"
+    },
+    {
+      "base_name": "Purugly",
+      "validation_failures": {
+        "Purugly": {
+          "capture_rate": "Invalid: '3\\'03\"1m'",
+          "height_imperial": "Invalid format: 'Standard3\\'03\"1m Min2\\'07\"0.8m Max3\\'11\"1.2m Alpha7\\'03\"2.2m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/purugly/"
+    },
+    {
+      "base_name": "Chatot",
+      "validation_failures": {
+        "Chatot": {
+          "capture_rate": "Invalid: '1\\'08\"0.5m'",
+          "height_imperial": "Invalid format: 'Standard1\\'08\"0.5m Min1\\'04\"0.4m Max2\\'00\"0.6m Alpha3\\'09\"1.15m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/chatot/"
+    },
+    {
+      "base_name": "Skorupi",
+      "validation_failures": {
+        "Skorupi": {
+          "capture_rate": "Invalid: '2\\'07\"0.8m'",
+          "height_imperial": "Invalid format: 'Standard2\\'07\"0.8m Min2\\'01\"0.64m Max3\\'02\"0.96m Alpha4\\'06\"1.36m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/skorupi/"
+    },
+    {
+      "base_name": "Drapion",
+      "validation_failures": {
+        "Drapion": {
+          "capture_rate": "Invalid: '4\\'03\"1.3m'",
+          "height_imperial": "Invalid format: 'Standard4\\'03\"1.3m Min3\\'05\"1.04m Max5\\'01\"1.56m Alpha6\\'05\"1.95m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/drapion/"
+    },
+    {
+      "base_name": "Carnivine",
+      "validation_failures": {
+        "Carnivine": {
+          "capture_rate": "Invalid: '4\\'07\"1.4m'",
+          "height_imperial": "Invalid format: 'Standard4\\'07\"1.4m Min3\\'08\"1.12m Max5\\'06\"1.68m Alpha8\\'03\"2.52m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/carnivine/"
+    },
+    {
+      "base_name": "Mantyke",
+      "validation_failures": {
+        "Mantyke": {
+          "capture_rate": "Invalid: '3\\'03\"1.0m'",
+          "height_imperial": "Invalid format: 'Standard3\\'03\"1.0m Min2\\'07\"0.8m Max3\\'11\"1.2m Alpha6\\'07\"2m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/mantyke/"
+    },
+    {
+      "base_name": "Lickilicky",
+      "validation_failures": {
+        "Lickilicky": {
+          "capture_rate": "Invalid: '5\\'07\"1.7m'",
+          "height_imperial": "Invalid format: 'Standard5\\'07\"1.7m Min4\\'06\"1.36m Max6\\'08\"2.04m Alpha8\\'11\"2.72m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/lickilicky/"
+    },
+    {
+      "base_name": "Tangrowth",
+      "validation_failures": {
+        "Tangrowth": {
+          "capture_rate": "Invalid: '6\\'07\"2.0m'",
+          "height_imperial": "Invalid format: 'Standard6\\'07\"2.0m Min5\\'03\"1.6m Max7\\'10\"2.4m Alpha9\\'02\"2.8m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/tangrowth/"
+    },
+    {
+      "base_name": "Togekiss",
+      "validation_failures": {
+        "Togekiss": {
+          "capture_rate": "Invalid: '4\\'11\"1.5m'",
+          "height_imperial": "Invalid format: 'Standard4\\'11\"1.5m Min3\\'11\"1.2m Max5\\'11\"1.8m Alpha7\\'05\"2.25m'",
+          "weight_imperial": "Invalid format: 'Standard'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/togekiss/"
+    },
+    {
+      "base_name": "Heatran",
+      "validation_failures": {
+        "Heatran": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/heatran/"
+    },
+    {
+      "base_name": "Darkrai",
+      "validation_failures": {
+        "Darkrai": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/darkrai/"
+    },
+    {
+      "base_name": "Darmanitan",
+      "validation_failures": {
+        "Darmanitan Galarian Standard Mode": {
+          "height_imperial": "Invalid format: '4\\'03\" / 5\\'07\"'",
+          "height_metric": "Invalid format: '1.3m / 1.7m'"
+        },
+        "Darmanitan Galarian Zen Mode": {
+          "height_imperial": "Invalid format: '4\\'03\" / 5\\'07\"'",
+          "height_metric": "Invalid format: '1.3m / 1.7m'"
+        },
+        "Darmanitan Standard Mode": {
+          "height_imperial": "Invalid format: '4\\'03\" / 5\\'07\"'",
+          "height_metric": "Invalid format: '1.3m / 1.7m'"
+        },
+        "Darmanitan Zen Mode": {
+          "height_imperial": "Invalid format: '4\\'03\" / 5\\'07\"'",
+          "height_metric": "Invalid format: '1.3m / 1.7m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-swsh/darmanitan/"
+    },
+    {
+      "base_name": "Cobalion",
+      "validation_failures": {
+        "Cobalion": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/cobalion/"
+    },
+    {
+      "base_name": "Terrakion",
+      "validation_failures": {
+        "Terrakion": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/terrakion/"
+    },
+    {
+      "base_name": "Virizion",
+      "validation_failures": {
+        "Virizion": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/virizion/"
+    },
+    {
+      "base_name": "Keldeo",
+      "validation_failures": {
+        "Keldeo Ordinary Form": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Keldeo Resolute Form": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/keldeo/"
+    },
+    {
+      "base_name": "Meloetta",
+      "validation_failures": {
+        "Meloetta Aria Forme": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        },
+        "Meloetta Pirouette Forme": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/meloetta/"
+    },
+    {
+      "base_name": "Sliggoo",
+      "validation_failures": {
+        "Sliggoo": {
+          "height_imperial": "Invalid format: '2\\'07\" / 2\\'04\"'",
+          "height_metric": "Invalid format: '0.8m / 0.7m'"
+        },
+        "Sliggoo Hisuian Sliggoo": {
+          "height_imperial": "Invalid format: '2\\'07\" / 2\\'04\"'",
+          "height_metric": "Invalid format: '0.8m / 0.7m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/sliggoo/"
+    },
+    {
+      "base_name": "Goodra",
+      "validation_failures": {
+        "Goodra": {
+          "height_imperial": "Invalid format: '6\\'07\" / 5\\'07\"'",
+          "height_metric": "Invalid format: '2m / 1.7m'"
+        },
+        "Goodra Hisuian Goodra": {
+          "height_imperial": "Invalid format: '6\\'07\" / 5\\'07\"'",
+          "height_metric": "Invalid format: '2m / 1.7m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/goodra/"
+    },
+    {
+      "base_name": "Avalugg",
+      "validation_failures": {
+        "Avalugg": {
+          "height_imperial": "Invalid format: '6\\'07\" / 4\\'07\"'",
+          "height_metric": "Invalid format: '2m / 1.4m'"
+        },
+        "Avalugg Hisuian Avalugg": {
+          "height_imperial": "Invalid format: '6\\'07\" / 4\\'07\"'",
+          "height_metric": "Invalid format: '2m / 1.4m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/avalugg/"
+    },
+    {
+      "base_name": "Diancie",
+      "validation_failures": {
+        "Diancie": {
+          "capture_rate": "Invalid: '3 (SV)20 (Legends: Z-A)'"
+        },
+        "Diancie Mega Diancie": {
+          "capture_rate": "Invalid: '3 (SV)20 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/diancie/"
+    },
+    {
+      "base_name": "Hoopa",
+      "validation_failures": {
+        "Hoopa Hoopa Confined": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'",
+          "height_imperial": "Invalid format: '1\\'08\" / 21\\'04\"'",
+          "height_metric": "Invalid format: '0.5m / 6.5m'"
+        },
+        "Hoopa Hoopa Unbound": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'",
+          "height_imperial": "Invalid format: '1\\'08\" / 21\\'04\"'",
+          "height_metric": "Invalid format: '0.5m / 6.5m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/hoopa/"
+    },
+    {
+      "base_name": "Volcanion",
+      "validation_failures": {
+        "Volcanion": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/volcanion/"
+    },
+    {
+      "base_name": "Minior",
+      "validation_failures": {
+        "Minior Core Form": {
+          "capture_rate": "Invalid: '30 (Meteorite)255 (Core)'"
+        },
+        "Minior Meteor Form": {
+          "capture_rate": "Invalid: '30 (Meteorite)255 (Core)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/minior/"
+    },
+    {
+      "base_name": "Magearna",
+      "validation_failures": {
+        "Magearna": {
+          "capture_rate": "Invalid: '3 (SV)45 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/magearna/"
+    },
+    {
+      "base_name": "Kleavor",
+      "validation_failures": {
+        "Kleavor": {
+          "capture_rate": "Invalid: '15 (SV)20 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/kleavor/"
+    },
+    {
+      "base_name": "Baxcalibur",
+      "validation_failures": {
+        "Baxcalibur": {
+          "capture_rate": "Invalid: '10 (SV)20 (Legends: Z-A)'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/baxcalibur/"
+    },
+    {
+      "base_name": "Gimmighoul",
+      "validation_failures": {
+        "Gimmighoul Chest Form": {
+          "height_imperial": "Invalid format: '1\\'00\" / 0\\'04\"'",
+          "height_metric": "Invalid format: '0.3m / 0.1m'"
+        },
+        "Gimmighoul Roaming Form": {
+          "height_imperial": "Invalid format: '1\\'00\" / 0\\'04\"'",
+          "height_metric": "Invalid format: '0.3m / 0.1m'"
+        }
+      },
+      "url": "https://www.serebii.net/pokedex-sv/gimmighoul/"
+    }
+  ],
+  "summary": {
+    "total_failed": 0,
+    "total_errors": 11,
+    "total_validation_issues": 79
+  }
+}
