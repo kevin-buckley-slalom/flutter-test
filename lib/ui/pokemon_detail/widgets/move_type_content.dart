@@ -124,7 +124,9 @@ class _MoveListItem extends ConsumerWidget {
         final dividerColor = theme.colorScheme.outlineVariant.withValues(alpha: 0.3);
         final dividerColorLight = theme.colorScheme.onSurface.withValues(alpha: 0.2);
 
-        return InkWell(
+        return Material(
+          color: Colors.transparent,
+          child: InkWell(
           onTap: () {
             Navigator.of(context).pushNamed(
               '/move-detail',
@@ -324,7 +326,8 @@ class _MoveListItem extends ConsumerWidget {
               ),
             ),
           ),
-        );
+        ),
+      );
       },
     );
   }

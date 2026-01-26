@@ -36,8 +36,10 @@ class PokemonImage extends StatelessWidget {
       );
     }
     final imageDir = useLarge && imagePathLarge != null ? 'images_large' : 'images';
+    final imageFileName = useLarge && imagePathLarge != null ? imagePathLarge! : imagePath!;
+    final placeholderName = imageFileName.contains('_shiny') ? 'placeholder_pokemon_shiny.png' : 'placeholder_pokemon.png';
     return Image.asset(
-      'assets/$imageDir/pokemon/$imagePath',
+      'assets/$imageDir/pokemon/$imageFileName',
       width: size,
       height: size,
       cacheWidth: (size * 2).toInt(),
@@ -46,7 +48,7 @@ class PokemonImage extends StatelessWidget {
       errorBuilder: (context, error, stackTrace) {
         // Fallback to placeholder if image fails to load
         return Image.asset(
-          'assets/images/pokemon/placeholder_pokemon.png',
+          'assets/images/pokemon/$placeholderName',
           width: size,
           height: size,
           cacheWidth: (size * 2).toInt(),

@@ -13,6 +13,13 @@ class Pokemon {
   final String? imagePathLarge;
   final String? imageShinyPathLarge;
   final String? backdropPath;
+  final String? classification;
+  final String? heightImperial;
+  final String? heightMetric;
+  final String? weightImperial;
+  final String? weightMetric;
+  final Map<String, dynamic>? genderRatio;
+  final int? captureRate;
   final List<String> regularAbilities;
   final List<String> hiddenAbilities;
 
@@ -29,6 +36,13 @@ class Pokemon {
     this.imagePathLarge,
     this.imageShinyPathLarge,
     this.backdropPath,
+    this.classification,
+    this.heightImperial,
+    this.heightMetric,
+    this.weightImperial,
+    this.weightMetric,
+    this.genderRatio,
+    this.captureRate,
     this.regularAbilities = const [],
     this.hiddenAbilities = const [],
   });
@@ -57,6 +71,13 @@ class Pokemon {
       imagePathLarge: json['image_large'] as String?,
       imageShinyPathLarge: json['image_shiny_large'] as String?,
       backdropPath: json['backdrop'] as String?,
+      classification: json['classification'] as String?,
+      heightImperial: json['height_imperial'] as String?,
+      heightMetric: json['height_metric'] as String?,
+      weightImperial: json['weight_imperial'] as String?,
+      weightMetric: json['weight_metric'] as String?,
+      genderRatio: json['gender_ratio'] as Map<String, dynamic>?,
+      captureRate: json['capture_rate'] as int?,
       regularAbilities: parseAbilityList(abilities, 'regular'),
       hiddenAbilities: parseAbilityList(abilities, 'hidden'),
     );
@@ -79,6 +100,13 @@ class Pokemon {
         'regular': regularAbilities,
         'hidden': hiddenAbilities,
       },
+      'classification': classification,
+      'height_imperial': heightImperial,
+      'height_metric': heightMetric,
+      'weight_imperial': weightImperial,
+      'weight_metric': weightMetric,
+      'gender_ratio': genderRatio,
+      'capture_rate': captureRate,
     };
   }
 

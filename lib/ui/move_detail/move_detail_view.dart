@@ -1,3 +1,4 @@
+import 'package:championdex/ui/pokemon_detail/widgets/move_category_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/models/move.dart';
@@ -406,52 +407,92 @@ class _MoveStatsTable extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Table(
-      columnWidths: const {0: FlexColumnWidth(2), 1: FlexColumnWidth(3)},
+      defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+      columnWidths: const {0: FlexColumnWidth(6), 1: FlexColumnWidth(7)},
+      border: TableBorder(
+        verticalInside: BorderSide(
+          color: theme.colorScheme.onSurface.withValues(alpha: 0.08),
+          width: 1,
+        ),
+      ),
       children: [
-        _buildRow(theme, 'Type', TypeChip(type: move.type)),
-        _buildRow(theme, 'Category',
-            Text(move.category, style: theme.textTheme.bodyMedium)),
+        _buildRow(theme, 'Type:', TypeChip(type: move.type)),
         _buildRow(
             theme,
-            'Power',
+            'Category:',
+            SizedBox(
+              height: 40,
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    SizedBox(
+                      width: 60,
+                      height: 50,
+                      child: MoveCategoryIcon(
+                          category: move.category.toLowerCase()),
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      move.category.isNotEmpty
+                          ? '${move.category[0].toUpperCase()}${move.category.substring(1)}'
+                          : move.category,
+                      style: theme.textTheme.bodyLarge,
+                    ),
+                  ],
+                ),
+              ),
+            )),
+        _buildRow(
+            theme,
+            'Power:',
             Text(move.power?.toString() ?? '—',
-                style: theme.textTheme.bodyMedium)),
+                style: theme.textTheme.bodyLarge)),
         _buildRow(
             theme,
-            'Accuracy',
+            'Accuracy:',
             Text(move.accuracy?.toString() ?? '—',
-                style: theme.textTheme.bodyMedium)),
+                style: theme.textTheme.bodyLarge)),
         _buildRow(
             theme,
-            'PP',
+            'PP:',
             Text(
                 move.maxPp != null
                     ? '${move.pp} / ${move.maxPp}'
                     : move.pp.toString(),
-                style: theme.textTheme.bodyMedium)),
+                style: theme.textTheme.bodyLarge)),
         _buildRow(
             theme,
-            'Effect Chance',
+            'Effect Chance:',
             Text(move.effectChance != null ? '${move.effectChance}%' : '—',
-                style: theme.textTheme.bodyMedium)),
+                style: theme.textTheme.bodyLarge)),
         _buildRow(
             theme,
-            'Makes Contact',
+            'Makes Contact:',
             Text(move.makesContact ? 'Yes' : 'No',
-                style: theme.textTheme.bodyMedium)),
+                style: theme.textTheme.bodyLarge)),
       ],
     );
   }
 
   TableRow _buildRow(ThemeData theme, String label, Widget value) {
     return TableRow(children: [
-      Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8),
-          child: Text(label,
-              style: theme.textTheme.bodyMedium?.copyWith(
-                  fontWeight: FontWeight.w600,
-                  color: theme.colorScheme.onSurface.withValues(alpha: 0.7)))),
-      Padding(padding: const EdgeInsets.symmetric(vertical: 8), child: value),
+        Padding(
+          padding:
+            const EdgeInsets.symmetric(vertical: 8).copyWith(right: 24),
+          child: Align(
+            alignment: Alignment.centerRight,
+            child: Text(label,
+              style: theme.textTheme.bodyLarge?.copyWith(
+                fontWeight: FontWeight.w600,
+                color: theme.colorScheme.onSurface
+                  .withValues(alpha: 0.7))))),
+        Padding(
+          padding:
+            const EdgeInsets.symmetric(vertical: 8).copyWith(left: 24),
+          child: Align(alignment: Alignment.centerLeft, child: value)),
     ]);
   }
 }
