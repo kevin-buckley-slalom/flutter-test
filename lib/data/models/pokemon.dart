@@ -22,6 +22,7 @@ class Pokemon {
   final int? captureRate;
   final List<String> regularAbilities;
   final List<String> hiddenAbilities;
+  final List<String> altImagesLarge;
 
   Pokemon({
     required this.number,
@@ -45,6 +46,7 @@ class Pokemon {
     this.captureRate,
     this.regularAbilities = const [],
     this.hiddenAbilities = const [],
+    this.altImagesLarge = const [],
   });
 
   factory Pokemon.fromJson(Map<String, dynamic> json) {
@@ -80,6 +82,10 @@ class Pokemon {
       captureRate: json['capture_rate'] as int?,
       regularAbilities: parseAbilityList(abilities, 'regular'),
       hiddenAbilities: parseAbilityList(abilities, 'hidden'),
+      altImagesLarge: (json['alt_images_large'] as List?)
+              ?.map((e) => e as String)
+              .toList() ??
+          const [],
     );
   }
 
@@ -107,6 +113,7 @@ class Pokemon {
       'weight_metric': weightMetric,
       'gender_ratio': genderRatio,
       'capture_rate': captureRate,
+      'alt_images_large': altImagesLarge,
     };
   }
 
@@ -114,7 +121,3 @@ class Pokemon {
 
   bool get isBaseForm => variant == null;
 }
-
-
-
-
