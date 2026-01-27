@@ -83,11 +83,11 @@ class TypeEffectivenessCompact extends StatelessWidget {
       overlayColor = Colors.grey.shade700;
     } else if (effectiveness == Effectiveness.hardlyEffective) {
       multiplier = '¼';
-      overlayColor = Colors.green.shade700;
+      overlayColor = offensiveEffectiveness == null ? Colors.green.shade700 : Colors.red.shade900;
       overlayFontSize = 18;
     } else if (effectiveness == Effectiveness.notVeryEffective) {
       multiplier = '½';
-      overlayColor = Colors.lightGreen;
+      overlayColor = offensiveEffectiveness == null ? Colors.lightGreen : Colors.red.shade400;
       overlayFontSize = 18;
     } else if (effectiveness == Effectiveness.normal) {
       // Empty multiplier for neutral effectiveness
@@ -95,10 +95,10 @@ class TypeEffectivenessCompact extends StatelessWidget {
       overlayColor = Colors.transparent;
     } else if (effectiveness == Effectiveness.superEffective) {
       multiplier = '2';
-      overlayColor = Colors.red.shade400;
+      overlayColor = offensiveEffectiveness == null ? Colors.red.shade400 : Colors.lightGreen;
     } else if (effectiveness == Effectiveness.extremelyEffective) {
       multiplier = '4';
-      overlayColor = Colors.red.shade900;
+      overlayColor = offensiveEffectiveness == null ? Colors.red.shade900 : Colors.green.shade700;
     } else {
       multiplier = '1';
       overlayColor = Colors.transparent;
