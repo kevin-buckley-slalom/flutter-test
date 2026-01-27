@@ -53,7 +53,6 @@ underwater_pokemon = [
     "Gorebyss",
     "Relicanth",
     "Luvdisc",
-    "Kyogre",
     "Finneon",
     "Lumineon",
     "Mantyke",
@@ -220,10 +219,11 @@ form_specific_backdrops = {
     "Piplup": "ice.png",
     "Prinplup": "ice.png",
     "Empoleon": "ice.png",
-    "Kyogre Primal Kyogre": "dragon.png",
+    "Kyogre": "tempest.png",
+    "Kyogre Primal Kyogre": "tempest.png",
     "Arceus": "sky_pillar.png",
-    "Rayquaza": "sky_pillar.png",
-    "Rayquaza Mega Rayquaza": "sky_pillar.png",
+    "Rayquaza": "rayquaza.png",
+    "Rayquaza Mega Rayquaza": "rayquaza.png",
     "Audino Mega Audino": "fairy.png",
     "Darmanitian Zen Mode": "psychic.png",
     "Darmanitan Galarian Zen Mode": "fire.png",
@@ -254,6 +254,14 @@ form_specific_backdrops = {
     "Dialga Origin Forme": "sky_pillar.png",
     "Giratina Altered Forme": "sky_pillar.png",
     "Giratina Origin Forme": "psychic.png",
+    "Lugia": "tempest.png",
+    "Ho-oh": "burnt_tower.png",
+    "Raikou": "burnt_tower.png",
+    "Suicune": "burnt_tower.png",
+    "Entei": "burnt_tower.png",
+    "Mewtwo": "mewtwo.png",
+    "Mewtwo Mega Mewtwo X": "mewtwo.png",
+    "Mewtwo Mega Mewtwo Y": "mewtwo.png"
 }
 
 def map_backdrop_assets(pokemon_data, image_assets):

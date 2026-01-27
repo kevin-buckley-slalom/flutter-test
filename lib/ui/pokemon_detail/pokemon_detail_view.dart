@@ -153,7 +153,7 @@ class _PokemonDetailViewState extends State<PokemonDetailView>
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                               colors: [
-                                theme.colorScheme.surface.withValues(alpha: 0.5),
+                                theme.colorScheme.surface.withValues(alpha: 0.3),
                                 theme.colorScheme.surface.withValues(alpha: 0.9),
                                 theme.colorScheme.surface,
                               ],
