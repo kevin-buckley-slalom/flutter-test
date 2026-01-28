@@ -119,7 +119,7 @@ class _ControlsSectionState extends State<ControlsSection> {
                         final imageToLoad = _buildImagePath(fileName);
                         final description = isNormal
                             ? 'Normal'
-                            : _extractDescription(fileName!);
+                            : _extractDescription(fileName);
                         final isSelected = widget.selectedAltImage == fileName;
 
                         return GestureDetector(

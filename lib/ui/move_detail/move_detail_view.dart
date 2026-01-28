@@ -293,10 +293,11 @@ class _MoveDetailContentState extends ConsumerState<_MoveDetailContent> {
               error: (e, st) => Text('Error loading move game data: $e'),
               data: (gameMap) {
                 final games = gameMap.keys.toList();
-                if (games.isEmpty)
+                if (games.isEmpty) {
                   return Padding(
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       child: Text('No game data available for this move'));
+                }
 
                 final sortedGames = <String>[];
                 final order = [
@@ -306,18 +307,22 @@ class _MoveDetailContentState extends ConsumerState<_MoveDetailContent> {
                   'Legends Arceus',
                   'Brilliant Diamond and Shining Pearl'
                 ];
-                for (final g in order)
+                for (final g in order) {
                   if (games.contains(g)) sortedGames.add(g);
-                for (final g in games)
+                }
+                for (final g in games) {
                   if (!sortedGames.contains(g)) sortedGames.add(g);
+                }
 
                 if (_selectedGame.isEmpty ||
-                    !sortedGames.contains(_selectedGame))
+                    !sortedGames.contains(_selectedGame)) {
                   _selectedGame = sortedGames.first;
+                }
                 final availableMethods = gameMap[_selectedGame] ?? [];
                 if (availableMethods.isNotEmpty &&
-                    !availableMethods.contains(_selectedMoveType))
+                    !availableMethods.contains(_selectedMoveType)) {
                   _selectedMoveType = availableMethods.first;
+                }
 
                 return Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -351,12 +356,13 @@ class _MoveDetailContentState extends ConsumerState<_MoveDetailContent> {
                                 game: _selectedGame, method: _selectedMoveType),
                         builder: (context, snapshot) {
                           if (snapshot.connectionState ==
-                              ConnectionState.waiting)
+                              ConnectionState.waiting) {
                             return const Center(
                                 child: CircularProgressIndicator());
+                          }
                           final data = snapshot.data ?? {};
                           final filteredPokemon = _getFilteredPokemon(data);
-                          if (filteredPokemon.isEmpty)
+                          if (filteredPokemon.isEmpty) {
                             return FlatCard(
                                 padding: const EdgeInsets.all(16),
                                 elevation: 1,
@@ -369,6 +375,7 @@ class _MoveDetailContentState extends ConsumerState<_MoveDetailContent> {
                                                 color: theme
                                                     .colorScheme.onSurface
                                                     .withValues(alpha: 0.6)))));
+                          }
 
                           return ListView.builder(
                             shrinkWrap: true,

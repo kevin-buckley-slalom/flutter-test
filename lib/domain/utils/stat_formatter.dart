@@ -21,10 +21,6 @@ class StatFormatter {
   }
 
   static int getMaxStatValue() {
-    return 255; // Maximum stat value in Pokemon
+    return 252; // Maximum EV value per stat in Pokemon
   }
 }
-
-
-
-

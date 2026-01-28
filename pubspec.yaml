@@ -12,6 +12,7 @@ dependencies:
   flutter_riverpod: ^3.1.0
   flutter_svg: ^2.2.3
   google_fonts: ^7.0.2
+  shared_preferences: ^2.3.3
 
 dev_dependencies:
   flutter_test:
@@ -27,6 +28,7 @@ flutter:
     - assets/data/pokemon_by_base_name.json
     - assets/data/abilities.json
     - assets/data/moves.json
+    - assets/data/natures.json
     - assets/data/pokemon_moves/
     - assets/data/moves_pokemon/
     - assets/icons/png/types/color/

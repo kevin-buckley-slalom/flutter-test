@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/move.dart';
 
@@ -6,7 +7,8 @@ class PokemonMoveDataService {
   static final PokemonMoveDataService _instance =
       PokemonMoveDataService._internal();
   final Map<String, Map<String, dynamic>> _moveCache = {};
-  Map<String, Map<String, List<PokemonMove>>>? _moveToPokeIndexCache; // move -> {pokemonName -> [moves]}
+  Map<String, Map<String, List<PokemonMove>>>?
+      _moveToPokeIndexCache; // move -> {pokemonName -> [moves]}
 
   factory PokemonMoveDataService() {
     return _instance;
@@ -28,8 +30,8 @@ class PokemonMoveDataService {
     }
 
     try {
-      final jsonString = await rootBundle
-          .loadString('assets/data/pokemon_moves/${baseName.replaceAll(":", "")}.json');
+      final jsonString = await rootBundle.loadString(
+          'assets/data/pokemon_moves/${baseName.replaceAll(":", "")}.json');
       final Map<String, dynamic> jsonData = jsonDecode(jsonString);
       _moveCache[baseName] = jsonData;
       return jsonData;
@@ -127,6 +129,57 @@ class PokemonMoveDataService {
     return genData.keys.cast<String>().toList();
   }
 
+  /// Get all unique moves available for a specific Pokemon variant across all generations and games
+  Future<Set<String>> getAvailableMovesForPokemon(
+      String baseName, String variantName) async {
+    final moves = <String>{};
+
+    try {
+      final jsonString = await rootBundle.loadString(
+          'assets/data/pokemon_moves/${baseName.replaceAll(":", "")}.json');
+      final Map<String, dynamic> jsonData = jsonDecode(jsonString);
+
+      // Only look at the specific variant (e.g., "Venusaur" or "Venusaur Mega Venusaur")
+      final variantData = jsonData[variantName];
+      if (variantData is Map<String, dynamic>) {
+        // Only process this specific variant, not all variants
+        // Iterate through generations (e.g., "gen_8", "gen_9")
+        variantData.forEach((genKey, genData) {
+          if (genKey.startsWith('gen_') && genData is Map<String, dynamic>) {
+            // Iterate through games (e.g., "Sword and Shield", "Scarlet and Violet")
+            genData.forEach((gameKey, gameData) {
+              if (gameData is Map<String, dynamic>) {
+                // Iterate through acquisition methods (e.g., "level_up", "tm", "tr")
+                gameData.forEach((method, movesList) {
+                  if (movesList is List) {
+                    // Extract move names from the list
+                    for (final moveObj in movesList) {
+                      if (moveObj is Map<String, dynamic>) {
+                        // Check both "move" and "name" fields for compatibility
+                        final moveName = moveObj['move'] ?? moveObj['name'];
+                        if (moveName != null && moveName is String) {
+                          moves.add(moveName);
+                        }
+                      }
+                    }
+                  }
+                });
+              }
+            });
+          }
+        });
+      }
+
+      debugPrint('Loaded ${moves.length} unique moves for $variantName');
+    } catch (e) {
+      // File may not exist for this Pokemon, return empty set
+      debugPrint('No moves file found for $baseName: $e');
+      return {};
+    }
+
+    return moves;
+  }
+
   /// Clear cache for testing/refreshing
   void clearCache() {
     _moveCache.clear();
@@ -135,7 +188,8 @@ class PokemonMoveDataService {
 
   /// Get all Pokemon that learn a specific move (loads from pre-generated index)
   /// Returns a map of Pokemon name -> List of PokemonMove objects for that move
-  Future<Map<String, List<PokemonMove>>> getPokemonLearningMove(String moveName) async {
+  Future<Map<String, List<PokemonMove>>> getPokemonLearningMove(
+      String moveName) async {
     // Prefer per-move files generated under assets/data/moves_pokemon/<move>.json
     final fileName = _sanitizeFileName(moveName);
     final assetPath = 'assets/data/moves_pokemon/$fileName';
@@ -155,13 +209,13 @@ class PokemonMoveDataService {
               for (final f in forms) {
                 if (f is String) {
                   result.putIfAbsent(f, () => <PokemonMove>[]).add(
-                    PokemonMove(
-                      name: moveName,
-                      tmId: null,
-                      learnType: learnType,
-                      level: '—',
-                    ),
-                  );
+                        PokemonMove(
+                          name: moveName,
+                          tmId: null,
+                          learnType: learnType,
+                          level: '—',
+                        ),
+                      );
                 }
               }
             }
@@ -177,7 +231,8 @@ class PokemonMoveDataService {
   }
 
   /// Returns mapping of game -> list of methods available for this move
-  Future<Map<String, List<String>>> getAvailableGamesForMove(String moveName) async {
+  Future<Map<String, List<String>>> getAvailableGamesForMove(
+      String moveName) async {
     final fileName = _sanitizeFileName(moveName);
     final assetPath = 'assets/data/moves_pokemon/$fileName';
     try {
@@ -204,7 +259,8 @@ class PokemonMoveDataService {
   String _normalizeLearnType(String method) {
     final m = method.toLowerCase();
     if (m == 'egg_moves' || m == 'egg') return 'egg';
-    if (m == 'tutor_attacks' || m == 'tutor_attacks' || m == 'tutor') return 'tutor';
+    if (m == 'tutor_attacks' || m == 'tutor_attacks' || m == 'tutor')
+      return 'tutor';
     if (m == 'level_up' || m == 'level') return 'level_up';
     if (m == 'tr') return 'tr';
     if (m == 'hm') return 'hm';
@@ -231,19 +287,21 @@ class PokemonMoveDataService {
         if (game != null && gameName != game) return;
         if (methodsMap is Map<String, dynamic>) {
           methodsMap.forEach((methodName, forms) {
-            if (method != null && _normalizeLearnType(methodName) != _normalizeLearnType(method)) return;
+            if (method != null &&
+                _normalizeLearnType(methodName) != _normalizeLearnType(method))
+              return;
             if (forms is List) {
               final learnType = _normalizeLearnType(methodName);
               for (final f in forms) {
                 if (f is String) {
                   result.putIfAbsent(f, () => <PokemonMove>[]).add(
-                    PokemonMove(
-                      name: moveName,
-                      tmId: null,
-                      learnType: learnType,
-                      level: '—',
-                    ),
-                  );
+                        PokemonMove(
+                          name: moveName,
+                          tmId: null,
+                          learnType: learnType,
+                          level: '—',
+                        ),
+                      );
                 }
               }
             }
