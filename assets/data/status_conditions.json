@@ -1,0 +1,222 @@
+{
+    "non_volatile": {
+        "burn": {
+            "name": "Burn",
+            "description": "Affected Pokémon lose 1/16 of their max HP at the end of each turn and have their physical damage dealt halved.",
+            "caveats": [
+                "Pokemon with ability Guts or using the move Facade are not affected by the physical damage halving.",
+                "Pokemon with the ability Heatproof lose 1/32 of their max HP instead.",
+                "Fire type Pokemon cannot normally be burned.",
+                "Pokemon with the ability Water Veil or Water Bubble cannot normally be burned.",
+                "Pokemon with the ability Magic Guard do not lose HP from burn, but are still affected by the physical damage halving.",
+                "Pokemon with the ability Flare Boost have their Special Attack stat increased by 50% while burned."
+            ]
+        },
+        "freeze": {
+            "name": "Freeze",
+            "description": "Affected Pokémon cannot use moves unless they thaw out, which has a 20% chance of happening each turn before attempting to attack.",
+            "caveats": [
+                "Pokemon can not be frozen in Harsh Sun weather.",
+                "Ice type Pokemon cannot normally be frozen.",
+                "Pokemon with the ability Magma Armor cannot normally be frozen.",
+                "Using the moves Fusion Flare, Flame Wheel, Sacred Fire, Flare Blitz, Scald or Steam Eruption by a frozen Pokemon will thaw it out and execute the move.",
+                "Frozen Pokemon will thaw out if hit by a damaging Fire type move, Scald, or Steam Eruption."
+            ]
+        },
+        "paralysis": {
+            "name": "Paralysis",
+            "description": "Affected Pokémon have their effective Speed stat halved and have a 25% chance of being unable to move each turn ('fully paralyzed').",
+            "caveats": [
+                "Electric type Pokemon cannot normally be paralyzed.",
+                "Pokemon with the ability Limber cannot normally be paralyzed.",
+                "Pokemon with the ability Quick Feet have their effective Speed stat instead increased by 50% while paralyzed.",
+                "Pokemon with the ability Magic Guard are not affected by the fully paralyzed chance, but still have their Speed halved."
+            ]
+        },
+        "poison": {
+            "name": "Poison",
+            "description": "Affected Pokémon lose 1/8 of their max HP at the end of each turn.",
+            "caveats": [
+                "Poison type Pokemon cannot normally be poisoned.",
+                "Pokemon with the ability Poison Heal instead regain 1/8 of their max HP at the end of each turn while poisoned.",
+                "Steel type Pokemon cannot normally be poisoned.",
+                "Pokemon with the ability Immunity cannot normally be poisoned.",
+                "Pokemon with the ability Magic Guard do not lose HP from poison.",
+                "Poison and Steel type Pokemon can be poisoned only by a Pokemon with the ability Corrosion."
+            ]
+        },
+        "toxic": {
+            "name": "Toxic Poison",
+            "description": "Affected Pokémon lose an increasing fraction of their max HP at the end of each turn, starting at 1/16 and increasing by 1/16 each turn they remain poisoned.",
+            "caveats": [
+                "Poison type Pokemon cannot normally be toxic poisoned.",
+                "Pokemon with the ability Poison Heal instead regain 1/8 of their max HP at the end of each turn while toxic poisoned.",
+                "Steel type Pokemon cannot normally be toxic poisoned.",
+                "Pokemon with the ability Immunity cannot normally be toxic poisoned.",
+                "Pokemon with the ability Magic Guard do not lose HP from toxic poison.",
+                "Poison and Steel type Pokemon can be toxic poisoned only by a Pokemon with the ability Corrosion.",
+                "The badly poisoned counter resets to 0 if the affected Pokemon is switched out."
+            ]
+        },
+        "sleep": {
+            "name": "Sleep",
+            "description": "Affected Pokémon cannot use moves until they wake up, which has a 50% chance of happening each turn before attempting to attack, for up to 3 turns.",
+            "caveats": [
+                "If sleep is induced by the move Rest, the condition lasts for 2 turns.",
+                "Pokemon with the ability Insomnia or Vital Spirit cannot normally be put to sleep."
+            ]
+        }
+    },
+    "volatile": {
+        "confusion": {
+            "name": "Confusion",
+            "description": "Affected Pokémon have a 33% chance of hurting themselves in confusion instead of executing their intended move each turn, for 2 to 5 turns.",
+            "caveats": [
+                "If a confused Pokemon hurts itself, it deals damage equal to move with 40 base power as a typeless physical attack, which cannot miss, not affected by STAB, and cannot deal critical hits."
+            ]
+        }
+    },
+    "infatuation": {
+        "name": "Infatuation",
+        "description": "Affected Pokémon have a 50% chance of being unable to move each turn due to infatuation.",
+        "caveats": [
+            "Infatuation only occurs when a Pokemon is attracted to an opponent of the opposite gender."
+        ]
+    },
+    "ability_suppression": {
+        "name": "Ability Suppression",
+        "description": "Affected Pokémon have their abilities suppressed, preventing any effects from them.",
+        "caveats": [
+            "This condition is typically caused by the move Gastro Acid, Core Enforcer, or the ability Neutralizing Gas",
+            "Suppressing abilities fails if the target's ability is Multitype, Stance Change, Schooling, Comatose, Shields Down, Disguise, RKS System, Battle Bond, Power Construct, Ice Face or Gulp Missile."
+        ]
+    },
+    "substitute": {
+        "name": "Substitute",
+        "description": "Affected Pokémon create a substitute that takes damage in their place until it is destroyed. The substitute has HP equal to 1/4 of the user's max HP (rounded down).",
+        "caveats": [
+            "A substitute is destroyed when it takes damage equal to or greater than its remaining HP.",
+            "Certain moves bypass the substitute, as defined by the move's effects.",
+            "Non damaging moves will fail when used against the substitute. Moves which have secondary effects that deal damage will still damage the substitute but will not apply the secondary effect.",
+            "Substitutes do not block user-applied status conditions, volatile conditions, or stat changes.",
+            "Pokemon with abilities that activate when targeted will still have those abilities activate when targeting a substitute.",
+            "Weather damage or other field effects damage the pokemon directly and do not affect the substitute."
+        ]
+    },
+    "bound": {
+        "name": "Bound",
+        "description": "Affected Pokémon are bound by a move, taking damage equal to 1/8 of their max HP at the end of each turn for 4 to 5 turns.",
+        "caveats": [
+            "While bound, the affected Pokémon cannot switch out manually, only by forced switching effects.",
+            "If the binding move was used by a Pokemon holding a Grip Claw, the duration is extended to 7 turns and the damage is increased to 1/6 of the target's max HP.",
+            "A Pokemon can switch out if it is holding the Shed Shell item.",
+            "Ghost type Pokemon can switch out as normal while bound."
+        ]
+    },
+    "curse": {
+        "name": "Curse",
+        "description": "Affected Pokémon lose 1/4 of their max HP at the end of each turn for 3 turns.",
+        "caveats": []
+    },
+    "nightmare": {
+        "name": "Nightmare",
+        "description": "Affected Pokémon lose 1/4 of their max HP at the end of each turn while asleep.",
+        "caveats": [
+            "Only affects sleeping Pokémon, if a Pokemon wakes up, the condition ends."
+        ]
+    },
+    "perish_song": {
+        "name": "Perish Song",
+        "description": "Affected Pokémon will faint after 3 turns, the perish count decreases by 1 at the end of each turn.",
+        "caveats": []
+    },
+    "seeded": {
+        "name": "Leech Seed",
+        "description": "Affected Pokémon lose 1/8 of their max HP at the end of each turn, which is restored to the Pokemon in the same position as the Pokemon that used Leech Seed.",
+        "caveats": [
+            "Grass type Pokemon cannot normally be seeded.",
+            "Seeded Pokemon with the ability Liquid Ooze will cause the user to lose HP instead of regaining HP.",
+            "The amount of HP healed is unaffected by the target's current HP; the user will regain the full 1/8 of the target's max HP even if the target has less than that amount of HP remaining.",
+            "HP draining does not occur if the user has fainted or switched out.",
+            "Pokemon with the ability Magic Guard do not lose HP from Leech Seed.",
+            "If the user has a Big Root held item, the amount of HP restored (or damage inflicted from Liquid Ooze) is increased by 30%; this does not change the damage taken by the seeded Pokemon.",
+            "If the move Rapid Spin or Mortal Spin is used by the seeded Pokemon, the Leech Seed condition is removed."
+        ]
+    },
+    "salt_cure": {
+        "name": "Salt Cure",
+        "description": "Affected Pokémon lose 1/8 of their max HP at the end of each turn.",
+        "caveats": [
+            "Water or Steel type Pokemon lose 1/4 of their max HP instead."
+        ]
+    },
+    "foresight": {
+        "name": "Foresight/Odor Sleuth",
+        "description": "Affected Pokémon have their evation stat increases ignored when targeted by any move. Ghost type targets lose their immunity to Normal and Fighting type moves.",
+        "caveats": []
+    },
+    "miracle_eye": {
+        "name": "Miracle Eye",
+        "description": "Affected Pokémon have their evation stat increases ignored when targeted by any move. Dark type targets lose their immunity to Psychic type moves.",
+        "caveats": []
+    },
+    "minimize": {
+        "name": "Minimize",
+        "description": "Damage from the moves Stomp, Steamroller, Body Slam, Dragon Rush, Flying Press and Phantom Force against the affected Pokémon is doubled.",
+        "caveats": []
+    },
+    "tar_shot": {
+        "name": "Tar Shot",
+        "description": "Affected Pokémon take double damage from Fire type moves.",
+        "caveats": [
+            "Pokemon that are already Terastalized when affected will not take double damage from Fire type moves."
+        ]
+    },
+    "grounded": {
+        "name": "Grounded",
+        "description": "Affected Pokémon can be hit by Ground type moves and are affected by the effects of terrain.",
+        "caveats": []
+    },
+    "telekinesis": {
+        "name": "Telekinesis",
+        "description": "Affected Pokémon are levitated and immune to Ground type moves, the effects of terrain, and any effects requiring grounded status.",
+        "caveats": []
+    },
+    "aqua_ring": {
+        "name": "Aqua Ring",
+        "description": "Affected Pokémon regain 1/16 of their max HP at the end of each turn.",
+        "caveats": []
+    },
+    "rooted": {
+        "name": "Rooted",
+        "description": "Affected Pokémon regain 1/16 of their max HP at the end of each turn, but cannot switch out.",
+        "caveats": [
+            "Affected pokemon cannot be forced to switch out with items or the effects of moves.",
+            "If the rooted pokemon is holding a Big Root item, the amount of HP restored is increased by 30%."
+        ]
+    },
+    "protect": {
+        "name": "Protect",
+        "description": "Affected Pokémon are completely protected from most effects of moves for the turn.",
+        "caveats": [
+            "If Protect is used consecutively, its chance of success decreases each time (100% first turn, 50% second turn, 25% third turn, then back to 100% after any failed attempt)."
+        ]
+    },
+    "helping_hand": {
+        "name": "Helping Hand",
+        "description": "Affected Pokémon have their damage dealt increased by 50% for the turn.",
+        "caveats": []
+    },
+    "power_trick": {
+        "name": "Power Trick",
+        "description": "Affected Pokémon swap their Attack and Defense stats.",
+        "caveats": [
+            "Stat changes to Attack and Defense are retained after the swap."
+        ]
+    },
+    "imprison": {
+        "name": "Imprison",
+        "description": "Affected Pokémon cannot use any moves that are known by the user of Imprison.",
+        "caveats": []
+    }
+}

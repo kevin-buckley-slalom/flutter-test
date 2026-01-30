@@ -11,7 +11,7 @@ class MoveCategoryIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      'assets/icons/png/attack/$category.png',
+      'assets/icons/png/attack/${category.toLowerCase()}.png',
       errorBuilder: (context, error, stackTrace) {
         // Fallback to icon if image fails to load
         return Icon(Icons.category);

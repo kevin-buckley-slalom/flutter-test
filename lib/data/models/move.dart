@@ -12,6 +12,9 @@ class Move {
   final bool makesContact;
   final String? targets;
   final int generation;
+  final bool? switchesOut;
+  final int
+      priority; // Move priority: 0 = normal, 1+ = higher priority, -1 = lower priority
 
   Move({
     required this.name,
@@ -27,6 +30,8 @@ class Move {
     required this.makesContact,
     this.targets,
     required this.generation,
+    this.switchesOut,
+    this.priority = 0,
   });
 
   factory Move.fromJson(Map<String, dynamic> json) {
@@ -44,24 +49,27 @@ class Move {
       makesContact: json['makes_contact'] as bool? ?? false,
       targets: json['targets'] as String? ?? 'Unknown',
       generation: json['generation'] as int? ?? 0,
+      switchesOut: json['switches_out'] as bool?,
+      priority: json['priority'] as int? ?? 0,
     );
   }
 
   Map<String, dynamic> toJson() => {
-    'name': name,
-    'type': type,
-    'category': category,
-    'power': power,
-    'accuracy': accuracy,
-    'pp': pp,
-    'max_pp': maxPp,
-    'effect': effect,
-    'detailed_effect': detailedEffect,
-    'effect_chance': effectChance,
-    'makes_contact': makesContact,
-    'targets': targets,
-    'generation': generation,
-  };
+        'name': name,
+        'type': type,
+        'category': category,
+        'power': power,
+        'accuracy': accuracy,
+        'pp': pp,
+        'max_pp': maxPp,
+        'effect': effect,
+        'detailed_effect': detailedEffect,
+        'effect_chance': effectChance,
+        'makes_contact': makesContact,
+        'targets': targets,
+        'generation': generation,
+        'switches_out': switchesOut,
+      };
 }
 
 /// Represents a move as learned by a pokemon in a specific game/generation
@@ -88,9 +96,9 @@ class PokemonMove {
   }
 
   Map<String, dynamic> toJson() => {
-    'name': name,
-    'tm_id': tmId,
-    'learnType': learnType,
-    'level': level,
-  };
+        'name': name,
+        'tm_id': tmId,
+        'learnType': learnType,
+        'level': level,
+      };
 }

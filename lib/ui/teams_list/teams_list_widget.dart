@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:championdex/ui/battle_simulation/battle_simulation_view.dart';
 import 'teams_list_view_model.dart';
 import 'widgets/team_card.dart';
 
@@ -128,7 +129,7 @@ class TeamsListWidget extends ConsumerWidget {
               ],
             ),
             const SizedBox(height: 16),
-            const Text('Battle simulation feature coming soon!'),
+            const Text('Select battle format:'),
           ],
         ),
         actions: [
@@ -143,8 +144,35 @@ class TeamsListWidget extends ConsumerWidget {
             onPressed: () {
               Navigator.pop(context);
               ref.read(teamsListProvider.notifier).clearBattleSelection();
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => BattleSimulationView(
+                    team1Id: selectedTeamIds[0],
+                    team2Id: selectedTeamIds[1],
+                    isSingles: true,
+                  ),
+                ),
+              );
             },
-            child: const Text('OK'),
+            child: const Text('Singles'),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.pop(context);
+              ref.read(teamsListProvider.notifier).clearBattleSelection();
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => BattleSimulationView(
+                    team1Id: selectedTeamIds[0],
+                    team2Id: selectedTeamIds[1],
+                    isSingles: false,
+                  ),
+                ),
+              );
+            },
+            child: const Text('Doubles'),
           ),
         ],
       ),

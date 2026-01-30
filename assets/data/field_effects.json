@@ -1,0 +1,41 @@
+{
+    "terrain": {
+        "electric": {},
+        "grassy": {},
+        "misty": {},
+        "psychic": {}
+    },
+    "weather": {
+        "harsh_sunlight": {},
+        "heavy_rain": {},
+        "strong_winds": {},
+        "hail": {},
+        "sandstorm": {},
+        "rain": {},
+        "sun": {},
+        "snow": {}
+    },
+    "rooms": {
+        "trick_room": {},
+        "wonder_room": {},
+        "magic_room": {}
+    },
+    "other": {
+        "gravity": {},
+        "ion_deluge": {},
+        "fairy_aura": {},
+        "dark_aura": {},
+        "mud_sport": {},
+        "water_sport": {}
+    },
+    "single_side_effects": {
+        "reflect": {},
+        "light_screen": {},
+        "aurora_veil": {},
+        "tailwind": {},
+        "safeguard": {},
+        "sea_of_fire": {},
+        "rainbow": {},
+        "swamp": {}
+    }
+}
