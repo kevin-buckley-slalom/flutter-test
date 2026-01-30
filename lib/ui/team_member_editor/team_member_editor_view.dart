@@ -7,6 +7,7 @@ import '../../data/models/team_member.dart';
 import '../../data/models/move.dart';
 import '../../data/models/nature.dart';
 import '../../data/services/nature_data_service.dart';
+import '../../domain/services/stat_calculator.dart';
 import '../../app/theme/type_colors.dart';
 import '../shared/flat_card.dart';
 import '../shared/pokemon_image.dart';
@@ -266,31 +267,21 @@ class _TeamMemberEditorViewState extends ConsumerState<TeamMemberEditorView> {
   int get _totalEvs =>
       _evHp + _evAttack + _evDefense + _evSpAtk + _evSpDef + _evSpeed;
 
-  int _calculateStatPrefix(int baseStat, int iv, int ev, int level) {
-    int evPart = (ev / 4).floor();
-    int preLevel = (2 * baseStat) + iv + evPart;
-    return (preLevel * level / 100).floor();
-  }
-
   int _calculateStat(int baseStat, int iv, int ev, String statName) {
-    // Get nature modifier
-    double natureModifier = 1.0;
+    // Get the nature object
+    Nature? natureObj;
     if (_nature != null) {
-      final nature = _natureService.getNatureByName(_nature);
-      if (nature != null) {
-        natureModifier = nature.getMultiplierForStat(statName);
-      }
+      natureObj = _natureService.getNatureByName(_nature);
     }
 
-    // HP calculation is different from other stats
-    if (statName.toLowerCase() == 'hp') {
-      return _calculateStatPrefix(baseStat, iv, ev, _level) + _level + 10;
-    } else {
-      // Other stats calculation with nature modifier
-      return ((_calculateStatPrefix(baseStat, iv, ev, _level) + 5) *
-              natureModifier)
-          .floor();
-    }
+    return StatCalculator.calculateStat(
+      baseStat: baseStat,
+      iv: iv,
+      ev: ev,
+      level: _level,
+      statName: statName,
+      nature: natureObj,
+    );
   }
 
   int _calculateTotalStats() {

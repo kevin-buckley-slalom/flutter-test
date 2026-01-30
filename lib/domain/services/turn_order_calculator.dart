@@ -56,8 +56,8 @@ class TurnOrderCalculator {
 
     // Sort by priority (descending) then by speed (descending)
     turnActions.sort((a, b) {
-      final priorityA = (a.move?.priority ?? 0) as int;
-      final priorityB = (b.move?.priority ?? 0) as int;
+      final priorityA = a.move?.priority ?? 0;
+      final priorityB = b.move?.priority ?? 0;
 
       if (priorityA != priorityB) {
         return priorityB.compareTo(priorityA); // higher priority first

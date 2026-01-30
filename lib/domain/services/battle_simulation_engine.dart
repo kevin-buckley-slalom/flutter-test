@@ -23,11 +23,19 @@ class TurnOutcome {
 class BattleSimulationEngine {
   final Map<String, dynamic> moveDatabase; // move name -> Move
   final Map<String, List<String>> pokemonTypesMap; // pokemon name -> types
+  late final DamageCalculator _damageCalculator;
 
   BattleSimulationEngine({
     required this.moveDatabase,
     required this.pokemonTypesMap,
-  });
+  }) {
+    _damageCalculator = DamageCalculator();
+  }
+
+  /// Initialize the damage calculator (must be called before processTurn)
+  Future<void> initialize() async {
+    await _damageCalculator.loadTypeChart();
+  }
 
   /// Process a complete turn of battle
   ///
@@ -85,11 +93,19 @@ class BattleSimulationEngine {
         final moveData = moveDatabase[attackAction.moveName];
 
         if (moveData != null && opponent != null) {
+          // Determine target count based on the target string
+          final targetCount = _determineTargetCount(
+            attackAction.targetPokemonName,
+            team1Active,
+            team2Active,
+          );
+
           events.addAll(_executeMove(
             attacker: pokemon,
             defender: opponent,
             move: moveData,
             fieldConditions: fieldConditions,
+            targetCount: targetCount,
           ));
         }
       } else if (turnAction.action is SwitchAction) {
@@ -124,16 +140,18 @@ class BattleSimulationEngine {
     required BattlePokemon defender,
     required Move move,
     required Map<String, dynamic> fieldConditions,
+    int targetCount = 1,
   }) {
     final events = <SimulationEvent>[];
 
     // Check if move hits
-    final damageResult = DamageCalculator.calculateDamage(
+    final damageResult = _damageCalculator.calculateDamage(
       attacker: attacker,
       defender: defender,
       move: move,
       attackerTypes: pokemonTypesMap[attacker.pokemonName] ?? ['Normal'],
       defenderTypes: pokemonTypesMap[defender.pokemonName] ?? ['Normal'],
+      targetCount: targetCount,
     );
 
     // Log move usage
@@ -164,7 +182,8 @@ class BattleSimulationEngine {
           (defender.currentHp - damageDealt).clamp(0, defender.maxHp);
       final hpAfter = defender.currentHp;
 
-      var message = '${defender.pokemonName} took $damageDealt damage!';
+      var message =
+          '${defender.pokemonName} took $damageDealt damage! (range: ${damageResult.minDamage}-${damageResult.maxDamage})';
 
       if (damageResult.effectivenessString != null) {
         message = 'It\'s ${damageResult.effectivenessString}! $message';
@@ -211,7 +230,7 @@ class BattleSimulationEngine {
     // Item effects after move
     events.addAll(ItemEffectProcessor.processTurnItem(
       attacker,
-      move.category ?? 'Status',
+      move.category,
       damageResult.maxDamage > 0,
       damageResult.averageDamage,
     ));
@@ -286,5 +305,32 @@ class BattleSimulationEngine {
     return original.copyWith(
       statStages: Map.from(original.statStages),
     );
+  }
+
+  /// Determine the number of targets based on the target string
+  int _determineTargetCount(
+    String? targetName,
+    List<BattlePokemon> team1Active,
+    List<BattlePokemon> team2Active,
+  ) {
+    if (targetName == null) return 1;
+
+    // Check for multi-target indicators
+    switch (targetName) {
+      case 'all-opposing':
+        // Count all active opponents (typically 1-2 in singles/doubles)
+        return team2Active.where((p) => p.currentHp > 0).length.clamp(1, 2);
+      case 'all-field':
+        // Count all active pokemon on field
+        final allActive = [...team1Active, ...team2Active];
+        return allActive.where((p) => p.currentHp > 0).length.clamp(1, 4);
+      case 'all-team':
+      case 'all-except-user':
+        // Count all team members (typically 1-2 in singles/doubles)
+        return team1Active.where((p) => p.currentHp > 0).length.clamp(1, 2);
+      default:
+        // Single target (includes specific pokemon names)
+        return 1;
+    }
   }
 }

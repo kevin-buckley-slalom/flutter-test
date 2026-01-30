@@ -18,7 +18,7 @@ class AbilityEffectProcessor {
     BattlePokemon? opponent,
   ) {
     final events = <SimulationEvent>[];
-    final ability = pokemon.ability?.toLowerCase() ?? '';
+    final ability = pokemon.ability.toLowerCase();
 
     switch (ability) {
       case 'intimidate':
@@ -101,7 +101,7 @@ class AbilityEffectProcessor {
     String lastActionType, // 'attack', 'switch', 'status'
   ) {
     final events = <SimulationEvent>[];
-    final ability = pokemon.ability?.toLowerCase() ?? '';
+    final ability = pokemon.ability.toLowerCase();
 
     switch (ability) {
       case 'regenerator':

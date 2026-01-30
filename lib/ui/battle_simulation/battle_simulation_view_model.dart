@@ -1,11 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:championdex/data/models/team.dart';
-import 'package:championdex/data/models/team_member.dart';
 import 'package:championdex/data/repositories/pokemon_repository.dart';
-import 'package:championdex/data/models/pokemon_stats.dart';
-import 'package:championdex/data/services/nature_data_service.dart';
 import 'package:championdex/domain/battle/battle_ui_state.dart';
 import 'package:championdex/domain/services/battle_simulation_engine.dart';
+import 'package:championdex/domain/services/stat_calculator.dart';
 import 'package:championdex/ui/pokemon_list/pokemon_list_view_model.dart';
 import 'package:championdex/ui/teams_list/teams_list_view_model.dart';
 import 'package:championdex/ui/moves_list/moves_list_view_model.dart';
@@ -125,9 +123,9 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
                 10;
 
         // Calculate actual battle stats (not base stats)
-        final calculatedStats = _calculateBattleStats(
-          pokemon.stats,
-          member,
+        final calculatedStats = await StatCalculator.calculateBattleStats(
+          baseStats: pokemon.stats,
+          member: member,
         );
 
         final battlePokemon = BattlePokemon(
@@ -169,63 +167,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
     }
 
     return battleTeam;
-  }
-
-  /// Calculate actual battle stats from base stats, IVs, EVs, level, and nature
-  PokemonStats _calculateBattleStats(
-    PokemonStats baseStats,
-    TeamMember member,
-  ) {
-    // Helper to calculate a single stat
-    int calculateStat(int baseStat, int iv, int ev, String statName) {
-      // Calculate the stat before nature modifier
-      int statValue =
-          ((2 * baseStat + iv + (ev ~/ 4)) * member.level) ~/ 100 + 5;
-
-      // Apply nature modifier (doesn't apply to HP)
-      if (statName != 'hp' && member.nature != null) {
-        final natureService = NatureDataService();
-        final nature = natureService.getNatureByName(member.nature);
-        if (nature != null) {
-          double multiplier = nature.getMultiplierForStat(statName);
-          statValue = (statValue * multiplier).floor();
-        }
-      }
-
-      return statValue;
-    }
-
-    // Calculate each stat
-    final attack = calculateStat(
-        baseStats.attack, member.ivAttack, member.evAttack, 'attack');
-    final defense = calculateStat(
-        baseStats.defense, member.ivDefense, member.evDefense, 'defense');
-    final spAtk = calculateStat(
-        baseStats.spAtk, member.ivSpAtk, member.evSpAtk, 'sp_atk');
-    final spDef = calculateStat(
-        baseStats.spDef, member.ivSpDef, member.evSpDef, 'sp_def');
-    final speed =
-        calculateStat(baseStats.speed, member.ivSpeed, member.evSpeed, 'speed');
-
-    // HP calculation is done separately (already calculated as maxHp)
-    // But we need it for the total, so calculate it here too
-    final hp = ((2 * baseStats.hp + member.ivHp + (member.evHp ~/ 4)) *
-                member.level) ~/
-            100 +
-        member.level +
-        10;
-
-    final total = (hp + attack + defense + spAtk + spDef + speed);
-
-    return PokemonStats(
-      total: total,
-      hp: hp,
-      attack: attack,
-      defense: defense,
-      spAtk: spAtk,
-      spDef: spDef,
-      speed: speed,
-    );
   }
 
   /// Updates a battlefield pokemon's queued action
@@ -478,6 +419,9 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         pokemonTypesMap: pokemonTypesMap,
       );
 
+      // Initialize the engine (loads type chart)
+      await engine.initialize();
+
       // Get active pokemon
       final team1Active =
           state!.team1Pokemon.whereType<BattlePokemon>().toList();
@@ -522,7 +466,10 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       updatedLog.add('---');
       updatedLog.add('Turn Summary:');
       for (final entry in outcome.probabilities.entries) {
-        updatedLog.add('${entry.key}: ${entry.value}');
+        final formattedEntry = _formatSummaryEntry(entry.key, entry.value);
+        if (formattedEntry != null) {
+          updatedLog.add(formattedEntry);
+        }
       }
 
       state = state!.copyWith(
@@ -547,6 +494,38 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
     if (state == null) return;
 
     state = state!.copyWith(isSimulationRunning: false);
+  }
+
+  /// Format a summary entry key-value pair into a readable string
+  String? _formatSummaryEntry(String key, dynamic value) {
+    // Handle knockouts
+    if (key == 'knockoutsOccurred') {
+      return 'Knockouts Occurred: $value';
+    }
+
+    // Handle HP percentages
+    if (key.endsWith('_hp_percent')) {
+      final pokemonName =
+          key.replaceAll('_hp_percent', '').replaceAll('-', ' ');
+      // Capitalize first letter of each word
+      final formattedName = pokemonName.split(' ').map((word) {
+        if (word.isEmpty) return word;
+        return word[0].toUpperCase() + word.substring(1).toLowerCase();
+      }).join(' ');
+
+      if (value is num) {
+        final percentage = value.toStringAsFixed(1);
+        return '$formattedName HP Remaining: $percentage%';
+      }
+    }
+
+    // For any other keys, convert snake_case to Title Case
+    final formattedKey = key.split('_').map((word) {
+      if (word.isEmpty) return word;
+      return word[0].toUpperCase() + word.substring(1).toLowerCase();
+    }).join(' ');
+
+    return '$formattedKey: $value';
   }
 }
 

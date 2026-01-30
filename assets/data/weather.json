@@ -1,0 +1,98 @@
+{
+    "sun": {
+        "effects": [
+            "Increases the damage of Fire-type moves by 50%.",
+            "Decreases the damage of Water-type moves by 50%.",
+            "Hydro Steam is an exception; its damage will be boosted by 50% instead.",
+            "Allows Solar Beam and Solar Blade to be used instantly.",
+            "From Generation V onward, causes Growth to raise Attack and Special Attack two stages each.",
+            "Activates the following Abilities: Chlorophyll, Dry Skin, Flower Gift, Forecast, Leaf Guard, Solar Power, Protosynthesis, Orichalcum Pulse.",
+            "Causes Forecast to change Castform to its Sunny Form.",
+            "Causes Flower Gift to change Cherrim to its Sunshine Form.",
+            "Guarantees Harvest will restore a held Berry.",
+            "Changes Weather Ball to a Fire-type move and doubles its power.",
+            "Prevents Pokémon from becoming frozen (it, however, will not thaw out Pokémon that are already frozen when it becomes active).",
+            "Causes Moonlight, Synthesis, and Morning Sun to recover ⅔ of max HP (twice the normal amount in Generation II).",
+            "Lowers accuracy of Thunder and Hurricane to 50%."
+        ]
+    },
+    "rain": {
+        "effects": [
+            "Increases the damage of Water-type moves by 50%.",
+            "Decreases the damage of Fire-type moves by 50%.",
+            "Allows Thunder, Hurricane, Bleakwind Storm, Wildbolt Storm, and Sandsear Storm to bypass the accuracy check.",
+            "Activates the following Abilities: Dry Skin, Forecast, Hydration, Rain Dish, Swift Swim.",
+            "Causes Forecast to change Castform to its Rainy Form.",
+            "Changes Weather Ball to a Water-type move and doubles its power.",
+            "Halves the power of Solar Beam and Solar Blade.",
+            "Causes Moonlight, Synthesis, and Morning Sun to recover ¼ of max HP.",
+            "Allows Electro Shot to be used without a charge-up turn."
+        ]
+    },
+    "sandstorm": {
+        "effects": [
+            "At the end of each turn, damages each Pokémon for 1/16 of its maximum HP, unless it is Rock-, Steel-, or Ground-type; has one of the Abilities Sand Force, Sand Rush, Sand Veil, Magic Guard, or Overcoat; or is holding Safety Goggles.",
+            "Activates the following Abilities: Sand Force, Sand Rush, Sand Veil.",
+            "Raises the Special Defense of all Rock-type Pokémon by 50%.",
+            "Changes Weather Ball to a Rock-type move and doubles its power.",
+            "Halves the power of Solar Beam and Solar Blade.",
+            "Causes Shore Up to recover ⅔ of max HP instead of ½.",
+            "Causes Moonlight, Synthesis, and Morning Sun to recover ¼ of max HP."
+        ]
+    },
+    "hail": {
+        "effects": [
+            "At the end of each turn, damages each Pokémon for 1/16 of its maximum HP, unless it is Ice-type; has one of the Abilities Ice Body, Snow Cloak, Magic Guard, or Overcoat; or is holding Safety Goggles.",
+            "Activates the following Abilities: Forecast, Ice Body, Snow Cloak, and Slush Rush. Additionally, Ice Face turns Eiscue from its Noice Face form to its Ice Face form.",
+            "Causes Forecast to change Castform to its Snowy Form.",
+            "Changes Weather Ball to an Ice-type move and doubles its power.",
+            "Allows Blizzard to bypass accuracy check.",
+            "Halves the power of Solar Beam and Solar Blade.",
+            "Causes Moonlight, Synthesis, and Morning Sun to recover ¼ of the user's maximum HP.",
+            "Allows Aurora Veil to be used, though the effect lingers even after Hail ends."
+        ]
+    },
+    "snow": {
+        "effects": [
+            "Activates the following Abilities: Ice Body, Snow Cloak, and Slush Rush. Additionally, Ice Face turns Eiscue from its Noice Face form to its Ice Face form.",
+            "Changes Weather Ball to an Ice-type move and doubles its power.",
+            "Allows Blizzard to bypass accuracy checks.",
+            "Halves the power of Solar Beam and Solar Blade.",
+            "Causes Moonlight, Synthesis, and Morning Sun to recover ¼ of the user's maximum HP.",
+            "Allows Aurora Veil to be used, though the effect lingers even after snow ends.",
+            "Raises the Defense of all Ice-type Pokémon by 50%."
+        ]
+    },
+    "harsh_sunlight": {
+        "effects": [
+            "Retains all of the effects of Sun, as long as it does not conflict with Harsh Sunlight-specific effects.",
+            "Causes Water-type damaging moves to fail if used (unless a Pokémon on the field has the Air Lock or Cloud Nine Ability)",
+            "If a Pokémon attempts to use Natural Gift while holding a Berry that makes the move Water-type, the Berry is not consumed.",
+            "If a frozen Pokémon attempts to use Scald or Steam Eruption, it will still thaw itself before the move fails.",
+            "Causes the moves Sunny Day, Rain Dance, Sandstorm, and Hail to fail if used. This cannot be subverted even with Cloud Nine or Air Lock.",
+            "If a Pokémon affected by Powder uses Sunny Day, it will take damage from Powder.",
+            "Causes the Abilities Drought, Drizzle, Sand Stream, and Snow Warning to fail. This cannot be subverted even with Cloud Nine or Air Lock."
+        ]
+    },
+    "heavy_rain": {
+        "effects": [
+            "Retains all of the effects of Rain, as long as it does not conflict with Heavy Rain-specific effects.",
+            "Causes Fire-type damaging moves to fail if used (including moves that change type, if they would be Fire-type).",
+            "If a Pokémon affected by Powder uses a Fire-type move, it will take damage from Powder.",
+            "If a Pokémon attempts to use Natural Gift while holding a Berry that makes the move Fire-type, the Berry is not consumed.",
+            "If a frozen Pokémon attempts to use a Fire-type move that would thaw itself (such as Flame Wheel), it will still thaw itself before the move fails.",
+            "Causes the moves Sunny Day, Rain Dance, Sandstorm, and Hail to fail if used. This cannot be subverted even with Cloud Nine or Air Lock.",
+            "If a Pokémon affected by Powder uses Sunny Day, it will take damage from Powder.",
+            "Causes the Abilities Drought, Drizzle, Sand Stream, and Snow Warning to fail. This cannot be subverted even with Cloud Nine or Air Lock."
+        ]
+    },
+    "strong_winds": {
+        "effects": [
+            "Strong winds cause moves that would be super effective against the Flying type to only be normally effective against it.",
+            "Causes the moves Sunny Day, Rain Dance, Sandstorm, and Hail to fail if used. This cannot be subverted even with Cloud Nine or Air Lock.",
+            "Causes the Abilities Drought, Drizzle, Sand Stream, and Snow Warning to fail. This cannot be subverted even with Cloud Nine or Air Lock.",
+            "Weather Ball remains a Normal-type move during strong winds and does not have its power doubled.",
+            "The moves Moonlight, Morning Sun, and Synthesis continue to recover ½ of max HP, as they do in clear weather."
+        ]
+    }
+}
