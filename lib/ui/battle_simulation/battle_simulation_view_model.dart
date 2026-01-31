@@ -178,13 +178,17 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
 
     if (isTeam1) {
       if (slotIndex < updatedTeam1.length && updatedTeam1[slotIndex] != null) {
-        updatedTeam1[slotIndex] =
-            updatedTeam1[slotIndex]!.copyWith(queuedAction: action);
+        updatedTeam1[slotIndex] = updatedTeam1[slotIndex]!.copyWith(
+          queuedAction: action,
+          clearQueuedAction: action == null,
+        );
       }
     } else {
       if (slotIndex < updatedTeam2.length && updatedTeam2[slotIndex] != null) {
-        updatedTeam2[slotIndex] =
-            updatedTeam2[slotIndex]!.copyWith(queuedAction: action);
+        updatedTeam2[slotIndex] = updatedTeam2[slotIndex]!.copyWith(
+          queuedAction: action,
+          clearQueuedAction: action == null,
+        );
       }
     }
 
@@ -428,9 +432,21 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       final team2Active =
           state!.team2Pokemon.whereType<BattlePokemon>().toList();
 
+      final team1ActiveNames = team1Active.map((p) => p.originalName).toSet();
+      final team2ActiveNames = team2Active.map((p) => p.originalName).toSet();
+
+      final team1Bench = state!.team1Bench
+          .where((p) => !team1ActiveNames.contains(p.originalName))
+          .toList();
+      final team2Bench = state!.team2Bench
+          .where((p) => !team2ActiveNames.contains(p.originalName))
+          .toList();
+
       final outcome = engine.processTurn(
         team1Active: team1Active,
         team2Active: team2Active,
+        team1Bench: team1Bench,
+        team2Bench: team2Bench,
         actionsMap: actionsMap,
         fieldConditions: state!.fieldConditions,
       );
@@ -441,9 +457,10 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         updatedLog.add(event.message);
       }
 
-      // Update pokemon states from outcome
+      // Update pokemon states from outcome using the final field composition
+      // The engine returns which pokemon ended up on the field after switches
       final updatedTeam1 = <BattlePokemon?>[];
-      for (final pokemon in state!.team1Pokemon) {
+      for (final pokemon in outcome.team1FinalField) {
         if (pokemon != null &&
             outcome.finalStates.containsKey(pokemon.originalName)) {
           updatedTeam1.add(outcome.finalStates[pokemon.originalName]);
@@ -453,7 +470,7 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       }
 
       final updatedTeam2 = <BattlePokemon?>[];
-      for (final pokemon in state!.team2Pokemon) {
+      for (final pokemon in outcome.team2FinalField) {
         if (pokemon != null &&
             outcome.finalStates.containsKey(pokemon.originalName)) {
           updatedTeam2.add(outcome.finalStates[pokemon.originalName]);
@@ -461,6 +478,31 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
           updatedTeam2.add(pokemon);
         }
       }
+
+      final updatedTeam1Bench = <BattlePokemon>[];
+      for (final pokemon in outcome.team1FinalBench) {
+        final statePokemon = outcome.finalStates[pokemon.originalName];
+        updatedTeam1Bench.add(statePokemon ?? pokemon);
+      }
+
+      final updatedTeam2Bench = <BattlePokemon>[];
+      for (final pokemon in outcome.team2FinalBench) {
+        final statePokemon = outcome.finalStates[pokemon.originalName];
+        updatedTeam2Bench.add(statePokemon ?? pokemon);
+      }
+
+      final clearedTeam1 = updatedTeam1
+          .map((p) => p == null ? null : p.copyWith(clearQueuedAction: true))
+          .toList();
+      final clearedTeam2 = updatedTeam2
+          .map((p) => p == null ? null : p.copyWith(clearQueuedAction: true))
+          .toList();
+      final clearedTeam1Bench = updatedTeam1Bench
+          .map((p) => p.copyWith(clearQueuedAction: true))
+          .toList();
+      final clearedTeam2Bench = updatedTeam2Bench
+          .map((p) => p.copyWith(clearQueuedAction: true))
+          .toList();
 
       // Add outcome summary
       updatedLog.add('---');
@@ -473,10 +515,13 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       }
 
       state = state!.copyWith(
-        team1Pokemon: updatedTeam1,
-        team2Pokemon: updatedTeam2,
+        team1Pokemon: clearedTeam1,
+        team2Pokemon: clearedTeam2,
+        team1Bench: clearedTeam1Bench,
+        team2Bench: clearedTeam2Bench,
         simulationLog: updatedLog,
         isSimulationRunning: false,
+        allActionsSet: false,
       );
     } catch (e) {
       print('Error running simulation: $e');

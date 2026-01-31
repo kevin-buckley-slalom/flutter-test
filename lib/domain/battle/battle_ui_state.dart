@@ -75,6 +75,7 @@ class BattlePokemon {
     List<String>? moves,
     Map<String, int>? statStages,
     BattleAction? queuedAction,
+    bool clearQueuedAction = false,
     String? imagePath,
     String? imagePathLarge,
     dynamic stats,
@@ -92,7 +93,8 @@ class BattlePokemon {
       teraType: teraType ?? this.teraType,
       moves: moves ?? this.moves,
       statStages: statStages ?? this.statStages,
-      queuedAction: queuedAction ?? this.queuedAction,
+      queuedAction:
+          clearQueuedAction ? null : (queuedAction ?? this.queuedAction),
       imagePath: imagePath ?? this.imagePath,
       imagePathLarge: imagePathLarge ?? this.imagePathLarge,
       stats: stats ?? this.stats,

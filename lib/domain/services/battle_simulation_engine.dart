@@ -10,11 +10,21 @@ import 'package:championdex/domain/services/simulation_event.dart';
 class TurnOutcome {
   final List<SimulationEvent> events;
   final Map<String, BattlePokemon> finalStates; // pokemon name -> final state
+  final List<BattlePokemon?>
+      team1FinalField; // final field for team 1 (by slot)
+  final List<BattlePokemon?>
+      team2FinalField; // final field for team 2 (by slot)
+  final List<BattlePokemon> team1FinalBench; // final bench for team 1
+  final List<BattlePokemon> team2FinalBench; // final bench for team 2
   final Map<String, dynamic> probabilities; // outcome -> probability
 
   TurnOutcome({
     required this.events,
     required this.finalStates,
+    required this.team1FinalField,
+    required this.team2FinalField,
+    required this.team1FinalBench,
+    required this.team2FinalBench,
     required this.probabilities,
   });
 }
@@ -43,6 +53,8 @@ class BattleSimulationEngine {
   TurnOutcome processTurn({
     required List<BattlePokemon> team1Active,
     required List<BattlePokemon> team2Active,
+    required List<BattlePokemon> team1Bench,
+    required List<BattlePokemon> team2Bench,
     required Map<String, BattleAction> actionsMap, // pokemonName -> action
     required Map<String, dynamic> fieldConditions,
   }) {
@@ -50,26 +62,29 @@ class BattleSimulationEngine {
     final finalStates = <String, BattlePokemon>{};
 
     // Copy pokemon states to avoid mutations
-    final allPokemon = <BattlePokemon>[...team1Active, ...team2Active];
+    final allPokemon = <BattlePokemon>[
+      ...team1Active,
+      ...team2Active,
+      ...team1Bench,
+      ...team2Bench,
+    ];
     for (final p in allPokemon) {
       finalStates[p.originalName] = _copyPokemon(p);
     }
 
-    // Step 1: Handle abilities on entry (switches)
-    // TODO: Track which pokemon were just switched in
-    final switchedInPokemon = _identifySwitches(actionsMap);
-    for (final pokemonName in switchedInPokemon) {
-      final pokemon = finalStates[pokemonName];
-      if (pokemon != null) {
-        final opponent =
-            _getOpponent(pokemon, finalStates, team1Active, team2Active);
-        events.addAll(
-          AbilityEffectProcessor.processSwitchInAbility(pokemon, opponent),
-        );
-      }
-    }
+    // Track which pokemon are on the field (for targeting purposes)
+    final currentFieldTeam1 =
+        team1Active.map((p) => finalStates[p.originalName]!).toList();
+    final currentFieldTeam2 =
+        team2Active.map((p) => finalStates[p.originalName]!).toList();
 
-    // Step 2: Calculate turn order
+    // Track which pokemon are on the bench
+    final currentBenchTeam1 =
+        team1Bench.map((p) => finalStates[p.originalName]!).toList();
+    final currentBenchTeam2 =
+        team2Bench.map((p) => finalStates[p.originalName]!).toList();
+
+    // Step 1: Calculate turn order for all actions
     final isTrickRoomActive = fieldConditions['trickRoom'] == true;
     final turnActions = TurnOrderCalculator.calculateTurnOrder(
       allActivePokemon: allPokemon,
@@ -79,42 +94,110 @@ class BattleSimulationEngine {
       isChildsPlayActive: false, // TODO: implement
     );
 
-    // Step 3: Execute actions in turn order
+    // Step 2: Separate and execute switches first (in speed order)
+    final switchActions = <TurnAction>[];
+    final moveActions = <TurnAction>[];
+
     for (final turnAction in turnActions) {
+      if (turnAction.action is SwitchAction) {
+        switchActions.add(turnAction);
+      } else {
+        moveActions.add(turnAction);
+      }
+    }
+
+    // Execute switches in speed order
+    for (final turnAction in switchActions) {
+      final switchAction = turnAction.action as SwitchAction;
+      final switchedOutPokemon = finalStates[turnAction.pokemon.originalName];
+
+      if (switchedOutPokemon != null) {
+        // Log the switch
+        events.add(SimulationEvent(
+          message: '${switchedOutPokemon.pokemonName} switched out!',
+          type: SimulationEventType.summary,
+        ));
+
+        // Find the slot and swap pokemon in the field lists
+        final isTeam1 = currentFieldTeam1
+            .any((p) => p.originalName == switchedOutPokemon.originalName);
+        final fieldList = isTeam1 ? currentFieldTeam1 : currentFieldTeam2;
+        final benchList = isTeam1 ? currentBenchTeam1 : currentBenchTeam2;
+        final slotIndex = fieldList.indexWhere(
+            (p) => p.originalName == switchedOutPokemon.originalName);
+
+        if (slotIndex >= 0) {
+          final benchIndex = benchList.indexWhere((p) =>
+              p.originalName == switchAction.targetPokemonName ||
+              p.pokemonName == switchAction.targetPokemonName);
+
+          if (benchIndex < 0) {
+            continue;
+          }
+
+          final switchedInPokemon = benchList.removeAt(benchIndex);
+
+          // Update field list with the switched-in pokemon
+          fieldList[slotIndex] = switchedInPokemon;
+
+          // Put the switched-out pokemon on the bench
+          benchList.add(switchedOutPokemon);
+
+          // Log the new pokemon entering
+          events.add(SimulationEvent(
+            message: 'Go! ${switchedInPokemon.pokemonName}!',
+            type: SimulationEventType.summary,
+            affectedPokemonName: switchedInPokemon.originalName,
+          ));
+
+          // Handle abilities on entry
+          final opponent = _getOpponent(switchedInPokemon, finalStates,
+              currentFieldTeam1, currentFieldTeam2);
+          events.addAll(
+            AbilityEffectProcessor.processSwitchInAbility(
+                switchedInPokemon, opponent),
+          );
+        }
+      }
+    }
+
+    // Step 3: Execute moves in turn order
+    for (final turnAction in moveActions) {
       final pokemon = finalStates[turnAction.pokemon.originalName];
       if (pokemon == null || pokemon.currentHp <= 0)
         continue; // Pokemon is fainted
-
-      final opponent =
-          _getOpponent(pokemon, finalStates, team1Active, team2Active);
 
       if (turnAction.action is AttackAction) {
         final attackAction = turnAction.action as AttackAction;
         final moveData = moveDatabase[attackAction.moveName];
 
-        if (moveData != null && opponent != null) {
-          // Determine target count based on the target string
-          final targetCount = _determineTargetCount(
+        if (moveData != null) {
+          // Find the defender based on the target name or slot
+          final defender = _findDefender(
             attackAction.targetPokemonName,
-            team1Active,
-            team2Active,
+            pokemon,
+            finalStates,
+            currentFieldTeam1,
+            currentFieldTeam2,
           );
 
-          events.addAll(_executeMove(
-            attacker: pokemon,
-            defender: opponent,
-            move: moveData,
-            fieldConditions: fieldConditions,
-            targetCount: targetCount,
-          ));
+          if (defender != null) {
+            // Determine target count based on the target string
+            final targetCount = _determineTargetCount(
+              attackAction.targetPokemonName,
+              currentFieldTeam1,
+              currentFieldTeam2,
+            );
+
+            events.addAll(_executeMove(
+              attacker: pokemon,
+              defender: defender,
+              move: moveData,
+              fieldConditions: fieldConditions,
+              targetCount: targetCount,
+            ));
+          }
         }
-      } else if (turnAction.action is SwitchAction) {
-        // Switches are handled separately
-        // For now, just log
-        events.add(SimulationEvent(
-          message: '${pokemon.pokemonName} switched out!',
-          type: SimulationEventType.summary,
-        ));
       }
     }
 
@@ -130,6 +213,10 @@ class BattleSimulationEngine {
     return TurnOutcome(
       events: events,
       finalStates: finalStates,
+      team1FinalField: currentFieldTeam1,
+      team2FinalField: currentFieldTeam2,
+      team1FinalBench: currentBenchTeam1,
+      team2FinalBench: currentBenchTeam2,
       probabilities: probabilities,
     );
   }
@@ -238,17 +325,6 @@ class BattleSimulationEngine {
     return events;
   }
 
-  /// Identify which pokemon were switched in this turn
-  Set<String> _identifySwitches(Map<String, BattleAction> actionsMap) {
-    final switched = <String>{};
-    for (final entry in actionsMap.entries) {
-      if (entry.value is SwitchAction) {
-        switched.add((entry.value as SwitchAction).targetPokemonName);
-      }
-    }
-    return switched;
-  }
-
   /// Get the opponent of a given pokemon
   BattlePokemon? _getOpponent(
     BattlePokemon pokemon,
@@ -269,6 +345,51 @@ class BattleSimulationEngine {
       }
     }
     return null;
+  }
+
+  /// Find the defender for a move, accounting for slot-based targeting
+  /// If the target is a specific pokemon name, find it; otherwise use opponent in slot
+  BattlePokemon? _findDefender(
+    String? targetName,
+    BattlePokemon attacker,
+    Map<String, BattlePokemon> allStates,
+    List<BattlePokemon> currentFieldTeam1,
+    List<BattlePokemon> currentFieldTeam2,
+  ) {
+    if (targetName == null) {
+      // No specific target, use first active opponent
+      return _getOpponent(
+          attacker, allStates, currentFieldTeam1, currentFieldTeam2);
+    }
+
+    // Handle multi-target special cases
+    if (targetName == 'all-opposing' ||
+        targetName == 'all-field' ||
+        targetName == 'all-team' ||
+        targetName == 'all-except-user') {
+      // For multi-target, return first opponent (actual damage will be handled separately)
+      return _getOpponent(
+          attacker, allStates, currentFieldTeam1, currentFieldTeam2);
+    }
+
+    // Try to find the specific pokemon by name in the current field
+    final isTeam1 =
+        currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
+    final opponentField = isTeam1 ? currentFieldTeam2 : currentFieldTeam1;
+
+    for (final pokemon in opponentField) {
+      if (pokemon.pokemonName == targetName ||
+          pokemon.originalName == targetName) {
+        final state = allStates[pokemon.originalName];
+        if (state != null && state.currentHp > 0) {
+          return state;
+        }
+      }
+    }
+
+    // If specific pokemon not found in opponent field, return first active opponent
+    return _getOpponent(
+        attacker, allStates, currentFieldTeam1, currentFieldTeam2);
   }
 
   /// Calculate probability summary of outcomes
