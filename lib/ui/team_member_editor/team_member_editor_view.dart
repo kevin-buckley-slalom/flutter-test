@@ -613,7 +613,7 @@ class _TeamMemberEditorViewState extends ConsumerState<TeamMemberEditorView> {
                     ),
                     const SizedBox(height: 8),
                     DropdownButtonFormField<String>(
-                      value: _gender,
+                      initialValue: _gender,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                       ),
@@ -643,7 +643,7 @@ class _TeamMemberEditorViewState extends ConsumerState<TeamMemberEditorView> {
                     ),
                     const SizedBox(height: 8),
                     DropdownButtonFormField<String>(
-                      value: _teraType,
+                      initialValue: _teraType,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                       ),
@@ -685,7 +685,7 @@ class _TeamMemberEditorViewState extends ConsumerState<TeamMemberEditorView> {
                     ),
                     const SizedBox(height: 8),
                     DropdownButtonFormField<String>(
-                      value: _ability.isEmpty ? null : _ability,
+                      initialValue: _ability.isEmpty ? null : _ability,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                       ),
@@ -1091,7 +1091,7 @@ class _TeamMemberEditorViewState extends ConsumerState<TeamMemberEditorView> {
                   ),
                   Expanded(
                     child: DropdownButtonFormField<String>(
-                      value: _nature,
+                      initialValue: _nature,
                       decoration: InputDecoration(
                         isDense: true,
                         contentPadding: const EdgeInsets.symmetric(

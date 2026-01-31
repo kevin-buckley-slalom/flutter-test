@@ -259,8 +259,9 @@ class PokemonMoveDataService {
   String _normalizeLearnType(String method) {
     final m = method.toLowerCase();
     if (m == 'egg_moves' || m == 'egg') return 'egg';
-    if (m == 'tutor_attacks' || m == 'tutor_attacks' || m == 'tutor')
+    if (m == 'tutor_attacks' || m == 'tutor_attacks' || m == 'tutor') {
       return 'tutor';
+    }
     if (m == 'level_up' || m == 'level') return 'level_up';
     if (m == 'tr') return 'tr';
     if (m == 'hm') return 'hm';
@@ -288,8 +289,9 @@ class PokemonMoveDataService {
         if (methodsMap is Map<String, dynamic>) {
           methodsMap.forEach((methodName, forms) {
             if (method != null &&
-                _normalizeLearnType(methodName) != _normalizeLearnType(method))
+                _normalizeLearnType(methodName) != _normalizeLearnType(method)) {
               return;
+            }
             if (forms is List) {
               final learnType = _normalizeLearnType(methodName);
               for (final f in forms) {

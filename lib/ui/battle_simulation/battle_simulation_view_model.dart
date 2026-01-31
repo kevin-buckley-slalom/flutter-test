@@ -492,10 +492,10 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       }
 
       final clearedTeam1 = updatedTeam1
-          .map((p) => p == null ? null : p.copyWith(clearQueuedAction: true))
+          .map((p) => p?.copyWith(clearQueuedAction: true))
           .toList();
       final clearedTeam2 = updatedTeam2
-          .map((p) => p == null ? null : p.copyWith(clearQueuedAction: true))
+          .map((p) => p?.copyWith(clearQueuedAction: true))
           .toList();
       final clearedTeam1Bench = updatedTeam1Bench
           .map((p) => p.copyWith(clearQueuedAction: true))

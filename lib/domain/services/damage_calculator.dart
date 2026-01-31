@@ -59,6 +59,8 @@ class DamageResult {
   final String?
       effectivenessString; // "super-effective", "not very effective", etc
   final bool isTypeImmune;
+  final bool isDamageBlocked;
+  final bool isDamagePartiallyBlocked;
   final List<int>? discreteDamageRolls; // All 16 possible damage values
 
   DamageResult({
@@ -68,6 +70,8 @@ class DamageResult {
     required this.isCriticalChance,
     this.effectivenessString,
     required this.isTypeImmune,
+    required this.isDamageBlocked,
+    required this.isDamagePartiallyBlocked,
     this.discreteDamageRolls,
   });
 
@@ -141,6 +145,32 @@ class DamageCalculator {
         hitChance: 1.0,
         isCriticalChance: false,
         isTypeImmune: false,
+        isDamageBlocked: false,
+        isDamagePartiallyBlocked: false
+      );
+    }
+    // Max Guard blocks everything
+    if (defender.queuedAction is AttackAction && (defender.queuedAction as AttackAction).moveName == "Max Guard") {
+      return DamageResult(
+        minDamage: 0,
+        maxDamage: 0,
+        hitChance: 1.0,
+        isCriticalChance: false,
+        isTypeImmune: false,
+        isDamageBlocked: true,
+        isDamagePartiallyBlocked: false
+      );
+    }
+    // If protected & move isn't a ZMove or Dynamax Move, do no damage
+    if (props.isProtected && !props.isZMove && !props.isDynamaxMove) {
+      return DamageResult(
+        minDamage: 0,
+        maxDamage: 0,
+        hitChance: 1.0,
+        isCriticalChance: false,
+        isTypeImmune: false,
+        isDamageBlocked: true,
+        isDamagePartiallyBlocked: false
       );
     }
 
@@ -166,6 +196,8 @@ class DamageCalculator {
         isCriticalChance: false,
         effectivenessString: 'immune',
         isTypeImmune: true,
+        isDamageBlocked: false,
+        isDamagePartiallyBlocked: false
       );
     }
 
@@ -178,6 +210,8 @@ class DamageCalculator {
         hitChance: 1.0,
         isCriticalChance: false,
         isTypeImmune: false,
+        isDamageBlocked: false,
+        isDamagePartiallyBlocked: false
       );
     }
 
@@ -297,7 +331,7 @@ class DamageCalculator {
     maxDamageDouble = maxDamageDouble * otherMod;
 
     // Apply Z-Move protection modifier (0.25 if protected)
-    if (props.isZMove && props.isProtected) {
+    if ((props.isZMove || props.isDynamaxMove) && props.isProtected) {
       minDamageDouble = minDamageDouble * 0.25;
       maxDamageDouble = maxDamageDouble * 0.25;
     }
@@ -321,7 +355,7 @@ class DamageCalculator {
       // Apply other modifiers
       discreteDamage = discreteDamage * otherMod;
       // Apply Z-Move protection if applicable
-      if (props.isZMove && props.isProtected) {
+      if ((props.isZMove || props.isDynamaxMove) && props.isProtected) {
         discreteDamage = discreteDamage * 0.25;
       }
       // Floor and clamp to valid range
@@ -350,6 +384,8 @@ class DamageCalculator {
       effectivenessString: effectivenessString,
       isTypeImmune: false,
       discreteDamageRolls: discreteDamageRolls,
+      isDamageBlocked: false,
+      isDamagePartiallyBlocked: (props.isZMove || props.isDynamaxMove) && props.isProtected
     );
   }
 
@@ -727,14 +763,18 @@ class DamageCalculator {
 
     // Type-specific boosts when HP is low (1.5x)
     if (lowHp) {
-      if (ability == 'blaze' && moveType == 'Fire')
+      if (ability == 'blaze' && moveType == 'Fire') {
         return (basePower * 1.5).round();
-      if (ability == 'torrent' && moveType == 'Water')
+      }
+      if (ability == 'torrent' && moveType == 'Water') {
         return (basePower * 1.5).round();
-      if (ability == 'overgrow' && moveType == 'Grass')
+      }
+      if (ability == 'overgrow' && moveType == 'Grass') {
         return (basePower * 1.5).round();
-      if (ability == 'swarm' && moveType == 'Bug')
+      }
+      if (ability == 'swarm' && moveType == 'Bug') {
         return (basePower * 1.5).round();
+      }
     }
 
     // Technician (1.5x for moves ≤ 60 power)
