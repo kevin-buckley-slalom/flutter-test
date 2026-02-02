@@ -39,6 +39,7 @@ class BattlePokemon {
   final String? imagePath;
   final String? imagePathLarge;
   final dynamic stats; // PokemonStats object with base stats
+  List<String> types; // Current types (can be modified by moves like Forest's Curse)
   String?
       status; // Status condition: paralysis, burn, freeze, poison, sleep, confusion
 
@@ -58,6 +59,7 @@ class BattlePokemon {
     required this.imagePath,
     required this.imagePathLarge,
     required this.stats,
+    required this.types,
     this.status,
   });
 
@@ -79,6 +81,7 @@ class BattlePokemon {
     String? imagePath,
     String? imagePathLarge,
     dynamic stats,
+    List<String>? types,
     String? status,
   }) {
     return BattlePokemon(
@@ -98,6 +101,7 @@ class BattlePokemon {
       imagePath: imagePath ?? this.imagePath,
       imagePathLarge: imagePathLarge ?? this.imagePathLarge,
       stats: stats ?? this.stats,
+      types: types ?? this.types,
       status: status ?? this.status,
     );
   }

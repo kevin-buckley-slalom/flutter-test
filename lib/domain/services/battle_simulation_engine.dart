@@ -32,12 +32,10 @@ class TurnOutcome {
 /// Main battle simulation engine that processes a full turn
 class BattleSimulationEngine {
   final Map<String, dynamic> moveDatabase; // move name -> Move
-  final Map<String, List<String>> pokemonTypesMap; // pokemon name -> types
   late final DamageCalculator _damageCalculator;
 
   BattleSimulationEngine({
     required this.moveDatabase,
-    required this.pokemonTypesMap,
   }) {
     _damageCalculator = DamageCalculator();
   }
@@ -175,8 +173,15 @@ class BattleSimulationEngine {
 
         if (moveData != null) {
           // Find the defender based on the target name or slot
+          // For multi-target moves, override the target to hit all opposing Pokémon
+          String? targetName = attackAction.targetPokemonName;
+          if (moveData.targets != null && 
+              moveData.targets!.toLowerCase().contains('all adjacent foes')) {
+            targetName = 'all-opposing';
+          }
+          
           final defenders = _findDefenders(
-            attackAction.targetPokemonName,
+            targetName,
             pokemon,
             finalStates,
             currentFieldTeam1,
@@ -191,6 +196,49 @@ class BattleSimulationEngine {
             move: moveData,
             fieldConditions: fieldConditions,
           ));
+
+          // Post-move switching (e.g., Volt Switch/U-turn)
+          if (attackAction.switchInPokemonName != null &&
+              pokemon.currentHp > 0) {
+            final isTeam1 = currentFieldTeam1
+                .any((p) => p.originalName == pokemon.originalName);
+            final fieldList = isTeam1 ? currentFieldTeam1 : currentFieldTeam2;
+            final benchList = isTeam1 ? currentBenchTeam1 : currentBenchTeam2;
+            final slotIndex = fieldList
+                .indexWhere((p) => p.originalName == pokemon.originalName);
+
+            if (slotIndex >= 0) {
+              final benchIndex = benchList.indexWhere((p) =>
+                  p.originalName == attackAction.switchInPokemonName ||
+                  p.pokemonName == attackAction.switchInPokemonName);
+
+              if (benchIndex >= 0) {
+                final switchedInPokemon = benchList.removeAt(benchIndex);
+
+                // Log the switch out/in
+                events.add(SimulationEvent(
+                  message: '${pokemon.pokemonName} switched out!',
+                  type: SimulationEventType.summary,
+                ));
+
+                fieldList[slotIndex] = switchedInPokemon;
+                benchList.add(pokemon);
+
+                events.add(SimulationEvent(
+                  message: 'Go! ${switchedInPokemon.pokemonName}!',
+                  type: SimulationEventType.summary,
+                  affectedPokemonName: switchedInPokemon.originalName,
+                ));
+
+                final opponent = _getFirstActiveOpponent(switchedInPokemon,
+                    finalStates, currentFieldTeam1, currentFieldTeam2);
+                events.addAll(
+                  AbilityEffectProcessor.processSwitchInAbility(
+                      switchedInPokemon, opponent),
+                );
+              }
+            }
+          }
         }
       }
     }
@@ -248,8 +296,8 @@ class BattleSimulationEngine {
           attacker: attacker,
           defender: defender,
           move: move,
-          attackerTypes: pokemonTypesMap[attacker.pokemonName] ?? ['Normal'],
-          defenderTypes: pokemonTypesMap[defender.pokemonName] ?? ['Normal'],
+          attackerTypes: attacker.types,
+          defenderTypes: defender.types,
           targetCount: defenders.length,
           // TODO: Add extra params
           moveProperties: MoveProperties(

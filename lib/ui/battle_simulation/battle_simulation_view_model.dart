@@ -156,6 +156,7 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
               ? pokemon.imageShinyPathLarge
               : pokemon.imagePathLarge,
           stats: calculatedStats,
+          types: pokemon.types,
           status: null,
         );
 
@@ -381,29 +382,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         moveDatabase[move.name] = move;
       }
 
-      // Get pokemon types (simplified - load from pokemon repo)
-      final pokemonRepo = ref.read(pokemonRepositoryProvider);
-      final pokemonTypesMap = <String, List<String>>{};
-
-      // Build pokemon types map from active pokemon
-      for (final pokemon in state!.team1Pokemon) {
-        if (pokemon != null) {
-          final fullPokemon = pokemonRepo.byName(pokemon.pokemonName);
-          if (fullPokemon != null) {
-            pokemonTypesMap[pokemon.pokemonName] = fullPokemon.types;
-          }
-        }
-      }
-
-      for (final pokemon in state!.team2Pokemon) {
-        if (pokemon != null) {
-          final fullPokemon = pokemonRepo.byName(pokemon.pokemonName);
-          if (fullPokemon != null) {
-            pokemonTypesMap[pokemon.pokemonName] = fullPokemon.types;
-          }
-        }
-      }
-
       // Create action map from queued actions
       final actionsMap = <String, BattleAction>{};
       for (final pokemon in state!.team1Pokemon) {
@@ -420,7 +398,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       // Create engine and process turn
       final engine = BattleSimulationEngine(
         moveDatabase: moveDatabase,
-        pokemonTypesMap: pokemonTypesMap,
       );
 
       // Initialize the engine (loads type chart)
