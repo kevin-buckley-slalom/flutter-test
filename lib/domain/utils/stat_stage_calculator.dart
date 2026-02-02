@@ -111,13 +111,13 @@ class StatStageCalculator {
     final multiplierStr = multiplier.toStringAsFixed(2);
 
     if (stage == 0) {
-      return 'Normal (${multiplierStr}×)';
+      return 'Normal ($multiplierStr×)';
     } else if (stage > 0) {
       final suffix = stage == maxStatStage ? ' Maximum' : '';
-      return '+$stage (${multiplierStr}×)$suffix';
+      return '+$stage ($multiplierStr×)$suffix';
     } else {
       final suffix = stage == minStatStage ? ' Minimum' : '';
-      return '$stage (${multiplierStr}×)$suffix';
+      return '$stage ($multiplierStr×)$suffix';
     }
   }
 

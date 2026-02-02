@@ -150,9 +150,10 @@ class BattleSimulationEngine {
             affectedPokemonName: switchedInPokemon.originalName,
           ));
 
+          // TODO: Apply to all opponents, not just one
           // Handle abilities on entry
-          final opponent = _getOpponent(switchedInPokemon, finalStates,
-              currentFieldTeam1, currentFieldTeam2);
+          final opponent = _getFirstActiveOpponent(switchedInPokemon,
+              finalStates, currentFieldTeam1, currentFieldTeam2);
           events.addAll(
             AbilityEffectProcessor.processSwitchInAbility(
                 switchedInPokemon, opponent),
@@ -164,8 +165,9 @@ class BattleSimulationEngine {
     // Step 3: Execute moves in turn order
     for (final turnAction in moveActions) {
       final pokemon = finalStates[turnAction.pokemon.originalName];
-      if (pokemon == null || pokemon.currentHp <= 0)
+      if (pokemon == null || pokemon.currentHp <= 0) {
         continue; // Pokemon is fainted
+      }
 
       if (turnAction.action is AttackAction) {
         final attackAction = turnAction.action as AttackAction;
@@ -173,7 +175,7 @@ class BattleSimulationEngine {
 
         if (moveData != null) {
           // Find the defender based on the target name or slot
-          final defender = _findDefender(
+          final defenders = _findDefenders(
             attackAction.targetPokemonName,
             pokemon,
             finalStates,
@@ -181,65 +183,14 @@ class BattleSimulationEngine {
             currentFieldTeam2,
           );
 
-          if (defender != null) {
-            // Determine target count based on the target string
-            final targetCount = _determineTargetCount(
-              attackAction.targetPokemonName,
-              currentFieldTeam1,
-              currentFieldTeam2,
-            );
-
-            events.addAll(_executeMove(
-              attacker: pokemon,
-              defender: defender,
-              move: moveData,
-              fieldConditions: fieldConditions,
-              targetCount: targetCount,
-            ));
-
-            // Post-move switching (e.g., Volt Switch/U-turn)
-            if (attackAction.switchInPokemonName != null &&
-                pokemon.currentHp > 0) {
-              final isTeam1 = currentFieldTeam1
-                  .any((p) => p.originalName == pokemon.originalName);
-              final fieldList = isTeam1 ? currentFieldTeam1 : currentFieldTeam2;
-              final benchList = isTeam1 ? currentBenchTeam1 : currentBenchTeam2;
-              final slotIndex = fieldList
-                  .indexWhere((p) => p.originalName == pokemon.originalName);
-
-              if (slotIndex >= 0) {
-                final benchIndex = benchList.indexWhere((p) =>
-                    p.originalName == attackAction.switchInPokemonName ||
-                    p.pokemonName == attackAction.switchInPokemonName);
-
-                if (benchIndex >= 0) {
-                  final switchedInPokemon = benchList.removeAt(benchIndex);
-
-                  // Log the switch out/in
-                  events.add(SimulationEvent(
-                    message: '${pokemon.pokemonName} switched out!',
-                    type: SimulationEventType.summary,
-                  ));
-
-                  fieldList[slotIndex] = switchedInPokemon;
-                  benchList.add(pokemon);
-
-                  events.add(SimulationEvent(
-                    message: 'Go! ${switchedInPokemon.pokemonName}!',
-                    type: SimulationEventType.summary,
-                    affectedPokemonName: switchedInPokemon.originalName,
-                  ));
-
-                  final opponent = _getOpponent(switchedInPokemon, finalStates,
-                      currentFieldTeam1, currentFieldTeam2);
-                  events.addAll(
-                    AbilityEffectProcessor.processSwitchInAbility(
-                        switchedInPokemon, opponent),
-                  );
-                }
-              }
-            }
-          }
+          events.addAll(_executeMove(
+            attacker: pokemon,
+            defenders: defenders,
+            currentFieldTeam1: currentFieldTeam1,
+            currentFieldTeam2: currentFieldTeam2,
+            move: moveData,
+            fieldConditions: fieldConditions,
+          ));
         }
       }
     }
@@ -267,22 +218,13 @@ class BattleSimulationEngine {
   /// Execute a move and return all events that occur
   List<SimulationEvent> _executeMove({
     required BattlePokemon attacker,
-    required BattlePokemon defender,
+    required List<BattlePokemon> defenders,
+    required List<BattlePokemon> currentFieldTeam1,
+    required List<BattlePokemon> currentFieldTeam2,
     required Move move,
     required Map<String, dynamic> fieldConditions,
-    int targetCount = 1,
   }) {
     final events = <SimulationEvent>[];
-
-    // Check if move hits
-    final damageResult = _damageCalculator.calculateDamage(
-      attacker: attacker,
-      defender: defender,
-      move: move,
-      attackerTypes: pokemonTypesMap[attacker.pokemonName] ?? ['Normal'],
-      defenderTypes: pokemonTypesMap[defender.pokemonName] ?? ['Normal'],
-      targetCount: targetCount,
-    );
 
     // Log move usage
     events.add(SimulationEvent(
@@ -291,85 +233,123 @@ class BattleSimulationEngine {
       affectedPokemonName: attacker.originalName,
     ));
 
-    // Check hit chance
-    if (damageResult.hitChance < 1.0) {
-      // Calculate if move hits based on probability
-      // For now, assume it always hits if probability > 50%
-      if (damageResult.hitChance < 0.5) {
+    for (final defender in defenders) {
+      // Check if move hits
+      final isProtected = _isProtected(
+          attacker,
+          defender,
+          defenders,
+          currentFieldTeam1,
+          currentFieldTeam2,
+          move,
+          fieldConditions['trickRoom'] == true);
+
+      final damageResult = _damageCalculator.calculateDamage(
+          attacker: attacker,
+          defender: defender,
+          move: move,
+          attackerTypes: pokemonTypesMap[attacker.pokemonName] ?? ['Normal'],
+          defenderTypes: pokemonTypesMap[defender.pokemonName] ?? ['Normal'],
+          targetCount: defenders.length,
+          // TODO: Add extra params
+          moveProperties: MoveProperties(
+            isProtected: isProtected,
+            isZMove: false,
+            isDynamaxMove: false,
+            isParentalBondSecondHit: false,
+          ),
+          fieldState: FieldState());
+
+      // Check hit chance
+      if (damageResult.hitChance < 1.0) {
+        // Calculate if move hits based on probability
+        // For now, assume it always hits if probability > 50%
+        if (damageResult.hitChance < 0.5) {
+          events.add(SimulationEvent(
+            message: '${attacker.pokemonName}\'s attack missed!',
+            type: SimulationEventType.summary,
+          ));
+          return events;
+        }
+      }
+
+      // Apply damage
+      if (damageResult.isDamageBlocked) {
+        var message = '${defender.pokemonName} was protected!';
         events.add(SimulationEvent(
-          message: '${attacker.pokemonName}\'s attack missed!',
-          type: SimulationEventType.summary,
+          message: message,
+          type: SimulationEventType.damage,
+          affectedPokemonName: defender.originalName,
+          damageAmount: 0,
+          hpBefore: defender.currentHp,
+          hpAfter: defender.currentHp,
         ));
-        return events;
+      } else if (damageResult.maxDamage > 0) {
+        final damageDealt = damageResult.averageDamage;
+        final hpBefore = defender.currentHp;
+        defender.currentHp =
+            (defender.currentHp - damageDealt).clamp(0, defender.maxHp);
+        final hpAfter = defender.currentHp;
+
+        var message =
+            '${defender.pokemonName} took $damageDealt damage! (range: ${damageResult.minDamage}-${damageResult.maxDamage})';
+
+        if (damageResult.effectivenessString != null) {
+          message = 'It\'s ${damageResult.effectivenessString}! $message';
+        }
+
+        if (damageResult.isTypeImmune) {
+          message = 'It has no effect on ${defender.pokemonName}!';
+          defender.currentHp = hpBefore;
+        }
+
+        events.add(SimulationEvent(
+          message: message,
+          type: SimulationEventType.damage,
+          affectedPokemonName: defender.originalName,
+          damageAmount: damageDealt,
+          hpBefore: hpBefore,
+          hpAfter: hpAfter,
+        ));
+
+        // Check for KO
+        if (defender.currentHp <= 0) {
+          events.add(SimulationEvent(
+            message: '${defender.pokemonName} fainted!',
+            type: SimulationEventType.summary,
+            affectedPokemonName: defender.originalName,
+          ));
+        }
       }
-    }
 
-    // Apply damage
-    if (damageResult.maxDamage > 0) {
-      final damageDealt = damageResult.averageDamage;
-      final hpBefore = defender.currentHp;
-      defender.currentHp =
-          (defender.currentHp - damageDealt).clamp(0, defender.maxHp);
-      final hpAfter = defender.currentHp;
-
-      var message =
-          '${defender.pokemonName} took $damageDealt damage! (range: ${damageResult.minDamage}-${damageResult.maxDamage})';
-
-      if (damageResult.effectivenessString != null) {
-        message = 'It\'s ${damageResult.effectivenessString}! $message';
+      // Apply status effects from move
+      if (move.effectChance != null && move.effectChance! > 0) {
+        // Simplified: apply effect if chance > 50%
+        if (move.effectChance! > 50) {
+          // TODO: Parse effect from move.effect and apply
+          events.add(SimulationEvent(
+            message:
+                '${defender.pokemonName} may be affected by ${move.name}\'s effect!',
+            type: SimulationEventType.statusChange,
+            affectedPokemonName: defender.originalName,
+          ));
+        }
       }
 
-      if (damageResult.isTypeImmune) {
-        message = 'It has no effect on ${defender.pokemonName}!';
-        defender.currentHp = hpBefore;
-      }
-
-      events.add(SimulationEvent(
-        message: message,
-        type: SimulationEventType.damage,
-        affectedPokemonName: defender.originalName,
-        damageAmount: damageDealt,
-        hpBefore: hpBefore,
-        hpAfter: hpAfter,
+      // Item effects after move
+      events.addAll(ItemEffectProcessor.processTurnItem(
+        attacker,
+        move.category,
+        damageResult.maxDamage > 0,
+        damageResult.averageDamage,
       ));
-
-      // Check for KO
-      if (defender.currentHp <= 0) {
-        events.add(SimulationEvent(
-          message: '${defender.pokemonName} fainted!',
-          type: SimulationEventType.summary,
-          affectedPokemonName: defender.originalName,
-        ));
-      }
     }
-
-    // Apply status effects from move
-    if (move.effectChance != null && move.effectChance! > 0) {
-      // Simplified: apply effect if chance > 50%
-      if (move.effectChance! > 50) {
-        // TODO: Parse effect from move.effect and apply
-        events.add(SimulationEvent(
-          message:
-              '${defender.pokemonName} may be affected by ${move.name}\'s effect!',
-          type: SimulationEventType.statusChange,
-          affectedPokemonName: defender.originalName,
-        ));
-      }
-    }
-
-    // Item effects after move
-    events.addAll(ItemEffectProcessor.processTurnItem(
-      attacker,
-      move.category,
-      damageResult.maxDamage > 0,
-      damageResult.averageDamage,
-    ));
 
     return events;
   }
 
   /// Get the opponent of a given pokemon
-  BattlePokemon? _getOpponent(
+  BattlePokemon? _getFirstActiveOpponent(
     BattlePokemon pokemon,
     Map<String, BattlePokemon> allStates,
     List<BattlePokemon> team1Active,
@@ -392,47 +372,71 @@ class BattleSimulationEngine {
 
   /// Find the defender for a move, accounting for slot-based targeting
   /// If the target is a specific pokemon name, find it; otherwise use opponent in slot
-  BattlePokemon? _findDefender(
+  List<BattlePokemon> _findDefenders(
     String? targetName,
     BattlePokemon attacker,
     Map<String, BattlePokemon> allStates,
     List<BattlePokemon> currentFieldTeam1,
     List<BattlePokemon> currentFieldTeam2,
   ) {
+    List<BattlePokemon> defenders = [];
     if (targetName == null) {
       // No specific target, use first active opponent
-      return _getOpponent(
+      BattlePokemon? opponent = _getFirstActiveOpponent(
           attacker, allStates, currentFieldTeam1, currentFieldTeam2);
+      if (opponent != null) {
+        defenders.add(opponent);
+      }
+      return defenders;
     }
 
     // Handle multi-target special cases
-    if (targetName == 'all-opposing' ||
-        targetName == 'all-field' ||
-        targetName == 'all-team' ||
-        targetName == 'all-except-user') {
+    if (targetName == 'all-opposing') {
+      final isTeam1 =
+          currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
+      final opposingTeam = isTeam1 ? currentFieldTeam2 : currentFieldTeam1;
+      return opposingTeam.where((p) => p.currentHp > 0).toList();
+    } else if (targetName == 'all-field') {
+      final allField = [...currentFieldTeam1, ...currentFieldTeam2];
+      return allField.where((p) => p.currentHp > 0).toList();
+    } else if (targetName == 'all-team') {
+      final isTeam1 =
+          currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
+      final ownTeam = isTeam1 ? currentFieldTeam1 : currentFieldTeam2;
+      return ownTeam.where((p) => p.currentHp > 0).toList();
+    } else if (targetName == 'all-except-user') {
       // For multi-target, return first opponent (actual damage will be handled separately)
-      return _getOpponent(
-          attacker, allStates, currentFieldTeam1, currentFieldTeam2);
+      final allField = [...currentFieldTeam1, ...currentFieldTeam2];
+      return allField
+          .where(
+              (p) => p.originalName != attacker.originalName && p.currentHp > 0)
+          .toList();
     }
 
     // Try to find the specific pokemon by name in the current field
-    final isTeam1 =
-        currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
-    final opponentField = isTeam1 ? currentFieldTeam2 : currentFieldTeam1;
+    // final isTeam1 =
+    //     currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
+    // final opponentField = isTeam1 ? currentFieldTeam2 : currentFieldTeam1;
+    final combinedField = [...currentFieldTeam1, ...currentFieldTeam2];
 
-    for (final pokemon in opponentField) {
+    for (final pokemon in combinedField) {
       if (pokemon.pokemonName == targetName ||
           pokemon.originalName == targetName) {
         final state = allStates[pokemon.originalName];
         if (state != null && state.currentHp > 0) {
-          return state;
+          defenders.add(state);
+          return defenders;
         }
       }
     }
 
     // If specific pokemon not found in opponent field, return first active opponent
-    return _getOpponent(
+    BattlePokemon? opponent = _getFirstActiveOpponent(
         attacker, allStates, currentFieldTeam1, currentFieldTeam2);
+    if (opponent != null) {
+      defenders.add(opponent);
+    }
+    return defenders;
   }
 
   /// Calculate probability summary of outcomes
@@ -471,30 +475,75 @@ class BattleSimulationEngine {
     );
   }
 
-  /// Determine the number of targets based on the target string
-  int _determineTargetCount(
-    String? targetName,
-    List<BattlePokemon> team1Active,
-    List<BattlePokemon> team2Active,
-  ) {
-    if (targetName == null) return 1;
-
-    // Check for multi-target indicators
-    switch (targetName) {
-      case 'all-opposing':
-        // Count all active opponents (typically 1-2 in singles/doubles)
-        return team2Active.where((p) => p.currentHp > 0).length.clamp(1, 2);
-      case 'all-field':
-        // Count all active pokemon on field
-        final allActive = [...team1Active, ...team2Active];
-        return allActive.where((p) => p.currentHp > 0).length.clamp(1, 4);
-      case 'all-team':
-      case 'all-except-user':
-        // Count all team members (typically 1-2 in singles/doubles)
-        return team1Active.where((p) => p.currentHp > 0).length.clamp(1, 2);
-      default:
-        // Single target (includes specific pokemon names)
-        return 1;
+  /// Check whether the defender is protected from the attacking move by itself or any other defender
+  bool _isProtected(
+      BattlePokemon attacker,
+      BattlePokemon defender,
+      List<BattlePokemon> defenders,
+      List<BattlePokemon> currentFieldTeam1,
+      List<BattlePokemon> currentFieldTeam2,
+      Move move,
+      bool isTrickRoomActive) {
+    // Check wide guard spread protection first (cover ally switching in usecase)
+    final attackerIsTeam1 =
+        currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
+    final attackerTeam =
+        attackerIsTeam1 ? currentFieldTeam1 : currentFieldTeam2;
+    final defenderIsTeam1 =
+        currentFieldTeam1.any((p) => p.originalName == defender.originalName);
+    final defenderTeam =
+        defenderIsTeam1 ? currentFieldTeam1 : currentFieldTeam2;
+    final allyAttackActions = [for (var ally in defenderTeam) ally.queuedAction]
+        .whereType<AttackAction>()
+        .toList();
+    final allyAttackNames =
+        [for (var action in allyAttackActions) action.moveName].toList();
+    final allyDefenders = defenders.where((p) => defenderTeam.contains(p));
+    if (allyAttackNames.contains("Wide Guard") &&
+        attackerTeam != defenderTeam &&
+        allyDefenders.length > 1) {
+      return true;
     }
+
+    // Standard protecting moves
+    final protectingMoves = [
+      "Baneful Bunker",
+      "Burning Bulwark",
+      "Detect",
+      "King's Shield",
+      "Mat Block",
+      "Max Guard",
+      "Obstruct",
+      "Protect",
+      "Silk Trap",
+      "Spiky Shield"
+    ];
+
+    final defenderAction = defender.queuedAction;
+    if (defenderAction is! AttackAction) {
+      return false;
+    }
+
+    // Quick guard is priority +3
+    if (move.priority > 0 &&
+        move.priority < 4 &&
+        defenderAction.moveName == "Quick Guard") {
+      // If priority == 3, compare defender speeds
+      if (move.priority == 3) {
+        // TODO: if attack has same priority as quick guard, defender must be moving first to be protected
+        return true;
+      }
+      return true;
+    }
+
+    // If move is a status move, check Crafty Shield
+    if (move.category.toLowerCase() == "status" &&
+        (defenderAction.moveName == "Crafty Shield" ||
+            allyAttackNames.contains("Crafty Shield"))) {
+      return true;
+    }
+
+    //  Otherwise check if protecting self
+    return protectingMoves.contains(defenderAction.moveName);
   }
 }

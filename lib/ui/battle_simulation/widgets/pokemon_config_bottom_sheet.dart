@@ -681,7 +681,7 @@ class _PokemonConfigBottomSheetState extends State<PokemonConfigBottomSheet>
                             );
                           },
                         );
-                      }).toList(),
+                      }),
                   ],
                 ),
               ),

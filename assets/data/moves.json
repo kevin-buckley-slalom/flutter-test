@@ -129,7 +129,7 @@
         "max_pp": 48,
         "makes_contact": false,
         "generation": 4,
-        "targets": "Targets either the user or an adjacent Pokémon on the user’s team.",
+        "targets": "Targets either the user or an adjacent Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Acupressure turns into Z-Acupressure and raises critical-hit ratio one stage, in addition to its usual effect as above.",
         "detailed_effect": "Acupressure raises a random stat - Attack, Defense, Speed, Special Attack, Special Defense, Accuracy or Evasion - by two stages. It will always choose a stat that is not already maximized.\n\nStats can be raised to a maximum of +6 stages each.\n\nAcupressure is unlike other status moves in that it can be targeted at itself or an adjacent teammate. It cannot be used on an ally if they are behind a Substitute , but the user can apply Acupressure to itself if behind a Substitute."
     },
@@ -440,7 +440,7 @@
         "max_pp": 8,
         "makes_contact": false,
         "generation": 3,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Grassium Z and uses its Z-Power, Aromatherapy turns into Z-Aromatherapy and fully restores the user's HP, in addition to its usual effect as above.",
         "detailed_effect": "Cures all status problems in your party."
     },
@@ -455,7 +455,7 @@
         "max_pp": 32,
         "makes_contact": false,
         "generation": 6,
-        "targets": "Targets an adjacent Pokémon on the user’s team.",
+        "targets": "Targets an adjacent Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Fairium Z and uses its Z-Power, Aromatic Mist turns into Z-Aromatic Mist and raises Special Defense two stages, in addition to its usual effect as above.",
         "detailed_effect": "Aromatic Mist raises the Special Defense of a teammate by one stage.\n\nStats can be raised to a maximum of +6 stages each."
     },
@@ -603,7 +603,7 @@
         "max_pp": 32,
         "makes_contact": false,
         "generation": 7,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Icium Z and uses its Z-Power, Aurora Veil turns into Z-Aurora Veil and raises Speed one stage, in addition to its usual effect as above.",
         "detailed_effect": "Aurora Veil halves damage from Physical and Special attacks for five turns. It can only be used during hail or snow, but the effects continue if the weather changes or subsides."
     },
@@ -1829,7 +1829,7 @@
         "max_pp": 16,
         "makes_contact": false,
         "generation": 8,
-        "targets": "Targets an adjacent Pokémon on the user’s team.",
+        "targets": "Targets an adjacent Pokémon on the user's team.",
         "detailed_effect": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.\n\nCoaching is a tutor move available in The Isle of Armor DLC."
     },
     "Coil": {
@@ -2183,7 +2183,7 @@
         "priority": 3,
         "makes_contact": false,
         "generation": 6,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Fairium Z and uses its Z-Power, Crafty Shield turns into Z-Crafty Shield and raises Special Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Crafty Shield protects the user's team from any Status category move targeted at them, for the duration of the turn. It has priority +3 so will activate before most other moves.\n\nIt does not protect against the moves Perish Song , Spikes , Stealth Rock , Toxic Spikes , or Sticky Web ; and it does not prevent moves that target the attacker itself (such as Rest )."
     },
@@ -4905,7 +4905,7 @@
         "max_pp": 32,
         "makes_contact": false,
         "generation": 7,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Steelium Z and uses its Z-Power, Gear Up turns into Z-Gear Up and raises Special Attack one stage, in addition to its usual effect as above.",
         "detailed_effect": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability."
     },
@@ -5361,7 +5361,7 @@
         "max_pp": 48,
         "makes_contact": false,
         "generation": 6,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Happy Hour turns into Z-Happy Hour and raises all stats one stage each, in addition to its usual effect as above.",
         "detailed_effect": "Happy Hour has no battle effect. Instead, it doubles the prize money awarded to the player at the end of the battle. If the Amulet Coin or Luck Incense is held by any Pokémon in battle, and any Pokémon uses Happy Hour during the battle, the prize money is quadrupled.\n\nHappy Hour is an event-exclusive move known by Inkay from a Japanese event."
     },
@@ -5479,7 +5479,7 @@
         "max_pp": 8,
         "makes_contact": false,
         "generation": 2,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Heal Bell turns into Z-Heal Bell and fully restores the user's HP, in addition to its usual effect as above.",
         "detailed_effect": "Heals the user's party's status conditions."
     },
@@ -5630,7 +5630,7 @@
         "priority": 5,
         "makes_contact": false,
         "generation": 3,
-        "targets": "Targets an adjacent Pokémon on the user’s team.",
+        "targets": "Targets an adjacent Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Helping Hand turns into Z-Helping Hand and eliminates any stat drops applied to the user, in addition to its usual effect as above.",
         "detailed_effect": "In Double Battles, boosts the power of the partner's move."
     },
@@ -5720,7 +5720,7 @@
         "max_pp": 64,
         "makes_contact": false,
         "generation": 6,
-        "targets": "Targets an adjacent Pokémon on the user’s team.",
+        "targets": "Targets an adjacent Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Hold Hands turns into Z-Hold Hands and raises all stats one stage each, in addition to its usual effect as above.",
         "detailed_effect": "Makes the user and an ally very happy."
     },
@@ -5795,7 +5795,7 @@
         "max_pp": 64,
         "makes_contact": false,
         "generation": 3,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Howl turns into Z-Howl and raises Attack one stage, in addition to its usual effect as above.",
         "detailed_effect": "Howl raises the Attack of the user and its teammates by one stage.\n\nStats can be raised to a maximum of +6 stages each."
     },
@@ -6403,7 +6403,7 @@
         "max_pp": 16,
         "makes_contact": false,
         "generation": 8,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "detailed_effect": "Restores team's HP and cures status conditions."
     },
     "Karate Chop": {
@@ -6714,7 +6714,7 @@
         "max_pp": 16,
         "makes_contact": false,
         "generation": 8,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "detailed_effect": "Life Dew recovers up to 25% of the user's and its teammate's maximum HP."
     },
     "Light of Ruin": {
@@ -6743,7 +6743,7 @@
         "max_pp": 48,
         "makes_contact": false,
         "generation": 1,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Psychium Z and uses its Z-Power, Light Screen turns into Z-Light Screen and raises Special Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Light Screen reduces damage from Special attacks by 50%, for 5 turns. Its effects apply to all Pokémon on the user's side of the field.\n\nIf the user is holding Light Clay when Light Screen is used, its effects last for 8 turns.\n\nThe move Brick Break , when used against an Pokémon under Light Screen's effect, will remove the screen before dealing damage. The ability Infiltrator bypasses the effects of Light Screen .\n\nLight Screen is the Special counterpart to Reflect ."
     },
@@ -6847,7 +6847,7 @@
         "max_pp": 48,
         "makes_contact": false,
         "generation": 4,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Lucky Chant turns into Z-Lucky Chant and raises Evasiveness one stage, in addition to its usual effect as above.",
         "detailed_effect": "Opponent cannot land critical hits for 5 turns."
     },
@@ -6876,7 +6876,7 @@
         "max_pp": 8,
         "makes_contact": false,
         "generation": 8,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "detailed_effect": "Lunar Blessing heals all status conditions of the user and its teammates, and restores 25% of their maximum HP."
     },
     "Lunar Dance": {
@@ -7070,7 +7070,7 @@
         "max_pp": 32,
         "makes_contact": false,
         "generation": 6,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Electrium Z and uses its Z-Power, Magnetic Flux turns into Z-Magnetic Flux and raises Special Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Magnetic Flux raises the Defense and Special Defense of any Pokémon on the user's team that has the Plus or Minus ability."
     },
@@ -7142,7 +7142,7 @@
         "max_pp": 16,
         "makes_contact": false,
         "generation": 6,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Fightinium Z and uses its Z-Power, Mat Block turns into Z-Mat Block and raises Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Mat Block protects the user's team from Physical or Special category moves, but not Status moves. It only works on the first turn the user is in battle."
     },
@@ -7806,7 +7806,7 @@
         "max_pp": 48,
         "makes_contact": false,
         "generation": 1,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Icium Z and uses its Z-Power, Mist turns into Z-Mist and fully restores the user's HP, in addition to its usual effect as above.",
         "detailed_effect": "User's stats cannot be changed for a period of time."
     },
@@ -9394,7 +9394,7 @@
         "priority": 3,
         "makes_contact": false,
         "generation": 5,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Fightinium Z and uses its Z-Power, Quick Guard turns into Z-Quick Guard and raises Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Quick Guard protects the user's team from all increased priority moves (such as Extreme Speed or Bullet Punch ), for the duration of the turn. It has priority +3 so will activate before most other moves.\n\nThe accuracy of Quick Guard does not decrease if used consecutively after itself or Wide Guard . However, it does decrease the accuracy of Protect , Detect , Endure , Spiky Shield , King's Shield and Baneful Bunker by 1/3 each time it or Wide Guard is used."
     },
@@ -9602,7 +9602,7 @@
         "max_pp": 32,
         "makes_contact": false,
         "generation": 1,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Psychium Z and uses its Z-Power, Reflect turns into Z-Reflect and raises Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Reflect reduces damage from Physical attacks by 50%, for 5 turns. Its effects apply to all Pokémon on the user's side of the field.\n\nIf the user is holding Light Clay when Reflect is used, its effects last for 8 turns.\n\nThe move Brick Break , when used against an Pokémon under Reflect's effect, will remove the screen before dealing damage. The ability Infiltrator bypasses the effects of Reflect .\n\nReflect is the Physical counterpart to Light Screen ."
     },
@@ -10066,7 +10066,7 @@
         "max_pp": 40,
         "makes_contact": false,
         "generation": 2,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Normalium Z and uses its Z-Power, Safeguard turns into Z-Safeguard and raises Speed one stage, in addition to its usual effect as above.",
         "detailed_effect": "The user's party is protected from status conditions."
     },
@@ -12299,7 +12299,7 @@
         "max_pp": 24,
         "makes_contact": false,
         "generation": 4,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Flyinium Z and uses its Z-Power, Tailwind turns into Z-Tailwind and raises critical-hit ratio one stage, in addition to its usual effect as above.",
         "detailed_effect": "Tailwind doubles the speed of all Pokémon in the user's party for 4 turns."
     },
@@ -13516,7 +13516,7 @@
         "priority": 3,
         "makes_contact": false,
         "generation": 5,
-        "targets": "Targets all Pokémon on the user’s team.",
+        "targets": "Targets all Pokémon on the user's team.",
         "z_move_effect": "When a Pokémon is holding Rockium Z and uses its Z-Power, Wide Guard turns into Z-Wide Guard and raises Defense one stage, in addition to its usual effect as above.",
         "detailed_effect": "Wide Guard protects the user's team from all multi-target moves (such as Surf or Rock Slide ), for the duration of the turn. It has priority +3 so will activate before most other moves.\n\nThe accuracy of Wide Guard does not decrease if used consecutively after itself or Quick Guard . However, it does decrease the accuracy of Protect , Detect , Endure , Spiky Shield , King's Shield and Baneful Bunker by 1/3 each time it or Quick Guard is used."
     },

@@ -27,7 +27,7 @@ class MoveTargetSelectorDialog extends StatefulWidget {
     "Targets all Pokémon on the user's team.":
         _TargetBehavior.autoselectAllTeam,
     "Targets all adjacent Pokémon.": _TargetBehavior.autoselectAllExceptUser,
-    "Targets the user but hits a random adjacent opponent.":
+    "Targets the user, but hits a random adjacent opponent.":
         _TargetBehavior.autoselectUser,
     "Targets all Pokémon on the opposing field.":
         _TargetBehavior.autoselectAllOpposing,
@@ -293,7 +293,7 @@ class _MoveTargetSelectorDialogState extends State<MoveTargetSelectorDialog> {
                   ),
                 ),
               );
-            }).toList(),
+            }),
           ],
         ),
       ),
