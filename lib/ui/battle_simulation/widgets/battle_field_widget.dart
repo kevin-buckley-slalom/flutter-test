@@ -270,7 +270,7 @@ class BattleFieldWidget extends StatelessWidget {
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: Image.asset(
-                      'assets/images/pokemon/${pokemon.pokemonName.toLowerCase()}.png',
+                      'assets/images/pokemon/${pokemon.imagePath?.toLowerCase()}.png',
                       fit: BoxFit.contain,
                       errorBuilder: (context, error, stackTrace) {
                         return Icon(Icons.catching_pokemon,

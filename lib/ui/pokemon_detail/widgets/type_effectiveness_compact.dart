@@ -1,3 +1,4 @@
+import 'package:championdex/ui/pokemon_detail/widgets/type_icon.dart';
 import 'package:flutter/material.dart';
 import '../../../app/theme/type_colors.dart';
 import '../../../data/models/type_effectiveness.dart';
@@ -46,32 +47,39 @@ class TypeEffectivenessCompact extends StatelessWidget {
         if (firstRow.isNotEmpty)
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: firstRow.map((type) => Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0.5),
-                child: _buildTypeItem(theme, type, effectivenessMap[type]!),
-              ),
-            )).toList(),
+            children: firstRow
+                .map((type) => Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 0.5),
+                        child: _buildTypeItem(
+                            theme, type, effectivenessMap[type]!),
+                      ),
+                    ))
+                .toList(),
           ),
         if (secondRow.isNotEmpty) ...[
           const SizedBox(height: 12),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: secondRow.map((type) => Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0.5),
-                child: _buildTypeItem(theme, type, effectivenessMap[type]!),
-              ),
-            )).toList(),
+            children: secondRow
+                .map((type) => Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 0.5),
+                        child: _buildTypeItem(
+                            theme, type, effectivenessMap[type]!),
+                      ),
+                    ))
+                .toList(),
           ),
         ],
       ],
     );
   }
 
-  Widget _buildTypeItem(ThemeData theme, String type, Effectiveness effectiveness) {
-    final typeColor = TypeColors.getColor(type);
-    final textColor = TypeColors.getTextColor(type);
+  Widget _buildTypeItem(
+      ThemeData theme, String type, Effectiveness effectiveness) {
+    final typeColor = TypeColors.getColor(type, alphaValue: 0.3);
+    // final textColor = TypeColors.getTextColor(type);
 
     // Determine multiplier display
     String multiplier;
@@ -83,11 +91,15 @@ class TypeEffectivenessCompact extends StatelessWidget {
       overlayColor = Colors.grey.shade700;
     } else if (effectiveness == Effectiveness.hardlyEffective) {
       multiplier = '¼';
-      overlayColor = offensiveEffectiveness == null ? Colors.green.shade700 : Colors.red.shade900;
+      overlayColor = offensiveEffectiveness == null
+          ? Colors.green.shade700
+          : Colors.red.shade900;
       overlayFontSize = 18;
     } else if (effectiveness == Effectiveness.notVeryEffective) {
       multiplier = '½';
-      overlayColor = offensiveEffectiveness == null ? Colors.lightGreen : Colors.red.shade400;
+      overlayColor = offensiveEffectiveness == null
+          ? Colors.lightGreen
+          : Colors.red.shade400;
       overlayFontSize = 18;
     } else if (effectiveness == Effectiveness.normal) {
       // Empty multiplier for neutral effectiveness
@@ -95,10 +107,14 @@ class TypeEffectivenessCompact extends StatelessWidget {
       overlayColor = Colors.transparent;
     } else if (effectiveness == Effectiveness.superEffective) {
       multiplier = '2';
-      overlayColor = offensiveEffectiveness == null ? Colors.red.shade400 : Colors.lightGreen;
+      overlayColor = offensiveEffectiveness == null
+          ? Colors.red.shade400
+          : Colors.lightGreen;
     } else if (effectiveness == Effectiveness.extremelyEffective) {
       multiplier = '4';
-      overlayColor = offensiveEffectiveness == null ? Colors.red.shade900 : Colors.green.shade700;
+      overlayColor = offensiveEffectiveness == null
+          ? Colors.red.shade900
+          : Colors.green.shade700;
     } else {
       multiplier = '1';
       overlayColor = Colors.transparent;
@@ -120,16 +136,16 @@ class TypeEffectivenessCompact extends StatelessWidget {
               ),
             ),
             child: Center(
-              child: Text(
-                _abbreviateType(type),
-                style: TextStyle(
-                  color: textColor,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
+                // child: Text(
+                //   _abbreviateType(type),
+                //   style: TextStyle(
+                //     color: textColor,
+                //     fontSize: 12,
+                //     fontWeight: FontWeight.bold,
+                //   ),
+                //   textAlign: TextAlign.center,
+                // ),
+                child: TypeIcon(type: type, size: 32)),
           ),
         ),
         const SizedBox(height: 2),

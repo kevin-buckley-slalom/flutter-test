@@ -22,8 +22,14 @@ class TypeColors {
     'Fairy': Color(0xFFEE99AC),
   };
 
-  static Color getColor(String type) {
-    return colors[type] ?? Colors.grey;
+  static Color getColor(String type, {double alphaValue = 1.0}) {
+    if (colors[type] == null) {
+      return Colors.grey;
+    }
+    Color color = colors[type]!;
+    return Color.from(
+        alpha: alphaValue, red: color.r, green: color.g, blue: color.b);
+    // return colors[type] ?? Colors.grey;
   }
 
   static Color getTextColor(String type) {
@@ -33,8 +39,3 @@ class TypeColors {
     return luminance > 0.5 ? Colors.black87 : Colors.white;
   }
 }
-
-
-
-
-

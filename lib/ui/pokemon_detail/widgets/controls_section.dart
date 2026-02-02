@@ -117,9 +117,8 @@ class _ControlsSectionState extends State<ControlsSection> {
                         final fileName = allImages[index];
                         final isNormal = fileName == null;
                         final imageToLoad = _buildImagePath(fileName);
-                        final description = isNormal
-                            ? 'Normal'
-                            : _extractDescription(fileName);
+                        final description =
+                            isNormal ? 'Normal' : _extractDescription(fileName);
                         final isSelected = widget.selectedAltImage == fileName;
 
                         return GestureDetector(
@@ -265,18 +264,27 @@ class _ControlsSectionState extends State<ControlsSection> {
         ),
         const SizedBox(width: 12),
         Expanded(
-          child: SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: [
-                ...widget.pokemon.types.map(
-                  (type) => Padding(
-                    padding: const EdgeInsets.only(right: 6),
-                    child: TypeChip(type: type),
+          child: Row(
+            children: [
+              Expanded(
+                flex: 1,
+                child: Padding(
+                  padding: const EdgeInsets.only(right: 3),
+                  child: TypeChip(type: widget.pokemon.types[0]),
+                ),
+              ),
+              if (widget.pokemon.types.length > 1) ...[
+                Expanded(
+                  flex: 1,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 3),
+                    child: TypeChip(type: widget.pokemon.types[1]),
                   ),
                 ),
+              ] else ...[
+                const Expanded(flex: 1, child: SizedBox()),
               ],
-            ),
+            ],
           ),
         ),
       ],

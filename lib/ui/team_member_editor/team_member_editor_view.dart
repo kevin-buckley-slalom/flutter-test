@@ -1,3 +1,4 @@
+import 'package:championdex/ui/pokemon_detail/widgets/type_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -840,13 +841,15 @@ class _TeamMemberEditorViewState extends ConsumerState<TeamMemberEditorView> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 24, vertical: 12),
+                          horizontal: 12, vertical: 12),
                       child: Row(
                         children: [
+                          TypeIcon(type: move.type, size: 24),
+                          const SizedBox(width: 8),
                           // Category icon
                           SizedBox(
-                            width: 40,
-                            height: 30,
+                            width: 45,
+                            height: 40,
                             child: MoveCategoryIcon(
                               category: move.category.toLowerCase(),
                             ),

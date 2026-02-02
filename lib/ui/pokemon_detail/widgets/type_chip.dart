@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../app/theme/type_colors.dart';
+import 'type_icon.dart';
 
 class TypeChip extends StatelessWidget {
   final String type;
@@ -16,28 +17,32 @@ class TypeChip extends StatelessWidget {
     final typeColor = TypeColors.getColor(type);
     final textColor = TypeColors.getTextColor(type);
 
-    return SizedBox(
-      width: 85, // Fixed width for consistent size
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        decoration: BoxDecoration(
-          color: typeColor,
-          borderRadius: BorderRadius.circular(7),
-        ),
-        child: Text(
-          type,
-          textAlign: TextAlign.center, // Center the text
-          style: TextStyle(
-            color: textColor,
-            fontSize: fontSize ?? 14,
-            fontWeight: FontWeight.w600,
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      decoration: BoxDecoration(
+        color: typeColor,
+        borderRadius: BorderRadius.circular(7),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          TypeIcon(
+            type: type,
+            size: 16,
           ),
-        ),
+          const SizedBox(width: 4),
+          Text(
+            type,
+            textAlign: TextAlign.center,
+            maxLines: 1,
+            style: TextStyle(
+              color: textColor,
+              fontSize: fontSize ?? 12,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ],
       ),
     );
   }
 }
-
-
-
-

@@ -196,6 +196,49 @@ class BattleSimulationEngine {
               fieldConditions: fieldConditions,
               targetCount: targetCount,
             ));
+
+            // Post-move switching (e.g., Volt Switch/U-turn)
+            if (attackAction.switchInPokemonName != null &&
+                pokemon.currentHp > 0) {
+              final isTeam1 = currentFieldTeam1
+                  .any((p) => p.originalName == pokemon.originalName);
+              final fieldList = isTeam1 ? currentFieldTeam1 : currentFieldTeam2;
+              final benchList = isTeam1 ? currentBenchTeam1 : currentBenchTeam2;
+              final slotIndex = fieldList
+                  .indexWhere((p) => p.originalName == pokemon.originalName);
+
+              if (slotIndex >= 0) {
+                final benchIndex = benchList.indexWhere((p) =>
+                    p.originalName == attackAction.switchInPokemonName ||
+                    p.pokemonName == attackAction.switchInPokemonName);
+
+                if (benchIndex >= 0) {
+                  final switchedInPokemon = benchList.removeAt(benchIndex);
+
+                  // Log the switch out/in
+                  events.add(SimulationEvent(
+                    message: '${pokemon.pokemonName} switched out!',
+                    type: SimulationEventType.summary,
+                  ));
+
+                  fieldList[slotIndex] = switchedInPokemon;
+                  benchList.add(pokemon);
+
+                  events.add(SimulationEvent(
+                    message: 'Go! ${switchedInPokemon.pokemonName}!',
+                    type: SimulationEventType.summary,
+                    affectedPokemonName: switchedInPokemon.originalName,
+                  ));
+
+                  final opponent = _getOpponent(switchedInPokemon, finalStates,
+                      currentFieldTeam1, currentFieldTeam2);
+                  events.addAll(
+                    AbilityEffectProcessor.processSwitchInAbility(
+                        switchedInPokemon, opponent),
+                  );
+                }
+              }
+            }
           }
         }
       }

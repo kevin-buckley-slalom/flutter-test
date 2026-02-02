@@ -222,26 +222,27 @@ class _MoveDetailContentState extends ConsumerState<_MoveDetailContent> {
             SizedBox(
               width: double.infinity,
               child: FlatCard(
-              padding: const EdgeInsets.all(16),
-              elevation: 1,
-              borderRadius: BorderRadius.circular(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text('Effect',
-                    style: theme.textTheme.titleMedium
-                      ?.copyWith(fontWeight: FontWeight.w600)),
-                  const SizedBox(height: 12),
-                  Text(
-                    // Prefer detailed_effect when available, fall back to brief effect
-                    ((widget.move.detailedEffect != null && widget.move.detailedEffect!.isNotEmpty)
-                      ? widget.move.detailedEffect!
-                      : (widget.move.effect.isEmpty
-                        ? 'No description available'
-                        : widget.move.effect)),
-                    style: theme.textTheme.bodyMedium
-                      ?.copyWith(height: 1.6)),
-                ]),
+                padding: const EdgeInsets.all(16),
+                elevation: 1,
+                borderRadius: BorderRadius.circular(16),
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('Effect',
+                          style: theme.textTheme.titleMedium
+                              ?.copyWith(fontWeight: FontWeight.w600)),
+                      const SizedBox(height: 12),
+                      Text(
+                          // Prefer detailed_effect when available, fall back to brief effect
+                          ((widget.move.detailedEffect != null &&
+                                  widget.move.detailedEffect!.isNotEmpty)
+                              ? widget.move.detailedEffect!
+                              : (widget.move.effect.isEmpty
+                                  ? 'No description available'
+                                  : widget.move.effect)),
+                          style: theme.textTheme.bodyMedium
+                              ?.copyWith(height: 1.6)),
+                    ]),
               ),
             ),
             const SizedBox(height: 24),
@@ -275,8 +276,8 @@ class _MoveDetailContentState extends ConsumerState<_MoveDetailContent> {
                                 ?.copyWith(fontWeight: FontWeight.w600)),
                         const SizedBox(height: 12),
                         Text(widget.move.targets ?? 'Unknown',
-                            style:
-                                theme.textTheme.bodyMedium?.copyWith(height: 1.6)),
+                            style: theme.textTheme.bodyMedium
+                                ?.copyWith(height: 1.6)),
                       ]),
                 ),
               ),
@@ -413,92 +414,93 @@ class _MoveStatsTable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Table(
-      defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-      columnWidths: const {0: FlexColumnWidth(6), 1: FlexColumnWidth(7)},
-      border: TableBorder(
-        verticalInside: BorderSide(
-          color: theme.colorScheme.onSurface.withValues(alpha: 0.08),
-          width: 1,
+    return SizedBox(
+      width: double.infinity,
+      child: Table(
+        defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+        columnWidths: const {0: FlexColumnWidth(6), 1: FlexColumnWidth(7)},
+        border: TableBorder(
+          verticalInside: BorderSide(
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.08),
+            width: 1,
+          ),
         ),
-      ),
-      children: [
-        _buildRow(theme, 'Type:', TypeChip(type: move.type)),
-        _buildRow(
-            theme,
-            'Category:',
-            SizedBox(
-              height: 40,
-              child: Align(
-                alignment: Alignment.centerLeft,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    SizedBox(
-                      width: 60,
-                      height: 50,
-                      child: MoveCategoryIcon(
-                          category: move.category.toLowerCase()),
-                    ),
-                    const SizedBox(width: 8),
-                    Text(
-                      move.category.isNotEmpty
-                          ? '${move.category[0].toUpperCase()}${move.category.substring(1)}'
-                          : move.category,
-                      style: theme.textTheme.bodyLarge,
-                    ),
-                  ],
+        children: [
+          _buildRow(theme, 'Type:', TypeChip(type: move.type)),
+          _buildRow(
+              theme,
+              'Category:',
+              SizedBox(
+                height: 40,
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      SizedBox(
+                        width: 60,
+                        height: 50,
+                        child: MoveCategoryIcon(
+                            category: move.category.toLowerCase()),
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        move.category.isNotEmpty
+                            ? '${move.category[0].toUpperCase()}${move.category.substring(1)}'
+                            : move.category,
+                        style: theme.textTheme.bodyLarge,
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-            )),
-        _buildRow(
-            theme,
-            'Power:',
-            Text(move.power?.toString() ?? '—',
-                style: theme.textTheme.bodyLarge)),
-        _buildRow(
-            theme,
-            'Accuracy:',
-            Text(move.accuracy?.toString() ?? '—',
-                style: theme.textTheme.bodyLarge)),
-        _buildRow(
-            theme,
-            'PP:',
-            Text(
-                move.maxPp != null
-                    ? '${move.pp} / ${move.maxPp}'
-                    : move.pp.toString(),
-                style: theme.textTheme.bodyLarge)),
-        _buildRow(
-            theme,
-            'Effect Chance:',
-            Text(move.effectChance != null ? '${move.effectChance}%' : '—',
-                style: theme.textTheme.bodyLarge)),
-        _buildRow(
-            theme,
-            'Makes Contact:',
-            Text(move.makesContact ? 'Yes' : 'No',
-                style: theme.textTheme.bodyLarge)),
-      ],
+              )),
+          _buildRow(
+              theme,
+              'Power:',
+              Text(move.power?.toString() ?? '—',
+                  style: theme.textTheme.bodyLarge)),
+          _buildRow(
+              theme,
+              'Accuracy:',
+              Text(move.accuracy?.toString() ?? '—',
+                  style: theme.textTheme.bodyLarge)),
+          _buildRow(
+              theme,
+              'PP:',
+              Text(
+                  move.maxPp != null
+                      ? '${move.pp} / ${move.maxPp}'
+                      : move.pp.toString(),
+                  style: theme.textTheme.bodyLarge)),
+          _buildRow(
+              theme,
+              'Effect Chance:',
+              Text(move.effectChance != null ? '${move.effectChance}%' : '—',
+                  style: theme.textTheme.bodyLarge)),
+          _buildRow(
+              theme,
+              'Makes Contact:',
+              Text(move.makesContact ? 'Yes' : 'No',
+                  style: theme.textTheme.bodyLarge)),
+        ],
+      ),
     );
   }
 
   TableRow _buildRow(ThemeData theme, String label, Widget value) {
     return TableRow(children: [
-        Padding(
-          padding:
-            const EdgeInsets.symmetric(vertical: 8).copyWith(right: 24),
+      Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8).copyWith(right: 24),
           child: Align(
-            alignment: Alignment.centerRight,
-            child: Text(label,
-              style: theme.textTheme.bodyLarge?.copyWith(
-                fontWeight: FontWeight.w600,
-                color: theme.colorScheme.onSurface
-                  .withValues(alpha: 0.7))))),
-        Padding(
-          padding:
-            const EdgeInsets.symmetric(vertical: 8).copyWith(left: 24),
+              alignment: Alignment.centerRight,
+              child: Text(label,
+                  style: theme.textTheme.bodyLarge?.copyWith(
+                      fontWeight: FontWeight.w600,
+                      color: theme.colorScheme.onSurface
+                          .withValues(alpha: 0.7))))),
+      Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8).copyWith(left: 24),
           child: Align(alignment: Alignment.centerLeft, child: value)),
     ]);
   }

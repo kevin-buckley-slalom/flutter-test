@@ -1,4 +1,5 @@
 import 'package:championdex/ui/shared/pokemon_image.dart';
+import 'package:championdex/ui/pokemon_detail/widgets/type_icon.dart';
 import 'package:flutter/material.dart';
 import '../../../app/theme/type_colors.dart';
 import '../../../data/models/pokemon.dart';
@@ -30,17 +31,22 @@ class PokemonListItem extends StatelessWidget {
           children: [
             // Pokemon Image
             Hero(
-              tag: 'pokemon-image-${pokemon.number}-${pokemon.variant ?? 'base'}',
+              tag:
+                  'pokemon-image-${pokemon.number}-${pokemon.variant ?? 'base'}',
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
                   color: theme.colorScheme.primary.withValues(alpha: 0.08),
                 ),
-                child: PokemonImage(imagePath: pokemon.imagePath, imagePathLarge: pokemon.imagePathLarge, size: 80, useLarge: false),
+                child: PokemonImage(
+                    imagePath: pokemon.imagePath,
+                    imagePathLarge: pokemon.imagePathLarge,
+                    size: 80,
+                    useLarge: false),
               ),
             ),
             const SizedBox(width: 16),
-            
+
             // Info Section
             Expanded(
               child: Column(
@@ -66,7 +72,7 @@ class PokemonListItem extends StatelessWidget {
                       ),
                     ],
                   ),
-                  
+
                   // Variant badge (if exists)
                   if (pokemon.variant != null) ...[
                     const SizedBox(height: 4),
@@ -76,7 +82,8 @@ class PokemonListItem extends StatelessWidget {
                         vertical: 2,
                       ),
                       decoration: BoxDecoration(
-                        color: theme.colorScheme.secondary.withValues(alpha: 0.15),
+                        color:
+                            theme.colorScheme.secondary.withValues(alpha: 0.15),
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Text(
@@ -88,9 +95,9 @@ class PokemonListItem extends StatelessWidget {
                       ),
                     ),
                   ],
-                  
+
                   const SizedBox(height: 8),
-                  
+
                   // Types
                   Wrap(
                     spacing: 6,
@@ -107,13 +114,23 @@ class PokemonListItem extends StatelessWidget {
                           color: typeColor,
                           borderRadius: BorderRadius.circular(6),
                         ),
-                        child: Text(
-                          type,
-                          style: TextStyle(
-                            color: textColor,
-                            fontSize: 12,
-                            fontWeight: FontWeight.w600,
-                          ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            TypeIcon(
+                              type: type,
+                              size: 14,
+                            ),
+                            const SizedBox(width: 4),
+                            Text(
+                              type,
+                              style: TextStyle(
+                                color: textColor,
+                                fontSize: 12,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ],
                         ),
                       );
                     }).toList(),
@@ -121,9 +138,9 @@ class PokemonListItem extends StatelessWidget {
                 ],
               ),
             ),
-            
+
             const SizedBox(width: 12),
-            
+
             // Stats Section
             Column(
               crossAxisAlignment: CrossAxisAlignment.end,
