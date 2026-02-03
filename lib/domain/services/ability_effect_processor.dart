@@ -1,8 +1,11 @@
 import 'package:championdex/domain/battle/battle_ui_state.dart';
-import 'package:championdex/domain/services/simulation_event.dart';
+import 'package:championdex/domain/battle/simulation_event.dart';
+import 'package:uuid/uuid.dart';
 
 /// Processes ability effects and triggers
 class AbilityEffectProcessor {
+  static final _uuid = const Uuid();
+
   /// Abilities that activate when switching in
   static const switchInAbilities = {
     'intimidate': 'reduces opponent Attack',
@@ -27,6 +30,7 @@ class AbilityEffectProcessor {
           opponent.statStages['atk'] =
               ((opponent.statStages['atk'] ?? 0) - 1).clamp(-6, 6);
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${pokemon.pokemonName}\'s Intimidate lowered ${opponent.pokemonName}\'s Attack!',
             type: SimulationEventType.abilityActivation,
@@ -40,8 +44,9 @@ class AbilityEffectProcessor {
           // 30% chance to paralyze on contact
           opponent.status = 'paralysis';
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message: '${opponent.pokemonName} was paralyzed!',
-            type: SimulationEventType.statusChange,
+            type: SimulationEventType.statusApplied,
             affectedPokemonName: opponent.originalName,
           ));
         }
@@ -60,6 +65,7 @@ class AbilityEffectProcessor {
       // Terrain/Weather setters
       case 'drizzle':
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: '${pokemon.pokemonName} activated rain!',
           type: SimulationEventType.weatherChange,
         ));
@@ -67,6 +73,7 @@ class AbilityEffectProcessor {
 
       case 'drought':
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: '${pokemon.pokemonName} activated sun!',
           type: SimulationEventType.weatherChange,
         ));
@@ -74,6 +81,7 @@ class AbilityEffectProcessor {
 
       case 'primordial sea':
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: '${pokemon.pokemonName} activated heavy rain!',
           type: SimulationEventType.weatherChange,
         ));
@@ -81,6 +89,7 @@ class AbilityEffectProcessor {
 
       case 'desolate land':
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: '${pokemon.pokemonName} activated harsh sunlight!',
           type: SimulationEventType.weatherChange,
         ));
@@ -112,6 +121,7 @@ class AbilityEffectProcessor {
               (pokemon.currentHp + hpToRestore).clamp(0, pokemon.maxHp);
           pokemon.currentHp = newHp;
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message: '${pokemon.pokemonName} restored HP!',
             type: SimulationEventType.heal,
             affectedPokemonName: pokemon.originalName,
@@ -125,6 +135,7 @@ class AbilityEffectProcessor {
         if (lastActionType == 'switch' && pokemon.status != null) {
           pokemon.status = null;
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message: '${pokemon.pokemonName} was cured by Natural Cure!',
             type: SimulationEventType.abilityActivation,
             affectedPokemonName: pokemon.originalName,
@@ -140,9 +151,10 @@ class AbilityEffectProcessor {
             ['poison', 'paralysis', 'burn'].contains(pokemon.status)) {
           opponent.status = pokemon.status;
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${opponent.pokemonName} was afflicted by ${pokemon.pokemonName}\'s Synchronize!',
-            type: SimulationEventType.statusChange,
+            type: SimulationEventType.statusApplied,
             affectedPokemonName: opponent.originalName,
           ));
         }

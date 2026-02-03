@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:championdex/data/models/team.dart';
 import 'package:championdex/data/repositories/pokemon_repository.dart';
 import 'package:championdex/domain/battle/battle_ui_state.dart';
+import 'package:championdex/domain/battle/simulation_event.dart';
 import 'package:championdex/domain/services/battle_simulation_engine.dart';
 import 'package:championdex/domain/services/stat_calculator.dart';
 import 'package:championdex/ui/pokemon_list/pokemon_list_view_model.dart';
@@ -320,11 +321,11 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
   }
 
   /// Adds a log message to the simulation log
-  void addSimulationLogEntry(String message) {
+  void addSimulationLogEntry(SimulationEvent event) {
     if (state == null) return;
 
     final updatedLog = state!.simulationLog.toList();
-    updatedLog.add(message);
+    updatedLog.add(event);
 
     state = state!.copyWith(simulationLog: updatedLog);
   }
@@ -334,6 +335,352 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
     if (state == null) return;
 
     state = state!.copyWith(simulationLog: []);
+  }
+
+  /// Modifies an event outcome and marks downstream events as stale
+  void modifyEventOutcome(int eventIndex, EventModification modification) {
+    if (state == null || eventIndex >= state!.simulationLog.length) return;
+
+    final updatedLog = state!.simulationLog.toList();
+    final event = updatedLog[eventIndex];
+
+    // Update the event with the modification
+    updatedLog[eventIndex] = event.copyWith(
+      modification: modification,
+      isModified: true,
+    );
+
+    // Mark all downstream events as needing recalculation
+    for (int i = eventIndex + 1; i < updatedLog.length; i++) {
+      updatedLog[i] = updatedLog[i].copyWith(needsRecalculation: true);
+    }
+
+    state = state!.copyWith(simulationLog: updatedLog);
+  }
+
+  /// Reruns simulation from a specific event index
+  Future<void> rerunFromEvent(int eventIndex) async {
+    if (state == null || eventIndex >= state!.simulationLog.length) return;
+
+    final event = state!.simulationLog[eventIndex];
+    final snapshot = event.stateSnapshot;
+
+    if (snapshot == null) {
+      print('Cannot rerun: no state snapshot available');
+      return;
+    }
+
+    try {
+      state = state!.copyWith(isSimulationRunning: true);
+
+      // Restore state from snapshot
+      final restoredTeam1 =
+          snapshot.team1Field.map((p) => p as BattlePokemon?).toList();
+      final restoredTeam2 =
+          snapshot.team2Field.map((p) => p as BattlePokemon?).toList();
+
+      // Apply the modification to the restored state
+      final modifiedEvent = state!.simulationLog[eventIndex];
+      BattlePokemon? modifiedDefender;
+      bool isForcedMiss = false;
+
+      if (modifiedEvent.modification != null &&
+          modifiedEvent.type == SimulationEventType.damageDealt) {
+        // Check if this is a forced miss
+        if (modifiedEvent.modification!.forceMiss == true) {
+          isForcedMiss = true;
+          // Don't apply damage - the move missed
+        } else {
+          // Apply modified damage
+          final defenderName = modifiedEvent.affectedPokemonName;
+          if (defenderName != null) {
+            final defender = [...restoredTeam1, ...restoredTeam2]
+                .whereType<BattlePokemon>()
+                .firstWhere((p) => p.originalName == defenderName);
+
+            final selectedDamage =
+                modifiedEvent.modification!.selectedDamageRoll ??
+                    modifiedEvent.damageAmount!;
+            defender.currentHp = (modifiedEvent.hpBefore! - selectedDamage)
+                .clamp(0, defender.maxHp);
+            modifiedDefender = defender;
+          }
+        }
+      }
+
+      // Keep events up to and including the modified event,
+      // PLUS any subsequent events from the same move (like Volt Switch's switch)
+      int lastEventIndex = eventIndex;
+      final moveName = modifiedEvent.moveName;
+      final sourcePokemon = modifiedEvent.sourcePokemonName;
+
+      // If forced miss, we want to replace damage event with miss event
+      // So we need to exclude events after the damage (no switches, no KOs)
+      if (isForcedMiss) {
+        // Only keep events up to (but not including) the damage event
+        lastEventIndex = eventIndex - 1;
+      } else {
+        // Look ahead for events from the same move
+        // Keep all events until we hit the next moveUsed event
+        for (int i = eventIndex + 1; i < state!.simulationLog.length; i++) {
+          final nextEvent = state!.simulationLog[i];
+          // Stop at the next moveUsed event (start of different move)
+          if (nextEvent.type == SimulationEventType.moveUsed) {
+            break;
+          }
+          // Keep all non-moveUsed events (switched, fainted, etc. from same move)
+          lastEventIndex = i;
+        }
+      }
+
+      final keptEvents = state!.simulationLog
+          .sublist(0, lastEventIndex + 1)
+          .map((e) => e.copyWith(
+                needsRecalculation: false,
+              ))
+          .toList();
+
+      // If forced miss, replace the damage event with a miss event
+      if (isForcedMiss) {
+        final missEvent = SimulationEvent(
+          id: modifiedEvent.id, // Keep same ID
+          type: SimulationEventType.missed,
+          message: '${modifiedEvent.sourcePokemonName}\'s attack missed!',
+          sourcePokemonName: modifiedEvent.sourcePokemonName,
+          affectedPokemonName: modifiedEvent.affectedPokemonName,
+          moveName: modifiedEvent.moveName,
+          isModified: true,
+          isEditable: true, // Keep editable so user can undo
+          variations:
+              modifiedEvent.variations, // Preserve damage rolls and variations
+          modification:
+              modifiedEvent.modification, // Preserve modification state
+          stateSnapshot:
+              modifiedEvent.stateSnapshot, // Preserve state for replay
+          damageAmount: modifiedEvent.damageAmount, // Preserve original damage
+          hpBefore: modifiedEvent.hpBefore,
+          hpAfter: modifiedEvent.hpAfter,
+          maxHp: modifiedEvent.maxHp,
+        );
+        keptEvents.add(missEvent);
+      }
+
+      // Update the modified event's message to reflect the new damage value (if not a miss)
+      if (!isForcedMiss &&
+          modifiedEvent.modification != null &&
+          modifiedEvent.type == SimulationEventType.damageDealt) {
+        final selectedDamage = modifiedEvent.modification!.selectedDamageRoll ??
+            modifiedEvent.damageAmount!;
+        final affectedPokemon = modifiedEvent.affectedPokemonName;
+        final damageRange = modifiedEvent.variations?.damageRolls;
+
+        if (affectedPokemon != null && damageRange != null) {
+          final minDamage = damageRange.reduce((a, b) => a < b ? a : b);
+          final maxDamage = damageRange.reduce((a, b) => a > b ? a : b);
+
+          // Find and update the modified event in keptEvents
+          for (int i = 0; i < keptEvents.length; i++) {
+            if (keptEvents[i].id == modifiedEvent.id) {
+              keptEvents[i] = keptEvents[i].copyWith(
+                message:
+                    '$affectedPokemon took $selectedDamage damage! (range: $minDamage-$maxDamage)',
+                damageAmount: selectedDamage,
+              );
+              break;
+            }
+          }
+        }
+      }
+
+      // Check if modified damage caused a KO that wasn't in original events
+      if (modifiedDefender != null && modifiedDefender.currentHp == 0) {
+        // Check if there's already a fainted event for this pokemon in kept events
+        final alreadyHasFaintedEvent = keptEvents.any((e) =>
+            e.type == SimulationEventType.fainted &&
+            e.affectedPokemonName == modifiedDefender?.originalName);
+
+        if (!alreadyHasFaintedEvent) {
+          // Insert knockout event immediately after the damage event
+          // This ensures abilities/effects trigger before switches
+          final koEvent = SimulationEvent(
+            id: DateTime.now().millisecondsSinceEpoch.toString(),
+            type: SimulationEventType.fainted,
+            message: '${modifiedDefender.pokemonName} fainted!',
+            affectedPokemonName: modifiedDefender.originalName,
+          );
+          keptEvents.insert(eventIndex + 1, koEvent);
+        }
+      }
+
+      // Apply any switches from kept events to the restored state
+      // This ensures remaining moves target the correct pokemon
+      for (final event in keptEvents) {
+        if (event.type == SimulationEventType.summary &&
+            event.message.contains('switched out!')) {
+          // Find the next "Go!" event to identify the switched-in pokemon
+          final switchedOutIndex = keptEvents.indexOf(event);
+          if (switchedOutIndex >= 0 &&
+              switchedOutIndex + 1 < keptEvents.length) {
+            final nextEvent = keptEvents[switchedOutIndex + 1];
+            if (nextEvent.message.startsWith('Go!') &&
+                nextEvent.affectedPokemonName != null) {
+              final switchedInName = nextEvent.affectedPokemonName!;
+
+              // Extract the switched-out pokemon name from the message
+              final switchedOutName = event.message.split(' switched out!')[0];
+
+              // Find which team and slot
+              for (int i = 0; i < restoredTeam1.length; i++) {
+                if (restoredTeam1[i]?.pokemonName == switchedOutName) {
+                  // Find the switch-in pokemon from bench
+                  final switchInPokemon = snapshot.team1Bench
+                      .firstWhere((p) => p.originalName == switchedInName);
+                  restoredTeam1[i] = switchInPokemon;
+                  break;
+                }
+              }
+
+              for (int i = 0; i < restoredTeam2.length; i++) {
+                if (restoredTeam2[i]?.pokemonName == switchedOutName) {
+                  // Find the switch-in pokemon from bench
+                  final switchInPokemon = snapshot.team2Bench
+                      .firstWhere((p) => p.originalName == switchedInName);
+                  restoredTeam2[i] = switchInPokemon;
+                  break;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Figure out which pokemon have already moved by looking at kept events
+      final alreadyMoved = <String>{};
+      for (final e in keptEvents) {
+        if (e.type == SimulationEventType.moveUsed &&
+            e.sourcePokemonName != null) {
+          alreadyMoved.add(e.sourcePokemonName!);
+        }
+      }
+
+      print('Already moved: $alreadyMoved');
+
+      // Debug: Check all pokemon in restored state
+      final allPokemon = [...state!.team1Pokemon, ...state!.team2Pokemon];
+      print(
+          'Total pokemon in restored state: ${allPokemon.where((p) => p != null).length}');
+      for (final pokemon in allPokemon) {
+        if (pokemon != null) {
+          print(
+              '  Pokemon: ${pokemon.originalName}, queuedAction: ${pokemon.queuedAction}');
+        }
+      }
+
+      // Re-run the turn with the modified state, but only with actions that haven't been executed yet
+      final moveRepo = ref.read(moveRepositoryProvider);
+      final movesList = await moveRepo.getAllMoves();
+      final moveDatabase = <String, dynamic>{};
+      for (final move in movesList) {
+        moveDatabase[move.name] = move;
+      }
+
+      // Create actions map excluding pokemon that have already moved
+      // Use the original actions map from simulation start
+      final remainingActionsMap = <String, BattleAction>{};
+      for (final entry in state!.originalActionsMap.entries) {
+        final pokemonName = entry.key;
+        final action = entry.value;
+
+        // Only include if this pokemon hasn't moved yet
+        if (!alreadyMoved.contains(pokemonName)) {
+          remainingActionsMap[pokemonName] = action;
+          print('Adding remaining action for: $pokemonName - $action');
+        } else {
+          print('Skipping $pokemonName - already moved');
+        }
+      }
+
+      print('Remaining actions map size: ${remainingActionsMap.length}');
+
+      // Create engine and process remaining actions
+      final engine = BattleSimulationEngine(
+        moveDatabase: moveDatabase,
+      );
+
+      await engine.initialize();
+
+      // Process turn from modified state with only remaining actions
+      final outcome = engine.processTurn(
+        team1Active: restoredTeam1.whereType<BattlePokemon>().toList(),
+        team2Active: restoredTeam2.whereType<BattlePokemon>().toList(),
+        team1Bench: snapshot.team1Bench,
+        team2Bench: snapshot.team2Bench,
+        actionsMap: remainingActionsMap,
+        fieldConditions: state!.fieldConditions,
+      );
+
+      print('Outcome events count: ${outcome.events.length}');
+      for (final e in outcome.events) {
+        print('  - ${e.type}: ${e.message}');
+      }
+
+      // Combine kept events with new events from rerun
+      final updatedLog = [...keptEvents, ...outcome.events];
+
+      print(
+          'Final log size: ${updatedLog.length} (kept: ${keptEvents.length}, new: ${outcome.events.length})');
+
+      // Update pokemon states from outcome
+      final updatedTeam1 = <BattlePokemon?>[];
+      for (final pokemon in outcome.team1FinalField) {
+        if (pokemon != null &&
+            outcome.finalStates.containsKey(pokemon.originalName)) {
+          updatedTeam1.add(outcome.finalStates[pokemon.originalName]);
+        } else {
+          updatedTeam1.add(pokemon);
+        }
+      }
+
+      final updatedTeam2 = <BattlePokemon?>[];
+      for (final pokemon in outcome.team2FinalField) {
+        if (pokemon != null &&
+            outcome.finalStates.containsKey(pokemon.originalName)) {
+          updatedTeam2.add(outcome.finalStates[pokemon.originalName]);
+        } else {
+          updatedTeam2.add(pokemon);
+        }
+      }
+
+      final updatedTeam1Bench = <BattlePokemon>[];
+      for (final pokemon in outcome.team1FinalBench) {
+        if (outcome.finalStates.containsKey(pokemon.originalName)) {
+          updatedTeam1Bench.add(outcome.finalStates[pokemon.originalName]!);
+        } else {
+          updatedTeam1Bench.add(pokemon);
+        }
+      }
+
+      final updatedTeam2Bench = <BattlePokemon>[];
+      for (final pokemon in outcome.team2FinalBench) {
+        if (outcome.finalStates.containsKey(pokemon.originalName)) {
+          updatedTeam2Bench.add(outcome.finalStates[pokemon.originalName]!);
+        } else {
+          updatedTeam2Bench.add(pokemon);
+        }
+      }
+
+      state = state!.copyWith(
+        team1Pokemon: updatedTeam1,
+        team2Pokemon: updatedTeam2,
+        team1Bench: updatedTeam1Bench,
+        team2Bench: updatedTeam2Bench,
+        simulationLog: updatedLog,
+        isSimulationRunning: false,
+      );
+    } catch (e) {
+      print('Error rerunning simulation: $e');
+      state = state!.copyWith(isSimulationRunning: false);
+    }
   }
 
   /// Checks if all battlefield pokemon have actions set, updates allActionsSet
@@ -369,11 +716,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
     if (state == null || !state!.allActionsSet) return;
 
     try {
-      state = state!.copyWith(
-        isSimulationRunning: true,
-        simulationLog: ['Battle started!'],
-      );
-
       // Get move database and convert to map
       final moveRepo = ref.read(moveRepositoryProvider);
       final movesList = await moveRepo.getAllMoves();
@@ -394,6 +736,12 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
           actionsMap[pokemon.originalName] = pokemon.queuedAction!;
         }
       }
+
+      state = state!.copyWith(
+        isSimulationRunning: true,
+        simulationLog: [],
+        originalActionsMap: actionsMap, // Store for replay
+      );
 
       // Create engine and process turn
       final engine = BattleSimulationEngine(
@@ -428,11 +776,8 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         fieldConditions: state!.fieldConditions,
       );
 
-      // Update state with simulation log and results
-      final updatedLog = <String>[...state!.simulationLog];
-      for (final event in outcome.events) {
-        updatedLog.add(event.message);
-      }
+      // Update state with rich simulation events
+      final updatedLog = <SimulationEvent>[...outcome.events];
 
       // Update pokemon states from outcome using the final field composition
       // The engine returns which pokemon ended up on the field after switches
@@ -481,16 +826,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
           .map((p) => p.copyWith(clearQueuedAction: true))
           .toList();
 
-      // Add outcome summary
-      updatedLog.add('---');
-      updatedLog.add('Turn Summary:');
-      for (final entry in outcome.probabilities.entries) {
-        final formattedEntry = _formatSummaryEntry(entry.key, entry.value);
-        if (formattedEntry != null) {
-          updatedLog.add(formattedEntry);
-        }
-      }
-
       state = state!.copyWith(
         team1Pokemon: clearedTeam1,
         team2Pokemon: clearedTeam2,
@@ -502,10 +837,7 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       );
     } catch (e) {
       print('Error running simulation: $e');
-      final updatedLog = <String>[...state!.simulationLog];
-      updatedLog.add('Error: $e');
       state = state!.copyWith(
-        simulationLog: updatedLog,
         isSimulationRunning: false,
       );
     }
@@ -516,38 +848,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
     if (state == null) return;
 
     state = state!.copyWith(isSimulationRunning: false);
-  }
-
-  /// Format a summary entry key-value pair into a readable string
-  String? _formatSummaryEntry(String key, dynamic value) {
-    // Handle knockouts
-    if (key == 'knockoutsOccurred') {
-      return 'Knockouts Occurred: $value';
-    }
-
-    // Handle HP percentages
-    if (key.endsWith('_hp_percent')) {
-      final pokemonName =
-          key.replaceAll('_hp_percent', '').replaceAll('-', ' ');
-      // Capitalize first letter of each word
-      final formattedName = pokemonName.split(' ').map((word) {
-        if (word.isEmpty) return word;
-        return word[0].toUpperCase() + word.substring(1).toLowerCase();
-      }).join(' ');
-
-      if (value is num) {
-        final percentage = value.toStringAsFixed(1);
-        return '$formattedName HP Remaining: $percentage%';
-      }
-    }
-
-    // For any other keys, convert snake_case to Title Case
-    final formattedKey = key.split('_').map((word) {
-      if (word.isEmpty) return word;
-      return word[0].toUpperCase() + word.substring(1).toLowerCase();
-    }).join(' ');
-
-    return '$formattedKey: $value';
   }
 }
 

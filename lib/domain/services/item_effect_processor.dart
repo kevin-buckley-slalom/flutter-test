@@ -1,8 +1,11 @@
 import 'package:championdex/domain/battle/battle_ui_state.dart';
-import 'package:championdex/domain/services/simulation_event.dart';
+import 'package:championdex/domain/battle/simulation_event.dart';
+import 'package:uuid/uuid.dart';
 
 /// Processes item effects and triggers
 class ItemEffectProcessor {
+  static final _uuid = const Uuid();
+
   /// Get damage modifier from attacker's item for this move
   static double getDamageModifier(
     String? item,
@@ -52,9 +55,10 @@ class ItemEffectProcessor {
           pokemon.currentHp = newHp;
 
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${pokemon.pokemonName} lost $actualRecoil HP to Life Orb recoil!',
-            type: SimulationEventType.damage,
+            type: SimulationEventType.damageDealt,
             affectedPokemonName: pokemon.originalName,
             damageAmount: actualRecoil,
             hpBefore: pokemon.currentHp + actualRecoil,
@@ -78,6 +82,7 @@ class ItemEffectProcessor {
               ((pokemon.statStages['spa'] ?? 0) + 2).clamp(-6, 6);
 
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${pokemon.pokemonName}\'s Weakness Policy boosted its offenses!',
             type: SimulationEventType.itemActivation,
@@ -129,6 +134,7 @@ class ItemEffectProcessor {
         if (actualHeal > 0) {
           pokemon.currentHp = newHp;
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${pokemon.pokemonName} restored $actualHeal HP with Leftovers!',
             type: SimulationEventType.heal,
@@ -148,6 +154,7 @@ class ItemEffectProcessor {
         if (actualHeal > 0) {
           pokemon.currentHp = newHp;
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${pokemon.pokemonName} restored $actualHeal HP with Black Sludge!',
             type: SimulationEventType.heal,

@@ -4,7 +4,8 @@ import 'package:championdex/domain/services/turn_order_calculator.dart';
 import 'package:championdex/domain/services/damage_calculator.dart';
 import 'package:championdex/domain/services/ability_effect_processor.dart';
 import 'package:championdex/domain/services/item_effect_processor.dart';
-import 'package:championdex/domain/services/simulation_event.dart';
+import 'package:championdex/domain/battle/simulation_event.dart';
+import 'package:uuid/uuid.dart';
 
 /// Represents the outcome of a turn with all events and final states
 class TurnOutcome {
@@ -33,6 +34,7 @@ class TurnOutcome {
 class BattleSimulationEngine {
   final Map<String, dynamic> moveDatabase; // move name -> Move
   late final DamageCalculator _damageCalculator;
+  final _uuid = const Uuid();
 
   BattleSimulationEngine({
     required this.moveDatabase,
@@ -112,6 +114,7 @@ class BattleSimulationEngine {
       if (switchedOutPokemon != null) {
         // Log the switch
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: '${switchedOutPokemon.pokemonName} switched out!',
           type: SimulationEventType.summary,
         ));
@@ -143,6 +146,7 @@ class BattleSimulationEngine {
 
           // Log the new pokemon entering
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message: 'Go! ${switchedInPokemon.pokemonName}!',
             type: SimulationEventType.summary,
             affectedPokemonName: switchedInPokemon.originalName,
@@ -172,14 +176,24 @@ class BattleSimulationEngine {
         final moveData = moveDatabase[attackAction.moveName];
 
         if (moveData != null) {
+          // Capture state snapshot before executing move
+          final snapshot = BattleStateSnapshot.capture(
+            pokemonStates: finalStates,
+            team1Field: currentFieldTeam1,
+            team2Field: currentFieldTeam2,
+            team1Bench: currentBenchTeam1,
+            team2Bench: currentBenchTeam2,
+            fieldConditions: fieldConditions,
+          );
+
           // Find the defender based on the target name or slot
           // For multi-target moves, override the target to hit all opposing Pokémon
           String? targetName = attackAction.targetPokemonName;
-          if (moveData.targets != null && 
+          if (moveData.targets != null &&
               moveData.targets!.toLowerCase().contains('all adjacent foes')) {
             targetName = 'all-opposing';
           }
-          
+
           final defenders = _findDefenders(
             targetName,
             pokemon,
@@ -195,6 +209,7 @@ class BattleSimulationEngine {
             currentFieldTeam2: currentFieldTeam2,
             move: moveData,
             fieldConditions: fieldConditions,
+            stateSnapshot: snapshot,
           ));
 
           // Post-move switching (e.g., Volt Switch/U-turn)
@@ -217,6 +232,7 @@ class BattleSimulationEngine {
 
                 // Log the switch out/in
                 events.add(SimulationEvent(
+                  id: _uuid.v4(),
                   message: '${pokemon.pokemonName} switched out!',
                   type: SimulationEventType.summary,
                 ));
@@ -225,6 +241,7 @@ class BattleSimulationEngine {
                 benchList.add(pokemon);
 
                 events.add(SimulationEvent(
+                  id: _uuid.v4(),
                   message: 'Go! ${switchedInPokemon.pokemonName}!',
                   type: SimulationEventType.summary,
                   affectedPokemonName: switchedInPokemon.originalName,
@@ -271,14 +288,20 @@ class BattleSimulationEngine {
     required List<BattlePokemon> currentFieldTeam2,
     required Move move,
     required Map<String, dynamic> fieldConditions,
+    BattleStateSnapshot? stateSnapshot,
   }) {
     final events = <SimulationEvent>[];
 
     // Log move usage
     events.add(SimulationEvent(
+      id: _uuid.v4(),
       message: '${attacker.pokemonName} used ${move.name}!',
-      type: SimulationEventType.move,
+      type: SimulationEventType.moveUsed,
       affectedPokemonName: attacker.originalName,
+      sourcePokemonName: attacker.originalName,
+      moveName: move.name,
+      isEditable: false,
+      stateSnapshot: stateSnapshot,
     ));
 
     for (final defender in defenders) {
@@ -314,8 +337,18 @@ class BattleSimulationEngine {
         // For now, assume it always hits if probability > 50%
         if (damageResult.hitChance < 0.5) {
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message: '${attacker.pokemonName}\'s attack missed!',
-            type: SimulationEventType.summary,
+            type: SimulationEventType.missed,
+            sourcePokemonName: attacker.originalName,
+            affectedPokemonName: defender.originalName,
+            moveName: move.name,
+            isEditable: true,
+            stateSnapshot: stateSnapshot,
+            variations: EventVariations(
+              hitChance: damageResult.hitChance,
+              canMiss: true,
+            ),
           ));
           return events;
         }
@@ -325,12 +358,17 @@ class BattleSimulationEngine {
       if (damageResult.isDamageBlocked) {
         var message = '${defender.pokemonName} was protected!';
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: message,
-          type: SimulationEventType.damage,
+          type: SimulationEventType.protected,
           affectedPokemonName: defender.originalName,
+          sourcePokemonName: attacker.originalName,
+          moveName: move.name,
           damageAmount: 0,
           hpBefore: defender.currentHp,
           hpAfter: defender.currentHp,
+          maxHp: defender.maxHp,
+          isEditable: false,
         ));
       } else if (damageResult.maxDamage > 0) {
         final damageDealt = damageResult.averageDamage;
@@ -343,7 +381,16 @@ class BattleSimulationEngine {
             '${defender.pokemonName} took $damageDealt damage! (range: ${damageResult.minDamage}-${damageResult.maxDamage})';
 
         if (damageResult.effectivenessString != null) {
-          message = 'It\'s ${damageResult.effectivenessString}! $message';
+          // Add effectiveness message as separate event
+          events.add(SimulationEvent(
+            id: _uuid.v4(),
+            message: 'It\'s ${damageResult.effectivenessString}!',
+            type: SimulationEventType.effectivenessMessage,
+            affectedPokemonName: defender.originalName,
+            sourcePokemonName: attacker.originalName,
+            moveName: move.name,
+            isEditable: false,
+          ));
         }
 
         if (damageResult.isTypeImmune) {
@@ -352,20 +399,42 @@ class BattleSimulationEngine {
         }
 
         events.add(SimulationEvent(
+          id: _uuid.v4(),
           message: message,
-          type: SimulationEventType.damage,
+          type: SimulationEventType.damageDealt,
           affectedPokemonName: defender.originalName,
+          sourcePokemonName: attacker.originalName,
+          moveName: move.name,
           damageAmount: damageDealt,
           hpBefore: hpBefore,
           hpAfter: hpAfter,
+          maxHp: defender.maxHp,
+          isEditable: true,
+          stateSnapshot: stateSnapshot,
+          variations: EventVariations(
+            damageRolls: damageResult.discreteDamageRolls,
+            canCrit: damageResult.isCriticalChance,
+            hitChance: damageResult.hitChance,
+            canMiss: damageResult.hitChance < 1.0,
+            effectiveness: damageResult.effectivenessString != null
+                ? (damageResult.effectivenessString == 'super-effective'
+                    ? 2.0
+                    : damageResult.effectivenessString == 'not very effective'
+                        ? 0.5
+                        : 1.0)
+                : null,
+            effectivenessString: damageResult.effectivenessString,
+          ),
         ));
 
         // Check for KO
         if (defender.currentHp <= 0) {
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message: '${defender.pokemonName} fainted!',
-            type: SimulationEventType.summary,
+            type: SimulationEventType.fainted,
             affectedPokemonName: defender.originalName,
+            isEditable: false,
           ));
         }
       }
@@ -376,9 +445,10 @@ class BattleSimulationEngine {
         if (move.effectChance! > 50) {
           // TODO: Parse effect from move.effect and apply
           events.add(SimulationEvent(
+            id: _uuid.v4(),
             message:
                 '${defender.pokemonName} may be affected by ${move.name}\'s effect!',
-            type: SimulationEventType.statusChange,
+            type: SimulationEventType.statusApplied,
             affectedPokemonName: defender.originalName,
           ));
         }

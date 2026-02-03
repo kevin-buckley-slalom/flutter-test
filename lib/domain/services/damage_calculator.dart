@@ -140,38 +140,36 @@ class DamageCalculator {
     // Status moves do no damage
     if (move.category == 'Status') {
       return DamageResult(
-        minDamage: 0,
-        maxDamage: 0,
-        hitChance: 1.0,
-        isCriticalChance: false,
-        isTypeImmune: false,
-        isDamageBlocked: false,
-        isDamagePartiallyBlocked: false
-      );
+          minDamage: 0,
+          maxDamage: 0,
+          hitChance: 1.0,
+          isCriticalChance: false,
+          isTypeImmune: false,
+          isDamageBlocked: false,
+          isDamagePartiallyBlocked: false);
     }
     // Max Guard blocks everything
-    if (defender.queuedAction is AttackAction && (defender.queuedAction as AttackAction).moveName == "Max Guard") {
+    if (defender.queuedAction is AttackAction &&
+        (defender.queuedAction as AttackAction).moveName == "Max Guard") {
       return DamageResult(
-        minDamage: 0,
-        maxDamage: 0,
-        hitChance: 1.0,
-        isCriticalChance: false,
-        isTypeImmune: false,
-        isDamageBlocked: true,
-        isDamagePartiallyBlocked: false
-      );
+          minDamage: 0,
+          maxDamage: 0,
+          hitChance: 1.0,
+          isCriticalChance: false,
+          isTypeImmune: false,
+          isDamageBlocked: true,
+          isDamagePartiallyBlocked: false);
     }
     // If protected & move isn't a ZMove or Dynamax Move, do no damage
     if (props.isProtected && !props.isZMove && !props.isDynamaxMove) {
       return DamageResult(
-        minDamage: 0,
-        maxDamage: 0,
-        hitChance: 1.0,
-        isCriticalChance: false,
-        isTypeImmune: false,
-        isDamageBlocked: true,
-        isDamagePartiallyBlocked: false
-      );
+          minDamage: 0,
+          maxDamage: 0,
+          hitChance: 1.0,
+          isCriticalChance: false,
+          isTypeImmune: false,
+          isDamageBlocked: true,
+          isDamagePartiallyBlocked: false);
     }
 
     final effectiveness = _calculateTypeEffectiveness(
@@ -190,29 +188,27 @@ class DamageCalculator {
     );
     if (effectiveness == 0.0) {
       return DamageResult(
-        minDamage: 0,
-        maxDamage: 0,
-        hitChance: 1.0,
-        isCriticalChance: false,
-        effectivenessString: 'immune',
-        isTypeImmune: true,
-        isDamageBlocked: false,
-        isDamagePartiallyBlocked: false
-      );
+          minDamage: 0,
+          maxDamage: 0,
+          hitChance: 1.0,
+          isCriticalChance: false,
+          effectivenessString: 'immune',
+          isTypeImmune: true,
+          isDamageBlocked: false,
+          isDamagePartiallyBlocked: false);
     }
 
     // Calculate base damage
     int baseDamage = move.power ?? 0;
     if (baseDamage == 0) {
       return DamageResult(
-        minDamage: 0,
-        maxDamage: 0,
-        hitChance: 1.0,
-        isCriticalChance: false,
-        isTypeImmune: false,
-        isDamageBlocked: false,
-        isDamagePartiallyBlocked: false
-      );
+          minDamage: 0,
+          maxDamage: 0,
+          hitChance: 1.0,
+          isCriticalChance: false,
+          isTypeImmune: false,
+          isDamageBlocked: false,
+          isDamagePartiallyBlocked: false);
     }
 
     // Apply attacker ability modifiers to base power (before stat calculation)
@@ -291,8 +287,9 @@ class DamageCalculator {
     }
 
     // Apply random damage roll (85-100%)
-    double minDamageDouble = damageCalc * minDamageRoll / maxDamageRoll;
-    double maxDamageDouble = damageCalc;
+    double minDamageDouble =
+        _roundHalfDown(damageCalc * minDamageRoll / maxDamageRoll);
+    double maxDamageDouble = _roundHalfDown(damageCalc);
 
     // Apply STAB (Same Type Attack Bonus)
     final stab = _calculateStabMultiplier(
@@ -303,17 +300,17 @@ class DamageCalculator {
       ability: attacker.ability,
       isPledgeMove: _isPledgeMove(move),
     );
-    minDamageDouble = minDamageDouble * stab;
-    maxDamageDouble = maxDamageDouble * stab;
+    minDamageDouble = _roundHalfDown(minDamageDouble * stab);
+    maxDamageDouble = _roundHalfDown(maxDamageDouble * stab);
 
     // Apply type effectiveness
-    minDamageDouble = minDamageDouble * effectiveness;
-    maxDamageDouble = maxDamageDouble * effectiveness;
+    minDamageDouble = _roundHalfDown(minDamageDouble * effectiveness);
+    maxDamageDouble = _roundHalfDown(maxDamageDouble * effectiveness);
 
     // Apply Burn penalty (0.5 to physical moves)
     final burnMod = _getBurnModifier(attacker, move);
-    minDamageDouble = minDamageDouble * burnMod;
-    maxDamageDouble = maxDamageDouble * burnMod;
+    minDamageDouble = _roundHalfDown(minDamageDouble * burnMod);
+    maxDamageDouble = _roundHalfDown(maxDamageDouble * burnMod);
 
     // Apply "other" modifiers (complex stacking with 4096 precision)
     final otherMod = _getOtherModifier(
@@ -327,13 +324,13 @@ class DamageCalculator {
       fieldState: field,
       moveProperties: props,
     );
-    minDamageDouble = minDamageDouble * otherMod;
-    maxDamageDouble = maxDamageDouble * otherMod;
+    minDamageDouble = _roundHalfDown(minDamageDouble * otherMod);
+    maxDamageDouble = _roundHalfDown(maxDamageDouble * otherMod);
 
     // Apply Z-Move protection modifier (0.25 if protected)
     if ((props.isZMove || props.isDynamaxMove) && props.isProtected) {
-      minDamageDouble = minDamageDouble * 0.25;
-      maxDamageDouble = maxDamageDouble * 0.25;
+      minDamageDouble = _roundHalfDown(minDamageDouble * 0.25);
+      maxDamageDouble = _roundHalfDown(maxDamageDouble * 0.25);
     }
 
     // Convert to int with proper rounding and clamp to valid range
@@ -345,18 +342,18 @@ class DamageCalculator {
     final discreteDamageRolls = <int>[];
     for (int roll = minDamageRoll; roll <= maxDamageRoll; roll++) {
       // Apply random roll to base damage
-      double discreteDamage = damageCalc * roll / maxDamageRoll;
+      double discreteDamage = _roundHalfDown(damageCalc * roll / maxDamageRoll);
       // Apply STAB
-      discreteDamage = discreteDamage * stab;
+      discreteDamage = _roundHalfDown(discreteDamage * stab);
       // Apply type effectiveness
-      discreteDamage = discreteDamage * effectiveness;
+      discreteDamage = _roundHalfDown(discreteDamage * effectiveness);
       // Apply burn modifier
-      discreteDamage = discreteDamage * burnMod;
+      discreteDamage = _roundHalfDown(discreteDamage * burnMod);
       // Apply other modifiers
-      discreteDamage = discreteDamage * otherMod;
+      discreteDamage = _roundHalfDown(discreteDamage * otherMod);
       // Apply Z-Move protection if applicable
       if ((props.isZMove || props.isDynamaxMove) && props.isProtected) {
-        discreteDamage = discreteDamage * 0.25;
+        discreteDamage = _roundHalfDown(discreteDamage * 0.25);
       }
       // Floor and clamp to valid range
       discreteDamageRolls.add(discreteDamage.floor().clamp(1, 999999));
@@ -377,16 +374,16 @@ class DamageCalculator {
     bool isCriticalChance = _calculateCriticalChance(props.critStage) > 0.0;
 
     return DamageResult(
-      minDamage: minDamage,
-      maxDamage: maxDamage,
-      hitChance: hitChance,
-      isCriticalChance: isCriticalChance,
-      effectivenessString: effectivenessString,
-      isTypeImmune: false,
-      discreteDamageRolls: discreteDamageRolls,
-      isDamageBlocked: false,
-      isDamagePartiallyBlocked: (props.isZMove || props.isDynamaxMove) && props.isProtected
-    );
+        minDamage: minDamage,
+        maxDamage: maxDamage,
+        hitChance: hitChance,
+        isCriticalChance: isCriticalChance,
+        effectivenessString: effectivenessString,
+        isTypeImmune: false,
+        discreteDamageRolls: discreteDamageRolls,
+        isDamageBlocked: false,
+        isDamagePartiallyBlocked:
+            (props.isZMove || props.isDynamaxMove) && props.isProtected);
   }
 
   /// Calculate hit accuracy considering move accuracy and stat stages
@@ -690,7 +687,7 @@ class DamageCalculator {
 
   /// Round to nearest integer, rounding down at 0.5
   static double _roundHalfDown(double value) {
-    return value.floor() + (value - value.floor() < 0.5 ? 0.0 : 1.0);
+    return value.floor() + (value - value.floor() <= 0.5 ? 0.0 : 1.0);
   }
 
   /// Calculate critical hit chance based on crit stage

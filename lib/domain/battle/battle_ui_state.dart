@@ -1,3 +1,5 @@
+import 'package:championdex/domain/battle/simulation_event.dart';
+
 /// Represents a queued action for a Pokémon in battle
 abstract class BattleAction {
   const BattleAction();
@@ -39,7 +41,8 @@ class BattlePokemon {
   final String? imagePath;
   final String? imagePathLarge;
   final dynamic stats; // PokemonStats object with base stats
-  List<String> types; // Current types (can be modified by moves like Forest's Curse)
+  List<String>
+      types; // Current types (can be modified by moves like Forest's Curse)
   String?
       status; // Status condition: paralysis, burn, freeze, poison, sleep, confusion
 
@@ -129,9 +132,11 @@ class BattleUiState {
   final List<BattlePokemon> team1Bench; // Full bench for switching
   final List<BattlePokemon> team2Bench; // Full bench for switching
   final Map<String, dynamic> fieldConditions; // terrain, weather, rooms, etc.
-  final List<String> simulationLog; // Log of battle actions
+  final List<SimulationEvent> simulationLog; // Log of battle events
   final bool isSimulationRunning;
   final bool allActionsSet;
+  final Map<String, BattleAction>
+      originalActionsMap; // Original queued actions for replay
 
   BattleUiState({
     required this.team1Id,
@@ -147,6 +152,7 @@ class BattleUiState {
     required this.simulationLog,
     required this.isSimulationRunning,
     required this.allActionsSet,
+    this.originalActionsMap = const {},
   });
 
   /// Creates a copy with some fields replaced
@@ -161,9 +167,10 @@ class BattleUiState {
     List<BattlePokemon>? team1Bench,
     List<BattlePokemon>? team2Bench,
     Map<String, dynamic>? fieldConditions,
-    List<String>? simulationLog,
+    List<SimulationEvent>? simulationLog,
     bool? isSimulationRunning,
     bool? allActionsSet,
+    Map<String, BattleAction>? originalActionsMap,
   }) {
     return BattleUiState(
       team1Id: team1Id ?? this.team1Id,
@@ -179,6 +186,7 @@ class BattleUiState {
       simulationLog: simulationLog ?? this.simulationLog,
       isSimulationRunning: isSimulationRunning ?? this.isSimulationRunning,
       allActionsSet: allActionsSet ?? this.allActionsSet,
+      originalActionsMap: originalActionsMap ?? this.originalActionsMap,
     );
   }
 }

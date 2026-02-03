@@ -4,6 +4,7 @@ import 'package:championdex/ui/battle_simulation/battle_simulation_view_model.da
 import 'package:championdex/ui/battle_simulation/widgets/battle_field_widget.dart';
 import 'package:championdex/ui/battle_simulation/widgets/field_conditions_widget.dart';
 import 'package:championdex/ui/battle_simulation/widgets/pokemon_config_bottom_sheet.dart';
+import 'package:championdex/ui/battle_simulation/widgets/simulation_event_widget.dart';
 import 'package:championdex/ui/moves_list/moves_list_view_model.dart';
 import 'package:championdex/domain/battle/battle_ui_state.dart';
 
@@ -50,31 +51,6 @@ class _BattleSimulationViewState extends ConsumerState<BattleSimulationView> {
     super.dispose();
   }
 
-  void _scrollLogToBottom() {
-    if (_scrollController.hasClients) {
-      Future.delayed(Duration(milliseconds: 100), () {
-        if (_scrollController.hasClients) {
-          _scrollController.animateTo(
-            _scrollController.position.maxScrollExtent,
-            duration: Duration(milliseconds: 300),
-            curve: Curves.easeOut,
-          );
-        }
-      });
-    }
-    if (_logScrollController.hasClients) {
-      Future.delayed(Duration(milliseconds: 100), () {
-        if (_logScrollController.hasClients) {
-          _logScrollController.animateTo(
-            _logScrollController.position.maxScrollExtent,
-            duration: Duration(milliseconds: 300),
-            curve: Curves.easeOut,
-          );
-        }
-      });
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final battleState = ref.watch(battleSimulationViewModelProvider);
@@ -91,162 +67,172 @@ class _BattleSimulationViewState extends ConsumerState<BattleSimulationView> {
         title: Text('${battleState.team1Name} vs ${battleState.team2Name}'),
         elevation: 0,
       ),
-      body: Column(
+      body: Stack(
         children: [
-          // Fixed battlefield at top
-          BattleFieldWidget(
-            team1Name: battleState.team1Name,
-            team2Name: battleState.team2Name,
-            team1Pokemon: battleState.team1Pokemon,
-            team2Pokemon: battleState.team2Pokemon,
-            onPokemonTap: (isTeam1, slotIndex) async {
-              await _showPokemonConfig(
-                  context, ref, battleState, isTeam1, slotIndex);
-            },
-          ),
-          // Scrollable content below
-          Expanded(
-            child: SingleChildScrollView(
-              controller: _scrollController,
-              child: Column(
-                children: [
-                  // Field Conditions Section
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Card(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(16.0),
-                            child: Text(
-                              'Field Conditions',
-                              style: Theme.of(context).textTheme.titleLarge,
-                            ),
-                          ),
-                          FieldConditionsWidget(
-                            onFieldConditionChanged: (category, value) {
-                              ref
-                                  .read(battleSimulationViewModelProvider
-                                      .notifier)
-                                  .setFieldCondition(category, value);
-                            },
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  // Simulation Section
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
+          // Main scrollable content
+          CustomScrollView(
+            controller: _scrollController,
+            slivers: [
+              // Spacer for battlefield height
+              SliverToBoxAdapter(
+                child: SizedBox(height: 350), // Battlefield height
+              ),
+              // Field Conditions Section
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Card(
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // Run Simulation Button
-                        ElevatedButton.icon(
-                          onPressed: battleState.allActionsSet
-                              ? () {
-                                  ref
-                                      .read(battleSimulationViewModelProvider
-                                          .notifier)
-                                      .startSimulation();
-                                }
-                              : null,
-                          icon: Icon(Icons.play_arrow),
-                          label: Text('Run Simulation'),
-                          style: ElevatedButton.styleFrom(
-                            minimumSize: Size(double.infinity, 48),
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Text(
+                            'Field Conditions',
+                            style: Theme.of(context).textTheme.titleLarge,
                           ),
                         ),
-                        if (!battleState.allActionsSet)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 8.0),
-                            child: Text(
-                              'All battlefield Pokémon must have actions set',
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .labelSmall
-                                  ?.copyWith(color: Colors.orange),
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
+                        FieldConditionsWidget(
+                          onFieldConditionChanged: (category, value) {
+                            ref
+                                .read(
+                                    battleSimulationViewModelProvider.notifier)
+                                .setFieldCondition(category, value);
+                          },
+                        ),
                       ],
                     ),
                   ),
-                  // Simulation Log
-                  if (battleState.simulationLog.isNotEmpty)
-                    Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Card(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    'Simulation Log',
-                                    style:
-                                        Theme.of(context).textTheme.titleLarge,
-                                  ),
-                                  IconButton(
-                                    icon: Icon(Icons.clear),
-                                    onPressed: () {
-                                      ref
-                                          .read(
-                                              battleSimulationViewModelProvider
-                                                  .notifier)
-                                          .clearSimulationLog();
-                                    },
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Divider(height: 0),
-                            ConstrainedBox(
-                              constraints: BoxConstraints(maxHeight: 300),
-                              child: SingleChildScrollView(
-                                controller: _logScrollController,
-                                padding: const EdgeInsets.all(16.0),
-                                child: Builder(
-                                  builder: (context) {
-                                    WidgetsBinding.instance
-                                        .addPostFrameCallback((_) {
-                                      _scrollLogToBottom();
-                                    });
-                                    return Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: battleState.simulationLog
-                                          .asMap()
-                                          .entries
-                                          .map((entry) {
-                                        return Padding(
-                                          padding: const EdgeInsets.symmetric(
-                                              vertical: 4.0),
-                                          child: Text(
-                                            '${entry.key + 1}. ${entry.value}',
-                                            style: Theme.of(context)
-                                                .textTheme
-                                                .bodySmall,
-                                          ),
-                                        );
-                                      }).toList(),
-                                    );
+                ),
+              ),
+              // Simulation Section
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Run Simulation Button
+                      ElevatedButton.icon(
+                        onPressed: battleState.allActionsSet
+                            ? () {
+                                ref
+                                    .read(battleSimulationViewModelProvider
+                                        .notifier)
+                                    .startSimulation();
+                              }
+                            : null,
+                        icon: Icon(Icons.play_arrow),
+                        label: Text('Run Simulation'),
+                        style: ElevatedButton.styleFrom(
+                          minimumSize: Size(double.infinity, 48),
+                        ),
+                      ),
+                      if (!battleState.allActionsSet)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8.0),
+                          child: Text(
+                            'All battlefield Pokémon must have actions set',
+                            style: Theme.of(context)
+                                .textTheme
+                                .labelSmall
+                                ?.copyWith(color: Colors.orange),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              ),
+              // Simulation Log Header (sticky)
+              if (battleState.simulationLog.isNotEmpty)
+                SliverPersistentHeader(
+                  pinned: true,
+                  delegate: _StickyHeaderDelegate(
+                    child: Container(
+                      color: Theme.of(context).scaffoldBackgroundColor,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          margin: EdgeInsets.zero,
+                          child: Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  'Simulation Log',
+                                  style: Theme.of(context).textTheme.titleLarge,
+                                ),
+                                IconButton(
+                                  icon: Icon(Icons.clear),
+                                  onPressed: () {
+                                    ref
+                                        .read(battleSimulationViewModelProvider
+                                            .notifier)
+                                        .clearSimulationLog();
                                   },
                                 ),
-                              ),
+                              ],
                             ),
-                          ],
+                          ),
                         ),
                       ),
                     ),
-                  SizedBox(height: 16),
-                ],
+                  ),
+                ),
+              // Simulation Log Items
+              if (battleState.simulationLog.isNotEmpty)
+                SliverPadding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                  sliver: SliverList(
+                    delegate: SliverChildBuilderDelegate(
+                      (context, index) {
+                        return SimulationEventWidget(
+                          event: battleState.simulationLog[index],
+                          eventIndex: index,
+                          isModified:
+                              battleState.simulationLog[index].isModified,
+                          needsRecalculation: battleState
+                              .simulationLog[index].needsRecalculation,
+                          onModify: (modification) {
+                            ref
+                                .read(
+                                    battleSimulationViewModelProvider.notifier)
+                                .modifyEventOutcome(index, modification);
+                          },
+                          onRerunFromHere: () {
+                            ref
+                                .read(
+                                    battleSimulationViewModelProvider.notifier)
+                                .rerunFromEvent(index);
+                          },
+                        );
+                      },
+                      childCount: battleState.simulationLog.length,
+                    ),
+                  ),
+                ),
+              // Bottom padding
+              SliverToBoxAdapter(
+                child: SizedBox(height: 16),
               ),
+            ],
+          ),
+          // Fixed battlefield widget floating on top
+          Positioned(
+            top: 0,
+            left: 0,
+            right: 0,
+            child: BattleFieldWidget(
+              team1Name: battleState.team1Name,
+              team2Name: battleState.team2Name,
+              team1Pokemon: battleState.team1Pokemon,
+              team2Pokemon: battleState.team2Pokemon,
+              onPokemonTap: (isTeam1, slotIndex) async {
+                await _showPokemonConfig(
+                    context, ref, battleState, isTeam1, slotIndex);
+              },
             ),
           ),
         ],
@@ -321,5 +307,29 @@ class _BattleSimulationViewState extends ConsumerState<BattleSimulationView> {
             );
       },
     );
+  }
+}
+
+// Sticky header delegate for the simulation log header
+class _StickyHeaderDelegate extends SliverPersistentHeaderDelegate {
+  final Widget child;
+
+  _StickyHeaderDelegate({required this.child});
+
+  @override
+  double get minExtent => 80;
+
+  @override
+  double get maxExtent => 80;
+
+  @override
+  Widget build(
+      BuildContext context, double shrinkOffset, bool overlapsContent) {
+    return child;
+  }
+
+  @override
+  bool shouldRebuild(_StickyHeaderDelegate oldDelegate) {
+    return false;
   }
 }
