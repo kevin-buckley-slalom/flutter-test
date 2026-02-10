@@ -250,7 +250,7 @@ class _MoveTargetSelectorDialogState extends State<MoveTargetSelectorDialog> {
                           ? Theme.of(context)
                               .colorScheme
                               .primaryContainer
-                              .withOpacity(0.3)
+                              .withValues(alpha: .3)
                           : null,
                     ),
                     child: Row(
