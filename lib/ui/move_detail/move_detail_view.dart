@@ -476,8 +476,12 @@ class _MoveStatsTable extends StatelessWidget {
           _buildRow(
               theme,
               'Effect Chance:',
-              Text(move.effectChance != null ? '${move.effectChance}%' : '—',
-                  style: theme.textTheme.bodyLarge)),
+              Text(
+                move.effectChancePercent != null
+                    ? '${move.effectChancePercent}%'
+                    : (move.effectChanceRaw == '-- %' ? 'Guaranteed' : '—'),
+                style: theme.textTheme.bodyLarge,
+              )),
           _buildRow(
               theme,
               'Makes Contact:',

@@ -8,6 +8,7 @@ class MoveListItem extends StatelessWidget {
   final VoidCallback onTap;
 
   const MoveListItem({
+    super.key,
     required this.move,
     required this.onTap,
   });

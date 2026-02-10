@@ -99,6 +99,17 @@ class TurnOrderCalculator {
     double speedMultiplier = _getStatMultiplier(speedStage);
     int effectiveSpeed = (baseStat * speedMultiplier).toInt();
 
+    // Apply paralysis speed reduction (halved, unless Quick Feet ability)
+    if (pokemon.status?.toLowerCase() == 'paralysis') {
+      if (pokemon.ability.toLowerCase() == 'quick feet') {
+        // Quick Feet increases speed by 50% instead
+        effectiveSpeed = (effectiveSpeed * 1.5).toInt();
+      } else {
+        // Paralysis halves speed
+        effectiveSpeed = (effectiveSpeed * 0.5).toInt();
+      }
+    }
+
     // Trick Room effect: reverses speed order for that turn
     // (handled in sort logic, not here)
 

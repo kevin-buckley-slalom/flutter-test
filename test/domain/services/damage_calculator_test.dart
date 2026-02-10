@@ -69,6 +69,7 @@ void main() {
         spDef: spDef,
         speed: 100,
       ),
+      types: ['Normal'],
       status: null,
     );
   }

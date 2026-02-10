@@ -46,6 +46,13 @@ class BattlePokemon {
   String?
       status; // Status condition: paralysis, burn, freeze, poison, sleep, confusion
 
+  // Volatile status (battle-turn-specific conditions)
+  Map<String, dynamic> volatileStatus =
+      {}; // confusion_turns, leech_seed, substitute_hp, flinch, etc.
+  int protectionCounter = 0; // Increments with successive protection move uses
+  String? multiturnMoveName; // Name of move being executed over multiple turns
+  int? multiturnMoveTurnsRemaining; // Turns left for multi-turn moves
+
   BattlePokemon({
     required this.pokemonName,
     required this.originalName,
@@ -86,6 +93,11 @@ class BattlePokemon {
     dynamic stats,
     List<String>? types,
     String? status,
+    Map<String, dynamic>? volatileStatus,
+    int? protectionCounter,
+    String? multiturnMoveName,
+    int? multiturnMoveTurnsRemaining,
+    bool clearVolatileStatus = false,
   }) {
     return BattlePokemon(
       pokemonName: pokemonName ?? this.pokemonName,
@@ -98,7 +110,8 @@ class BattlePokemon {
       isShiny: isShiny ?? this.isShiny,
       teraType: teraType ?? this.teraType,
       moves: moves ?? this.moves,
-      statStages: statStages ?? this.statStages,
+      statStages:
+          statStages != null ? Map.from(statStages) : Map.from(this.statStages),
       queuedAction:
           clearQueuedAction ? null : (queuedAction ?? this.queuedAction),
       imagePath: imagePath ?? this.imagePath,
@@ -106,8 +119,52 @@ class BattlePokemon {
       stats: stats ?? this.stats,
       types: types ?? this.types,
       status: status ?? this.status,
-    );
+    )
+      ..volatileStatus = clearVolatileStatus
+          ? {}
+          : (volatileStatus != null
+              ? Map.from(volatileStatus)
+              : Map.from(this.volatileStatus))
+      ..protectionCounter = protectionCounter ?? this.protectionCounter
+      ..multiturnMoveName = multiturnMoveName ?? this.multiturnMoveName
+      ..multiturnMoveTurnsRemaining =
+          multiturnMoveTurnsRemaining ?? this.multiturnMoveTurnsRemaining;
   }
+
+  /// Sets a volatile status condition
+  void setVolatileStatus(String statusName, dynamic value) {
+    volatileStatus[statusName] = value;
+  }
+
+  /// Gets a volatile status condition
+  dynamic getVolatileStatus(String statusName) {
+    return volatileStatus[statusName];
+  }
+
+  /// Clears a specific volatile status
+  void clearVolatile(String statusName) {
+    volatileStatus.remove(statusName);
+  }
+
+  /// Checks if Pokémon is flinching
+  bool get isFlinching => volatileStatus['flinch'] == true;
+
+  /// Checks if Pokémon is confused
+  bool get isConfused =>
+      volatileStatus['confusion_turns'] != null &&
+      (volatileStatus['confusion_turns'] as int) > 0;
+
+  /// Gets remaining confusion turns
+  int get confusionTurns => (volatileStatus['confusion_turns'] as int?) ?? 0;
+
+  /// Checks if Pokémon has Leech Seed
+  bool get hasLeechSeed => volatileStatus['leech_seed'] == true;
+
+  /// Checks if Pokémon has Substitute active
+  bool get hasSubstitute => volatileStatus['substitute_hp'] != null;
+
+  /// Gets Substitute remaining HP
+  int get substituteHp => (volatileStatus['substitute_hp'] as int?) ?? 0;
 
   /// Calculates HP percentage
   double get hpPercentage => currentHp / maxHp;

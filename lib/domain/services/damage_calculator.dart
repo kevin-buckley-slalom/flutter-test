@@ -1,5 +1,7 @@
+import 'dart:math' show Random;
 import 'package:championdex/domain/battle/battle_ui_state.dart';
 import 'package:championdex/data/models/move.dart';
+import 'package:championdex/domain/models/multi_hit_result.dart';
 import 'package:championdex/domain/utils/battle_constants.dart';
 import 'package:championdex/domain/utils/type_chart.dart';
 import 'package:championdex/domain/utils/stat_stage_calculator.dart';
@@ -109,6 +111,160 @@ class DamageCalculator {
   /// Load the type chart data (must be called before calculateDamage)
   Future<void> loadTypeChart() async {
     await _typeChart.loadTypeChart();
+  }
+
+  /// Calculate damage for a multi-hit move (e.g., Fury Attack, Double Kick)
+  /// Each hit has independent accuracy check and damage roll
+  static MultiHitResult calculateMultiHitDamage({
+    required Move move,
+    required BattlePokemon attacker,
+    required BattlePokemon defender,
+    FieldState? fieldState,
+    MoveProperties? moveProperties,
+    String? weather,
+    int targetCount = 1,
+  }) {
+    if (!move.isMultiHit) {
+      throw ArgumentError('Move ${move.name} is not a multi-hit move');
+    }
+
+    final random = Random();
+
+    // Determine number of hits to attempt
+    int hitCount = _determineHitCount(move, random);
+
+    // Track results
+    final List<int> hitDamages = [];
+    final List<int> missedHits = [];
+    String? breakReason;
+
+    // Get power pattern for moves with escalating power
+    final powerPattern = move.powerPerHit;
+
+    // Execute each hit
+    for (int i = 0; i < hitCount; i++) {
+      // Check accuracy for this hit
+      if (!_checkAccuracy(move, random)) {
+        missedHits.add(i);
+        breakReason = i == 0 ? 'first_hit_missed' : 'accuracy_miss';
+        break; // Stop combo on miss
+      }
+
+      // Determine power for this hit
+      int hitPower = powerPattern?[i] ?? (move.power ?? 0);
+
+      // Create a modified move with correct power for this hit
+      final hitMove = _createMoveWithPower(move, hitPower);
+
+      // Calculate damage for this individual hit
+      final calculator = DamageCalculator();
+      final damageResult = calculator.calculateDamage(
+        attacker: attacker,
+        defender: defender,
+        move: hitMove,
+        attackerTypes: attacker.types,
+        defenderTypes: defender.types,
+        weather: weather,
+        targetCount: targetCount,
+        fieldState: fieldState,
+        moveProperties: moveProperties,
+      );
+
+      // If immune or blocked, stop the combo
+      if (damageResult.isTypeImmune || damageResult.isDamageBlocked) {
+        breakReason =
+            damageResult.isTypeImmune ? 'type_immune' : 'damage_blocked';
+        break;
+      }
+
+      // Roll actual damage from the range
+      int actualDamage = _rollDamage(damageResult, random);
+      hitDamages.add(actualDamage);
+
+      // Check if defender fainted (would stop combo in real battle)
+      // Note: For testing purposes, we continue the combo
+      // In actual battle engine integration, this would stop
+    }
+
+    return MultiHitResult(
+      hitCount: hitCount,
+      hitDamages: hitDamages,
+      missedHits: missedHits,
+      breakReason: breakReason,
+    );
+  }
+
+  /// Determine how many hits a multi-hit move will attempt
+  static int _determineHitCount(Move move, Random random) {
+    switch (move.multiHitType) {
+      case MultiHitType.fixed2:
+        return 2;
+      case MultiHitType.fixed3:
+        return 3;
+      case MultiHitType.variable2to5:
+        // Distribution: 2 hits (37.5%), 3 hits (37.5%), 4 hits (12.5%), 5 hits (12.5%)
+        final roll = random.nextDouble() * 100;
+        if (roll < 37.5) return 2;
+        if (roll < 75.0) return 3; // 37.5 + 37.5
+        if (roll < 87.5) return 4; // 75 + 12.5
+        return 5; // Remaining 12.5%
+      default:
+        return 1;
+    }
+  }
+
+  /// Check if a hit connects based on move accuracy
+  static bool _checkAccuracy(Move move, Random random) {
+    final accuracy = move.accuracy;
+    if (accuracy == null || accuracy <= 0) {
+      return true; // Moves with no accuracy always hit
+    }
+    if (accuracy >= 100) return true; // 100% accuracy always hits
+
+    final roll = random.nextInt(100);
+    return roll < accuracy;
+  }
+
+  /// Roll an actual damage value from the damage result range
+  static int _rollDamage(DamageResult result, Random random) {
+    if (result.discreteDamageRolls != null &&
+        result.discreteDamageRolls!.isNotEmpty) {
+      // Use one of the 16 discrete rolls
+      return result.discreteDamageRolls![
+          random.nextInt(result.discreteDamageRolls!.length)];
+    }
+
+    // Fallback: random between min and max
+    if (result.maxDamage == result.minDamage) {
+      return result.minDamage;
+    }
+
+    return result.minDamage +
+        random.nextInt(result.maxDamage - result.minDamage + 1);
+  }
+
+  /// Create a copy of a move with a different power value
+  static Move _createMoveWithPower(Move move, int power) {
+    return Move(
+      name: move.name,
+      type: move.type,
+      category: move.category,
+      power: power,
+      accuracy: move.accuracy,
+      pp: move.pp,
+      maxPp: move.maxPp,
+      effect: move.effect,
+      detailedEffect: move.detailedEffect,
+      effectChanceRaw: move.effectChanceRaw,
+      effectChancePercent: move.effectChancePercent,
+      makesContact: move.makesContact,
+      targets: move.targets,
+      generation: move.generation,
+      switchesOut: move.switchesOut,
+      priority: move.priority,
+      secondaryEffect: move.secondaryEffect,
+      inDepthEffect: move.inDepthEffect,
+    );
   }
 
   /// Calculate damage for a move against a target
@@ -1250,9 +1406,8 @@ class DamageCalculator {
   }
 
   static bool _hasSecondaryEffect(Move move) {
-    // Simplified check - in reality, would need to check move data
-    // Moves with secondary effects like burn, paralyze, flinch, stat changes, etc.
-    return move.effectChance != null && (move.effectChance ?? 0) > 0;
+    // Check if move has secondary or in-depth effects
+    return move.secondaryEffect != null || move.inDepthEffect != null;
   }
 }
 

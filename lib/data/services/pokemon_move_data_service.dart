@@ -7,21 +7,12 @@ class PokemonMoveDataService {
   static final PokemonMoveDataService _instance =
       PokemonMoveDataService._internal();
   final Map<String, Map<String, dynamic>> _moveCache = {};
-  Map<String, Map<String, List<PokemonMove>>>?
-      _moveToPokeIndexCache; // move -> {pokemonName -> [moves]}
 
   factory PokemonMoveDataService() {
     return _instance;
   }
 
   PokemonMoveDataService._internal();
-
-  /// Load the pre-generated moves-by-pokemon index from assets
-  Future<void> _loadMoveToPokeIndex() async {
-    // legacy: not used for per-move files. keep no-op so older code doesn't break
-    if (_moveToPokeIndexCache != null) return;
-    _moveToPokeIndexCache = {};
-  }
 
   /// Load pokemon moves for a specific pokemon base name
   Future<Map<String, dynamic>> loadPokemonMoves(String baseName) async {
@@ -183,7 +174,6 @@ class PokemonMoveDataService {
   /// Clear cache for testing/refreshing
   void clearCache() {
     _moveCache.clear();
-    _moveToPokeIndexCache = null;
   }
 
   /// Get all Pokemon that learn a specific move (loads from pre-generated index)
@@ -289,7 +279,8 @@ class PokemonMoveDataService {
         if (methodsMap is Map<String, dynamic>) {
           methodsMap.forEach((methodName, forms) {
             if (method != null &&
-                _normalizeLearnType(methodName) != _normalizeLearnType(method)) {
+                _normalizeLearnType(methodName) !=
+                    _normalizeLearnType(method)) {
               return;
             }
             if (forms is List) {

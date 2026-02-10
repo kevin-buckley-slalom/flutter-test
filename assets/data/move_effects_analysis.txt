@@ -1,0 +1,588 @@
+================================================================================
+ChampionDex Move Effects Implementation Report
+================================================================================
+
+SUMMARY STATISTICS:
+  Total moves: 934
+  Moves with no secondary effects: 187
+  Moves with guaranteed effects (-- %): 596
+  Moves with probabilistic effects: 151
+  Unique effect categories: 14
+
+EFFECT CATEGORY COVERAGE:
+--------------------------------------------------------------------------------
+conditional          ⚠ Varies              109 moves ( 11.7%)
+field_effect         ✗ Needs Work           41 moves (  4.4%)
+flinch               ✓ Implemented          26 moves (  2.8%)
+healing              ✓ Implemented          42 moves (  4.5%)
+multi_hit            ✗ Planned              26 moves (  2.8%)
+other                ? Unknown             167 moves ( 17.9%)
+priority             ✓ Handled              14 moves (  1.5%)
+protection           ⚠ Partial              31 moves (  3.3%)
+recoil               ⚠ Partial               9 moves (  1.0%)
+stat_change          ✓ Implemented         302 moves ( 32.3%)
+status               ✓ Implemented         119 moves ( 12.7%)
+switch_out           ✗ Needs Work           33 moves (  3.5%)
+trap                 ✓ Partial              12 moves (  1.3%)
+type_change          ✗ Needs Work           59 moves (  6.3%)
+
+MOVES BY EFFECT CATEGORY:
+================================================================================
+
+[CONDITIONAL] - 109 moves
+--------------------------------------------------------------------------------
+  • Acrobatics
+    └─ Increases damage by 100% if user is not holding an item.
+    └─ Chance: -- %
+  • Ally Switch
+    └─ Switches place with other Pokémon on field
+    └─ Chance: -- %
+  • Assurance
+    └─ Doubles damage if target has already received damage this tu...
+    └─ Chance: -- %
+  • Aura Wheel
+    └─ Raises user's Speed by 1 stage. Changes type to Dark-type if...
+    └─ Chance: -- %
+  • Aurora Veil
+    └─ Lowers damage from Physical & Special moves for 5 turns
+    └─ Chance: -- %
+  • Avalanche
+    └─ Power doubles if user was hit before using the Attack.
+    └─ Chance: -- %
+  • Axe Kick
+    └─ May confuse the opponent. If the move misses, the user takes...
+    └─ Chance: 30
+  • Baneful Bunker
+    └─ Inflicts Poison if target makes physical contact
+    └─ Chance: -- %
+  • Barb Barrage
+    └─ Doubles damage inflicted if target is Poisoned
+    └─ Chance: 50
+  • Beak Blast
+    └─ Moves first in turn to charge, and last in the same turn to ...
+    └─ Chance: -- %
+  ... and 99 more
+
+[FIELD_EFFECT] - 41 moves
+--------------------------------------------------------------------------------
+  • Ally Switch
+    └─ Switches place with other Pokémon on field
+    └─ Chance: -- %
+  • Aurora Veil
+    └─ Lowers damage from Physical & Special moves for 5 turns
+    └─ Chance: -- %
+  • Brick Break
+    └─ Destroys protective barriers.
+    └─ Chance: -- %
+  • Court Change
+    └─ Swaps barriers, veils and other effects between each side of...
+    └─ Chance: -- %
+  • Defog
+    └─ Lowers opponent's Evasion one stage.
+    └─ Chance: -- %
+  • Doodle
+    └─ Changes the Abilities of all your Pokémon on the field to th...
+    └─ Chance: -- %
+  • Earthquake
+    └─ Hits everyone on the field.
+    └─ Chance: -- %
+  • Electric Terrain
+    └─ Activates Electric Terrain for 5 turns
+    └─ Chance: -- %
+  • Expanding Force
+    └─ Increases damage by 50% during Psychic-terrain.
+    └─ Chance: -- %
+  • Fling
+    └─ Item's power and effects change based on the user's hold ite...
+    └─ Chance: -- %
+  ... and 31 more
+
+[FLINCH] - 26 moves
+--------------------------------------------------------------------------------
+  • Air Slash
+    └─ May cause opponent to flinch.
+    └─ Chance: 30
+  • Astonish
+    └─ May cause opponent to flinch.
+    └─ Chance: 30
+  • Bite
+    └─ May cause opponent to flinch.
+    └─ Chance: 30
+  • Dark Pulse
+    └─ May cause opponent to flinch.
+    └─ Chance: 20
+  • Double Iron Bash
+    └─ May cause opponent to flinch.
+    └─ Chance: 30
+  • Dragon Rush
+    └─ May cause opponent to flinch.
+    └─ Chance: 20
+  • Extrasensory
+    └─ May cause opponent to flinch.
+    └─ Chance: 10
+  • Fake Out
+    └─ Causes opponent to flinch.
+    └─ Chance: 100
+  • Fiery Wrath
+    └─ May cause opponent to flinch.
+    └─ Chance: 20
+  • Fire Fang
+    └─ May BURN opponent or cause opponent to flinch.
+    └─ Chance: 10
+  ... and 16 more
+
+[HEALING] - 42 moves
+--------------------------------------------------------------------------------
+  • Absorb
+    └─ User recovers half the damage inflicted.
+    └─ Chance: -- %
+  • Aqua Ring
+    └─ Recovers 1/16th of user's HP each turn
+    └─ Chance: -- %
+  • Bitter Blade
+    └─ User recovers half the damage inflicted.
+    └─ Chance: -- %
+  • Drain Punch
+    └─ User recovers half the damage inflicted.
+    └─ Chance: -- %
+  • Draining Kiss
+    └─ User recovers 75% the damage inflicted.
+    └─ Chance: -- %
+  • Dream Eater
+    └─ User recovers half the damage inflicted on a sleeping oppone...
+    └─ Chance: -- %
+  • Fling
+    └─ Item's power and effects change based on the user's hold ite...
+    └─ Chance: -- %
+  • Floral Healing
+    └─ Heals up to 50% of maximum Hit Points. Heals 66.6% of maximu...
+    └─ Chance: -- %
+  • Giga Drain
+    └─ User recovers half the damage inflicted.
+    └─ Chance: -- %
+  • Heal Bell
+    └─ Heals party's status problems.
+    └─ Chance: -- %
+  ... and 32 more
+
+[MULTI_HIT] - 26 moves
+--------------------------------------------------------------------------------
+  • Arm Thrust
+    └─ Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% ch...
+    └─ Chance: -- %
+  • Bone Rush
+    └─ Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% ch...
+    └─ Chance: -- %
+  • Bullet Seed
+    └─ Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% ch...
+    └─ Chance: -- %
+  • Dragon Cheer
+    └─ Raises Critical Hit Rate by 1 stageRaises Critical Hit Rate ...
+    └─ Chance: -- %
+  • Dragon Darts
+    └─ In Doubles, if one of the two opponents protects or is a Fai...
+    └─ Chance: -- %
+  • Earthquake
+    └─ Hits everyone on the field.
+    └─ Chance: -- %
+  • Endure
+    └─ Survives any Attack for one turn leaving at least 1 HP but m...
+    └─ Chance: -- %
+  • Fury Attack
+    └─ Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% ch...
+    └─ Chance: -- %
+  • Fury Swipes
+    └─ Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% ch...
+    └─ Chance: -- %
+  • Future Sight
+    └─ Damage delays 2 turns.
+    └─ Chance: -- %
+  ... and 16 more
+
+[OTHER] - 167 moves
+--------------------------------------------------------------------------------
+  • Aerial Ace
+    └─ Cannot miss.
+    └─ Chance: -- %
+  • Aeroblast
+    └─ Has an increased Critical Hit ratio
+    └─ Chance: -- %
+  • After You
+    └─ Target moves immediately after the user
+    └─ Chance: -- %
+  • Air Cutter
+    └─ Has an increased Critical Hit ratio
+    └─ Chance: -- %
+  • Aqua Cutter
+    └─ No effect.
+    └─ Chance: -- %
+  • Aqua Tail
+    └─ No effect.
+    └─ Chance: -- %
+  • Astral Barrage
+    └─ No effect.
+    └─ Chance: -- %
+  • Attack Order
+    └─ Has an increased Critical Hit ratio
+    └─ Chance: -- %
+  • Attract
+    └─ Causes the opponent to be inflicted with Infatuation
+    └─ Chance: -- %
+  • Aura Sphere
+    └─ Cannot miss.
+    └─ Chance: -- %
+  ... and 157 more
+
+[PRIORITY] - 14 moves
+--------------------------------------------------------------------------------
+  • Accelerock
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Aqua Jet
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Bullet Punch
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Extreme Speed
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Grassy Glide
+    └─ Increases priority in Grassy Terrain
+    └─ Chance: -- %
+  • Ice Shard
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Mach Punch
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Psychic Terrain
+    └─ Activates Psychic Terrain
+    └─ Chance: -- %
+  • Quick Attack
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Quick Guard
+    └─ Protects ally Pokémon from moves with increased Speed Priori...
+    └─ Chance: -- %
+  ... and 4 more
+
+[PROTECTION] - 31 moves
+--------------------------------------------------------------------------------
+  • Aurora Veil
+    └─ Lowers damage from Physical & Special moves for 5 turns
+    └─ Chance: -- %
+  • Baneful Bunker
+    └─ Inflicts Poison if target makes physical contact
+    └─ Chance: -- %
+  • Bounce
+    └─ The user is protected the first turn, Attacks the second tur...
+    └─ Chance: 30
+  • Brick Break
+    └─ Destroys protective barriers.
+    └─ Chance: -- %
+  • Burning Bulwark
+    └─ Inflicts Burn if attacker makes physical contact
+    └─ Chance: -- %
+  • Court Change
+    └─ Swaps barriers, veils and other effects between each side of...
+    └─ Chance: -- %
+  • Detect
+    └─ Prevents being hit by the opponent's Attack. May fail on suc...
+    └─ Chance: -- %
+  • Dig
+    └─ The user is protected the first turn, Attacks the second tur...
+    └─ Chance: -- %
+  • Dive
+    └─ The user is protected the first turn, Attacks the second tur...
+    └─ Chance: -- %
+  • Dragon Darts
+    └─ In Doubles, if one of the two opponents protects or is a Fai...
+    └─ Chance: -- %
+  ... and 21 more
+
+[RECOIL] - 9 moves
+--------------------------------------------------------------------------------
+  • Brave Bird
+    └─ User takes recoil damage equal to a third of the damage infl...
+    └─ Chance: -- %
+  • Double-Edge
+    └─ User takes recoil damage equal to a third of the damage infl...
+    └─ Chance: -- %
+  • Head Charge
+    └─ User takes recoil damage equal to 25% of the damage inflicte...
+    └─ Chance: -- %
+  • Head Smash
+    └─ User receives half the damage inflicted in recoil
+    └─ Chance: -- %
+  • Knock Off
+    └─ Knocks down opponent's held item to prevent its use. Increas...
+    └─ Chance: -- %
+  • Light of Ruin
+    └─ User receives half the damage inflicted in recoil
+    └─ Chance: -- %
+  • Take Down
+    └─ User takes recoil damage equal to 25% of the damage inflicte...
+    └─ Chance: -- %
+  • Wild Charge
+    └─ User takes recoil damage equal to 25% of the damage inflicte...
+    └─ Chance: -- %
+  • Wood Hammer
+    └─ User takes recoil damage equal to a third of the damage infl...
+    └─ Chance: -- %
+
+[STAT_CHANGE] - 302 moves
+--------------------------------------------------------------------------------
+  • Accelerock
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  • Acid
+    └─ May lower opponent's Special Defense one stage.
+    └─ Chance: 10
+  • Acid Armor
+    └─ Raises user's Defense two stages.
+    └─ Chance: -- %
+  • Acid Spray
+    └─ Lowers opponent's Special Defense two stages.
+    └─ Chance: -- %
+  • Acupressure
+    └─ Raises one of the user's stats randomly by two stages.
+    └─ Chance: -- %
+  • Agility
+    └─ Raises user's Speed two stages.
+    └─ Chance: -- %
+  • Amnesia
+    └─ Raises user's Special Defense two stages.
+    └─ Chance: -- %
+  • Ancient Power
+    └─ May raise all user's stats one stage.
+    └─ Chance: 10
+  • Apple Acid
+    └─ Lowers opponent's Sp. Def one stage
+    └─ Chance: -- %
+  • Aqua Jet
+    └─ Has increased Speed Priority
+    └─ Chance: -- %
+  ... and 292 more
+
+[STATUS] - 119 moves
+--------------------------------------------------------------------------------
+  • Alluring Voice
+    └─ Confuses the opponent
+    └─ Chance: -- %
+  • Axe Kick
+    └─ May confuse the opponent. If the move misses, the user takes...
+    └─ Chance: 30
+  • Baneful Bunker
+    └─ Inflicts Poison if target makes physical contact
+    └─ Chance: -- %
+  • Barb Barrage
+    └─ Doubles damage inflicted if target is Poisoned
+    └─ Chance: 50
+  • Beak Blast
+    └─ Moves first in turn to charge, and last in the same turn to ...
+    └─ Chance: -- %
+  • Blaze Kick
+    └─ Has high critical hit ratio. May induce burn.
+    └─ Chance: 10
+  • Blazing Torque
+    └─ May induce burn.
+    └─ Chance: 30
+  • Blizzard
+    └─ May Freeze opponent.
+    └─ Chance: 10
+  • Blue Flare
+    └─ May induce burn.
+    └─ Chance: 20
+  • Body Slam
+    └─ May induce paralysis.
+    └─ Chance: 30
+  ... and 109 more
+
+[SWITCH_OUT] - 33 moves
+--------------------------------------------------------------------------------
+  • Ally Switch
+    └─ Switches place with other Pokémon on field
+    └─ Chance: -- %
+  • Anchor Shot
+    └─ Prevents opponent from switching
+    └─ Chance: -- %
+  • Baton Pass
+    └─ Switches out the user but stat changes remain.
+    └─ Chance: -- %
+  • Ceaseless Edge
+    └─ Sets spikes that hurt the opponent upon switching.
+    └─ Chance: -- %
+  • Chilly Reception
+    └─ Switches user with another Pokémon in the party. Summons a S...
+    └─ Chance: -- %
+  • Circle Throw
+    └─ Forces opponent to switch Pokémon.
+    └─ Chance: -- %
+  • Dragon Tail
+    └─ Forces opponent to switch Pokémon.
+    └─ Chance: -- %
+  • Fling
+    └─ Item's power and effects change based on the user's hold ite...
+    └─ Chance: -- %
+  • Flip Turn
+    └─ Pokémon switches out from battle
+    └─ Chance: -- %
+  • Future Sight
+    └─ Damage delays 2 turns.
+    └─ Chance: -- %
+  ... and 23 more
+
+[TRAP] - 12 moves
+--------------------------------------------------------------------------------
+  • Bind
+    └─ Traps opponent.
+    └─ Chance: 100
+  • Fire Spin
+    └─ Traps opponent.
+    └─ Chance: 100
+  • Fling
+    └─ Item's power and effects change based on the user's hold ite...
+    └─ Chance: -- %
+  • Infestation
+    └─ Traps opponent.
+    └─ Chance: 100
+  • Magma Storm
+    └─ Traps opponent.
+    └─ Chance: 100
+  • Rapid Spin
+    └─ User removes trapping moves. Increased Speed by 1 stage.
+    └─ Chance: -- %
+  • Sand Tomb
+    └─ Traps opponent.
+    └─ Chance: 100
+  • Snap Trap
+    └─ Traps opponent.
+    └─ Chance: 100
+  • Thunder Cage
+    └─ Traps the opponent for 4 to 5 turns
+    └─ Chance: 100
+  • Tidy Up
+    └─ User removes trapping moves. Increased Attack and Speed by 1...
+    └─ Chance: -- %
+  ... and 2 more
+
+[TYPE_CHANGE] - 59 moves
+--------------------------------------------------------------------------------
+  • Aura Wheel
+    └─ Raises user's Speed by 1 stage. Changes type to Dark-type if...
+    └─ Chance: -- %
+  • Baton Pass
+    └─ Switches out the user but stat changes remain.
+    └─ Chance: -- %
+  • Burn Up
+    └─ Removes Fire-type from user. If user was pure Fire-type, it ...
+    └─ Chance: -- %
+  • Charge
+    └─ Boosts power of user's next Electric-type Attack by 100%. In...
+    └─ Chance: -- %
+  • Clear Smog
+    └─ Removes all stat changes
+    └─ Chance: -- %
+  • Conversion
+    └─ User changes type into an own move's type.
+    └─ Chance: -- %
+  • Conversion 2
+    └─ User becomes a type resistant to opponent's last Attack.
+    └─ Chance: -- %
+  • Curse
+    └─ Ghost type Pokémon: User loses half their maximum HP, and th...
+    └─ Chance: -- %
+  • Darkest Lariat
+    └─ Ignores stat changes
+    └─ Chance: -- %
+  • Doodle
+    └─ Changes the Abilities of all your Pokémon on the field to th...
+    └─ Chance: -- %
+  ... and 49 more
+
+================================================================================
+IMPLEMENTATION RECOMMENDATIONS:
+================================================================================
+
+
+✓ FULLY IMPLEMENTED (24 test coverage)
+  • Status conditions (burn, paralysis, poison, sleep, freeze, confusion)
+  • Stat modifications (all stat types, ±6 clamping)
+  • Flinch effects
+  • Guaranteed effects (-- %)
+  • Probabilistic effects with correct chance handling
+  • Volatile status tracking (confusion, flinch, leech seed)
+  • Leech Seed and basic trap effects
+
+⚠ PARTIALLY IMPLEMENTED (needs enhancement)
+  • Healing effects (basic implementation, needs damage context)
+  • Recoil effects (basic implementation, needs actual damage values)
+  • Multi-hit moves (26 moves) - needs damage calculator integration
+  • Field effects (framework exists, 50+ moves vary)
+  • Conditional effects (case-by-case handling)
+
+✗ NEEDS IMPLEMENTATION (priority order)
+  1. Multi-hit damage calculation (26 moves)
+  2. Complex field effects (41 moves)
+  3. Switch-out mechanics (33 moves)
+  4. Type-change moves (59 moves)
+
+================================================================================
+GUARANTEED vs PROBABILISTIC EFFECTS:
+================================================================================
+
+Guaranteed Effects (-- %): 596 moves
+Sample moves:
+  • Absorb: User recovers half the damage inflicted.
+  • Accelerock: Has increased Speed Priority
+  • Acid Armor: Raises user's Defense two stages.
+  • Acid Spray: Lowers opponent's Special Defense two stages.
+  • Acrobatics: Increases damage by 100% if user is not holding an
+  • Acupressure: Raises one of the user's stats randomly by two sta
+  • Aerial Ace: Cannot miss.
+  • Aeroblast: Has an increased Critical Hit ratio
+  • After You: Target moves immediately after the user
+  • Agility: Raises user's Speed two stages.
+
+Probabilistic Effects: 151 moves
+Sample moves:
+  • Acid (10%): May lower opponent's Special Defense one
+  • Air Slash (30%): May cause opponent to flinch.
+  • Ancient Power (10%): May raise all user's stats one stage.
+  • Astonish (30%): May cause opponent to flinch.
+  • Aurora Beam (10%): May lower opponent's Attack one stage.
+  • Axe Kick (30%): May confuse the opponent. If the move mi
+  • Barb Barrage (50%): Doubles damage inflicted if target is Po
+  • Bind (100%): Traps opponent.
+  • Bite (30%): May cause opponent to flinch.
+  • Blaze Kick (10%): Has high critical hit ratio. May induce 
+
+================================================================================
+NEXT STEPS FOR TEST-DRIVEN DEVELOPMENT:
+================================================================================
+
+1. ✓ COMPLETED: Core effect processor with status/stat/flinch handling
+2. ✓ COMPLETED: Volatile status tracking in BattlePokemon
+3. ✓ COMPLETED: 24 comprehensive unit tests all passing
+4. ✓ COMPLETED: Regression testing confirms no breakage
+
+5. NEXT: Implement multi-hit damage calculation
+   - Test for 2-hit, 3-hit, 4-hit, 5-hit distribution
+   - Validate move accuracy applies to each hit
+   - Ensure secondary effects trigger correctly per hit
+
+6. NEXT: Implement advanced field effects
+   - Reflect/Light Screen damage reduction
+   - Stealth Rock/Spike hazards
+   - Weather and terrain effects on damage
+
+7. NEXT: Complex conditional effects
+   - Moves with HP-based power changes
+   - Moves with stat-change conditions
+   - Moves with weather/terrain conditions
+
+8. NEXT: Integration tests with full battle simulations
+   - Multi-turn effects
+   - Effect interactions
+   - Edge cases and precedence

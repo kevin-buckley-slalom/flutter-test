@@ -321,8 +321,73 @@ class BattleFieldWidget extends StatelessWidget {
                 ),
               ),
             ),
+          // Status condition indicator badge
+          if (pokemon.status != null)
+            Positioned(
+              bottom: 4,
+              left: 4,
+              child: Container(
+                padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                decoration: BoxDecoration(
+                  color: _getStatusColor(pokemon.status!),
+                  borderRadius: BorderRadius.circular(4),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black54,
+                      blurRadius: 4,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
+                ),
+                child: Text(
+                  _getStatusAbbreviation(pokemon.status!),
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 8,
+                  ),
+                ),
+              ),
+            ),
         ],
       ),
     );
+  }
+
+  Color _getStatusColor(String status) {
+    switch (status.toLowerCase()) {
+      case 'burn':
+        return Colors.deepOrange;
+      case 'paralysis':
+        return Colors.yellow[700]!;
+      case 'poison':
+      case 'badpoison':
+        return Colors.purple[700]!;
+      case 'sleep':
+        return Colors.grey[700]!;
+      case 'freeze':
+        return Colors.lightBlue[300]!;
+      default:
+        return Colors.grey[600]!;
+    }
+  }
+
+  String _getStatusAbbreviation(String status) {
+    switch (status.toLowerCase()) {
+      case 'burn':
+        return 'BRN';
+      case 'paralysis':
+        return 'PAR';
+      case 'poison':
+        return 'PSN';
+      case 'badpoison':
+        return 'TOX';
+      case 'sleep':
+        return 'SLP';
+      case 'freeze':
+        return 'FRZ';
+      default:
+        return 'STS';
+    }
   }
 }

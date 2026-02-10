@@ -187,8 +187,9 @@ void main() {
       expect(typeChart.getEffectivenessString(0.0), equals('immune'));
     });
 
-    test('0.25 multiplier returns quad-weak', () {
-      expect(typeChart.getEffectivenessString(0.25), equals('quad-weak'));
+    test('0.25 multiplier returns extremely ineffective', () {
+      expect(typeChart.getEffectivenessString(0.25),
+          equals('extremely ineffective'));
     });
 
     test('0.5 multiplier returns not-very-effective', () {
@@ -204,9 +205,9 @@ void main() {
       expect(typeChart.getEffectivenessString(2.0), equals('super-effective'));
     });
 
-    test('4.0 multiplier returns quad-super-effective', () {
-      expect(typeChart.getEffectivenessString(4.0),
-          equals('quad-super-effective'));
+    test('4.0 multiplier returns extremely effective', () {
+      expect(
+          typeChart.getEffectivenessString(4.0), equals('extremely effective'));
     });
   });
 

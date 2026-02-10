@@ -28,6 +28,7 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
   int? _selectedDamageRoll;
   bool _forceCrit = false;
   bool _forceMiss = false;
+  bool _forceEffect = false;
 
   @override
   void initState() {
@@ -115,6 +116,21 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
                     ),
                   ),
                 ),
+                // Subtle indicator for probabilistic effects
+                if (variations?.effectProbability != null &&
+                    variations!.effectProbability! < 100.0)
+                  Padding(
+                    padding: const EdgeInsets.only(left: 8.0),
+                    child: Tooltip(
+                      message: '${variations.effectName} has '
+                          '${variations.effectProbability!.toStringAsFixed(0)}% chance',
+                      child: Icon(
+                        Icons.info_outline,
+                        size: 16,
+                        color: Colors.blue.shade400,
+                      ),
+                    ),
+                  ),
                 if (widget.isModified)
                   Chip(
                     label: Text('Modified', style: TextStyle(fontSize: 10)),
@@ -215,6 +231,25 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
             ),
           ],
 
+          // Effect toggle option
+          if (variations.effectProbability != null &&
+              variations.effectProbability! < 100.0) ...[
+            const SizedBox(height: 8),
+            CheckboxListTile(
+              dense: true,
+              title: Text(
+                'Force ${variations.effectName} (${variations.effectProbability!.toStringAsFixed(0)}% chance)',
+                style: TextStyle(fontSize: 12),
+              ),
+              value: _forceEffect,
+              onChanged: (value) {
+                setState(() {
+                  _forceEffect = value ?? false;
+                });
+              },
+            ),
+          ],
+
           const SizedBox(height: 16),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
@@ -225,6 +260,7 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
                     _selectedDamageRoll = widget.event.damageAmount;
                     _forceCrit = false;
                     _forceMiss = false;
+                    _forceEffect = false;
                   });
                 },
                 child: Text('Reset'),
@@ -241,6 +277,7 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
                             : null,
                     forceCrit: _forceCrit ? true : null,
                     forceMiss: _forceMiss ? true : null,
+                    forceEffect: _forceEffect ? true : null,
                   );
                   widget.onModify(modification);
                   widget.onRerunFromHere();

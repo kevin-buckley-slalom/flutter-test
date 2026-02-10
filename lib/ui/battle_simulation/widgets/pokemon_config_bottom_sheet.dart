@@ -623,7 +623,7 @@ class _PokemonConfigBottomSheetState extends State<PokemonConfigBottomSheet>
                                         ? Theme.of(context)
                                             .colorScheme
                                             .primaryContainer
-                                            .withOpacity(0.3)
+                                            .withValues(alpha: .3)
                                         : null,
                                   ),
                                   child: Row(
@@ -780,8 +780,10 @@ class _PokemonConfigBottomSheetState extends State<PokemonConfigBottomSheet>
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color:
-            Theme.of(context).colorScheme.secondaryContainer.withOpacity(0.5),
+        color: Theme.of(context)
+            .colorScheme
+            .secondaryContainer
+            .withValues(alpha: .5),
         borderRadius: BorderRadius.circular(4),
       ),
       child: Column(

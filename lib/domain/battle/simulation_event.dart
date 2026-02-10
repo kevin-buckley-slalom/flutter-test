@@ -39,6 +39,13 @@ class EventVariations {
   /// Effectiveness description
   final String? effectivenessString;
 
+  /// Probability of an effect occurring (for probabilistic effects like 30% flinch)
+  /// Only set for effects with probability < 100
+  final double? effectProbability;
+
+  /// Name/description of the effect for display
+  final String? effectName;
+
   const EventVariations({
     this.damageRolls,
     this.canCrit = false,
@@ -46,6 +53,8 @@ class EventVariations {
     this.canMiss = false,
     this.effectiveness,
     this.effectivenessString,
+    this.effectProbability,
+    this.effectName,
   });
 
   EventVariations copyWith({
@@ -55,6 +64,8 @@ class EventVariations {
     bool? canMiss,
     double? effectiveness,
     String? effectivenessString,
+    double? effectProbability,
+    String? effectName,
   }) {
     return EventVariations(
       damageRolls: damageRolls ?? this.damageRolls,
@@ -63,6 +74,8 @@ class EventVariations {
       canMiss: canMiss ?? this.canMiss,
       effectiveness: effectiveness ?? this.effectiveness,
       effectivenessString: effectivenessString ?? this.effectivenessString,
+      effectProbability: effectProbability ?? this.effectProbability,
+      effectName: effectName ?? this.effectName,
     );
   }
 }
@@ -78,11 +91,29 @@ class EventModification {
   /// Force miss
   final bool? forceMiss;
 
+  /// Force an effect to occur (for probabilistic effects)
+  final bool? forceEffect;
+
   const EventModification({
     this.selectedDamageRoll,
     this.forceCrit,
     this.forceMiss,
+    this.forceEffect,
   });
+
+  EventModification copyWith({
+    int? selectedDamageRoll,
+    bool? forceCrit,
+    bool? forceMiss,
+    bool? forceEffect,
+  }) {
+    return EventModification(
+      selectedDamageRoll: selectedDamageRoll ?? this.selectedDamageRoll,
+      forceCrit: forceCrit ?? this.forceCrit,
+      forceMiss: forceMiss ?? this.forceMiss,
+      forceEffect: forceEffect ?? this.forceEffect,
+    );
+  }
 }
 
 /// A single event in the battle simulation

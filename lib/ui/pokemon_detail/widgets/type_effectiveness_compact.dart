@@ -13,10 +13,6 @@ class TypeEffectivenessCompact extends StatelessWidget {
     this.offensiveEffectiveness,
   });
 
-  String _abbreviateType(String type) {
-    return type.substring(0, 3).toUpperCase();
-  }
-
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);

@@ -131,16 +131,16 @@ class TypeChartService {
   ///
   /// Returns:
   /// - "immune" for 0.0×
-  /// - "quad-weak" or "4x weak" for 0.25×
+  /// - "extremely ineffective" or "4x weak" for 0.25×
   /// - "not-very-effective" or "resists" for 0.5×
   /// - null for 1.0× (neutral)
   /// - "super-effective" for 2.0×
-  /// - "quad-super-effective" or "4x super" for 4.0×
+  /// - "extremely effective" or "4x super" for 4.0×
   String? getEffectivenessString(double multiplier) {
     if (multiplier == 0.0) {
       return 'immune';
     } else if (multiplier <= 0.25) {
-      return 'quad-weak';
+      return 'extremely ineffective';
     } else if (multiplier < 1.0) {
       return 'not-very-effective';
     } else if (multiplier == 1.0) {
@@ -148,7 +148,7 @@ class TypeChartService {
     } else if (multiplier == 2.0) {
       return 'super-effective';
     } else if (multiplier >= 4.0) {
-      return 'quad-super-effective';
+      return 'extremely effective';
     }
     return null;
   }

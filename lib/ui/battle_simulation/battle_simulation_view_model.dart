@@ -370,6 +370,10 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       return;
     }
 
+    print('=== RERUN FROM EVENT $eventIndex ===');
+    print('Event being modified: ${event.type} - ${event.message}');
+    print('Snapshot attached to this event was captured BEFORE this event');
+
     try {
       state = state!.copyWith(isSimulationRunning: true);
 
@@ -379,13 +383,32 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       final restoredTeam2 =
           snapshot.team2Field.map((p) => p as BattlePokemon?).toList();
 
+      print('Restored team1 size: ${restoredTeam1.length}');
+      print('Restored team2 size: ${restoredTeam2.length}');
+
+      // Debug: Check if any pokemon have stat changes in the snapshot
+      print('=== Snapshot State (from event $eventIndex) ===');
+      for (final pokemon in [...restoredTeam1, ...restoredTeam2]) {
+        if (pokemon != null) {
+          print(
+              '${pokemon.originalName}: flinch=${pokemon.volatileStatus['flinch']}, statStages=${pokemon.statStages}');
+        }
+      }
+      print('==================');
+
       // Apply the modification to the restored state
       final modifiedEvent = state!.simulationLog[eventIndex];
       BattlePokemon? modifiedDefender;
       bool isForcedMiss = false;
+      bool isForcedEffect = false;
 
       if (modifiedEvent.modification != null &&
           modifiedEvent.type == SimulationEventType.damageDealt) {
+        // Check if this is a forced effect
+        if (modifiedEvent.modification!.forceEffect == true) {
+          isForcedEffect = true;
+          print('Forcing effect for this rerun');
+        }
         // Check if this is a forced miss
         if (modifiedEvent.modification!.forceMiss == true) {
           isForcedMiss = true;
@@ -411,8 +434,6 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       // Keep events up to and including the modified event,
       // PLUS any subsequent events from the same move (like Volt Switch's switch)
       int lastEventIndex = eventIndex;
-      final moveName = modifiedEvent.moveName;
-      final sourcePokemon = modifiedEvent.sourcePokemonName;
 
       // If forced miss, we want to replace damage event with miss event
       // So we need to exclude events after the damage (no switches, no KOs)
@@ -420,8 +441,8 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         // Only keep events up to (but not including) the damage event
         lastEventIndex = eventIndex - 1;
       } else {
-        // Look ahead for events from the same move
-        // Keep all events until we hit the next moveUsed event
+        // Look ahead for events from the same move only
+        // Stop when we hit a moveUsed event from a DIFFERENT pokemon
         for (int i = eventIndex + 1; i < state!.simulationLog.length; i++) {
           final nextEvent = state!.simulationLog[i];
           // Stop at the next moveUsed event (start of different move)
@@ -439,6 +460,61 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
                 needsRecalculation: false,
               ))
           .toList();
+
+      // Figure out which pokemon have already moved by looking at kept events
+      final alreadyMoved = <String>{};
+      for (final e in keptEvents) {
+        if (e.type == SimulationEventType.moveUsed &&
+            e.sourcePokemonName != null) {
+          alreadyMoved.add(e.sourcePokemonName!);
+        }
+      }
+
+      print('Already moved: $alreadyMoved');
+
+      // Identify pokemon that will be reprocessed (haven't moved yet)
+      final willReprocess = <String>{};
+      for (final entry in state!.originalActionsMap.entries) {
+        final pokemonName = entry.key;
+        if (!alreadyMoved.contains(pokemonName)) {
+          willReprocess.add(pokemonName);
+        }
+      }
+
+      print('Will reprocess: $willReprocess');
+
+      // Remove events from pokemon that will be reprocessed to avoid duplicates
+      final filteredKeptEvents = keptEvents.where((e) {
+        // Skip events initiated by pokemon that will be reprocessed
+        if (e.sourcePokemonName != null &&
+            willReprocess.contains(e.sourcePokemonName!)) {
+          return false;
+        }
+        return true;
+      }).toList();
+
+      print('Kept events after filtering: ${filteredKeptEvents.length}');
+      for (final e in filteredKeptEvents) {
+        print('  Kept: ${e.type} - ${e.message}');
+        if (e.stateSnapshot != null && e.affectedPokemonName != null) {
+          final snap = e.stateSnapshot!;
+          // Look for the affected pokemon in all available lists
+          BattlePokemon? affectedPoke;
+          try {
+            affectedPoke = snap.team1Field
+                .followedBy(snap.team2Field)
+                .followedBy(snap.team1Bench)
+                .followedBy(snap.team2Bench)
+                .firstWhere((p) => p.originalName == e.affectedPokemonName!);
+          } catch (ex) {
+            affectedPoke = snap.pokemonStates[e.affectedPokemonName];
+          }
+          if (affectedPoke != null) {
+            print(
+                '    ^ ${e.affectedPokemonName} in this snapshot has spe: ${affectedPoke.statStages['spe']}');
+          }
+        }
+      }
 
       // If forced miss, replace the damage event with a miss event
       if (isForcedMiss) {
@@ -462,7 +538,7 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
           hpAfter: modifiedEvent.hpAfter,
           maxHp: modifiedEvent.maxHp,
         );
-        keptEvents.add(missEvent);
+        filteredKeptEvents.add(missEvent);
       }
 
       // Update the modified event's message to reflect the new damage value (if not a miss)
@@ -478,10 +554,10 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
           final minDamage = damageRange.reduce((a, b) => a < b ? a : b);
           final maxDamage = damageRange.reduce((a, b) => a > b ? a : b);
 
-          // Find and update the modified event in keptEvents
-          for (int i = 0; i < keptEvents.length; i++) {
-            if (keptEvents[i].id == modifiedEvent.id) {
-              keptEvents[i] = keptEvents[i].copyWith(
+          // Find and update the modified event in filteredKeptEvents
+          for (int i = 0; i < filteredKeptEvents.length; i++) {
+            if (filteredKeptEvents[i].id == modifiedEvent.id) {
+              filteredKeptEvents[i] = filteredKeptEvents[i].copyWith(
                 message:
                     '$affectedPokemon took $selectedDamage damage! (range: $minDamage-$maxDamage)',
                 damageAmount: selectedDamage,
@@ -495,7 +571,7 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       // Check if modified damage caused a KO that wasn't in original events
       if (modifiedDefender != null && modifiedDefender.currentHp == 0) {
         // Check if there's already a fainted event for this pokemon in kept events
-        final alreadyHasFaintedEvent = keptEvents.any((e) =>
+        final alreadyHasFaintedEvent = filteredKeptEvents.any((e) =>
             e.type == SimulationEventType.fainted &&
             e.affectedPokemonName == modifiedDefender?.originalName);
 
@@ -508,20 +584,20 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
             message: '${modifiedDefender.pokemonName} fainted!',
             affectedPokemonName: modifiedDefender.originalName,
           );
-          keptEvents.insert(eventIndex + 1, koEvent);
+          filteredKeptEvents.insert(eventIndex + 1, koEvent);
         }
       }
 
       // Apply any switches from kept events to the restored state
       // This ensures remaining moves target the correct pokemon
-      for (final event in keptEvents) {
+      for (final event in filteredKeptEvents) {
         if (event.type == SimulationEventType.summary &&
             event.message.contains('switched out!')) {
           // Find the next "Go!" event to identify the switched-in pokemon
-          final switchedOutIndex = keptEvents.indexOf(event);
+          final switchedOutIndex = filteredKeptEvents.indexOf(event);
           if (switchedOutIndex >= 0 &&
-              switchedOutIndex + 1 < keptEvents.length) {
-            final nextEvent = keptEvents[switchedOutIndex + 1];
+              switchedOutIndex + 1 < filteredKeptEvents.length) {
+            final nextEvent = filteredKeptEvents[switchedOutIndex + 1];
             if (nextEvent.message.startsWith('Go!') &&
                 nextEvent.affectedPokemonName != null) {
               final switchedInName = nextEvent.affectedPokemonName!;
@@ -554,25 +630,42 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         }
       }
 
-      // Figure out which pokemon have already moved by looking at kept events
-      final alreadyMoved = <String>{};
-      for (final e in keptEvents) {
-        if (e.type == SimulationEventType.moveUsed &&
-            e.sourcePokemonName != null) {
-          alreadyMoved.add(e.sourcePokemonName!);
-        }
-      }
+      // Build forced effects map if needed
+      final forcedEffects = <String, Map<String, dynamic>>{};
+      if (isForcedEffect && modifiedEvent.affectedPokemonName != null) {
+        final affectedPokemonName = modifiedEvent.affectedPokemonName!;
+        final effectName = modifiedEvent.variations?.effectName;
 
-      print('Already moved: $alreadyMoved');
+        if (effectName != null) {
+          print('Forcing effect: $effectName on $affectedPokemonName');
+          if (effectName == 'Flinch') {
+            forcedEffects[affectedPokemonName] = {'flinch': true};
+          } else {
+            // For other status conditions, apply to the pokemon immediately
+            // since the original move that would have applied it is in kept events
+            final pokemonToModify = [...restoredTeam1, ...restoredTeam2]
+                .whereType<BattlePokemon>()
+                .firstWhere((p) => p.originalName == affectedPokemonName,
+                    orElse: () => null as dynamic);
 
-      // Debug: Check all pokemon in restored state
-      final allPokemon = [...state!.team1Pokemon, ...state!.team2Pokemon];
-      print(
-          'Total pokemon in restored state: ${allPokemon.where((p) => p != null).length}');
-      for (final pokemon in allPokemon) {
-        if (pokemon != null) {
-          print(
-              '  Pokemon: ${pokemon.originalName}, queuedAction: ${pokemon.queuedAction}');
+            // Apply the status condition directly
+            if (effectName.toLowerCase() == 'burn') {
+              pokemonToModify.status = 'burn';
+              print('Applied burn status to $affectedPokemonName directly');
+            } else if (effectName.toLowerCase() == 'poison') {
+              pokemonToModify.status = 'poison';
+              print('Applied poison status to $affectedPokemonName directly');
+            } else if (effectName.toLowerCase() == 'paralysis') {
+              pokemonToModify.status = 'paralysis';
+              print(
+                  'Applied paralysis status to $affectedPokemonName directly');
+            }
+
+            // Also add to forcedEffects for any moves that might apply it during rerun
+            forcedEffects[affectedPokemonName] = {
+              effectName.toLowerCase(): true
+            };
+          }
         }
       }
 
@@ -610,6 +703,13 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       await engine.initialize();
 
       // Process turn from modified state with only remaining actions
+      print('About to call processTurn with:');
+      print(
+          '  team1Active: ${restoredTeam1.whereType<BattlePokemon>().map((p) => p.originalName).toList()}');
+      print(
+          '  team2Active: ${restoredTeam2.whereType<BattlePokemon>().map((p) => p.originalName).toList()}');
+      print('  remainingActionsMap keys: ${remainingActionsMap.keys.toList()}');
+
       final outcome = engine.processTurn(
         team1Active: restoredTeam1.whereType<BattlePokemon>().toList(),
         team2Active: restoredTeam2.whereType<BattlePokemon>().toList(),
@@ -617,18 +717,64 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         team2Bench: snapshot.team2Bench,
         actionsMap: remainingActionsMap,
         fieldConditions: state!.fieldConditions,
+        forcedEffects: forcedEffects.isNotEmpty ? forcedEffects : null,
       );
+
+      print('processTurn completed successfully');
+      print('Outcome has ${outcome.events.length} events');
 
       print('Outcome events count: ${outcome.events.length}');
       for (final e in outcome.events) {
         print('  - ${e.type}: ${e.message}');
+        if (e.stateSnapshot != null &&
+            e.type == SimulationEventType.moveUsed &&
+            e.sourcePokemonName != null) {
+          final snap = e.stateSnapshot!;
+          BattlePokemon? affectedPoke;
+          try {
+            affectedPoke = snap.team1Field
+                .followedBy(snap.team2Field)
+                .followedBy(snap.team1Bench)
+                .followedBy(snap.team2Bench)
+                .firstWhere((p) => p.originalName == e.sourcePokemonName!);
+          } catch (ex) {
+            affectedPoke = snap.pokemonStates[e.sourcePokemonName];
+          }
+          if (affectedPoke != null) {
+            print(
+                '    ^ (NEW) ${e.sourcePokemonName} in this snapshot has spe: ${affectedPoke.statStages['spe']}');
+          }
+        }
       }
 
       // Combine kept events with new events from rerun
-      final updatedLog = [...keptEvents, ...outcome.events];
+      final updatedLog = [...filteredKeptEvents, ...outcome.events];
 
       print(
-          'Final log size: ${updatedLog.length} (kept: ${keptEvents.length}, new: ${outcome.events.length})');
+          'Final log size: ${updatedLog.length} (kept: ${filteredKeptEvents.length}, new: ${outcome.events.length})');
+
+      print('After rerun - checking event at index 2:');
+      if (updatedLog.length > 2) {
+        final evt2 = updatedLog[2];
+        print('Event at index 2: ${evt2.type} - ${evt2.message}');
+        if (evt2.stateSnapshot != null && evt2.affectedPokemonName != null) {
+          final snap = evt2.stateSnapshot!;
+          BattlePokemon? affectedPoke;
+          try {
+            affectedPoke = snap.team1Field
+                .followedBy(snap.team2Field)
+                .followedBy(snap.team1Bench)
+                .followedBy(snap.team2Bench)
+                .firstWhere((p) => p.originalName == evt2.affectedPokemonName!);
+          } catch (ex) {
+            affectedPoke = snap.pokemonStates[evt2.affectedPokemonName];
+          }
+          if (affectedPoke != null) {
+            print(
+                '${evt2.affectedPokemonName} in event at index 2 snapshot now has spe: ${affectedPoke.statStages['spe']}');
+          }
+        }
+      }
 
       // Update pokemon states from outcome
       final updatedTeam1 = <BattlePokemon?>[];
@@ -669,16 +815,26 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
         }
       }
 
+      // Clear queued actions for next turn, but keep battle state (HP, status, stat stages)
+      final clearedTeam1 = updatedTeam1
+          .map((p) => p?.copyWith(clearQueuedAction: true))
+          .toList();
+      final clearedTeam2 = updatedTeam2
+          .map((p) => p?.copyWith(clearQueuedAction: true))
+          .toList();
+
       state = state!.copyWith(
-        team1Pokemon: updatedTeam1,
-        team2Pokemon: updatedTeam2,
+        team1Pokemon: clearedTeam1,
+        team2Pokemon: clearedTeam2,
         team1Bench: updatedTeam1Bench,
         team2Bench: updatedTeam2Bench,
         simulationLog: updatedLog,
         isSimulationRunning: false,
+        allActionsSet: false, // Reset action status
       );
-    } catch (e) {
+    } catch (e, stackTrace) {
       print('Error rerunning simulation: $e');
+      print('Stack trace: $stackTrace');
       state = state!.copyWith(isSimulationRunning: false);
     }
   }
