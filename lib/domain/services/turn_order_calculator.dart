@@ -56,8 +56,20 @@ class TurnOrderCalculator {
 
     // Sort by priority (descending) then by speed (descending)
     turnActions.sort((a, b) {
-      final priorityA = a.move?.priority ?? 0;
-      final priorityB = b.move?.priority ?? 0;
+      var priorityA = a.move?.priority ?? 0;
+      var priorityB = b.move?.priority ?? 0;
+
+      // Apply Prankster ability: +1 priority to status moves
+      if (a.pokemon.ability.toLowerCase() == 'prankster' &&
+          a.move != null &&
+          a.move!.category.toLowerCase() == 'status') {
+        priorityA += 1;
+      }
+      if (b.pokemon.ability.toLowerCase() == 'prankster' &&
+          b.move != null &&
+          b.move!.category.toLowerCase() == 'status') {
+        priorityB += 1;
+      }
 
       if (priorityA != priorityB) {
         return priorityB.compareTo(priorityA); // higher priority first

@@ -186,15 +186,17 @@ class _BattleSimulationViewState extends ConsumerState<BattleSimulationView> {
                 SliverPadding(
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   sliver: SliverList(
+                    key: const PageStorageKey('simulation_log'),
                     delegate: SliverChildBuilderDelegate(
                       (context, index) {
+                        final event = battleState.simulationLog[index];
                         return SimulationEventWidget(
-                          event: battleState.simulationLog[index],
+                          key: ValueKey(event
+                              .id), // Use event ID as key to preserve state
+                          event: event,
                           eventIndex: index,
-                          isModified:
-                              battleState.simulationLog[index].isModified,
-                          needsRecalculation: battleState
-                              .simulationLog[index].needsRecalculation,
+                          isModified: event.isModified,
+                          needsRecalculation: event.needsRecalculation,
                           onModify: (modification) {
                             ref
                                 .read(

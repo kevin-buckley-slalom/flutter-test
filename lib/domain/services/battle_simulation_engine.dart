@@ -313,6 +313,127 @@ class BattleSimulationEngine {
             continue; // Skip this move
           }
 
+          // Check if pokemon is confused and may hit itself
+          if (pokemon.volatileStatus['confused'] == true) {
+            final turnsRemaining =
+                pokemon.volatileStatus['confusion_turns_remaining'] as int?;
+
+            // Check if turns remain (don't decrement yet - do that after the confusion check)
+            if (turnsRemaining != null && turnsRemaining > 0) {
+              // Check if this is a rerun where confusion decision was already made
+              final confusionDecisionMade =
+                  pokemon.volatileStatus['confusion_decision_made'] == true;
+              final forceConfusionHit =
+                  pokemon.volatileStatus['force_confusion_self_hit'] == true;
+
+              if (confusionDecisionMade) {
+                // This is a rerun - don't generate the "is confused..." event
+                // since it already exists as the modified event. Just apply the forced behavior.
+                pokemon.volatileStatus.remove('confusion_decision_made');
+                pokemon.volatileStatus.remove('force_confusion_self_hit');
+
+                if (forceConfusionHit) {
+                  // User forced self-hit - apply confusion damage
+                  final confusionDamage = _calculateConfusionDamage(pokemon);
+                  pokemon.currentHp = (pokemon.currentHp - confusionDamage)
+                      .clamp(0, pokemon.maxHp);
+
+                  events.add(SimulationEvent(
+                    id: _uuid.v4(),
+                    message:
+                        '${pokemon.pokemonName} hurt itself in confusion for $confusionDamage damage!',
+                    type: SimulationEventType.damageDealt,
+                    affectedPokemonName: pokemon.originalName,
+                    damageAmount: confusionDamage,
+                    isEditable: false,
+                  ));
+
+                  continue; // Skip this move due to confusion
+                } else {
+                  // User forced attack to succeed - fall through to execute move normally
+                }
+              } else {
+                // Normal confusion check - generate the "is confused..." event with toggle
+                // Capture state snapshot before confusion self-hit check
+                final confusionSnapshot = BattleStateSnapshot.capture(
+                  pokemonStates: finalStates,
+                  team1Field: currentFieldTeam1,
+                  team2Field: currentFieldTeam2,
+                  team1Bench: currentBenchTeam1,
+                  team2Bench: currentBenchTeam2,
+                  fieldConditions: fieldConditions,
+                );
+
+                // 33% chance to hit itself in confusion
+                final random = DateTime.now().millisecond % 100;
+                final hitItself = random < 33;
+
+                // Create the "is confused..." event with toggle
+                // If self-hit occurred naturally, mark it so checkbox shows checked
+                events.add(SimulationEvent(
+                  id: _uuid.v4(),
+                  message: '${pokemon.pokemonName} is confused...',
+                  type: SimulationEventType.summary,
+                  affectedPokemonName: pokemon.originalName,
+                  isEditable: true,
+                  stateSnapshot: confusionSnapshot,
+                  variations: EventVariations(
+                    effectProbability: 33.0,
+                    effectName: 'confusion_self_hit',
+                  ),
+                  modification:
+                      hitItself ? EventModification(forceEffect: true) : null,
+                  isModified: false,
+                ));
+
+                if (hitItself) {
+                  // Calculate confusion self-damage: 40 BP typeless physical attack
+                  final confusionDamage = _calculateConfusionDamage(pokemon);
+                  pokemon.currentHp = (pokemon.currentHp - confusionDamage)
+                      .clamp(0, pokemon.maxHp);
+
+                  events.add(SimulationEvent(
+                    id: _uuid.v4(),
+                    message:
+                        '${pokemon.pokemonName} hurt itself in confusion for $confusionDamage damage!',
+                    type: SimulationEventType.damageDealt,
+                    affectedPokemonName: pokemon.originalName,
+                    damageAmount: confusionDamage,
+                    isEditable: false,
+                  ));
+
+                  // Decrement confusion turns after self-hit
+                  final newTurns = turnsRemaining - 1;
+                  if (newTurns <= 0) {
+                    pokemon.volatileStatus.remove('confused');
+                    pokemon.volatileStatus.remove('confusion_turns_remaining');
+                  } else {
+                    pokemon.volatileStatus['confusion_turns_remaining'] =
+                        newTurns;
+                  }
+
+                  continue; // Skip this move due to confusion
+                }
+
+                // Didn't hit itself - decrement turns and continue with move
+                final newTurns = turnsRemaining - 1;
+                if (newTurns <= 0) {
+                  // Confusion will expire at end of turn, but pokemon can still attack now
+                  pokemon.volatileStatus.remove('confused');
+                  pokemon.volatileStatus.remove('confusion_turns_remaining');
+                } else {
+                  pokemon.volatileStatus['confusion_turns_remaining'] =
+                      newTurns;
+                }
+                // Fall through to execute move normally
+              }
+            } else {
+              // No turns remaining or no turn tracking - remove confusion and let pokemon act
+              pokemon.volatileStatus.remove('confused');
+              pokemon.volatileStatus.remove('confusion_turns_remaining');
+            }
+          }
+
           // Capture state snapshot before executing move
           final snapshot = BattleStateSnapshot.capture(
             pokemonStates: finalStates,
@@ -598,6 +719,8 @@ class BattleSimulationEngine {
             moveName: move.name,
             isEditable: true,
             stateSnapshot: stateSnapshot,
+            modification: const EventModification(forceMiss: true),
+            isModified: false,
             variations: EventVariations(
               hitChance: damageResult.hitChance,
               canMiss: true,
@@ -682,6 +805,10 @@ class BattleSimulationEngine {
           maxHp: defender.maxHp,
           isEditable: true,
           stateSnapshot: stateSnapshot,
+          modification: damageResult.isCriticalHit
+              ? const EventModification(forceCrit: true)
+              : null,
+          isModified: false,
           variations: EventVariations(
             damageRolls: damageResult.discreteDamageRolls,
             canCrit: damageResult.isCriticalChance,
@@ -772,6 +899,19 @@ class BattleSimulationEngine {
       targetName: targetName,
     );
 
+    // Apply confusion effects
+    _applyConfusionEffect(
+      attacker: attacker,
+      defenders: affectedDefenders,
+      damagedDefenders: damagedDefenders,
+      immuneOrProtectedDefenders: immuneOrProtectedDefenders,
+      currentFieldTeam1: currentFieldTeam1,
+      currentFieldTeam2: currentFieldTeam2,
+      move: move,
+      events: events,
+      targetName: targetName,
+    );
+
     return events;
   }
 
@@ -818,6 +958,7 @@ class BattleSimulationEngine {
       );
 
       for (final target in targets) {
+        bool appliedAny = false;
         for (final entry in statChanges.entries) {
           final statKey = entry.key;
           final delta = entry.value;
@@ -842,6 +983,16 @@ class BattleSimulationEngine {
             moveName: move.name,
             isEditable: false,
           ));
+          appliedAny = true;
+        }
+        if (appliedAny && probability < 100.0) {
+          _markProbabilisticEffectOccurred(
+            events: events,
+            attacker: attacker,
+            target: target,
+            move: move,
+            effectName: 'Stat Change',
+          );
         }
       }
     }
@@ -978,13 +1129,22 @@ class BattleSimulationEngine {
         continue;
       }
 
-      _tryApplyStatusCondition(
+      final applied = _tryApplyStatusCondition(
         target: target,
         condition: condition,
         attacker: attacker,
         move: move,
         events: events,
       );
+      if (applied && probability < 100.0) {
+        _markProbabilisticEffectOccurred(
+          events: events,
+          attacker: attacker,
+          target: target,
+          move: move,
+          effectName: condition,
+        );
+      }
     }
   }
 
@@ -1098,6 +1258,20 @@ class BattleSimulationEngine {
       // to support turn-phase tracking, we can determine which phase of a multi-turn
       // move is currently active and apply contact effects accordingly.
 
+      // TODO: Implement multi-turn move tracking for self-confusing moves
+      // Moves that confuse the user after 2-3 turns:
+      // - Outrage (Dragon, 120 BP, lasts 2-3 turns)
+      // - Thrash (Normal, 120 BP, lasts 2-3 turns)
+      // - Petal Dance (Grass, 120 BP, lasts 2-3 turns)
+      // - Raging Fury (Fire, 120 BP, lasts 2-3 turns)
+      // Implementation plan:
+      // 1. When one of these moves is used, set pokemon.multiturnMoveName and
+      //    pokemon.multiturnMoveTurnsRemaining (random 2-3 turns)
+      // 2. Lock the pokemon into using this move on subsequent turns (override action)
+      // 3. After the final turn (multiturnMoveTurnsRemaining == 0), apply confusion
+      //    using ConfusionEffect with confusesUser = true
+      // 4. Clear multiturnMoveName and multiturnMoveTurnsRemaining
+
       final probability = (effect['probability'] as num?)?.toDouble() ?? 100.0;
       if (probability < 100.0 && _random.nextDouble() * 100 >= probability) {
         continue;
@@ -1116,7 +1290,7 @@ class BattleSimulationEngine {
     }
   }
 
-  void _tryApplyStatusCondition({
+  bool _tryApplyStatusCondition({
     required BattlePokemon target,
     required String condition,
     required BattlePokemon attacker,
@@ -1125,7 +1299,7 @@ class BattleSimulationEngine {
   }) {
     final normalizedCondition = _normalizeStatusCondition(condition);
     if (!_canApplyStatusCondition(target, normalizedCondition)) {
-      return;
+      return false;
     }
 
     if (target.status != null && target.status != 'none') {
@@ -1138,7 +1312,7 @@ class BattleSimulationEngine {
         moveName: move.name,
         isEditable: false,
       ));
-      return;
+      return false;
     }
 
     target.status = normalizedCondition;
@@ -1152,6 +1326,7 @@ class BattleSimulationEngine {
       moveName: move.name,
       isEditable: false,
     ));
+    return true;
   }
 
   String _normalizeStatusCondition(String condition) {
@@ -1336,9 +1511,59 @@ class BattleSimulationEngine {
       // Apply flinch to target if effect occurred
       if (effectOccurred) {
         target.volatileStatus['flinch'] = true;
+        _markEffectOnDamageEvent(
+          events: events,
+          attackerName: attacker.originalName,
+          targetName: target.originalName,
+          moveName: move.name,
+          effectName: 'Flinch',
+        );
       }
 
       // Message will be shown when the pokemon attempts to move and is prevented by flinch
+    }
+  }
+
+  void _markProbabilisticEffectOccurred({
+    required List<SimulationEvent> events,
+    required BattlePokemon attacker,
+    required BattlePokemon target,
+    required Move move,
+    required String effectName,
+  }) {
+    _markEffectOnDamageEvent(
+      events: events,
+      attackerName: attacker.originalName,
+      targetName: target.originalName,
+      moveName: move.name,
+      effectName: effectName,
+    );
+  }
+
+  void _markEffectOnDamageEvent({
+    required List<SimulationEvent> events,
+    required String attackerName,
+    required String targetName,
+    required String moveName,
+    required String effectName,
+  }) {
+    for (int i = events.length - 1; i >= 0; i--) {
+      final event = events[i];
+      if (event.type == SimulationEventType.damageDealt &&
+          event.sourcePokemonName == attackerName &&
+          event.affectedPokemonName == targetName &&
+          event.moveName == moveName &&
+          event.variations?.effectName == effectName &&
+          event.variations?.effectProbability != null) {
+        final updatedModification =
+            (event.modification ?? const EventModification())
+                .copyWith(forceEffect: true);
+        events[i] = event.copyWith(
+          modification: updatedModification,
+          isModified: false,
+        );
+        break;
+      }
     }
   }
 
@@ -1437,6 +1662,155 @@ class BattleSimulationEngine {
     }
 
     return true;
+  }
+
+  /// Apply confusion effect to defenders
+  void _applyConfusionEffect({
+    required BattlePokemon attacker,
+    required List<BattlePokemon> defenders,
+    required List<BattlePokemon> damagedDefenders,
+    required List<BattlePokemon> immuneOrProtectedDefenders,
+    required List<BattlePokemon> currentFieldTeam1,
+    required List<BattlePokemon> currentFieldTeam2,
+    required Move move,
+    required List<SimulationEvent> events,
+    String? targetName,
+  }) {
+    final effects = move.structuredEffects;
+    if (effects == null || effects.isEmpty) return;
+
+    final confusionEffects =
+        effects.where((effect) => effect['type'] == 'ConfusionEffect').toList();
+    if (confusionEffects.isEmpty) return;
+
+    final attackerIsTeam1 =
+        currentFieldTeam1.any((p) => p.originalName == attacker.originalName);
+    final opponents = attackerIsTeam1 ? currentFieldTeam2 : currentFieldTeam1;
+    final primaryDefender = defenders.isNotEmpty ? defenders.first : null;
+
+    for (final effect in confusionEffects) {
+      _applySingleConfusionEffect(
+        effect: effect,
+        attacker: attacker,
+        defenders: defenders,
+        damagedDefenders: damagedDefenders,
+        immuneOrProtectedDefenders: immuneOrProtectedDefenders,
+        opponents: opponents,
+        primaryDefender: primaryDefender,
+        move: move,
+        events: events,
+        targetName: targetName,
+      );
+    }
+  }
+
+  void _applySingleConfusionEffect({
+    required Map<String, dynamic> effect,
+    required BattlePokemon attacker,
+    required List<BattlePokemon> defenders,
+    required List<BattlePokemon> damagedDefenders,
+    required List<BattlePokemon> immuneOrProtectedDefenders,
+    required List<BattlePokemon> opponents,
+    required BattlePokemon? primaryDefender,
+    required Move move,
+    required List<SimulationEvent> events,
+    String? targetName,
+  }) {
+    final probability = (effect['probability'] as num?)?.toDouble() ?? 100.0;
+    final probabilityRoll = _random.nextDouble() * 100;
+    final effectOccurred =
+        probability >= 100.0 || probabilityRoll < probability;
+
+    // Resolve targets for the confusion effect
+    final targets = _resolveConfusionTargets(
+      target: effect['target'] as String?,
+      primaryDefender: primaryDefender,
+      opponents: opponents,
+      affectedDefenders: defenders,
+      immuneOrProtectedDefenders: immuneOrProtectedDefenders,
+      attacker: attacker,
+      targetName: targetName,
+    );
+
+    for (final target in targets) {
+      // Check Own Tempo ability
+      if (target.ability.toLowerCase() == 'own tempo') {
+        events.add(SimulationEvent(
+          id: _uuid.v4(),
+          message: "${target.pokemonName}'s Own Tempo prevents confusion!",
+          type: SimulationEventType.statusApplied,
+          affectedPokemonName: target.originalName,
+        ));
+        continue;
+      }
+
+      // Check if already confused
+      if (target.volatileStatus['confused'] == true) {
+        continue;
+      }
+
+      // Apply confusion if effect occurred
+      if (effectOccurred) {
+        target.volatileStatus['confused'] = true;
+        final duration = 1 + (_random.nextInt(4)); // 1-4 turns
+        target.volatileStatus['confusion_turns_remaining'] = duration;
+
+        events.add(SimulationEvent(
+          id: _uuid.v4(),
+          message: '${target.pokemonName} became confused!',
+          type: SimulationEventType.statusApplied,
+          affectedPokemonName: target.originalName,
+          variations: EventVariations(
+            effectProbability: probability < 100 ? probability : null,
+            effectName: probability < 100 ? 'confusion' : null,
+          ),
+        ));
+      }
+    }
+  }
+
+  /// Resolve which pokemon should receive the confusion effect
+  List<BattlePokemon> _resolveConfusionTargets({
+    required String? target,
+    required BattlePokemon? primaryDefender,
+    required List<BattlePokemon> opponents,
+    required List<BattlePokemon> affectedDefenders,
+    required List<BattlePokemon> immuneOrProtectedDefenders,
+    required BattlePokemon attacker,
+    String? targetName,
+  }) {
+    final normalizedTarget = target?.toLowerCase() ?? 'normal';
+
+    switch (normalizedTarget) {
+      case 'user':
+      case 'self':
+        // Self-confusion (e.g., after multi-turn moves)
+        return [attacker];
+
+      case 'opponent':
+      case 'single':
+      case 'normal':
+        if (primaryDefender != null &&
+            !immuneOrProtectedDefenders.contains(primaryDefender)) {
+          return [primaryDefender];
+        }
+        return [];
+
+      case 'all':
+      case 'all_opponents':
+      case 'all_other':
+        return affectedDefenders
+            .where((d) => !immuneOrProtectedDefenders.contains(d))
+            .toList();
+
+      default:
+        // Default to primary defender if not protected
+        if (primaryDefender != null &&
+            !immuneOrProtectedDefenders.contains(primaryDefender)) {
+          return [primaryDefender];
+        }
+        return [];
+    }
   }
 
   Map<String, int> _extractStatChanges(Map<String, dynamic> effect) {
@@ -2169,28 +2543,34 @@ class BattleSimulationEngine {
       // Check what barriers this move breaks
       final breaksBarriers = effect['breaksBarriers'] as List?;
       if (breaksBarriers?.contains('Light Screen') ?? false) {
-        targetScreenState.lightScreenTurns = 0;
-        events.add(SimulationEvent(
-          id: _uuid.v4(),
-          message: 'Light Screen was broken!',
-          type: SimulationEventType.summary,
-        ));
+        if (targetScreenState.lightScreenTurns > 0) {
+          targetScreenState.lightScreenTurns = 0;
+          events.add(SimulationEvent(
+            id: _uuid.v4(),
+            message: 'Light Screen was broken!',
+            type: SimulationEventType.summary,
+          ));
+        }
       }
       if (breaksBarriers?.contains('Reflect') ?? false) {
-        targetScreenState.reflectTurns = 0;
-        events.add(SimulationEvent(
-          id: _uuid.v4(),
-          message: 'Reflect was broken!',
-          type: SimulationEventType.summary,
-        ));
+        if (targetScreenState.reflectTurns > 0) {
+          targetScreenState.reflectTurns = 0;
+          events.add(SimulationEvent(
+            id: _uuid.v4(),
+            message: 'Reflect was broken!',
+            type: SimulationEventType.summary,
+          ));
+        }
       }
       if (breaksBarriers?.contains('Aurora Veil') ?? false) {
-        targetScreenState.auroraVeilTurns = 0;
-        events.add(SimulationEvent(
-          id: _uuid.v4(),
-          message: 'Aurora Veil was broken!',
-          type: SimulationEventType.summary,
-        ));
+        if (targetScreenState.auroraVeilTurns > 0) {
+          targetScreenState.auroraVeilTurns = 0;
+          events.add(SimulationEvent(
+            id: _uuid.v4(),
+            message: 'Aurora Veil was broken!',
+            type: SimulationEventType.summary,
+          ));
+        }
       }
     }
   }
@@ -2311,5 +2691,60 @@ class BattleSimulationEngine {
     }
 
     return events;
+  }
+
+  /// Calculate confusion self-damage: 40 BP typeless physical attack
+  /// Uses the pokemon's Attack and Defense stats but no type effectiveness
+  int _calculateConfusionDamage(BattlePokemon pokemon) {
+    // Base damage calculation: ((2 * Level / 5 + 2) * Power * Atk / Def) / 50 + 2
+    // For confusion: Level = pokemon level, Power = 40, Atk = pokemon's Attack, Def = pokemon's Defense
+
+    final level = 50; // Assume level 50 for now (TODO: get actual level)
+    const power = 40;
+    final attack = (pokemon.stats as dynamic).attack as int;
+    final defense = (pokemon.stats as dynamic).defense as int;
+
+    // Base damage
+    final baseDamage =
+        ((2 * level / 5 + 2) * power * attack / defense / 50 + 2).floor();
+
+    // Add random factor (85-100% of base damage)
+    final randomFactor = 85 + (DateTime.now().millisecond % 16); // 85-100
+    final finalDamage = (baseDamage * randomFactor / 100).floor();
+
+    return finalDamage.clamp(
+        1, pokemon.currentHp); // Minimum 1 damage, max current HP
+  }
+
+  /// Decrement confusion turns and clear confusion if expired
+  void _decrementConfusionTurns(
+      BattlePokemon pokemon, List<SimulationEvent> events) {
+    final turnsRemaining =
+        pokemon.volatileStatus['confusion_turns_remaining'] as int?;
+
+    if (turnsRemaining == null) {
+      // No turn tracking, just remove confusion
+      pokemon.volatileStatus.remove('confused');
+      pokemon.volatileStatus.remove('confusion_turns_remaining');
+      return;
+    }
+
+    final newTurns = turnsRemaining - 1;
+
+    if (newTurns <= 0) {
+      // Confusion expired
+      pokemon.volatileStatus.remove('confused');
+      pokemon.volatileStatus.remove('confusion_turns_remaining');
+
+      events.add(SimulationEvent(
+        id: _uuid.v4(),
+        message: '${pokemon.pokemonName} snapped out of confusion!',
+        type: SimulationEventType.summary,
+        affectedPokemonName: pokemon.originalName,
+      ));
+    } else {
+      // Update remaining turns
+      pokemon.volatileStatus['confusion_turns_remaining'] = newTurns;
+    }
   }
 }

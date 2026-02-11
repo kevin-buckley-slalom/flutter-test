@@ -58,6 +58,7 @@ class DamageResult {
   final int maxDamage;
   final double hitChance; // 0.0 to 1.0
   final bool isCriticalChance;
+  final bool isCriticalHit;
   final String?
       effectivenessString; // "super-effective", "not very effective", etc
   final bool isTypeImmune;
@@ -70,6 +71,7 @@ class DamageResult {
     required this.maxDamage,
     required this.hitChance,
     required this.isCriticalChance,
+    required this.isCriticalHit,
     this.effectivenessString,
     required this.isTypeImmune,
     required this.isDamageBlocked,
@@ -300,6 +302,7 @@ class DamageCalculator {
           maxDamage: 0,
           hitChance: 1.0,
           isCriticalChance: false,
+          isCriticalHit: false,
           isTypeImmune: false,
           isDamageBlocked: false,
           isDamagePartiallyBlocked: false);
@@ -312,6 +315,7 @@ class DamageCalculator {
           maxDamage: 0,
           hitChance: 1.0,
           isCriticalChance: false,
+          isCriticalHit: false,
           isTypeImmune: false,
           isDamageBlocked: true,
           isDamagePartiallyBlocked: false);
@@ -323,6 +327,7 @@ class DamageCalculator {
           maxDamage: 0,
           hitChance: 1.0,
           isCriticalChance: false,
+          isCriticalHit: false,
           isTypeImmune: false,
           isDamageBlocked: true,
           isDamagePartiallyBlocked: false);
@@ -348,6 +353,7 @@ class DamageCalculator {
           maxDamage: 0,
           hitChance: 1.0,
           isCriticalChance: false,
+          isCriticalHit: false,
           effectivenessString: 'immune',
           isTypeImmune: true,
           isDamageBlocked: false,
@@ -362,6 +368,7 @@ class DamageCalculator {
           maxDamage: 0,
           hitChance: 1.0,
           isCriticalChance: false,
+          isCriticalHit: false,
           isTypeImmune: false,
           isDamageBlocked: false,
           isDamagePartiallyBlocked: false);
@@ -432,9 +439,10 @@ class DamageCalculator {
     }
 
     // Apply Critical Hit modifier (1.5 unless prevented)
+    final criticalHit =
+        props.guaranteedCrit || _shouldCriticalHit(props.critStage);
     final criticalMod = _getCriticalMultiplier(
-      isCriticalHit:
-          props.guaranteedCrit || _shouldCriticalHit(props.critStage),
+      isCriticalHit: criticalHit,
       defenderAbility: defender.ability,
       fieldState: field,
     );
@@ -534,6 +542,7 @@ class DamageCalculator {
         maxDamage: maxDamage,
         hitChance: hitChance,
         isCriticalChance: isCriticalChance,
+        isCriticalHit: criticalHit,
         effectivenessString: effectivenessString,
         isTypeImmune: false,
         discreteDamageRolls: discreteDamageRolls,

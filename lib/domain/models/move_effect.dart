@@ -353,6 +353,126 @@ class FlinchEffect extends MoveEffect {
   }
 }
 
+/// Effect that causes confusion
+///
+/// Confusion is a volatile status condition that may cause the afflicted Pokémon
+/// to damage itself instead of using its move. Lasts 1-4 turns randomly.
+///
+/// Examples:
+/// - Damaging moves: Confusion (10%), Dynamic Punch (100%), Hurricane (30%)
+/// - Status moves: Confuse Ray (100%), Supersonic (100%), Swagger (100%)
+/// - Self-confusion: Outrage/Thrash/Petal Dance (after 2-3 turns, TODO)
+///
+/// Interactions:
+/// - 33% chance per turn to hit itself with 40 BP typeless physical attack
+/// - Blocked by Own Tempo ability
+/// - Tangled Feet increases evasion while confused (TODO)
+/// - Multi-turn moves (Outrage, Thrash, Petal Dance, Raging Fury) confuse user after attacking 2-3 turns (TODO)
+class ConfusionEffect extends MoveEffect {
+  /// Percentage chance to confuse (0-100)
+  final double probabilityPercent;
+
+  /// Whether this confuses the user (true) or the defender (false)
+  /// Used for multi-turn move self-confusion (Outrage, Thrash, etc)
+  final bool confusesUser;
+
+  /// Optional condition that must be met for confusion to apply
+  /// Example: "if_opponent_stat_boosted" for Alluring Voice
+  final String? condition;
+
+  ConfusionEffect({
+    this.probabilityPercent = 100.0,
+    this.confusesUser = false,
+    this.condition,
+  });
+
+  @override
+  EffectTiming get timing => EffectTiming.afterDamage;
+
+  @override
+  bool get triggersPerHit => true;
+
+  @override
+  String get description {
+    final target = confusesUser ? 'user' : 'opponent';
+    final chance = probabilityPercent < 100
+        ? ' (${probabilityPercent.toInt()}% chance)'
+        : '';
+    final condText = condition != null ? ' [condition: $condition]' : '';
+    return 'May confuse $target$chance$condText';
+  }
+
+  @override
+  void apply(
+    BattlePokemon attacker,
+    BattlePokemon defender,
+    Move move,
+    int damageDealt,
+    List<SimulationEvent> events,
+  ) {
+    final target = confusesUser ? attacker : defender;
+
+    // For damaging moves, confusion only applies if damage was dealt
+    if (move.category != 'Status' && damageDealt <= 0) return;
+
+    // TODO: Multi-turn move self-confusion tracking
+    // Moves like Outrage, Thrash, Petal Dance, and Raging Fury lock the user into
+    // using that move for 2-3 turns, then confuse the user after attacking that many times.
+    // Implementation requires:
+    // 1. Detecting when these moves are used (check move name or new move flag)
+    // 2. Setting multiturnMoveName and multiturnMoveTurnsRemaining on attacker
+    // 3. Forcing the move to be used again next turn (restrict move choice)
+    // 4. After final turn, apply confusion to the user (confusesUser = true)
+    // 5. Reset multiturnMoveName and multiturnMoveTurnsRemaining
+    // The existing BattlePokemon fields (multiturnMoveName, multiturnMoveTurnsRemaining)
+    // can be used for this tracking.
+
+    // Check condition if present
+    if (condition == 'if_opponent_stat_boosted') {
+      // TODO: Track whether opponent boosted stats this turn
+      // For now, skip this condition check
+      return;
+    }
+
+    // Check probability
+    if (DateTime.now().millisecond % 100 > probabilityPercent) {
+      return;
+    }
+
+    // Check Own Tempo ability
+    if (target.ability == 'Own Tempo') {
+      events.add(SimulationEvent(
+        id: const Uuid().v4(),
+        message: "${target.pokemonName}'s Own Tempo prevents confusion!",
+        type: SimulationEventType.statusApplied,
+        affectedPokemonName: target.originalName,
+      ));
+      return;
+    }
+
+    // Check if already confused
+    if (target.volatileStatus['confused'] == true) {
+      return; // Already confused
+    }
+
+    // Apply confusion with random duration (1-4 turns)
+    target.volatileStatus['confused'] = true;
+    final duration = 1 + (DateTime.now().millisecond % 4); // 1-4 turns
+    target.volatileStatus['confusion_turns_remaining'] = duration;
+
+    events.add(SimulationEvent(
+      id: const Uuid().v4(),
+      message: '${target.pokemonName} became confused!',
+      type: SimulationEventType.statusApplied,
+      affectedPokemonName: target.originalName,
+      variations: EventVariations(
+        effectProbability: probabilityPercent < 100 ? probabilityPercent : null,
+        effectName: probabilityPercent < 100 ? 'confusion' : null,
+      ),
+    ));
+  }
+}
+
 /// Effect that causes recoil damage to the user
 ///
 /// Examples: Jump Kick (50% recoil if miss), Struggle (25% recoil)

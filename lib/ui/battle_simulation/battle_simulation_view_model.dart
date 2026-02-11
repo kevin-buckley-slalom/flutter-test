@@ -402,13 +402,14 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
       bool isForcedMiss = false;
       bool isForcedEffect = false;
 
+      // Check for forced effect on any event type
+      if (modifiedEvent.modification?.forceEffect == true) {
+        isForcedEffect = true;
+        print('Forcing effect for this rerun');
+      }
+
       if (modifiedEvent.modification != null &&
           modifiedEvent.type == SimulationEventType.damageDealt) {
-        // Check if this is a forced effect
-        if (modifiedEvent.modification!.forceEffect == true) {
-          isForcedEffect = true;
-          print('Forcing effect for this rerun');
-        }
         // Check if this is a forced miss
         if (modifiedEvent.modification!.forceMiss == true) {
           isForcedMiss = true;
@@ -485,9 +486,21 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
 
       // Remove events from pokemon that will be reprocessed to avoid duplicates
       final filteredKeptEvents = keptEvents.where((e) {
+        // Always keep the modified event itself
+        if (e.id == modifiedEvent.id) {
+          return true;
+        }
         // Skip events initiated by pokemon that will be reprocessed
         if (e.sourcePokemonName != null &&
             willReprocess.contains(e.sourcePokemonName!)) {
+          return false;
+        }
+        // Also skip events that affect pokemon being reprocessed (like confusion self-hit)
+        // unless they were caused by a different pokemon (like status application from opponent)
+        if (e.affectedPokemonName != null &&
+            willReprocess.contains(e.affectedPokemonName!) &&
+            (e.sourcePokemonName == null ||
+                e.sourcePokemonName == e.affectedPokemonName)) {
           return false;
         }
         return true;
@@ -632,6 +645,21 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
 
       // Build forced effects map if needed
       final forcedEffects = <String, Map<String, dynamic>>{};
+
+      // Special handling: If rerunning from a confusion decision event, always set the flag
+      // to prevent regenerating the confusion event (regardless of checkbox state)
+      if (modifiedEvent.affectedPokemonName != null &&
+          modifiedEvent.variations?.effectName == 'confusion_self_hit') {
+        final affectedPokemonName = modifiedEvent.affectedPokemonName!;
+        print(
+            'Rerunning from confusion decision for $affectedPokemonName, checkbox=$isForcedEffect');
+        forcedEffects[affectedPokemonName] = {
+          'confusion_decision_made': true,
+          'force_confusion_self_hit': isForcedEffect,
+        };
+      }
+
+      // Handle other forced effects
       if (isForcedEffect && modifiedEvent.affectedPokemonName != null) {
         final affectedPokemonName = modifiedEvent.affectedPokemonName!;
         final effectName = modifiedEvent.variations?.effectName;
@@ -640,6 +668,14 @@ class BattleSimulationNotifier extends Notifier<BattleUiState?> {
           print('Forcing effect: $effectName on $affectedPokemonName');
           if (effectName == 'Flinch') {
             forcedEffects[affectedPokemonName] = {'flinch': true};
+          } else if (effectName == 'confusion_self_hit') {
+            // Already handled above - skip to avoid overwriting
+          } else if (effectName == 'confusion') {
+            // Force confusion to be applied
+            forcedEffects[affectedPokemonName] = {
+              'confused': true,
+              'confusion_turns_remaining': 2
+            };
           } else {
             // For other status conditions, apply to the pokemon immediately
             // since the original move that would have applied it is in kept events

@@ -31126,6 +31126,14 @@
         "type": "ConfusionEffect",
         "target": "opponent",
         "probability": 100
+      },
+      {
+        "type": "StatChangeEffect",
+        "target": "opponent",
+        "probability": 100,
+        "stats": {
+          "attack": 2
+        }
       }
     ]
   },

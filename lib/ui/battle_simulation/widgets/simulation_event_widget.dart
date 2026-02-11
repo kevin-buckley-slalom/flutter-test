@@ -34,6 +34,41 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
   void initState() {
     super.initState();
     _selectedDamageRoll = widget.event.damageAmount;
+    _forceCrit = widget.event.modification?.forceCrit ?? false;
+    _forceMiss = widget.event.modification?.forceMiss ?? false;
+    _forceEffect = widget.event.modification?.forceEffect ?? false;
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final stored =
+        PageStorage.of(context).readState(context, identifier: widget.event.id);
+    if (stored is bool) {
+      _isExpanded = stored;
+    }
+  }
+
+  @override
+  void didUpdateWidget(SimulationEventWidget oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Update state when the event changes (e.g., after modification)
+    // Preserve _isExpanded state for same event ID to maintain user's expansion preference
+    if (oldWidget.event.id == widget.event.id) {
+      // Same event, just updated - preserve expansion state, update modification values
+      _selectedDamageRoll = widget.event.damageAmount;
+      _forceCrit = widget.event.modification?.forceCrit ?? false;
+      _forceMiss = widget.event.modification?.forceMiss ?? false;
+      _forceEffect = widget.event.modification?.forceEffect ?? false;
+      // _isExpanded stays as-is
+    } else {
+      // Different event - reset everything including expansion state
+      _isExpanded = false;
+      _selectedDamageRoll = widget.event.damageAmount;
+      _forceCrit = widget.event.modification?.forceCrit ?? false;
+      _forceMiss = widget.event.modification?.forceMiss ?? false;
+      _forceEffect = widget.event.modification?.forceEffect ?? false;
+    }
   }
 
   Color _getEventColor() {
@@ -168,6 +203,11 @@ class _SimulationEventWidgetState extends State<SimulationEventWidget> {
                     onPressed: () {
                       setState(() {
                         _isExpanded = !_isExpanded;
+                        PageStorage.of(context).writeState(
+                          context,
+                          _isExpanded,
+                          identifier: widget.event.id,
+                        );
                       });
                     },
                   )
